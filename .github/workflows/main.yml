@@ -1,5 +1,9 @@
 name: Generate & Deploy Mend Release Notes
 
+# Grant write permission for GitHub Pages deployment
+permissions:
+  contents: write
+
 on:
   schedule:
     # Run every Monday at 08:30 AM US Central (13:30 UTC)
@@ -9,6 +13,9 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    # Ensure job has proper permissions (inherits from workflow above)
+    permissions:
+      contents: write
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
