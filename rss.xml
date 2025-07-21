@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Mend.io Unified Release Notes</title>
+    <link>https://docs.mend.io/</link>
+    <description>Aggregated RSS and HTML of all Mend release notes.</description>
+    <atom:link href="https://docs.mend.io/" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Mon, 21 Jul 2025 16:41:48 +0000</lastBuildDate>
+    <item>
+      <title>Mend for Bitbucket DC: Version 25.6.1.3 (01-July-2025)</title>
+      <link>https://docs.mend.io/integrations/latest/mend-for-bitbucket-data-center-release-notes</link>
+      <description><![CDATA[<p><strong>Resolved Issues</strong></p><ul><li><p>Updated the <code>org.eclipse.jgit</code><strong> </strong>dependency in the scanner and controller to version <code>6.10.1.202505221210-r</code> to fix CVE-2025-4949.</p></li></ul>]]></description>
+      <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mend for GitLab: Version 25.6.1.3 (01-July-2025)</title>
+      <link>https://docs.mend.io/integrations/latest/mend-for-gitlab-release-notes</link>
+      <description><![CDATA[<p><strong>Resolved Issues</strong></p><ul><li><p>Updated the <code>org.eclipse.jgit</code><strong> </strong>dependency in the scanner and controller to version <code>6.10.1.202505221210-r</code> to fix CVE-2025-4949.</p></li></ul>]]></description>
+      <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mend for GitHub Enterprise: Version 25.6.1.3 (01-July-2025)</title>
+      <link>https://docs.mend.io/integrations/latest/mend-for-github-enterprise-release-notes</link>
+      <description><![CDATA[<p><strong>Resolved Issues</strong></p><ul><li><p>Updated the <code>org.eclipse.jgit</code><strong> </strong>dependency in the scanner and controller to version <code>6.10.1.202505221210-r</code> to fix CVE-2025-4949.</p></li></ul>]]></description>
+      <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mend for GitHub.com: Version 25.6.1 (29-June-2025)</title>
+      <link>https://docs.mend.io/integrations/latest/mend-for-github-com-release-notes</link>
+      <description><![CDATA[<p>Unified Agent 25.4.3-179 | <a class="external-link" href="https://github.com/renovatebot/renovate/releases/tag/40.62.1" rel="nofollow" shape="rect">Renovate 40.62.1</a> | Remediate 25.6.1 | Pre-Scan Builder (PSB) 25.4.1</p><p><strong>New Features and Updates</strong></p><ul><li><p><a data-linked-resource-id="2950234115" data-linked-resource-type="page" data-linked-resource-version="18" href="https://docs.mend.io/platform/latest/mend-ai-overview"><strong>Mend AI</strong></a> is now available in all the repository integrations!</p><ul><li><p>The Mend AI detection is performed automatically as part of your SCA scan.</p></li><li><p>Mend AI results are only available in the <a data-linked-resource-id="3095691266" data-linked-resource-type="page" data-linked-resource-version="18" href="https://docs.mend.io/platform/latest/view-your-ai-bill-of-materials-ai-bom-report">Mend AppSec Platform UI</a>.</p></li></ul></li><li><p>Upgraded the Node version in the scanner from 20.12.0 to 22.11.0.</p></li><li><p><strong>(SAST)</strong> Introduced the capability to scan both source code and configuration files for <a data-linked-resource-id="3717988364" data-linked-resource-type="page" data-linked-resource-version="19" href="https://docs.mend.io/platform/latest/code-secret-scanning">exposed credentials</a>. This feature can be enabled using the <a data-linked-resource-id="2718957664" data-linked-resource-type="page" data-linked-resource-version="37" href="https://docs.mend.io/integrations/latest/configure-mend-for-github-com-for-sast#GHC-Scan-Settings-SAST">enableSecretsScan</a> parameter.</p></li></ul>]]></description>
+      <pubDate>Sun, 29 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mend Developer Platform: Version 25.6.2 (13-July-2025)</title>
+      <link>https://docs.mend.io/integrations/latest/mend-developer-platform-release-notes</link>
+      <description><![CDATA[<p><strong>New Features and Updates</strong></p><ul><li><p>The Developer Platform now enables users to add a user name alongside tokens when setting up host rules. This is not mandatory, but needed for some specific registries.</p></li></ul><p><strong>Resolved Issues</strong></p><ul><li><p>Fixed a bug where existing secrets were not displayed under <strong>Credentials -> Host Rules</strong> in the Settings menu.</p></li></ul>]]></description>
+      <pubDate>Sun, 13 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mend Unified Agent: Version 25.6.2 (14-July-2025)</title>
+      <link>https://docs.mend.io/legacy-sca/latest/mend-unified-agent-release-notes</link>
+      <description><![CDATA[<ul><li><p>No notable updates.</p></li></ul>]]></description>
+      <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mend CLI: Version 25.6.1.1 (10-July-2025)</title>
+      <link>https://docs.mend.io/platform/latest/mend-cli-release-notes</link>
+      <description><![CDATA[<p><strong>Resolved Issues</strong></p><ul><li><p><strong>(SCA) Hotfix:</strong> Fixed an issue where the CLI would incorrectly report an invalid organization token, leading to scan failure.</p></li></ul>]]></description>
+      <pubDate>Thu, 10 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mend AI: Version 25.6.2 (13-July-2025)</title>
+      <link>https://docs.mend.io/platform/latest/mend-ai-release-notes</link>
+      <description><![CDATA[<p><strong>New Features and Updates</strong></p><ul><li><p>AI-Powered Model Extraction is now available!</p><p>Mend AI now includes an upgraded detection engine, identifying <strong>10x more models</strong> than the previous, pattern-based approach. This is a major leap forward in visibility and coverage.</p><p>To activate it:</p><ol start="1"><li><p>Go to <strong>Administration > AI Configuration</strong>.</p></li><li><p>Create a new config or edit an existing one.</p></li><li><p>Toggle <strong>AI-Powered Code Snippet Analysis</strong> on.</p></li><li><p>Set it as the default to apply organization-wide.</p></li></ol></li><li><p>The APIs for retrieving AI technologies and AI models are now available under <a class="external-link" href="https://api-docs.mend.io/platform/3.0/findings-project" rel="nofollow" shape="rect">Findings - Project</a>.</p><ul><li><p><strong>Get project AI technologies (AI)</strong>:<strong> </strong>Returns a list of AI technologies used in a specific project.</p></li><li><p><strong>Get project AI models (AI)</strong>: Returns a list of AI models used in a specific project.</p></li></ul></li><li><p>AI model detection has been expanded to include additional artifact types and sizes.</p></li></ul>]]></description>
+      <pubDate>Sun, 13 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mend Container: Version 25.6.2 (13-July-2025)</title>
+      <link>https://docs.mend.io/platform/latest/mend-container-release-notes</link>
+      <description><![CDATA[<p><strong>New Features and Updates</strong></p><ul><li><p>Updated the UI for defining <a data-linked-resource-id="2932080641" data-linked-resource-type="page" data-linked-resource-version="20" href="https://docs.mend.io/platform/latest/kubernetes-integrations-in-mend-container">Kubernetes integrations</a> that closely mimics the Registry integrations flow. </p><ul><li><p>Added a Configuration step where users can define a schedule for automatically triggering a scan on the Kubernetes integration. </p></li><li><p>Additionally, the last scan time for Kubernetes integrations is now shown in the the My Integrations table.</p></li></ul></li></ul>]]></description>
+      <pubDate>Sun, 13 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mend SAST: Version 25.6.2 (14-July-2025)</title>
+      <link>https://docs.mend.io/platform/latest/mend-sast-release-notes</link>
+      <description><![CDATA[<p><strong>New Features and Updates</strong></p><ul><li><p>The workflow engine now allows users to use compliance standard violations directly as conditions, without needing to configure CWEs manually.</p></li><li><p>Introduced handling of historical findings older than 90 days. This ensures that previously suppressed findings will not reappear as new issues.</p></li><li><p>Introduced a detailed progress indicator for the code analysis in the CLI, giving users better visibility into scan progress.</p></li><li><p>Findings reports now include Violations, "Endpoint Access", and "Exploitable" data columns, enabling AppSec managers to efficiently assess and prioritize risks.</p></li></ul><p><strong>Resolved Issues</strong></p><ul><li><p>Fixed an issue where multi-line statements with a lambda function showed the wrong line number, pointing to the start of the entire statement instead of the lambda. Now, the line number shows exactly where the lambda is, so its easier to find and fix.</p></li><li><p>Fixed an issue where temporary variable names in the trace caused findings to mismatch with previous scans. This sometimes led to previously suppressed findings being incorrectly reported again.</p></li></ul>]]></description>
+      <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mend SCA: Version 25.6.1 (29-June-2025)</title>
+      <link>https://docs.mend.io/platform/latest/mend-sca-release-notes</link>
+      <description><![CDATA[<p><strong>New Features and Updates</strong></p><ul><li><p>The <a data-linked-resource-id="3153494380" data-linked-resource-type="page" data-linked-resource-version="2" href="https://docs.mend.io/platform/latest/the-dependencies-findings-report">Findings report</a> now highlights fixable issues via <a data-linked-resource-id="3611983897" data-linked-resource-type="page" data-linked-resource-version="4" href="https://docs.mend.io/platform/latest/herodevs-and-deprecated-open-source-libraries">HeroDevs</a> in the form of a corresponding Fix Type value in the Excel-format export.</p></li></ul>]]></description>
+      <pubDate>Sun, 29 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mend AppSec Platform: Version 25.6.2.1 (15-July-2025)</title>
+      <link>https://docs.mend.io/platform/latest/mend-platform-release-notes</link>
+      <description><![CDATA[<p><strong>New Features and Updates</strong></p><ul><li><p>A new configuration page for <a data-linked-resource-id="2774564993" data-linked-resource-type="page" data-linked-resource-version="37" href="https://docs.mend.io/platform/latest/workflow-configuration-parameters#Email-Notifications">email notifications</a> is now available, allowing previous distribution list email notification receivers to disable Scan Summary Email notifications.</p><ul><li><p>Email notification receivers can enable/disable Scan Summary Email notifications via My Profile  Email Notifications.</p></li><li><p>Email notifications can be enabled/disabled per organization or for all organizations in bulk.</p></li></ul></li></ul>]]></description>
+      <pubDate>Tue, 15 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
