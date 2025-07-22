@@ -41,6 +41,7 @@ jobs:
           mkdir -p docs
           mv mend_combined_release_feed.html docs/index.html
           mv mend_combined_release_feed.xml docs/rss.xml
+          mv mend_combined_release_feed.atom docs/atom.xml
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
