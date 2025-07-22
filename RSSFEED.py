@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Generate unified RSS (XML) and HTML feeds for all Mend release notes (Docs + GitHub Renovate).
+Generate unified RSS (XML), Atom, and HTML feeds for all Mend release notes (Docs + GitHub Renovate).
 Requires: requests, beautifulsoup4, feedgen, python-dateutil
 """
 
@@ -24,7 +24,7 @@ release_pages = {
     "Mend CLI":                   "https://docs.mend.io/platform/latest/mend-cli-release-notes",
     "Mend Unified Agent":         "https://docs.mend.io/legacy-sca/latest/mend-unified-agent-release-notes",
     "Mend Developer Platform":    "https://docs.mend.io/integrations/latest/mend-developer-platform-release-notes",
-    "Mend for GitHub.com":       "https://docs.mend.io/integrations/latest/mend-for-github-com-release-notes",
+    "Mend for GitHub.com":        "https://docs.mend.io/integrations/latest/mend-for-github-com-release-notes",
     "Mend for GitHub Enterprise": "https://docs.mend.io/integrations/latest/mend-for-github-enterprise-release-notes",
     "Mend for GitLab":            "https://docs.mend.io/integrations/latest/mend-for-gitlab-release-notes",
     "Mend for Bitbucket DC":      "https://docs.mend.io/integrations/latest/mend-for-bitbucket-data-center-release-notes"
@@ -65,14 +65,12 @@ def fetch_latest_release_html(url):
             header = soup.find(['h2', 'h3', 'h4'])
             version_text = header.get_text(strip=True) if header else 'Release'
 
-        # collect following content until next version header
         fragment = BeautifulSoup('', 'html.parser')
         for sib in header.next_siblings:
             if isinstance(sib, Tag) and sib.name in ['h2', 'h3', 'h4']:
                 break
             fragment.append(sib)
 
-        # convert relative links to absolute docs.mend.io URLs
         for a in fragment.find_all('a', href=True):
             href = a['href']
             if not href.startswith(('http://', 'https://', '#', 'mailto:')):
@@ -113,19 +111,19 @@ for name, feed_url in github_feeds.items():
     try:
         resp = requests.get(feed_url, timeout=10)
         soup = BeautifulSoup(resp.content, 'xml')
-        entry_xml = soup.find('entry')
-        if entry_xml:
-            updated = entry_xml.updated.text
+        entry = soup.find('entry')
+        if entry:
+            updated = entry.updated.text
             try:
                 timestamp = datetime.fromisoformat(updated.replace('Z', '+00:00'))
             except:
                 timestamp = datetime.now(timezone.utc)
-            summary = entry_xml.summary.text or 'See GitHub release for details.'
+            summary = entry.summary.text or 'See GitHub release for details.'
             desc_html = f"<p>{normalize_quotes(summary)}</p>"
-            link_tag = entry_xml.find('link')
+            link_tag = entry.find('link')
             href = link_tag['href'] if link_tag and link_tag.has_attr('href') else feed_url
             entries.append({
-                'title': f"{name}: {entry_xml.title.text}",
+                'title': f"{name}: {entry.title.text}",
                 'link': href,
                 'description': desc_html,
                 'pubDate': timestamp
@@ -133,21 +131,36 @@ for name, feed_url in github_feeds.items():
     except Exception as e:
         print(f"Warning: failed to fetch GitHub feed {name}: {e}")
 
-# ─── Generate RSS Feed ─────────────────────────────────────────────────────────
+# ─── Generate RSS & Atom Feeds ─────────────────────────────────────────────────
 fg = FeedGenerator()
 fg.title("Mend.io Unified Release Notes")
 fg.link(href="https://docs.mend.io/", rel="self")
-fg.description("Aggregated RSS and HTML of all Mend release notes.")
+# Required for Atom: set a unique feed ID
+fg.id("https://bflam1.github.io/RSS/atom.xml")
+fg.description("Aggregated RSS, Atom, and HTML of all Mend release notes.")
 for e in entries:
     fe = fg.add_entry()
+    fe.id(e['link'])
     fe.title(e['title'])
     fe.link(href=e['link'])
     fe.content(e['description'], type='CDATA')
     fe.pubDate(e['pubDate'])
-rss_str = fg.rss_str(pretty=True).decode('utf-8')
+
+# RSS
+rss_str = fg.rss_str(pretty=True)
+if isinstance(rss_str, (bytes, bytearray)):
+    rss_str = rss_str.decode('utf-8')
 with open('mend_combined_release_feed.xml', 'w', encoding='utf-8') as f:
     f.write(rss_str)
 print("✅ RSS feed generated: mend_combined_release_feed.xml")
+
+# Atom
+atom_str = fg.atom_str(pretty=True)
+if isinstance(atom_str, (bytes, bytearray)):
+    atom_str = atom_str.decode('utf-8')
+with open('mend_combined_release_feed.atom', 'w', encoding='utf-8') as f:
+    f.write(atom_str)
+print("✅ Atom feed generated: mend_combined_release_feed.atom")
 
 # ─── Generate HTML Output ─────────────────────────────────────────────────────
 html_file = 'mend_combined_release_feed.html'
@@ -158,9 +171,9 @@ with open(html_file, 'w', encoding='utf-8') as f:
     f.write('  <h1>Mend.io Unified Release Notes</h1>\n')
     for e in entries:
         iso = e['pubDate'].isoformat()
-        f.write(f'  <section>\n    <h2><a href="{e['link']}">{e['title']}</a></h2>\n')
+        f.write(f'  <section>\n    <h2><a href="{e["link"]}">{e["title"]}</a></h2>\n')
         f.write(f'    <time datetime="{iso}">{iso}</time>\n')
-        f.write(f'    {e['description']}\n')
+        f.write(f'    {e["description"]}\n')
         f.write('  </section>\n  <hr/>\n')
     f.write('</body>\n</html>')
 print(f"✅ HTML feed generated: {html_file}")
