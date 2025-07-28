@@ -8,6 +8,8 @@ on:
   schedule:
     # Run every Monday at 08:30 AM US Central (13:30 UTC)
     - cron: '30 13 * * 1'
+    # Run every Tuesday at 08:30 AM US Central (13:30 UTC)
+    - cron: '30 13 * * 2'
   workflow_dispatch:
 
 jobs:
