@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://bflam1.github.io/RSS/atom.xml</id>
   <title>Mend.io Unified Release Notes</title>
-  <updated>2025-07-22T15:46:39+00:00</updated>
+  <updated>2025-07-28T10:56:12+00:00</updated>
   <author>
     <name>Mend Release Bot</name>
     <email>noreply@bflam1.github.io</email>
@@ -12,20 +12,20 @@
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>Aggregated RSS, Atom, and HTML of all Mend release notes.</subtitle>
   <entry>
-    <id>https://github.com/renovatebot/renovate/releases/tag/41.42.6</id>
-    <title>mend Renovate: 41.42.6</title>
-    <updated>2025-07-22T16:55:20.385658+00:00</updated>
+    <id>https://github.com/renovatebot/renovate/releases/tag/41.43.6</id>
+    <title>mend Renovate: 41.43.6</title>
+    <updated>2025-07-28T13:57:42.628680+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
     <content type="html">&lt;p&gt;&lt;/p&gt;</content>
-    <link href="https://github.com/renovatebot/renovate/releases/tag/41.42.6"/>
-    <published>2025-07-22T15:46:39+00:00</published>
+    <link href="https://github.com/renovatebot/renovate/releases/tag/41.43.6"/>
+    <published>2025-07-28T10:56:12+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-bitbucket-data-center-release-notes</id>
     <title>Mend for Bitbucket DC: Version 25.6.1.3 (01-July-2025)</title>
-    <updated>2025-07-22T16:55:20.385650+00:00</updated>
+    <updated>2025-07-28T13:57:42.628673+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -36,7 +36,7 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-gitlab-release-notes</id>
     <title>Mend for GitLab: Version 25.6.1.3 (01-July-2025)</title>
-    <updated>2025-07-22T16:55:20.385642+00:00</updated>
+    <updated>2025-07-28T13:57:42.628665+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -46,41 +46,41 @@
   </entry>
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-github-enterprise-release-notes</id>
-    <title>Mend for GitHub Enterprise: Version 25.6.1.3 (01-July-2025)</title>
-    <updated>2025-07-22T16:55:20.385634+00:00</updated>
+    <title>Mend for GitHub Enterprise: Version 25.7.1 (28-July-2025)</title>
+    <updated>2025-07-28T13:57:42.628658+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
-    <content type="html">&lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Updated the &lt;code&gt;org.eclipse.jgit&lt;/code&gt;&lt;strong&gt; &lt;/strong&gt;dependency in the scanner and controller to version &lt;code&gt;6.10.1.202505221210-r&lt;/code&gt; to fix CVE-2025-4949.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+    <content type="html">&lt;p&gt;Unified Agent 25.4.3-179 | &lt;a class="external-link" href="https://github.com/renovatebot/renovate/releases/tag/41.40.0" rel="nofollow" shape="rect"&gt;Renovate 41.40.0&lt;/a&gt; | Remediate 25.7.1 | Pre-Scan Builder (PSB) 25.4.1&lt;/p&gt;&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;CWE information is now displayed in the logs when available.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
     <link href="https://docs.mend.io/integrations/latest/mend-for-github-enterprise-release-notes"/>
-    <published>2025-07-01T00:00:00+00:00</published>
+    <published>2025-07-28T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-github-com-release-notes</id>
-    <title>Mend for GitHub.com: Version 25.6.1 (29-June-2025)</title>
-    <updated>2025-07-22T16:55:20.385625+00:00</updated>
+    <title>Mend for GitHub.com: Version 25.7.1 (27-July-2025)</title>
+    <updated>2025-07-28T13:57:42.628650+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
-    <content type="html">&lt;p&gt;Unified Agent 25.4.3-179 | &lt;a class="external-link" href="https://github.com/renovatebot/renovate/releases/tag/40.62.1" rel="nofollow" shape="rect"&gt;Renovate 40.62.1&lt;/a&gt; | Remediate 25.6.1 | Pre-Scan Builder (PSB) 25.4.1&lt;/p&gt;&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;a data-linked-resource-id="2950234115" data-linked-resource-type="page" data-linked-resource-version="18" href="https://docs.mend.io/platform/latest/mend-ai-overview"&gt;&lt;strong&gt;Mend AI&lt;/strong&gt;&lt;/a&gt; is now available in all the repository integrations!&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;The Mend AI detection is performed automatically as part of your SCA scan.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Mend AI results are only available in the &lt;a data-linked-resource-id="3095691266" data-linked-resource-type="page" data-linked-resource-version="18" href="https://docs.mend.io/platform/latest/view-your-ai-bill-of-materials-ai-bom-report"&gt;Mend AppSec Platform UI&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Upgraded the Node version in the scanner from 20.12.0 to 22.11.0.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;(SAST)&lt;/strong&gt; Introduced the capability to scan both source code and configuration files for &lt;a data-linked-resource-id="3717988364" data-linked-resource-type="page" data-linked-resource-version="19" href="https://docs.mend.io/platform/latest/code-secret-scanning"&gt;exposed credentials&lt;/a&gt;. This feature can be enabled using the &lt;a data-linked-resource-id="2718957664" data-linked-resource-type="page" data-linked-resource-version="37" href="https://docs.mend.io/integrations/latest/configure-mend-for-github-com-for-sast#GHC-Scan-Settings-SAST"&gt;enableSecretsScan&lt;/a&gt; parameter.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+    <content type="html">&lt;p&gt;Unified Agent 25.4.3-179 | &lt;a class="external-link" href="https://github.com/renovatebot/renovate/releases/tag/41.40.0" rel="nofollow" shape="rect"&gt;Renovate 41.40.0&lt;/a&gt; | Remediate 25.7.1 | Pre-Scan Builder (PSB) 25.4.1&lt;/p&gt;&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;(SCA) Poetry 2.x&lt;/strong&gt; project scans are now supported.&lt;br clear="none"/&gt;This enhancement allows users to analyze dependencies defined and locked with Poetry 2.x using the same repo integration workflow, at no additional configuration overhead.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
     <link href="https://docs.mend.io/integrations/latest/mend-for-github-com-release-notes"/>
-    <published>2025-06-29T00:00:00+00:00</published>
+    <published>2025-07-27T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-developer-platform-release-notes</id>
-    <title>Mend Developer Platform: Version 25.6.2 (13-July-2025)</title>
-    <updated>2025-07-22T16:55:20.385617+00:00</updated>
+    <title>Mend Developer Platform: Version 25.7.1 (27-July-2025)</title>
+    <updated>2025-07-28T13:57:42.628642+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
-    <content type="html">&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;The Developer Platform now enables users to add a user name alongside tokens when setting up host rules. This is not mandatory, but needed for some specific registries.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Fixed a bug where existing secrets were not displayed under &lt;strong&gt;Credentials -&gt; Host Rules&lt;/strong&gt; in the Settings menu.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+    <content type="html">&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;(Open Beta)&lt;/strong&gt; The Developer Platform now supports custom configuration, partitioning, and scanning for monorepos. Applicable for both &lt;a data-linked-resource-id="2936603024" data-linked-resource-type="page" data-linked-resource-version="51" href="https://docs.mend.io/integrations/latest/configure-mend-developer-platform-for-sca#General"&gt;SCA&lt;/a&gt; and &lt;a data-linked-resource-id="2936603281" data-linked-resource-type="page" data-linked-resource-version="18" href="https://docs.mend.io/integrations/latest/configure-mend-developer-platform-for-sast#General"&gt;SAST&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;(SCA) Poetry 2.x&lt;/strong&gt; project scans are now supported.&lt;br clear="none"/&gt;This enhancement allows users to analyze dependencies defined and locked with Poetry 2.x using the same workflow, at no additional configuration overhead.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Fixed a bug where non-admin users could click on the +Add button in the custom work items section of the Developer Platform settings. The button is now disabled for non-admins.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
     <link href="https://docs.mend.io/integrations/latest/mend-developer-platform-release-notes"/>
-    <published>2025-07-13T00:00:00+00:00</published>
+    <published>2025-07-27T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/legacy-sca/latest/mend-unified-agent-release-notes</id>
     <title>Mend Unified Agent: Version 25.6.2 (14-July-2025)</title>
-    <updated>2025-07-22T16:55:20.385609+00:00</updated>
+    <updated>2025-07-28T13:57:42.628634+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -91,7 +91,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-cli-release-notes</id>
     <title>Mend CLI: Version 25.6.1.1 (10-July-2025)</title>
-    <updated>2025-07-22T16:55:20.385600+00:00</updated>
+    <updated>2025-07-28T13:57:42.628626+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -101,19 +101,19 @@
   </entry>
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-ai-release-notes</id>
-    <title>Mend AI: Version 25.6.2 (13-July-2025)</title>
-    <updated>2025-07-22T16:55:20.385591+00:00</updated>
+    <title>Mend AI: Version 25.7.1 (27-July-2025)</title>
+    <updated>2025-07-28T13:57:42.628616+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
-    <content type="html">&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;AI-Powered Model Extraction is now available!&lt;/p&gt;&lt;p&gt;Mend AI now includes an upgraded detection engine, identifying &lt;strong&gt;10x more models&lt;/strong&gt; than the previous, pattern-based approach. This is a major leap forward in visibility and coverage.&lt;/p&gt;&lt;p&gt;To activate it:&lt;/p&gt;&lt;ol start="1"&gt;&lt;li&gt;&lt;p&gt;Go to &lt;strong&gt;Administration &gt; AI Configuration&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Create a new config or edit an existing one.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Toggle &lt;strong&gt;AI-Powered Code Snippet Analysis&lt;/strong&gt; on.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Set it as the default to apply organization-wide.&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;The APIs for retrieving AI technologies and AI models are now available under &lt;a class="external-link" href="https://api-docs.mend.io/platform/3.0/findings-project" rel="nofollow" shape="rect"&gt;Findings - Project&lt;/a&gt;.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;Get project AI technologies (AI)&lt;/strong&gt;:&lt;strong&gt; &lt;/strong&gt;Returns a list of AI technologies used in a specific project.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;Get project AI models (AI)&lt;/strong&gt;: Returns a list of AI models used in a specific project.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;AI model detection has been expanded to include additional artifact types and sizes.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+    <content type="html">&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Detection of Azure AI Foundry &lt;a data-linked-resource-id="3310518273" data-linked-resource-type="page" data-linked-resource-version="24" href="https://docs.mend.io/platform/latest/discovery-of-third-party-ai-models-and-providers"&gt;models&lt;/a&gt; is now supported.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Introducing support for AI-specific license indices, including Mistral Research, Mistral Non-Production, and Llama4 licenses. Relevant information will be displayed in the &lt;a data-linked-resource-id="3310518273" data-linked-resource-type="page" data-linked-resource-version="24" href="https://docs.mend.io/platform/latest/discovery-of-third-party-ai-models-and-providers"&gt;AI Models&lt;/a&gt; table.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Added a new Behavioral Risk integration - &lt;a data-linked-resource-id="3519447900" data-linked-resource-type="page" data-linked-resource-version="9" href="https://docs.mend.io/platform/latest/red-teaming-integrations#OpenAI-Compatible"&gt;OpenAI Compatible API&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
     <link href="https://docs.mend.io/platform/latest/mend-ai-release-notes"/>
-    <published>2025-07-13T00:00:00+00:00</published>
+    <published>2025-07-27T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-container-release-notes</id>
     <title>Mend Container: Version 25.6.2 (13-July-2025)</title>
-    <updated>2025-07-22T16:55:20.385581+00:00</updated>
+    <updated>2025-07-28T13:57:42.628607+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -124,7 +124,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-sast-release-notes</id>
     <title>Mend SAST: Version 25.6.2 (14-July-2025)</title>
-    <updated>2025-07-22T16:55:20.385570+00:00</updated>
+    <updated>2025-07-28T13:57:42.628595+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -134,24 +134,24 @@
   </entry>
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-sca-release-notes</id>
-    <title>Mend SCA: Version 25.6.1 (29-June-2025)</title>
-    <updated>2025-07-22T16:55:20.385552+00:00</updated>
+    <title>Mend SCA: Version 25.7.1 (27-July-2025)</title>
+    <updated>2025-07-28T13:57:42.628579+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
-    <content type="html">&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;The &lt;a data-linked-resource-id="3153494380" data-linked-resource-type="page" data-linked-resource-version="2" href="https://docs.mend.io/platform/latest/the-dependencies-findings-report"&gt;Findings report&lt;/a&gt; now highlights fixable issues via &lt;a data-linked-resource-id="3611983897" data-linked-resource-type="page" data-linked-resource-version="4" href="https://docs.mend.io/platform/latest/herodevs-and-deprecated-open-source-libraries"&gt;HeroDevs&lt;/a&gt; in the form of a corresponding Fix Type value in the Excel-format export.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+    <content type="html">&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Introducing enhanced security visibility: View security violations directly within your libraries. New columns display violation counts, sortable and filterable, in both the main table and side panels, providing a comprehensive risk assessment for efficient prioritization and action.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Introducing new statuses in the Mend AppSec Platform for better tracking and alignment with remediation processes, maintaining backward compatibility with the Legacy SCA application. Added statuses include "In Review" and "Issue Created" for direct libraries. Existing status behaviors remain unchanged, ensuring seamless integration and workflow continuity across platforms.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
     <link href="https://docs.mend.io/platform/latest/mend-sca-release-notes"/>
-    <published>2025-06-29T00:00:00+00:00</published>
+    <published>2025-07-27T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-platform-release-notes</id>
-    <title>Mend AppSec Platform: Version 25.6.2.1 (15-July-2025)</title>
-    <updated>2025-07-22T16:55:20.385524+00:00</updated>
+    <title>Mend AppSec Platform: Version 25.6.2.2 (23-July-2025)</title>
+    <updated>2025-07-28T13:57:42.628553+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
-    <content type="html">&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;A new configuration page for &lt;a data-linked-resource-id="2774564993" data-linked-resource-type="page" data-linked-resource-version="37" href="https://docs.mend.io/platform/latest/workflow-configuration-parameters#Email-Notifications"&gt;email notifications&lt;/a&gt; is now available, allowing previous distribution list email notification receivers to disable Scan Summary Email notifications.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Email notification receivers can enable/disable Scan Summary Email notifications via My Profile  Email Notifications.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Email notifications can be enabled/disabled per organization or for all organizations in bulk.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+    <content type="html">&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;A new user type,&lt;strong&gt;Notification User&lt;/strong&gt;, is now available for configuring &lt;a data-linked-resource-id="2774564993" data-linked-resource-type="page" data-linked-resource-version="42" href="https://docs.mend.io/platform/latest/workflow-configuration-parameters#Email-Notifications"&gt;email notifications&lt;/a&gt;&lt;br clear="none"/&gt;for distribution lists and non-application users.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
     <link href="https://docs.mend.io/platform/latest/mend-platform-release-notes"/>
-    <published>2025-07-15T00:00:00+00:00</published>
+    <published>2025-07-23T00:00:00+00:00</published>
   </entry>
 </feed>
