@@ -15,13 +15,13 @@
   <section>
     <h2><a href="https://docs.mend.io/platform/latest/mend-sca-release-notes">Mend SCA: Version 25.7.1 (27-July-2025)</a></h2>
     <time datetime="2025-07-27T00:00:00+00:00">2025-07-27T00:00:00+00:00</time>
-    <p><strong>New Features and Updates</strong></p><ul><li><p>Introducing enhanced security visibility: View security violations directly within your libraries. New columns display violation counts, sortable and filterable, in both the main table and side panels, providing a comprehensive risk assessment for efficient prioritization and action.</p></li><li><p>Introducing new statuses in the Mend AppSec Platform for better tracking and alignment with remediation processes, maintaining backward compatibility with the Legacy SCA application. Added statuses include "In Review" and "Issue Created" for direct libraries. Existing status behaviors remain unchanged, ensuring seamless integration and workflow continuity across platforms.</p></li></ul>
+    <p><strong>New Features and Updates</strong></p><ul><li><p>Introducing enhanced security visibility: View security violations directly within your libraries. New columns display violation counts, sortable and filterable, in both the main table and side panels, providing a comprehensive risk assessment for efficient prioritization and action.</p></li><li><p>Introducing new statuses in the Mend AppSec Platform for better tracking and alignment with remediation processes, maintaining backward compatibility with the Legacy SCA application. Added statuses include "In Review" and "Issue Created" for direct libraries. Existing status behaviors remain unchanged, ensuring seamless integration and workflow continuity across platforms.</p></li><li><p>The <a data-linked-resource-id="3153494380" data-linked-resource-type="page" data-linked-resource-version="3" href="https://docs.mend.io/platform/latest/the-dependencies-findings-report">Dependencies Findings report</a>, previously available at the application/project level, can now be generated at the organization level.</p></li></ul>
   </section>
   <hr/>
   <section>
-    <h2><a href="https://docs.mend.io/platform/latest/mend-sast-release-notes">Mend SAST: Version 25.6.2 (14-July-2025)</a></h2>
-    <time datetime="2025-07-14T00:00:00+00:00">2025-07-14T00:00:00+00:00</time>
-    <p><strong>New Features and Updates</strong></p><ul><li><p>The workflow engine now allows users to use compliance standard violations directly as conditions, without needing to configure CWEs manually.</p></li><li><p>Introduced handling of historical findings older than 90 days. This ensures that previously suppressed findings will not reappear as new issues.</p></li><li><p>Introduced a detailed progress indicator for the code analysis in the CLI, giving users better visibility into scan progress.</p></li><li><p>Findings reports now include Violations, "Endpoint Access", and "Exploitable" data columns, enabling AppSec managers to efficiently assess and prioritize risks.</p></li></ul><p><strong>Resolved Issues</strong></p><ul><li><p>Fixed an issue where multi-line statements with a lambda function showed the wrong line number, pointing to the start of the entire statement instead of the lambda. Now, the line number shows exactly where the lambda is, so its easier to find and fix.</p></li><li><p>Fixed an issue where temporary variable names in the trace caused findings to mismatch with previous scans. This sometimes led to previously suppressed findings being incorrectly reported again.</p></li></ul>
+    <h2><a href="https://docs.mend.io/platform/latest/mend-sast-release-notes">Mend SAST: Version 25.7.1 (28-July-2025)</a></h2>
+    <time datetime="2025-07-28T00:00:00+00:00">2025-07-28T00:00:00+00:00</time>
+    <p><strong>New Features and Updates</strong></p><ul><li><p>For <a data-linked-resource-id="3081568274" data-linked-resource-type="page" data-linked-resource-version="44" href="https://docs.mend.io/platform/latest/remediate-your-code-sast-findings">Code Remediation Suggestions</a>, the exact line numbers are now displayed in addition to the code diff view.</p></li><li><p>React event-handlers defined in separate files are picked up as entry points when analyzing JavaScript code.</p></li><li><p>Improved accuracy of the detection of CWE-79: Cross-site Scripting (XSS) for C#.</p></li></ul><p><strong>Resolved Issues</strong></p><ul><li><p>The link from a source code snippet within the Mend AppSec Platform was not working properly when Bitbucket Data Center was used as a repository, which made it impossible to open the corresponding file location within the repository. This has now been corrected.</p></li></ul>
   </section>
   <hr/>
   <section>
@@ -43,8 +43,8 @@
   </section>
   <hr/>
   <section>
-    <h2><a href="https://docs.mend.io/legacy-sca/latest/mend-unified-agent-release-notes">Mend Unified Agent: Version 25.6.2 (14-July-2025)</a></h2>
-    <time datetime="2025-07-14T00:00:00+00:00">2025-07-14T00:00:00+00:00</time>
+    <h2><a href="https://docs.mend.io/legacy-sca/latest/mend-unified-agent-release-notes">Mend Unified Agent: Version 25.7.1 (28-July-2025)</a></h2>
+    <time datetime="2025-07-28T00:00:00+00:00">2025-07-28T00:00:00+00:00</time>
     <ul><li><p>No notable updates.</p></li></ul>
   </section>
   <hr/>
@@ -79,8 +79,8 @@
   </section>
   <hr/>
   <section>
-    <h2><a href="https://github.com/renovatebot/renovate/releases/tag/41.43.6">mend Renovate: 41.43.6</a></h2>
-    <time datetime="2025-07-28T10:56:12+00:00">2025-07-28T10:56:12+00:00</time>
+    <h2><a href="https://github.com/renovatebot/renovate/releases/tag/41.45.0">mend Renovate: 41.45.0</a></h2>
+    <time datetime="2025-07-29T08:27:51+00:00">2025-07-29T08:27:51+00:00</time>
     <p></p>
   </section>
   <hr/>

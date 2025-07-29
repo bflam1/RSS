@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://bflam1.github.io/RSS/atom.xml</id>
   <title>Mend.io Unified Release Notes</title>
-  <updated>2025-07-28T10:56:12+00:00</updated>
+  <updated>2025-07-29T08:27:51+00:00</updated>
   <author>
     <name>Mend Release Bot</name>
     <email>noreply@bflam1.github.io</email>
@@ -12,20 +12,20 @@
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>Aggregated RSS, Atom, and HTML of all Mend release notes.</subtitle>
   <entry>
-    <id>https://github.com/renovatebot/renovate/releases/tag/41.43.6</id>
-    <title>mend Renovate: 41.43.6</title>
-    <updated>2025-07-28T13:57:42.628680+00:00</updated>
+    <id>https://github.com/renovatebot/renovate/releases/tag/41.45.0</id>
+    <title>mend Renovate: 41.45.0</title>
+    <updated>2025-07-29T13:57:34.209548+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
     <content type="html">&lt;p&gt;&lt;/p&gt;</content>
-    <link href="https://github.com/renovatebot/renovate/releases/tag/41.43.6"/>
-    <published>2025-07-28T10:56:12+00:00</published>
+    <link href="https://github.com/renovatebot/renovate/releases/tag/41.45.0"/>
+    <published>2025-07-29T08:27:51+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-bitbucket-data-center-release-notes</id>
     <title>Mend for Bitbucket DC: Version 25.6.1.3 (01-July-2025)</title>
-    <updated>2025-07-28T13:57:42.628673+00:00</updated>
+    <updated>2025-07-29T13:57:34.209540+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -36,7 +36,7 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-gitlab-release-notes</id>
     <title>Mend for GitLab: Version 25.6.1.3 (01-July-2025)</title>
-    <updated>2025-07-28T13:57:42.628665+00:00</updated>
+    <updated>2025-07-29T13:57:34.209533+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -47,7 +47,7 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-github-enterprise-release-notes</id>
     <title>Mend for GitHub Enterprise: Version 25.7.1 (28-July-2025)</title>
-    <updated>2025-07-28T13:57:42.628658+00:00</updated>
+    <updated>2025-07-29T13:57:34.209526+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -58,7 +58,7 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-github-com-release-notes</id>
     <title>Mend for GitHub.com: Version 25.7.1 (27-July-2025)</title>
-    <updated>2025-07-28T13:57:42.628650+00:00</updated>
+    <updated>2025-07-29T13:57:34.209519+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -69,7 +69,7 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-developer-platform-release-notes</id>
     <title>Mend Developer Platform: Version 25.7.1 (27-July-2025)</title>
-    <updated>2025-07-28T13:57:42.628642+00:00</updated>
+    <updated>2025-07-29T13:57:34.209512+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -79,19 +79,19 @@
   </entry>
   <entry>
     <id>https://docs.mend.io/legacy-sca/latest/mend-unified-agent-release-notes</id>
-    <title>Mend Unified Agent: Version 25.6.2 (14-July-2025)</title>
-    <updated>2025-07-28T13:57:42.628634+00:00</updated>
+    <title>Mend Unified Agent: Version 25.7.1 (28-July-2025)</title>
+    <updated>2025-07-29T13:57:34.209505+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
     <content type="html">&lt;ul&gt;&lt;li&gt;&lt;p&gt;No notable updates.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
     <link href="https://docs.mend.io/legacy-sca/latest/mend-unified-agent-release-notes"/>
-    <published>2025-07-14T00:00:00+00:00</published>
+    <published>2025-07-28T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-cli-release-notes</id>
     <title>Mend CLI: Version 25.6.1.1 (10-July-2025)</title>
-    <updated>2025-07-28T13:57:42.628626+00:00</updated>
+    <updated>2025-07-29T13:57:34.209497+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -102,7 +102,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-ai-release-notes</id>
     <title>Mend AI: Version 25.7.1 (27-July-2025)</title>
-    <updated>2025-07-28T13:57:42.628616+00:00</updated>
+    <updated>2025-07-29T13:57:34.209489+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -113,7 +113,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-container-release-notes</id>
     <title>Mend Container: Version 25.6.2 (13-July-2025)</title>
-    <updated>2025-07-28T13:57:42.628607+00:00</updated>
+    <updated>2025-07-29T13:57:34.209480+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -123,30 +123,30 @@
   </entry>
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-sast-release-notes</id>
-    <title>Mend SAST: Version 25.6.2 (14-July-2025)</title>
-    <updated>2025-07-28T13:57:42.628595+00:00</updated>
+    <title>Mend SAST: Version 25.7.1 (28-July-2025)</title>
+    <updated>2025-07-29T13:57:34.209469+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
-    <content type="html">&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;The workflow engine now allows users to use compliance standard violations directly as conditions, without needing to configure CWEs manually.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Introduced handling of historical findings older than 90 days. This ensures that previously suppressed findings will not reappear as new issues.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Introduced a detailed progress indicator for the code analysis in the CLI, giving users better visibility into scan progress.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Findings reports now include Violations, "Endpoint Access", and "Exploitable" data columns, enabling AppSec managers to efficiently assess and prioritize risks.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Fixed an issue where multi-line statements with a lambda function showed the wrong line number, pointing to the start of the entire statement instead of the lambda. Now, the line number shows exactly where the lambda is, so its easier to find and fix.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Fixed an issue where temporary variable names in the trace caused findings to mismatch with previous scans. This sometimes led to previously suppressed findings being incorrectly reported again.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+    <content type="html">&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;For &lt;a data-linked-resource-id="3081568274" data-linked-resource-type="page" data-linked-resource-version="44" href="https://docs.mend.io/platform/latest/remediate-your-code-sast-findings"&gt;Code Remediation Suggestions&lt;/a&gt;, the exact line numbers are now displayed in addition to the code diff view.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;React event-handlers defined in separate files are picked up as entry points when analyzing JavaScript code.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Improved accuracy of the detection of CWE-79: Cross-site Scripting (XSS) for C#.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;The link from a source code snippet within the Mend AppSec Platform was not working properly when Bitbucket Data Center was used as a repository, which made it impossible to open the corresponding file location within the repository. This has now been corrected.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
     <link href="https://docs.mend.io/platform/latest/mend-sast-release-notes"/>
-    <published>2025-07-14T00:00:00+00:00</published>
+    <published>2025-07-28T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-sca-release-notes</id>
     <title>Mend SCA: Version 25.7.1 (27-July-2025)</title>
-    <updated>2025-07-28T13:57:42.628579+00:00</updated>
+    <updated>2025-07-29T13:57:34.209452+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
-    <content type="html">&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Introducing enhanced security visibility: View security violations directly within your libraries. New columns display violation counts, sortable and filterable, in both the main table and side panels, providing a comprehensive risk assessment for efficient prioritization and action.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Introducing new statuses in the Mend AppSec Platform for better tracking and alignment with remediation processes, maintaining backward compatibility with the Legacy SCA application. Added statuses include "In Review" and "Issue Created" for direct libraries. Existing status behaviors remain unchanged, ensuring seamless integration and workflow continuity across platforms.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+    <content type="html">&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Introducing enhanced security visibility: View security violations directly within your libraries. New columns display violation counts, sortable and filterable, in both the main table and side panels, providing a comprehensive risk assessment for efficient prioritization and action.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Introducing new statuses in the Mend AppSec Platform for better tracking and alignment with remediation processes, maintaining backward compatibility with the Legacy SCA application. Added statuses include "In Review" and "Issue Created" for direct libraries. Existing status behaviors remain unchanged, ensuring seamless integration and workflow continuity across platforms.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;The &lt;a data-linked-resource-id="3153494380" data-linked-resource-type="page" data-linked-resource-version="3" href="https://docs.mend.io/platform/latest/the-dependencies-findings-report"&gt;Dependencies Findings report&lt;/a&gt;, previously available at the application/project level, can now be generated at the organization level.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
     <link href="https://docs.mend.io/platform/latest/mend-sca-release-notes"/>
     <published>2025-07-27T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-platform-release-notes</id>
     <title>Mend AppSec Platform: Version 25.6.2.2 (23-July-2025)</title>
-    <updated>2025-07-28T13:57:42.628553+00:00</updated>
+    <updated>2025-07-29T13:57:34.209428+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
