@@ -7,13 +7,13 @@
     <atom:link href="https://bflam1.github.io/RSS/atom.xml" rel="self"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 29 Jul 2025 08:27:51 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 04 Aug 2025 10:14:44 +0000</lastBuildDate>
     <item>
-      <title>mend Renovate: 41.45.0</title>
-      <link>https://github.com/renovatebot/renovate/releases/tag/41.45.0</link>
+      <title>mend Renovate: 41.51.2</title>
+      <link>https://github.com/renovatebot/renovate/releases/tag/41.51.2</link>
       <description>&lt;p&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://github.com/renovatebot/renovate/releases/tag/41.45.0</guid>
-      <pubDate>Tue, 29 Jul 2025 08:27:51 +0000</pubDate>
+      <guid isPermaLink="false">https://github.com/renovatebot/renovate/releases/tag/41.51.2</guid>
+      <pubDate>Mon, 04 Aug 2025 10:14:44 +0000</pubDate>
     </item>
     <item>
       <title>Mend for Bitbucket DC: Version 25.6.1.3 (01-July-2025)</title>
@@ -30,18 +30,18 @@
       <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Mend for GitHub Enterprise: Version 25.7.1 (28-July-2025)</title>
+      <title>Mend for GitHub Enterprise: Version 25.7.1.1 (03-August-2025) (Hotfix)</title>
       <link>https://docs.mend.io/integrations/latest/mend-for-github-enterprise-release-notes</link>
-      <description>&lt;p&gt;Unified Agent 25.4.3-179 | &lt;a class="external-link" href="https://github.com/renovatebot/renovate/releases/tag/41.40.0" rel="nofollow" shape="rect"&gt;Renovate 41.40.0&lt;/a&gt; | Remediate 25.7.1 | Pre-Scan Builder (PSB) 25.4.1&lt;/p&gt;&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;CWE information is now displayed in the logs when available.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Fixed an issue where remediation pull requests were not created on feature branches in certain scenarios.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://docs.mend.io/integrations/latest/mend-for-github-enterprise-release-notes</guid>
-      <pubDate>Mon, 28 Jul 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 03 Aug 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Mend for GitHub.com: Version 25.7.1 (27-July-2025)</title>
+      <title>Mend for GitHub.com: Version 25.7.1.1 (03-August-2025) (Hotfix)</title>
       <link>https://docs.mend.io/integrations/latest/mend-for-github-com-release-notes</link>
-      <description>&lt;p&gt;Unified Agent 25.4.3-179 | &lt;a class="external-link" href="https://github.com/renovatebot/renovate/releases/tag/41.40.0" rel="nofollow" shape="rect"&gt;Renovate 41.40.0&lt;/a&gt; | Remediate 25.7.1 | Pre-Scan Builder (PSB) 25.4.1&lt;/p&gt;&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;(SCA) Poetry 2.x&lt;/strong&gt; project scans are now supported.&lt;br clear="none"/&gt;This enhancement allows users to analyze dependencies defined and locked with Poetry 2.x using the same repo integration workflow, at no additional configuration overhead.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Fixed an issue where remediation pull requests were not created on feature branches in certain scenarios.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://docs.mend.io/integrations/latest/mend-for-github-com-release-notes</guid>
-      <pubDate>Sun, 27 Jul 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 03 Aug 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Mend Developer Platform: Version 25.7.1 (27-July-2025)</title>
