@@ -7,33 +7,33 @@
 <body>
   <h1>Mend.io Unified Release Notes</h1>
   <section>
-    <h2><a href="https://docs.mend.io/platform/latest/mend-platform-release-notes">Mend AppSec Platform: Version 25.6.2.2 (23-July-2025)</a></h2>
-    <time datetime="2025-07-23T00:00:00+00:00">2025-07-23T00:00:00+00:00</time>
-    <p><strong>New Features and Updates</strong></p><ul><li><p>A new user type,<strong>Notification User</strong>, is now available for configuring <a data-linked-resource-id="2774564993" data-linked-resource-type="page" data-linked-resource-version="42" href="https://docs.mend.io/platform/latest/workflow-configuration-parameters#Email-Notifications">email notifications</a><br clear="none"/>for distribution lists and non-application users.</p></li></ul>
+    <h2><a href="https://docs.mend.io/platform/latest/mend-platform-release-notes">Mend AppSec Platform: Version 25.7.2 (10-August-2025)</a></h2>
+    <time datetime="2025-08-10T00:00:00+00:00">2025-08-10T00:00:00+00:00</time>
+    <p><strong>New Features and Updates</strong></p><ul><li><p>Mend scans now include a "Reference" column, displaying the scanned branch (for Dependencies/Code) or image tag (for Containers).<br clear="none"/>This enhancement improves visibility and context, and allows filtering scan results by branch or image tag.</p></li><li><p><a data-linked-resource-id="2774564993" data-linked-resource-type="page" data-linked-resource-version="50" href="https://docs.mend.io/platform/latest/workflow-configuration-parameters#Email-Notifications">Email notifications</a> now default to opt-in for listed platform users, who can opt out via "My Profile". </p></li></ul>
   </section>
   <hr/>
   <section>
-    <h2><a href="https://docs.mend.io/platform/latest/mend-sca-release-notes">Mend SCA: Version 25.7.1 (27-July-2025)</a></h2>
-    <time datetime="2025-07-27T00:00:00+00:00">2025-07-27T00:00:00+00:00</time>
-    <p><strong>New Features and Updates</strong></p><ul><li><p>Introducing enhanced security visibility: View security violations directly within your libraries. New columns display violation counts, sortable and filterable, in both the main table and side panels, providing a comprehensive risk assessment for efficient prioritization and action.</p></li><li><p>Introducing new statuses in the Mend AppSec Platform for better tracking and alignment with remediation processes, maintaining backward compatibility with the Legacy SCA application. Added statuses include "In Review" and "Issue Created" for direct libraries. Existing status behaviors remain unchanged, ensuring seamless integration and workflow continuity across platforms.</p></li><li><p>The <a data-linked-resource-id="3153494380" data-linked-resource-type="page" data-linked-resource-version="3" href="https://docs.mend.io/platform/latest/the-dependencies-findings-report">Dependencies Findings report</a>, previously available at the application/project level, can now be generated at the organization level.</p></li></ul>
+    <h2><a href="https://docs.mend.io/platform/latest/mend-sca-release-notes">Mend SCA: Version 25.7.2 (10-August-2025)</a></h2>
+    <time datetime="2025-08-10T00:00:00+00:00">2025-08-10T00:00:00+00:00</time>
+    <p><strong>New Features and Updates</strong></p><ul><li><p>The <a data-linked-resource-id="3011314101" data-linked-resource-type="page" data-linked-resource-version="19" href="https://docs.mend.io/platform/latest/the-dependencies-sbom-report">Dependencies SBOM report</a>, previously available at the application/project level only, can now be generated at the organization level.</p></li><li><p>Improved license alignment with the SPDX format. This improvement includes the following changes, where in each of the following bullets, all instances of the <strong>former license</strong> in the platform have been <strong>replaced</strong> by the latter:</p><ul><li><p><strong>Eclipse 1.0</strong>  BSD 3</p></li><li><p><strong>Jaxen Werken</strong>  BSD 3</p></li><li><p><strong>Cryptix General License</strong>  BSD 2</p></li><li><p><strong>Cup Parser Generator License</strong>  Standard ML of New Jersey</p></li></ul></li></ul>
   </section>
   <hr/>
   <section>
-    <h2><a href="https://docs.mend.io/platform/latest/mend-sast-release-notes">Mend SAST: Version 25.7.1 (28-July-2025)</a></h2>
-    <time datetime="2025-07-28T00:00:00+00:00">2025-07-28T00:00:00+00:00</time>
-    <p><strong>New Features and Updates</strong></p><ul><li><p>For <a data-linked-resource-id="3081568274" data-linked-resource-type="page" data-linked-resource-version="44" href="https://docs.mend.io/platform/latest/remediate-your-code-sast-findings">Code Remediation Suggestions</a>, the exact line numbers are now displayed in addition to the code diff view.</p></li><li><p>React event-handlers defined in separate files are picked up as entry points when analyzing JavaScript code.</p></li><li><p>Improved accuracy of the detection of CWE-79: Cross-site Scripting (XSS) for C#.</p></li></ul><p><strong>Resolved Issues</strong></p><ul><li><p>The link from a source code snippet within the Mend AppSec Platform was not working properly when Bitbucket Data Center was used as a repository, which made it impossible to open the corresponding file location within the repository. This has now been corrected.</p></li></ul>
+    <h2><a href="https://docs.mend.io/platform/latest/mend-sast-release-notes">Mend SAST: Version 25.7.2 (11-August-2025)</a></h2>
+    <time datetime="2025-08-11T00:00:00+00:00">2025-08-11T00:00:00+00:00</time>
+    <p><strong>New Features and Updates</strong></p><ul><li><p>The <input> tag is now supported as taint source for Angular and React.</p></li><li><p>JavaScript/TypeScript analysis duration is now substantially reduced.</p></li></ul><p><strong>Resolved Issues</strong></p><ul><li><p>Resolved an issue in JavaScript/TypeScript and Python analysis where uncompilable code erroneously led to timeouts of the corresponding files.</p></li><li><p>Improved the progress bar display in the CLI during code scanning.</p></li><li><p>Fixed an issue where <a data-linked-resource-id="3717529625" data-linked-resource-type="page" data-linked-resource-version="22" href="https://docs.mend.io/integrations/latest/cursor-integration-for-mend-code">Cursor</a> would occasionally lose the connection to the Mend MCP server.</p></li></ul>
   </section>
   <hr/>
   <section>
-    <h2><a href="https://docs.mend.io/platform/latest/mend-container-release-notes">Mend Container: Version 25.6.2 (13-July-2025)</a></h2>
-    <time datetime="2025-07-13T00:00:00+00:00">2025-07-13T00:00:00+00:00</time>
-    <p><strong>New Features and Updates</strong></p><ul><li><p>Updated the UI for defining <a data-linked-resource-id="2932080641" data-linked-resource-type="page" data-linked-resource-version="20" href="https://docs.mend.io/platform/latest/kubernetes-integrations-in-mend-container">Kubernetes integrations</a> that closely mimics the Registry integrations flow. </p><ul><li><p>Added a Configuration step where users can define a schedule for automatically triggering a scan on the Kubernetes integration. </p></li><li><p>Additionally, the last scan time for Kubernetes integrations is now shown in the the My Integrations table.</p></li></ul></li></ul>
+    <h2><a href="https://docs.mend.io/platform/latest/mend-container-release-notes">Mend Container: Version 25.7.2 (10-August-2025)</a></h2>
+    <time datetime="2025-08-10T00:00:00+00:00">2025-08-10T00:00:00+00:00</time>
+    <p><strong>New Features and Updates</strong></p><ul><li><p>Automation Workflow updates for improved control and effective handling of container findings: </p><ul><li><p>A <a data-linked-resource-id="2774564993" data-linked-resource-type="page" data-linked-resource-version="50" href="https://docs.mend.io/platform/latest/workflow-configuration-parameters#Container-Workflow-Conditions">Layer Group condition</a> for the Container Analysis triggering event in <a data-linked-resource-id="2722365905" data-linked-resource-type="page" data-linked-resource-version="19" href="https://docs.mend.io/platform/latest/create-an-automation-workflow-in-the-mend-platform">Automation Workflows</a> is now available, including values for Base Layers and Application Layers.</p></li><li><p>A <a data-linked-resource-id="2774564993" data-linked-resource-type="page" data-linked-resource-version="50" href="https://docs.mend.io/platform/latest/workflow-configuration-parameters#Container-Workflow-Conditions">Library Type condition</a> for the Container Analysis triggering event in <a data-linked-resource-id="2722365905" data-linked-resource-type="page" data-linked-resource-version="19" href="https://docs.mend.io/platform/latest/create-an-automation-workflow-in-the-mend-platform">Automation Workflows</a> is now available, including values for the detected librarys programming language or package manager (e.g., Debian, Maven).</p></li></ul></li></ul>
   </section>
   <hr/>
   <section>
-    <h2><a href="https://docs.mend.io/platform/latest/mend-ai-release-notes">Mend AI: Version 25.7.1 (27-July-2025)</a></h2>
-    <time datetime="2025-07-27T00:00:00+00:00">2025-07-27T00:00:00+00:00</time>
-    <p><strong>New Features and Updates</strong></p><ul><li><p>Detection of Azure AI Foundry <a data-linked-resource-id="3310518273" data-linked-resource-type="page" data-linked-resource-version="24" href="https://docs.mend.io/platform/latest/discovery-of-third-party-ai-models-and-providers">models</a> is now supported.</p></li><li><p>Introducing support for AI-specific license indices, including Mistral Research, Mistral Non-Production, and Llama4 licenses. Relevant information will be displayed in the <a data-linked-resource-id="3310518273" data-linked-resource-type="page" data-linked-resource-version="24" href="https://docs.mend.io/platform/latest/discovery-of-third-party-ai-models-and-providers">AI Models</a> table.</p></li><li><p>Added a new Behavioral Risk integration - <a data-linked-resource-id="3519447900" data-linked-resource-type="page" data-linked-resource-version="9" href="https://docs.mend.io/platform/latest/red-teaming-integrations#OpenAI-Compatible">OpenAI Compatible API</a>.</p></li></ul>
+    <h2><a href="https://docs.mend.io/platform/latest/mend-ai-release-notes">Mend AI: Version 25.7.2 (10-August-2025)</a></h2>
+    <time datetime="2025-08-10T00:00:00+00:00">2025-08-10T00:00:00+00:00</time>
+    <p><strong>New Features and Updates</strong></p><ul><li><p>Detection of Google Vertex AI Model Garden <a data-linked-resource-id="3310518273" data-linked-resource-type="page" data-linked-resource-version="27" href="https://docs.mend.io/platform/latest/discovery-of-third-party-ai-models-and-providers">models</a> is now supported.</p></li></ul>
   </section>
   <hr/>
   <section>
@@ -43,21 +43,21 @@
   </section>
   <hr/>
   <section>
-    <h2><a href="https://docs.mend.io/legacy-sca/latest/mend-unified-agent-release-notes">Mend Unified Agent: Version 25.7.1 (28-July-2025)</a></h2>
-    <time datetime="2025-07-28T00:00:00+00:00">2025-07-28T00:00:00+00:00</time>
-    <ul><li><p>No notable updates.</p></li></ul>
+    <h2><a href="https://docs.mend.io/legacy-sca/latest/mend-unified-agent-release-notes">Mend Unified Agent: Version 25.7.2 (11-August-2025)</a></h2>
+    <time datetime="2025-08-11T00:00:00+00:00">2025-08-11T00:00:00+00:00</time>
+    <p><strong>Resolved Issues</strong></p><ul><li><p>Improved the user experience by updating the screening process so only files that are used for dependency resolution will be logged, preventing misleading messages.</p></li><li><p>Fixed an issue where system memory was unnecessarily seized by the Gradle daemon after executing a Gradle script. Memory handling has been improved for increased efficiency.</p></li></ul>
   </section>
   <hr/>
   <section>
-    <h2><a href="https://docs.mend.io/integrations/latest/mend-developer-platform-release-notes">Mend Developer Platform: Version 25.7.1 (27-July-2025)</a></h2>
-    <time datetime="2025-07-27T00:00:00+00:00">2025-07-27T00:00:00+00:00</time>
-    <p><strong>New Features and Updates</strong></p><ul><li><p><strong>(Open Beta)</strong> The Developer Platform now supports custom configuration, partitioning, and scanning for monorepos. Applicable for both <a data-linked-resource-id="2936603024" data-linked-resource-type="page" data-linked-resource-version="51" href="https://docs.mend.io/integrations/latest/configure-mend-developer-platform-for-sca#General">SCA</a> and <a data-linked-resource-id="2936603281" data-linked-resource-type="page" data-linked-resource-version="18" href="https://docs.mend.io/integrations/latest/configure-mend-developer-platform-for-sast#General">SAST</a>.</p></li><li><p><strong>(SCA) Poetry 2.x</strong> project scans are now supported.<br clear="none"/>This enhancement allows users to analyze dependencies defined and locked with Poetry 2.x using the same workflow, at no additional configuration overhead.</p></li></ul><p><strong>Resolved Issues</strong></p><ul><li><p>Fixed a bug where non-admin users could click on the +Add button in the custom work items section of the Developer Platform settings. The button is now disabled for non-admins.</p></li></ul>
+    <h2><a href="https://docs.mend.io/integrations/latest/mend-developer-platform-release-notes">Mend Developer Platform: Version 25.7.2 (10-August-2025)</a></h2>
+    <time datetime="2025-08-10T00:00:00+00:00">2025-08-10T00:00:00+00:00</time>
+    <p><strong>New Features and Updates</strong></p><ul><li><p>UI improvements:</p><ul><li><p>Added a new column to the repositories table, which shows when the last job (scan) was executed for each repository.</p></li><li><p>Removed the Installation date and Availability columns from the repositories table.</p></li><li><p>Errors and warning indicators are now displayed in the second column instead of the first.</p></li></ul></li><li><p>The <a data-linked-resource-id="3183443970" data-linked-resource-type="page" data-linked-resource-version="32" href="https://docs.mend.io/integrations/latest/install-mend-developer-platform-azure-devops-repos">Azure DevOps integration</a> now enables Azure DevOps organization administrators to uninstall any project in their organization from the Developer Platform.</p></li><li><p>The <a data-linked-resource-id="2936602798" data-linked-resource-type="page" data-linked-resource-version="32" href="https://docs.mend.io/integrations/latest/install-mend-developer-platform-bitbucket-cloud">Bitbucket integration</a> now enables users to <a data-linked-resource-id="2936603024" data-linked-resource-type="page" data-linked-resource-version="53" href="https://docs.mend.io/integrations/latest/configure-mend-developer-platform-for-sca#Credentials">configure multiple workspace tokens</a> which will be used in rotation, to avoid hitting Bitbuckets API rate limits.</p></li></ul>
   </section>
   <hr/>
   <section>
     <h2><a href="https://docs.mend.io/integrations/latest/mend-for-github-com-release-notes">Mend for GitHub.com: Version 25.7.1.1 (03-August-2025) (Hotfix)</a></h2>
     <time datetime="2025-08-03T00:00:00+00:00">2025-08-03T00:00:00+00:00</time>
-    <p><strong>Resolved Issues</strong></p><ul><li><p>Fixed an issue where remediation pull requests were not created on feature branches in certain scenarios.</p></li></ul>
+    <p><strong>Resolved Issues</strong></p><ul><li><p>Fixed an issue where remediation pull requests were not created on feature branches in certain scenarios.</p></li><li><p><strong>(SCA)</strong> Fixed an issue where some scans would fail due to a timeout, under certain conditions.</p></li></ul>
   </section>
   <hr/>
   <section>
@@ -79,8 +79,8 @@
   </section>
   <hr/>
   <section>
-    <h2><a href="https://github.com/renovatebot/renovate/releases/tag/41.53.0">mend Renovate: 41.53.0</a></h2>
-    <time datetime="2025-08-05T11:20:16+00:00">2025-08-05T11:20:16+00:00</time>
+    <h2><a href="https://github.com/renovatebot/renovate/releases/tag/41.62.2">mend Renovate: 41.62.2</a></h2>
+    <time datetime="2025-08-11T11:21:40+00:00">2025-08-11T11:21:40+00:00</time>
     <p></p>
   </section>
   <hr/>
