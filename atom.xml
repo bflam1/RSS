@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://bflam1.github.io/RSS/atom.xml</id>
   <title>Mend.io Unified Release Notes</title>
-  <updated>2025-08-12T13:41:51+00:00</updated>
+  <updated>2025-08-18T12:57:53+00:00</updated>
   <author>
     <name>Mend Release Bot</name>
     <email>noreply@bflam1.github.io</email>
@@ -12,20 +12,20 @@
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>Aggregated RSS, Atom, and HTML of all Mend release notes.</subtitle>
   <entry>
-    <id>https://github.com/renovatebot/renovate/releases/tag/41.64.1</id>
-    <title>mend Renovate: 41.64.1</title>
-    <updated>2025-08-12T13:51:15.024258+00:00</updated>
+    <id>https://github.com/renovatebot/renovate/releases/tag/41.77.0</id>
+    <title>mend Renovate: 41.77.0</title>
+    <updated>2025-08-18T13:54:22.148868+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
     <content type="html">&lt;p&gt;&lt;/p&gt;</content>
-    <link href="https://github.com/renovatebot/renovate/releases/tag/41.64.1"/>
-    <published>2025-08-12T13:41:51+00:00</published>
+    <link href="https://github.com/renovatebot/renovate/releases/tag/41.77.0"/>
+    <published>2025-08-18T12:57:53+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-bitbucket-data-center-release-notes</id>
     <title>Mend for Bitbucket DC: Version 25.7.1.1 (03-August-2025)</title>
-    <updated>2025-08-12T13:51:15.024250+00:00</updated>
+    <updated>2025-08-18T13:54:22.148860+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -36,7 +36,7 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-gitlab-release-notes</id>
     <title>Mend for GitLab: Version 25.7.1.1 (03-August-2025)</title>
-    <updated>2025-08-12T13:51:15.024242+00:00</updated>
+    <updated>2025-08-18T13:54:22.148852+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -47,7 +47,7 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-github-enterprise-release-notes</id>
     <title>Mend for GitHub Enterprise: Version 25.7.1.1 (03-August-2025) (Hotfix)</title>
-    <updated>2025-08-12T13:51:15.024234+00:00</updated>
+    <updated>2025-08-18T13:54:22.148843+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -58,7 +58,7 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-github-com-release-notes</id>
     <title>Mend for GitHub.com: Version 25.7.1.1 (03-August-2025) (Hotfix)</title>
-    <updated>2025-08-12T13:51:15.024225+00:00</updated>
+    <updated>2025-08-18T13:54:22.148834+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -69,18 +69,18 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-developer-platform-release-notes</id>
     <title>Mend Developer Platform: Version 25.7.2 (10-August-2025)</title>
-    <updated>2025-08-12T13:51:15.024217+00:00</updated>
+    <updated>2025-08-18T13:54:22.148826+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
-    <content type="html">&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;UI improvements:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Added a new column to the repositories table, which shows when the last job (scan) was executed for each repository.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Removed the Installation date and Availability columns from the repositories table.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Errors and warning indicators are now displayed in the second column instead of the first.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;The &lt;a data-linked-resource-id="3183443970" data-linked-resource-type="page" data-linked-resource-version="32" href="https://docs.mend.io/integrations/latest/install-mend-developer-platform-azure-devops-repos"&gt;Azure DevOps integration&lt;/a&gt; now enables Azure DevOps organization administrators to uninstall any project in their organization from the Developer Platform.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;The &lt;a data-linked-resource-id="2936602798" data-linked-resource-type="page" data-linked-resource-version="32" href="https://docs.mend.io/integrations/latest/install-mend-developer-platform-bitbucket-cloud"&gt;Bitbucket integration&lt;/a&gt; now enables users to &lt;a data-linked-resource-id="2936603024" data-linked-resource-type="page" data-linked-resource-version="53" href="https://docs.mend.io/integrations/latest/configure-mend-developer-platform-for-sca#Credentials"&gt;configure multiple workspace tokens&lt;/a&gt; which will be used in rotation, to avoid hitting Bitbuckets API rate limits.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+    <content type="html">&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;UI improvements:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Added a new column to the repositories table, which shows when the last job (scan) was executed for each repository.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Removed the Installation date and Availability columns from the repositories table.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Errors and warning indicators are now displayed in the second column instead of the first.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;The &lt;a data-linked-resource-id="3183443970" data-linked-resource-type="page" data-linked-resource-version="32" href="https://docs.mend.io/integrations/latest/install-mend-developer-platform-azure-devops-repos"&gt;Azure DevOps integration&lt;/a&gt; now enables Azure DevOps organization administrators to uninstall any project in their organization from the Developer Platform.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;The &lt;a data-linked-resource-id="2936602798" data-linked-resource-type="page" data-linked-resource-version="32" href="https://docs.mend.io/integrations/latest/install-mend-developer-platform-bitbucket-cloud"&gt;Bitbucket integration&lt;/a&gt; now enables users to &lt;a data-linked-resource-id="2936603024" data-linked-resource-type="page" data-linked-resource-version="54" href="https://docs.mend.io/integrations/latest/configure-mend-developer-platform-for-sca#Credentials"&gt;configure multiple workspace tokens&lt;/a&gt; which will be used in rotation, to avoid hitting Bitbuckets API rate limits.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
     <link href="https://docs.mend.io/integrations/latest/mend-developer-platform-release-notes"/>
     <published>2025-08-10T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/legacy-sca/latest/mend-unified-agent-release-notes</id>
     <title>Mend Unified Agent: Version 25.7.2 (11-August-2025)</title>
-    <updated>2025-08-12T13:51:15.024207+00:00</updated>
+    <updated>2025-08-18T13:54:22.148816+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -91,7 +91,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-cli-release-notes</id>
     <title>Mend CLI: Version 25.6.1.1 (10-July-2025)</title>
-    <updated>2025-08-12T13:51:15.024199+00:00</updated>
+    <updated>2025-08-18T13:54:22.148807+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -102,7 +102,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-ai-release-notes</id>
     <title>Mend AI: Version 25.7.2 (10-August-2025)</title>
-    <updated>2025-08-12T13:51:15.024190+00:00</updated>
+    <updated>2025-08-18T13:54:22.148797+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -113,7 +113,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-container-release-notes</id>
     <title>Mend Container: Version 25.7.2 (10-August-2025)</title>
-    <updated>2025-08-12T13:51:15.024181+00:00</updated>
+    <updated>2025-08-18T13:54:22.148787+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -124,7 +124,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-sast-release-notes</id>
     <title>Mend SAST: Version 25.7.2 (11-August-2025)</title>
-    <updated>2025-08-12T13:51:15.024169+00:00</updated>
+    <updated>2025-08-18T13:54:22.148775+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -135,7 +135,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-sca-release-notes</id>
     <title>Mend SCA: Version 25.7.2 (10-August-2025)</title>
-    <updated>2025-08-12T13:51:15.024152+00:00</updated>
+    <updated>2025-08-18T13:54:22.148757+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -146,7 +146,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-platform-release-notes</id>
     <title>Mend AppSec Platform: Version 25.7.2 (10-August-2025)</title>
-    <updated>2025-08-12T13:51:15.024123+00:00</updated>
+    <updated>2025-08-18T13:54:22.148727+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
