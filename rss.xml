@@ -7,13 +7,13 @@
     <atom:link href="https://bflam1.github.io/RSS/atom.xml" rel="self"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 18 Aug 2025 12:57:53 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 19 Aug 2025 04:37:29 +0000</lastBuildDate>
     <item>
-      <title>mend Renovate: 41.77.0</title>
-      <link>https://github.com/renovatebot/renovate/releases/tag/41.77.0</link>
+      <title>mend Renovate: 41.81.2</title>
+      <link>https://github.com/renovatebot/renovate/releases/tag/41.81.2</link>
       <description>&lt;p&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://github.com/renovatebot/renovate/releases/tag/41.77.0</guid>
-      <pubDate>Mon, 18 Aug 2025 12:57:53 +0000</pubDate>
+      <guid isPermaLink="false">https://github.com/renovatebot/renovate/releases/tag/41.81.2</guid>
+      <pubDate>Tue, 19 Aug 2025 04:37:29 +0000</pubDate>
     </item>
     <item>
       <title>Mend for Bitbucket DC: Version 25.7.1.1 (03-August-2025)</title>
@@ -81,7 +81,7 @@
     <item>
       <title>Mend SAST: Version 25.7.2 (11-August-2025)</title>
       <link>https://docs.mend.io/platform/latest/mend-sast-release-notes</link>
-      <description>&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;The &lt;input&gt; tag is now supported as taint source for Angular and React.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;JavaScript/TypeScript analysis duration is now substantially reduced.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Resolved an issue in JavaScript/TypeScript and Python analysis where uncompilable code erroneously led to timeouts of the corresponding files.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Improved the progress bar display in the CLI during code scanning.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Fixed an issue where &lt;a data-linked-resource-id="3717529625" data-linked-resource-type="page" data-linked-resource-version="22" href="https://docs.mend.io/integrations/latest/cursor-integration-for-mend-code"&gt;Cursor&lt;/a&gt; would occasionally lose the connection to the Mend MCP server.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;The &lt;input&gt; tag is now supported as taint source for Angular and React.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;JavaScript/TypeScript analysis duration is now substantially reduced.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Resolved an issue in JavaScript/TypeScript and Python analysis where uncompilable code erroneously led to timeouts of the corresponding files.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Improved the progress bar display in the CLI during code scanning.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Fixed an issue where &lt;a data-linked-resource-id="3717529625" data-linked-resource-type="page" data-linked-resource-version="28" href="https://docs.mend.io/integrations/latest/mend-mcp-security-assistant"&gt;Cursor&lt;/a&gt; would occasionally lose the connection to the Mend MCP server.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://docs.mend.io/platform/latest/mend-sast-release-notes</guid>
       <pubDate>Mon, 11 Aug 2025 00:00:00 +0000</pubDate>
     </item>

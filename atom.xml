@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://bflam1.github.io/RSS/atom.xml</id>
   <title>Mend.io Unified Release Notes</title>
-  <updated>2025-08-18T12:57:53+00:00</updated>
+  <updated>2025-08-19T04:37:29+00:00</updated>
   <author>
     <name>Mend Release Bot</name>
     <email>noreply@bflam1.github.io</email>
@@ -12,20 +12,20 @@
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>Aggregated RSS, Atom, and HTML of all Mend release notes.</subtitle>
   <entry>
-    <id>https://github.com/renovatebot/renovate/releases/tag/41.77.0</id>
-    <title>mend Renovate: 41.77.0</title>
-    <updated>2025-08-18T13:54:22.148868+00:00</updated>
+    <id>https://github.com/renovatebot/renovate/releases/tag/41.81.2</id>
+    <title>mend Renovate: 41.81.2</title>
+    <updated>2025-08-19T13:46:25.792664+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
     <content type="html">&lt;p&gt;&lt;/p&gt;</content>
-    <link href="https://github.com/renovatebot/renovate/releases/tag/41.77.0"/>
-    <published>2025-08-18T12:57:53+00:00</published>
+    <link href="https://github.com/renovatebot/renovate/releases/tag/41.81.2"/>
+    <published>2025-08-19T04:37:29+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-bitbucket-data-center-release-notes</id>
     <title>Mend for Bitbucket DC: Version 25.7.1.1 (03-August-2025)</title>
-    <updated>2025-08-18T13:54:22.148860+00:00</updated>
+    <updated>2025-08-19T13:46:25.792655+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -36,7 +36,7 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-gitlab-release-notes</id>
     <title>Mend for GitLab: Version 25.7.1.1 (03-August-2025)</title>
-    <updated>2025-08-18T13:54:22.148852+00:00</updated>
+    <updated>2025-08-19T13:46:25.792648+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -47,7 +47,7 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-github-enterprise-release-notes</id>
     <title>Mend for GitHub Enterprise: Version 25.7.1.1 (03-August-2025) (Hotfix)</title>
-    <updated>2025-08-18T13:54:22.148843+00:00</updated>
+    <updated>2025-08-19T13:46:25.792640+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -58,7 +58,7 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-github-com-release-notes</id>
     <title>Mend for GitHub.com: Version 25.7.1.1 (03-August-2025) (Hotfix)</title>
-    <updated>2025-08-18T13:54:22.148834+00:00</updated>
+    <updated>2025-08-19T13:46:25.792632+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -69,7 +69,7 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-developer-platform-release-notes</id>
     <title>Mend Developer Platform: Version 25.7.2 (10-August-2025)</title>
-    <updated>2025-08-18T13:54:22.148826+00:00</updated>
+    <updated>2025-08-19T13:46:25.792624+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -80,7 +80,7 @@
   <entry>
     <id>https://docs.mend.io/legacy-sca/latest/mend-unified-agent-release-notes</id>
     <title>Mend Unified Agent: Version 25.7.2 (11-August-2025)</title>
-    <updated>2025-08-18T13:54:22.148816+00:00</updated>
+    <updated>2025-08-19T13:46:25.792616+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -91,7 +91,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-cli-release-notes</id>
     <title>Mend CLI: Version 25.6.1.1 (10-July-2025)</title>
-    <updated>2025-08-18T13:54:22.148807+00:00</updated>
+    <updated>2025-08-19T13:46:25.792607+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -102,7 +102,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-ai-release-notes</id>
     <title>Mend AI: Version 25.7.2 (10-August-2025)</title>
-    <updated>2025-08-18T13:54:22.148797+00:00</updated>
+    <updated>2025-08-19T13:46:25.792597+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -113,7 +113,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-container-release-notes</id>
     <title>Mend Container: Version 25.7.2 (10-August-2025)</title>
-    <updated>2025-08-18T13:54:22.148787+00:00</updated>
+    <updated>2025-08-19T13:46:25.792588+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -124,18 +124,18 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-sast-release-notes</id>
     <title>Mend SAST: Version 25.7.2 (11-August-2025)</title>
-    <updated>2025-08-18T13:54:22.148775+00:00</updated>
+    <updated>2025-08-19T13:46:25.792576+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
-    <content type="html">&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;The &lt;input&gt; tag is now supported as taint source for Angular and React.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;JavaScript/TypeScript analysis duration is now substantially reduced.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Resolved an issue in JavaScript/TypeScript and Python analysis where uncompilable code erroneously led to timeouts of the corresponding files.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Improved the progress bar display in the CLI during code scanning.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Fixed an issue where &lt;a data-linked-resource-id="3717529625" data-linked-resource-type="page" data-linked-resource-version="22" href="https://docs.mend.io/integrations/latest/cursor-integration-for-mend-code"&gt;Cursor&lt;/a&gt; would occasionally lose the connection to the Mend MCP server.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+    <content type="html">&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;The &lt;input&gt; tag is now supported as taint source for Angular and React.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;JavaScript/TypeScript analysis duration is now substantially reduced.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Resolved an issue in JavaScript/TypeScript and Python analysis where uncompilable code erroneously led to timeouts of the corresponding files.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Improved the progress bar display in the CLI during code scanning.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Fixed an issue where &lt;a data-linked-resource-id="3717529625" data-linked-resource-type="page" data-linked-resource-version="28" href="https://docs.mend.io/integrations/latest/mend-mcp-security-assistant"&gt;Cursor&lt;/a&gt; would occasionally lose the connection to the Mend MCP server.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
     <link href="https://docs.mend.io/platform/latest/mend-sast-release-notes"/>
     <published>2025-08-11T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-sca-release-notes</id>
     <title>Mend SCA: Version 25.7.2 (10-August-2025)</title>
-    <updated>2025-08-18T13:54:22.148757+00:00</updated>
+    <updated>2025-08-19T13:46:25.792559+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -146,7 +146,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-platform-release-notes</id>
     <title>Mend AppSec Platform: Version 25.7.2 (10-August-2025)</title>
-    <updated>2025-08-18T13:54:22.148727+00:00</updated>
+    <updated>2025-08-19T13:46:25.792530+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
