@@ -9,7 +9,7 @@
   <section>
     <h2><a href="https://docs.mend.io/platform/latest/mend-platform-release-notes">Mend AppSec Platform: Version 25.8.1 (24-August-2025)</a></h2>
     <time datetime="2025-08-24T00:00:00+00:00">2025-08-24T00:00:00+00:00</time>
-    <p><strong>New Features and Updates</strong></p><ul><li><p>Enhanced the <a data-linked-resource-id="3613622273" data-linked-resource-type="page" data-linked-resource-version="18" href="https://docs.mend.io/platform/latest/configure-mend-for-jira-cloud#Manage-your-Mend-Organizations-and-Mappings">Jira integration</a> by mapping Mend attributes to Jira fields for adding labels with Mend attributes or free text.</p></li><li><p>Added a new configuration option in the <a data-linked-resource-id="2813526062" data-linked-resource-type="page" data-linked-resource-version="27" href="https://docs.mend.io/platform/latest/configure-single-sign-on-sso">SAML integration</a> settings that allows organizations to enforce SSO-only login by disabling username/password authentication.</p></li></ul><ul><li><p><strong>(SCA, Containers)</strong> Introducing the ability to <a data-linked-resource-id="3105652809" data-linked-resource-type="page" data-linked-resource-version="21" href="https://docs.mend.io/platform/latest/search-findings-in-your-organization#Findings-Export">export findings to CSV</a>.</p></li></ul>
+    <p><strong>New Features and Updates</strong></p><ul><li><p>Enhanced the <a data-linked-resource-id="3613622273" data-linked-resource-type="page" data-linked-resource-version="18" href="https://docs.mend.io/platform/latest/configure-mend-for-jira-cloud#Manage-your-Mend-Organizations-and-Mappings">Jira integration</a> by mapping Mend attributes to Jira fields for adding labels with Mend attributes or free text.</p></li><li><p>Added a new configuration option in the <a data-linked-resource-id="2813526062" data-linked-resource-type="page" data-linked-resource-version="28" href="https://docs.mend.io/platform/latest/configure-single-sign-on-sso">SAML integration</a> settings that allows organizations to enforce SSO-only login by disabling username/password authentication.</p></li></ul><ul><li><p><strong>(SCA, Containers)</strong> Introducing the ability to <a data-linked-resource-id="3105652809" data-linked-resource-type="page" data-linked-resource-version="22" href="https://docs.mend.io/platform/latest/search-findings-in-your-organization#Findings-Export">export findings to CSV</a>.</p></li></ul>
   </section>
   <hr/>
   <section>
@@ -27,7 +27,7 @@
   <section>
     <h2><a href="https://docs.mend.io/platform/latest/mend-container-release-notes">Mend Container: Version 25.8.1 (24-August-2025)</a></h2>
     <time datetime="2025-08-24T00:00:00+00:00">2025-08-24T00:00:00+00:00</time>
-    <p><strong>New Features and Updates</strong></p><ul><li><p>Introducing the ability to <a data-linked-resource-id="3105652809" data-linked-resource-type="page" data-linked-resource-version="20" href="https://docs.mend.io/platform/latest/search-findings-in-your-organization#Findings-Export">export findings to CSV</a>.</p></li></ul>
+    <p><strong>New Features and Updates</strong></p><ul><li><p>Introducing the ability to <a data-linked-resource-id="3105652809" data-linked-resource-type="page" data-linked-resource-version="22" href="https://docs.mend.io/platform/latest/search-findings-in-your-organization#Findings-Export">export findings to CSV</a>.</p></li></ul>
   </section>
   <hr/>
   <section>
@@ -63,7 +63,7 @@
   <section>
     <h2><a href="https://docs.mend.io/integrations/latest/mend-for-github-enterprise-release-notes">Mend for GitHub Enterprise: Version 25.8.1.1 (24-August-2025)</a></h2>
     <time datetime="2025-08-24T00:00:00+00:00">2025-08-24T00:00:00+00:00</time>
-    <p>Unified Agent 25.4.3-179 | <a class="external-link" href="https://github.com/renovatebot/renovate/releases/tag/41.71.1" rel="nofollow" shape="rect">Renovate 41.71.1</a> | Remediate 25.8.1 | Pre-Scan Builder (PSB) 25.8.1</p><p><strong>New Features and Updates</strong></p><ul><li><p>The <a data-linked-resource-id="3328737286" data-linked-resource-type="page" data-linked-resource-version="16" href="https://docs.mend.io/platform/latest/remediation-strategies-in-mend-sca#First-Fix">First Fix remediation strategy</a> is now available for Python in self-hosted repository integrations. Enable by setting the environment variable <code>MEND_PYTHON_FIRSTFIX_ENABLED</code> to true (default is false).</p></li></ul><p><strong>Resolved Issues</strong></p><ul><li><p>Fixed an issue where system memory was unnecessarily seized by the Gradle daemon after executing a Gradle script during a scan. Memory handling has been improved for increased efficiency.</p></li><li><p><strong>(SAST)</strong> Fixed a bug in the proxy configuration of the repository integration which erroneously <br clear="none"/>led to SAST scans not being triggered and a message about incorrect SAST credentials.</p></li></ul>
+    <p>Unified Agent 25.4.3-179 | <a class="external-link" href="https://github.com/renovatebot/renovate/releases/tag/41.71.1" rel="nofollow" shape="rect">Renovate 41.71.1</a> | Remediate 25.8.1 | Pre-Scan Builder (PSB) 25.8.1</p><p><strong>New Features and Updates</strong></p><ul><li><p>The <a data-linked-resource-id="3328737286" data-linked-resource-type="page" data-linked-resource-version="16" href="https://docs.mend.io/platform/latest/remediation-strategies-in-mend-sca#First-Fix">First Fix remediation strategy</a> is now available for Python in self-hosted repository integrations. Enable by setting the environment variable <code>MEND_PYTHON_FIRSTFIX_ENABLED</code> to true (default is false).</p></li><li><p>Introducing a new capability for executing <a data-linked-resource-id="3827105794" data-linked-resource-type="page" data-linked-resource-version="10" href="https://docs.mend.io/integrations/latest/scan-customization-in-mend-for-github-enterprise">custom pre-scan scripts</a>, enabling users to prepare the environment or perform setup tasks before scanning.</p></li></ul><p><strong>Resolved Issues</strong></p><ul><li><p>Fixed an issue where system memory was unnecessarily seized by the Gradle daemon after executing a Gradle script during a scan. Memory handling has been improved for increased efficiency.</p></li><li><p><strong>(SAST)</strong> Fixed a bug in the proxy configuration of the repository integration which erroneously <br clear="none"/>led to SAST scans not being triggered and a message about incorrect SAST credentials.</p></li></ul>
   </section>
   <hr/>
   <section>
@@ -79,8 +79,8 @@
   </section>
   <hr/>
   <section>
-    <h2><a href="https://github.com/renovatebot/renovate/releases/tag/41.84.0">mend Renovate: 41.84.0</a></h2>
-    <time datetime="2025-08-26T02:14:59+00:00">2025-08-26T02:14:59+00:00</time>
+    <h2><a href="https://github.com/renovatebot/renovate/releases/tag/41.91.3">mend Renovate: 41.91.3</a></h2>
+    <time datetime="2025-09-01T00:57:03+00:00">2025-09-01T00:57:03+00:00</time>
     <p></p>
   </section>
   <hr/>
