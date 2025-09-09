@@ -7,13 +7,13 @@
     <atom:link href="https://bflam1.github.io/RSS/atom.xml" rel="self"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 08 Sep 2025 06:43:36 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 09 Sep 2025 10:47:06 +0000</lastBuildDate>
     <item>
-      <title>mend Renovate: 41.97.10</title>
-      <link>https://github.com/renovatebot/renovate/releases/tag/41.97.10</link>
+      <title>mend Renovate: 41.98.4</title>
+      <link>https://github.com/renovatebot/renovate/releases/tag/41.98.4</link>
       <description>&lt;p&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://github.com/renovatebot/renovate/releases/tag/41.97.10</guid>
-      <pubDate>Mon, 08 Sep 2025 06:43:36 +0000</pubDate>
+      <guid isPermaLink="false">https://github.com/renovatebot/renovate/releases/tag/41.98.4</guid>
+      <pubDate>Tue, 09 Sep 2025 10:47:06 +0000</pubDate>
     </item>
     <item>
       <title>Mend for Bitbucket DC: Version 25.8.1.1 (24-August-2025)</title>
@@ -51,23 +51,23 @@
       <pubDate>Sun, 07 Sep 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Mend Unified Agent: Version 25.7.2 (11-August-2025)</title>
+      <title>Mend Unified Agent: Version 25.8.2 (08-September-2025)</title>
       <link>https://docs.mend.io/legacy-sca/latest/mend-unified-agent-release-notes</link>
-      <description>&lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Improved the user experience by updating the screening process so only files that are used for dependency resolution will be logged, preventing misleading messages.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Fixed an issue where system memory was unnecessarily seized by the Gradle daemon after executing a Gradle script. Memory handling has been improved for increased efficiency.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+      <description>&lt;ul&gt;&lt;li&gt;&lt;p&gt;No notable updates.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://docs.mend.io/legacy-sca/latest/mend-unified-agent-release-notes</guid>
-      <pubDate>Mon, 11 Aug 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 08 Sep 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Mend CLI: Version 25.8.1 (25-August-2025)</title>
+      <title>Mend CLI: Version 25.8.2 (08-September-2025)</title>
       <link>https://docs.mend.io/platform/latest/mend-cli-release-notes</link>
-      <description>&lt;ul&gt;&lt;li&gt;&lt;p&gt;No notable updates.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Fixed an issue where executing multiple dependency scans simultaneously on the same machine would lead to scan results not being displayed properly in the console and platform UI.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://docs.mend.io/platform/latest/mend-cli-release-notes</guid>
-      <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 08 Sep 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Mend AI: Version 25.8.2 (07-September-2025)</title>
       <link>https://docs.mend.io/platform/latest/mend-ai-release-notes</link>
-      <description>&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;AI Reporting and Analytics&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Mend AI now provides comprehensive organizational reporting capabilities, enabling enterprises to generate standardized AI inventory and findings reports filtered by AI system labels. This feature delivers the same enterprise-grade reporting maturity available in Mend SCA, supporting compliance, audit, and executive reporting requirements for AI governance.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Introducing a centralized &lt;a data-linked-resource-id="3806789636" data-linked-resource-type="page" data-linked-resource-version="9" href="https://docs.mend.io/platform/latest/ai-security-dashboard"&gt;dashboard&lt;/a&gt; for security managers to visualize and manage AI security risks. Gain single-view risk assessments, prioritize vulnerability remediation, and track security metrics. Components include AI and project widgets, with enhancements for seamless navigation and detailed risk insights.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Academic security findings are now integrated into the &lt;a data-linked-resource-id="3310518273" data-linked-resource-type="page" data-linked-resource-version="27" href="https://docs.mend.io/platform/latest/discovery-of-third-party-ai-models-and-providers"&gt;AI Models&lt;/a&gt; table, offering users immediate visibility of model-specific vulnerabilities. This enhancement supports proactive risk assessment, seamless workflow integration, and provides detailed contextual insights, while maintaining existing navigation patterns and preparing for future integration of additional security intelligence sources.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Added an AI Security Findings column to Projects and Applications tables showing severity distribution (Critical/High/Medium/Low). One-click drill-down opens the AI Models view for the selected item to accelerate investigation.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Introducing a Severity Distribution widget that summarizes AI security findings by severity. Clicking a severity opens the Projects view pre-filtered and sorted to highlight the most impacted projects for fast triage.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Added a side panel in the AI Technologies table that shows the full list of related AI libraries and details without truncation, enabling faster review and decision making.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;(Premium)&lt;/strong&gt; Introducing a centralized &lt;a data-linked-resource-id="3806789636" data-linked-resource-type="page" data-linked-resource-version="9" href="https://docs.mend.io/platform/latest/ai-security-dashboard"&gt;dashboard&lt;/a&gt; for security managers to visualize and manage AI security risks. Gain single-view risk assessments, prioritize vulnerability remediation, and track security metrics. Components include AI and project widgets, with enhancements for seamless navigation and detailed risk insights.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;(Premium)&lt;/strong&gt; Academic security findings are now integrated into the &lt;a data-linked-resource-id="3310518273" data-linked-resource-type="page" data-linked-resource-version="27" href="https://docs.mend.io/platform/latest/discovery-of-third-party-ai-models-and-providers"&gt;AI Models&lt;/a&gt; table, offering users immediate visibility of model-specific vulnerabilities. This enhancement supports proactive risk assessment, seamless workflow integration, and provides detailed contextual insights, while maintaining existing navigation patterns and preparing for future integration of additional security intelligence sources.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;(Premium)&lt;/strong&gt; Added an AI Security Findings column to Projects and Applications tables showing severity distribution (Critical/High/Medium/Low). One-click drill-down opens the AI Models view for the selected item to accelerate investigation.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;(Premium)&lt;/strong&gt; Introducing a Severity Distribution widget that summarizes AI security findings by severity. Clicking a severity opens the Projects view pre-filtered and sorted to highlight the most impacted projects for fast triage.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Added a side panel in the AI Technologies table that shows the full list of related AI libraries and details without truncation, enabling faster review and decision making.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://docs.mend.io/platform/latest/mend-ai-release-notes</guid>
       <pubDate>Sun, 07 Sep 2025 00:00:00 +0000</pubDate>
     </item>
