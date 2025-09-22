@@ -19,9 +19,9 @@
   </section>
   <hr/>
   <section>
-    <h2><a href="https://docs.mend.io/platform/latest/mend-sast-release-notes">Mend SAST: Version 25.8.2 (08-September-2025)</a></h2>
-    <time datetime="2025-09-08T00:00:00+00:00">2025-09-08T00:00:00+00:00</time>
-    <p><strong>New Features and Updates</strong></p><ul><li><p>Introduced the capability to scan AI-generated code within <a data-linked-resource-id="3846111233" data-linked-resource-type="page" data-linked-resource-version="5" href="https://docs.mend.io/integrations/latest/mend-security-assistant-mcp-for-windsurf-ide">Windsurf</a>. This offering allows developers to maintain secure coding practices seamlessly within their existing workflow, ensuring code safety without interruption and building greater trust in generated outputs.</p></li><li><p>Improved the performance of processing incremental dumps for PHP.</p></li><li><p>Deep links to findings are now based on the finding UUID, ensuring that the link points to the current state of the finding and making it easier to create deep links based on report outputs from the Mend CLI.</p></li></ul><p><strong>Resolved Issues</strong></p><ul><li><p>Under some conditions, the file timeout was not applied when scanning PHP files. This has been resolved, preventing scans from hanging.</p></li><li><p>In case of a false-positive finding, trying to apply automated remediation suggestions just added white spaces. This has been adjusted so proper error messages will be displayed in such cases.</p></li></ul>
+    <h2><a href="https://docs.mend.io/platform/latest/mend-sast-release-notes">Mend SAST: Version 25.8.2-HF1 (14-September-2025)</a></h2>
+    <time datetime="2025-09-14T00:00:00+00:00">2025-09-14T00:00:00+00:00</time>
+    <p><strong>Resolved Issues</strong></p><ul><li><p>Addressed an issue where execution of C/C++ analysis failed on MacOS with Intel x86 architecture because of a missing library.</p></li><li><p>Improved the performance of PHP analysis, especially when processing large PHP files.</p></li></ul>
   </section>
   <hr/>
   <section>
@@ -55,15 +55,15 @@
   </section>
   <hr/>
   <section>
-    <h2><a href="https://docs.mend.io/integrations/latest/mend-for-github-com-release-notes">Mend for GitHub.com: Version 25.8.2 (07-September-2025)</a></h2>
-    <time datetime="2025-09-07T00:00:00+00:00">2025-09-07T00:00:00+00:00</time>
-    <p><strong>Resolved Issues</strong></p><ul><li><p>Fixed a bug where a scan was able to be triggered before the .whitesource file was present in the repository.</p></li><li><p><strong>(SAST)</strong> Fixed an issue where the <code>noDefaultExclusions</code> setting in the <code>.mendsastcli-config.json</code> configuration file, used for ignoring predefined exclusions, was ineffective, leading to predefined exclusions not being ignored.</p></li></ul>
+    <h2><a href="https://docs.mend.io/integrations/latest/mend-for-github-com-release-notes">Mend for GitHub.com: Version 25.8.2.1 (14-September-2025) (Hotfix)</a></h2>
+    <time datetime="2025-09-14T00:00:00+00:00">2025-09-14T00:00:00+00:00</time>
+    <p><strong>Resolved Issues</strong></p><ul><li><p>Fixed an issue where Pull Requests were created with First Fix <a data-linked-resource-id="3328737286" data-linked-resource-type="page" data-linked-resource-version="17" href="https://docs.mend.io/platform/latest/remediation-strategies-in-mend-sca">remediation strategy suggestions</a> instead of Least Vulnerable Package.</p></li></ul>
   </section>
   <hr/>
   <section>
-    <h2><a href="https://docs.mend.io/integrations/latest/mend-for-github-enterprise-release-notes">Mend for GitHub Enterprise: Version 25.8.1.1 (24-August-2025)</a></h2>
-    <time datetime="2025-08-24T00:00:00+00:00">2025-08-24T00:00:00+00:00</time>
-    <p>Unified Agent 25.4.3-179 | <a class="external-link" href="https://github.com/renovatebot/renovate/releases/tag/41.71.1" rel="nofollow" shape="rect">Renovate 41.71.1</a> | Remediate 25.8.1 | Pre-Scan Builder (PSB) 25.8.1</p><p><strong>New Features and Updates</strong></p><ul><li><p>The <a data-linked-resource-id="3328737286" data-linked-resource-type="page" data-linked-resource-version="17" href="https://docs.mend.io/platform/latest/remediation-strategies-in-mend-sca#First-Fix">First Fix remediation strategy</a> is now available for Python in self-hosted repository integrations. Enable by setting the environment variable <code>MEND_PYTHON_FIRSTFIX_ENABLED</code> to true (default is false).</p></li><li><p>Introducing a new capability for executing <a data-linked-resource-id="3827105794" data-linked-resource-type="page" data-linked-resource-version="17" href="https://docs.mend.io/integrations/latest/scan-customization-in-mend-for-github-enterprise">custom pre-scan scripts</a>, enabling users to prepare the environment or perform setup tasks before scanning.</p></li></ul><p><strong>Resolved Issues</strong></p><ul><li><p>Fixed an issue where system memory was unnecessarily seized by the Gradle daemon after executing a Gradle script during a scan. Memory handling has been improved for increased efficiency.</p></li><li><p><strong>(SAST)</strong> Fixed a bug in the proxy configuration of the repository integration which erroneously led to SAST scans not being triggered and a message about incorrect SAST credentials.</p></li></ul>
+    <h2><a href="https://docs.mend.io/integrations/latest/mend-for-github-enterprise-release-notes">Mend for GitHub Enterprise: Version 25.8.1.4 (14-September-2025) (Hotfix)</a></h2>
+    <time datetime="2025-09-14T00:00:00+00:00">2025-09-14T00:00:00+00:00</time>
+    <p><strong>Resolved Issues</strong></p><ul><li><p>Fixed an issue where Pull Requests were created with First Fix <a data-linked-resource-id="3328737286" data-linked-resource-type="page" data-linked-resource-version="17" href="https://docs.mend.io/platform/latest/remediation-strategies-in-mend-sca">remediation strategy suggestions</a> instead of Least Vulnerable Package.</p></li></ul>
   </section>
   <hr/>
   <section>
@@ -79,8 +79,8 @@
   </section>
   <hr/>
   <section>
-    <h2><a href="https://github.com/renovatebot/renovate/releases/tag/41.115.2">mend Renovate: 41.115.2</a></h2>
-    <time datetime="2025-09-16T10:08:45+00:00">2025-09-16T10:08:45+00:00</time>
+    <h2><a href="https://github.com/renovatebot/renovate/releases/tag/41.123.0">mend Renovate: 41.123.0</a></h2>
+    <time datetime="2025-09-22T08:06:19+00:00">2025-09-22T08:06:19+00:00</time>
     <p></p>
   </section>
   <hr/>

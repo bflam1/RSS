@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://bflam1.github.io/RSS/atom.xml</id>
   <title>Mend.io Unified Release Notes</title>
-  <updated>2025-09-16T10:08:45+00:00</updated>
+  <updated>2025-09-22T08:06:19+00:00</updated>
   <author>
     <name>Mend Release Bot</name>
     <email>noreply@bflam1.github.io</email>
@@ -12,20 +12,20 @@
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>Aggregated RSS, Atom, and HTML of all Mend release notes.</subtitle>
   <entry>
-    <id>https://github.com/renovatebot/renovate/releases/tag/41.115.2</id>
-    <title>mend Renovate: 41.115.2</title>
-    <updated>2025-09-16T13:45:06.258384+00:00</updated>
+    <id>https://github.com/renovatebot/renovate/releases/tag/41.123.0</id>
+    <title>mend Renovate: 41.123.0</title>
+    <updated>2025-09-22T13:46:14.200688+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
     <content type="html">&lt;p&gt;&lt;/p&gt;</content>
-    <link href="https://github.com/renovatebot/renovate/releases/tag/41.115.2"/>
-    <published>2025-09-16T10:08:45+00:00</published>
+    <link href="https://github.com/renovatebot/renovate/releases/tag/41.123.0"/>
+    <published>2025-09-22T08:06:19+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-bitbucket-data-center-release-notes</id>
     <title>Mend for Bitbucket DC: Version 25.8.1.1 (24-August-2025)</title>
-    <updated>2025-09-16T13:45:06.258375+00:00</updated>
+    <updated>2025-09-22T13:46:14.200680+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -36,7 +36,7 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-gitlab-release-notes</id>
     <title>Mend for GitLab: Version 25.8.1.1 (24-August-2025)</title>
-    <updated>2025-09-16T13:45:06.258367+00:00</updated>
+    <updated>2025-09-22T13:46:14.200672+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -46,30 +46,30 @@
   </entry>
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-github-enterprise-release-notes</id>
-    <title>Mend for GitHub Enterprise: Version 25.8.1.1 (24-August-2025)</title>
-    <updated>2025-09-16T13:45:06.258359+00:00</updated>
+    <title>Mend for GitHub Enterprise: Version 25.8.1.4 (14-September-2025) (Hotfix)</title>
+    <updated>2025-09-22T13:46:14.200664+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
-    <content type="html">&lt;p&gt;Unified Agent 25.4.3-179 | &lt;a class="external-link" href="https://github.com/renovatebot/renovate/releases/tag/41.71.1" rel="nofollow" shape="rect"&gt;Renovate 41.71.1&lt;/a&gt; | Remediate 25.8.1 | Pre-Scan Builder (PSB) 25.8.1&lt;/p&gt;&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;The &lt;a data-linked-resource-id="3328737286" data-linked-resource-type="page" data-linked-resource-version="17" href="https://docs.mend.io/platform/latest/remediation-strategies-in-mend-sca#First-Fix"&gt;First Fix remediation strategy&lt;/a&gt; is now available for Python in self-hosted repository integrations. Enable by setting the environment variable &lt;code&gt;MEND_PYTHON_FIRSTFIX_ENABLED&lt;/code&gt; to true (default is false).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Introducing a new capability for executing &lt;a data-linked-resource-id="3827105794" data-linked-resource-type="page" data-linked-resource-version="17" href="https://docs.mend.io/integrations/latest/scan-customization-in-mend-for-github-enterprise"&gt;custom pre-scan scripts&lt;/a&gt;, enabling users to prepare the environment or perform setup tasks before scanning.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Fixed an issue where system memory was unnecessarily seized by the Gradle daemon after executing a Gradle script during a scan. Memory handling has been improved for increased efficiency.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;(SAST)&lt;/strong&gt; Fixed a bug in the proxy configuration of the repository integration which erroneously led to SAST scans not being triggered and a message about incorrect SAST credentials.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Fixed an issue where Pull Requests were created with First Fix &lt;a data-linked-resource-id="3328737286" data-linked-resource-type="page" data-linked-resource-version="17" href="https://docs.mend.io/platform/latest/remediation-strategies-in-mend-sca"&gt;remediation strategy suggestions&lt;/a&gt; instead of Least Vulnerable Package.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
     <link href="https://docs.mend.io/integrations/latest/mend-for-github-enterprise-release-notes"/>
-    <published>2025-08-24T00:00:00+00:00</published>
+    <published>2025-09-14T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-github-com-release-notes</id>
-    <title>Mend for GitHub.com: Version 25.8.2 (07-September-2025)</title>
-    <updated>2025-09-16T13:45:06.258351+00:00</updated>
+    <title>Mend for GitHub.com: Version 25.8.2.1 (14-September-2025) (Hotfix)</title>
+    <updated>2025-09-22T13:46:14.200656+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
-    <content type="html">&lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Fixed a bug where a scan was able to be triggered before the .whitesource file was present in the repository.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;(SAST)&lt;/strong&gt; Fixed an issue where the &lt;code&gt;noDefaultExclusions&lt;/code&gt; setting in the &lt;code&gt;.mendsastcli-config.json&lt;/code&gt; configuration file, used for ignoring predefined exclusions, was ineffective, leading to predefined exclusions not being ignored.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Fixed an issue where Pull Requests were created with First Fix &lt;a data-linked-resource-id="3328737286" data-linked-resource-type="page" data-linked-resource-version="17" href="https://docs.mend.io/platform/latest/remediation-strategies-in-mend-sca"&gt;remediation strategy suggestions&lt;/a&gt; instead of Least Vulnerable Package.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
     <link href="https://docs.mend.io/integrations/latest/mend-for-github-com-release-notes"/>
-    <published>2025-09-07T00:00:00+00:00</published>
+    <published>2025-09-14T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-developer-platform-release-notes</id>
     <title>Mend Developer Platform: Version 25.8.2 (07-September-2025)</title>
-    <updated>2025-09-16T13:45:06.258343+00:00</updated>
+    <updated>2025-09-22T13:46:14.200648+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -80,7 +80,7 @@
   <entry>
     <id>https://docs.mend.io/legacy-sca/latest/mend-unified-agent-release-notes</id>
     <title>Mend Unified Agent: Version 25.8.2 (08-September-2025)</title>
-    <updated>2025-09-16T13:45:06.258335+00:00</updated>
+    <updated>2025-09-22T13:46:14.200640+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -91,7 +91,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-cli-release-notes</id>
     <title>Mend CLI: Version 25.8.2 (08-September-2025)</title>
-    <updated>2025-09-16T13:45:06.258327+00:00</updated>
+    <updated>2025-09-22T13:46:14.200632+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -102,7 +102,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-ai-release-notes</id>
     <title>Mend AI: Version 25.8.2 (07-September-2025)</title>
-    <updated>2025-09-16T13:45:06.258318+00:00</updated>
+    <updated>2025-09-22T13:46:14.200622+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -113,7 +113,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-container-release-notes</id>
     <title>Mend Container: Version 25.8.2 (07-September-2025)</title>
-    <updated>2025-09-16T13:45:06.258307+00:00</updated>
+    <updated>2025-09-22T13:46:14.200613+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -123,19 +123,19 @@
   </entry>
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-sast-release-notes</id>
-    <title>Mend SAST: Version 25.8.2 (08-September-2025)</title>
-    <updated>2025-09-16T13:45:06.258295+00:00</updated>
+    <title>Mend SAST: Version 25.8.2-HF1 (14-September-2025)</title>
+    <updated>2025-09-22T13:46:14.200601+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
-    <content type="html">&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Introduced the capability to scan AI-generated code within &lt;a data-linked-resource-id="3846111233" data-linked-resource-type="page" data-linked-resource-version="5" href="https://docs.mend.io/integrations/latest/mend-security-assistant-mcp-for-windsurf-ide"&gt;Windsurf&lt;/a&gt;. This offering allows developers to maintain secure coding practices seamlessly within their existing workflow, ensuring code safety without interruption and building greater trust in generated outputs.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Improved the performance of processing incremental dumps for PHP.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Deep links to findings are now based on the finding UUID, ensuring that the link points to the current state of the finding and making it easier to create deep links based on report outputs from the Mend CLI.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Under some conditions, the file timeout was not applied when scanning PHP files. This has been resolved, preventing scans from hanging.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;In case of a false-positive finding, trying to apply automated remediation suggestions just added white spaces. This has been adjusted so proper error messages will be displayed in such cases.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Addressed an issue where execution of C/C++ analysis failed on MacOS with Intel x86 architecture because of a missing library.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Improved the performance of PHP analysis, especially when processing large PHP files.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
     <link href="https://docs.mend.io/platform/latest/mend-sast-release-notes"/>
-    <published>2025-09-08T00:00:00+00:00</published>
+    <published>2025-09-14T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-sca-release-notes</id>
     <title>Mend SCA: Version 25.8.2 (07-September-2025)</title>
-    <updated>2025-09-16T13:45:06.258278+00:00</updated>
+    <updated>2025-09-22T13:46:14.200584+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -146,7 +146,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-platform-release-notes</id>
     <title>Mend AppSec Platform: Version 25.8.2 (07-September-2025)</title>
-    <updated>2025-09-16T13:45:06.258251+00:00</updated>
+    <updated>2025-09-22T13:46:14.200557+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>

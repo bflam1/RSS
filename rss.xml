@@ -7,13 +7,13 @@
     <atom:link href="https://bflam1.github.io/RSS/atom.xml" rel="self"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 16 Sep 2025 10:08:45 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 22 Sep 2025 08:06:19 +0000</lastBuildDate>
     <item>
-      <title>mend Renovate: 41.115.2</title>
-      <link>https://github.com/renovatebot/renovate/releases/tag/41.115.2</link>
+      <title>mend Renovate: 41.123.0</title>
+      <link>https://github.com/renovatebot/renovate/releases/tag/41.123.0</link>
       <description>&lt;p&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://github.com/renovatebot/renovate/releases/tag/41.115.2</guid>
-      <pubDate>Tue, 16 Sep 2025 10:08:45 +0000</pubDate>
+      <guid isPermaLink="false">https://github.com/renovatebot/renovate/releases/tag/41.123.0</guid>
+      <pubDate>Mon, 22 Sep 2025 08:06:19 +0000</pubDate>
     </item>
     <item>
       <title>Mend for Bitbucket DC: Version 25.8.1.1 (24-August-2025)</title>
@@ -30,18 +30,18 @@
       <pubDate>Sun, 24 Aug 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Mend for GitHub Enterprise: Version 25.8.1.1 (24-August-2025)</title>
+      <title>Mend for GitHub Enterprise: Version 25.8.1.4 (14-September-2025) (Hotfix)</title>
       <link>https://docs.mend.io/integrations/latest/mend-for-github-enterprise-release-notes</link>
-      <description>&lt;p&gt;Unified Agent 25.4.3-179 | &lt;a class="external-link" href="https://github.com/renovatebot/renovate/releases/tag/41.71.1" rel="nofollow" shape="rect"&gt;Renovate 41.71.1&lt;/a&gt; | Remediate 25.8.1 | Pre-Scan Builder (PSB) 25.8.1&lt;/p&gt;&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;The &lt;a data-linked-resource-id="3328737286" data-linked-resource-type="page" data-linked-resource-version="17" href="https://docs.mend.io/platform/latest/remediation-strategies-in-mend-sca#First-Fix"&gt;First Fix remediation strategy&lt;/a&gt; is now available for Python in self-hosted repository integrations. Enable by setting the environment variable &lt;code&gt;MEND_PYTHON_FIRSTFIX_ENABLED&lt;/code&gt; to true (default is false).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Introducing a new capability for executing &lt;a data-linked-resource-id="3827105794" data-linked-resource-type="page" data-linked-resource-version="17" href="https://docs.mend.io/integrations/latest/scan-customization-in-mend-for-github-enterprise"&gt;custom pre-scan scripts&lt;/a&gt;, enabling users to prepare the environment or perform setup tasks before scanning.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Fixed an issue where system memory was unnecessarily seized by the Gradle daemon after executing a Gradle script during a scan. Memory handling has been improved for increased efficiency.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;(SAST)&lt;/strong&gt; Fixed a bug in the proxy configuration of the repository integration which erroneously led to SAST scans not being triggered and a message about incorrect SAST credentials.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Fixed an issue where Pull Requests were created with First Fix &lt;a data-linked-resource-id="3328737286" data-linked-resource-type="page" data-linked-resource-version="17" href="https://docs.mend.io/platform/latest/remediation-strategies-in-mend-sca"&gt;remediation strategy suggestions&lt;/a&gt; instead of Least Vulnerable Package.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://docs.mend.io/integrations/latest/mend-for-github-enterprise-release-notes</guid>
-      <pubDate>Sun, 24 Aug 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 14 Sep 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Mend for GitHub.com: Version 25.8.2 (07-September-2025)</title>
+      <title>Mend for GitHub.com: Version 25.8.2.1 (14-September-2025) (Hotfix)</title>
       <link>https://docs.mend.io/integrations/latest/mend-for-github-com-release-notes</link>
-      <description>&lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Fixed a bug where a scan was able to be triggered before the .whitesource file was present in the repository.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;(SAST)&lt;/strong&gt; Fixed an issue where the &lt;code&gt;noDefaultExclusions&lt;/code&gt; setting in the &lt;code&gt;.mendsastcli-config.json&lt;/code&gt; configuration file, used for ignoring predefined exclusions, was ineffective, leading to predefined exclusions not being ignored.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Fixed an issue where Pull Requests were created with First Fix &lt;a data-linked-resource-id="3328737286" data-linked-resource-type="page" data-linked-resource-version="17" href="https://docs.mend.io/platform/latest/remediation-strategies-in-mend-sca"&gt;remediation strategy suggestions&lt;/a&gt; instead of Least Vulnerable Package.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://docs.mend.io/integrations/latest/mend-for-github-com-release-notes</guid>
-      <pubDate>Sun, 07 Sep 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 14 Sep 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Mend Developer Platform: Version 25.8.2 (07-September-2025)</title>
@@ -79,11 +79,11 @@
       <pubDate>Sun, 07 Sep 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Mend SAST: Version 25.8.2 (08-September-2025)</title>
+      <title>Mend SAST: Version 25.8.2-HF1 (14-September-2025)</title>
       <link>https://docs.mend.io/platform/latest/mend-sast-release-notes</link>
-      <description>&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Introduced the capability to scan AI-generated code within &lt;a data-linked-resource-id="3846111233" data-linked-resource-type="page" data-linked-resource-version="5" href="https://docs.mend.io/integrations/latest/mend-security-assistant-mcp-for-windsurf-ide"&gt;Windsurf&lt;/a&gt;. This offering allows developers to maintain secure coding practices seamlessly within their existing workflow, ensuring code safety without interruption and building greater trust in generated outputs.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Improved the performance of processing incremental dumps for PHP.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Deep links to findings are now based on the finding UUID, ensuring that the link points to the current state of the finding and making it easier to create deep links based on report outputs from the Mend CLI.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Under some conditions, the file timeout was not applied when scanning PHP files. This has been resolved, preventing scans from hanging.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;In case of a false-positive finding, trying to apply automated remediation suggestions just added white spaces. This has been adjusted so proper error messages will be displayed in such cases.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Addressed an issue where execution of C/C++ analysis failed on MacOS with Intel x86 architecture because of a missing library.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Improved the performance of PHP analysis, especially when processing large PHP files.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://docs.mend.io/platform/latest/mend-sast-release-notes</guid>
-      <pubDate>Mon, 08 Sep 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 14 Sep 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Mend SCA: Version 25.8.2 (07-September-2025)</title>
