@@ -7,13 +7,13 @@
     <atom:link href="https://bflam1.github.io/RSS/atom.xml" rel="self"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 23 Sep 2025 07:24:53 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 29 Sep 2025 10:50:56 +0000</lastBuildDate>
     <item>
-      <title>mend Renovate: 41.125.3</title>
-      <link>https://github.com/renovatebot/renovate/releases/tag/41.125.3</link>
+      <title>mend Renovate: 41.131.12</title>
+      <link>https://github.com/renovatebot/renovate/releases/tag/41.131.12</link>
       <description>&lt;p&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://github.com/renovatebot/renovate/releases/tag/41.125.3</guid>
-      <pubDate>Tue, 23 Sep 2025 07:24:53 +0000</pubDate>
+      <guid isPermaLink="false">https://github.com/renovatebot/renovate/releases/tag/41.131.12</guid>
+      <pubDate>Mon, 29 Sep 2025 10:50:56 +0000</pubDate>
     </item>
     <item>
       <title>Mend for Bitbucket DC: Version 25.8.1.1 (24-August-2025)</title>
@@ -37,18 +37,18 @@
       <pubDate>Sun, 14 Sep 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Mend for GitHub.com: Version 25.8.2.1 (14-September-2025) (Hotfix)</title>
+      <title>Mend for GitHub.com: Version 25.9.1 (28-September-2025)</title>
       <link>https://docs.mend.io/integrations/latest/mend-for-github-com-release-notes</link>
-      <description>&lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Fixed an issue where Pull Requests were created with First Fix &lt;a data-linked-resource-id="3328737286" data-linked-resource-type="page" data-linked-resource-version="17" href="https://docs.mend.io/platform/latest/remediation-strategies-in-mend-sca"&gt;remediation strategy suggestions&lt;/a&gt; instead of Least Vulnerable Package.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;If &lt;a data-linked-resource-id="2698314376" data-linked-resource-type="page" data-linked-resource-version="14" href="https://docs.mend.io/integrations/latest/least-vulnerable-packages-feature"&gt;LVP&lt;/a&gt; (Least Vulnerable Package) remediation strategy is enabled, the security check will show the suggested fix accordingly.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Security check run table improvements: Easier to see if the vulnerability and suggested fix are reported on a direct dependency or a transitive one.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://docs.mend.io/integrations/latest/mend-for-github-com-release-notes</guid>
-      <pubDate>Sun, 14 Sep 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 28 Sep 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Mend Developer Platform: Version 25.8.2 (07-September-2025)</title>
+      <title>Mend Developer Platform: Version 25.9.1 (28-September-2025)</title>
       <link>https://docs.mend.io/integrations/latest/mend-developer-platform-release-notes</link>
-      <description>&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Improved log-in behavior: Users who are logged out and attempt to navigate to specific Developer Platform pages will now be redirected to their requested URL after logging in.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;The Developer Platform API now enables using PUT requests to create and replace org/repo secrets, instead of just replace.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Fixed a bug in the workspace rotation feature where valid tokens were being treated as insufficient.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+      <description>&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;(Closed Beta)&lt;/strong&gt; The Mend Developer Platform for GitHub is now available as a closed beta.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://docs.mend.io/integrations/latest/mend-developer-platform-release-notes</guid>
-      <pubDate>Sun, 07 Sep 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 28 Sep 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Mend Unified Agent: Version 25.8.2 (08-September-2025)</title>
@@ -65,32 +65,32 @@
       <pubDate>Mon, 08 Sep 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Mend AI: Version 25.8.2 (07-September-2025)</title>
+      <title>Mend AI: Version 25.9.1 (28-September-2025)</title>
       <link>https://docs.mend.io/platform/latest/mend-ai-release-notes</link>
-      <description>&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;(Premium)&lt;/strong&gt; Introducing a centralized &lt;a data-linked-resource-id="3806789636" data-linked-resource-type="page" data-linked-resource-version="11" href="https://docs.mend.io/platform/latest/ai-security-dashboard"&gt;dashboard&lt;/a&gt; for security managers to visualize and manage AI security risks. Gain single-view risk assessments, prioritize vulnerability remediation, and track security metrics. Components include AI and project widgets, with enhancements for seamless navigation and detailed risk insights.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;(Premium)&lt;/strong&gt; Academic security findings are now integrated into the &lt;a data-linked-resource-id="3310518273" data-linked-resource-type="page" data-linked-resource-version="27" href="https://docs.mend.io/platform/latest/discovery-of-third-party-ai-models-and-providers"&gt;AI Models&lt;/a&gt; table, offering users immediate visibility of model-specific vulnerabilities. This enhancement supports proactive risk assessment, seamless workflow integration, and provides detailed contextual insights, while maintaining existing navigation patterns and preparing for future integration of additional security intelligence sources.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;(Premium)&lt;/strong&gt; Added an AI Security Findings column to Projects and Applications tables showing severity distribution (Critical/High/Medium/Low). One-click drill-down opens the AI Models view for the selected item to accelerate investigation.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;(Premium)&lt;/strong&gt; Introducing a Severity Distribution widget that summarizes AI security findings by severity. Clicking a severity opens the Projects view pre-filtered and sorted to highlight the most impacted projects for fast triage.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Added a side panel in the AI Technologies table that shows the full list of related AI libraries and details without truncation, enabling faster review and decision making.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Mend AI now offers comprehensive organizational reporting, enabling enterprises to generate standardized AI inventory and findings reports filtered by AI system labels. This feature matches the enterprise-grade reporting maturity of Mend SCA, supporting compliance, audit, and executive reporting for AI governance.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Added the option to configure Behavioral Risk targets with &lt;a data-linked-resource-id="3519447827" data-linked-resource-type="page" data-linked-resource-version="6" href="https://docs.mend.io/platform/latest/create-target#Target-Configuration"&gt;&lt;u&gt;predefined responses&lt;/u&gt;&lt;/a&gt; expected by the target in specific scenarios. If the systems actual response matches a predefined response during an adversarial testing scenario, the test case is marked as passed.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://docs.mend.io/platform/latest/mend-ai-release-notes</guid>
-      <pubDate>Sun, 07 Sep 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 28 Sep 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Mend Container: Version 25.8.2 (07-September-2025)</title>
+      <title>Mend Container: Version 25.9.1 (28-September-2025)</title>
       <link>https://docs.mend.io/platform/latest/mend-container-release-notes</link>
-      <description>&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Microsoft AKS container scanning is now supported in the Mend AI Native AppSec Platform.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;A new &lt;a data-linked-resource-id="2932080641" data-linked-resource-type="page" data-linked-resource-version="27" href="https://docs.mend.io/platform/latest/kubernetes-integrations-in-mend-container"&gt;Kubernetes Integration&lt;/a&gt; is available for &lt;a data-linked-resource-id="3842899976" data-linked-resource-type="page" data-linked-resource-version="4" href="https://docs.mend.io/platform/latest/kubernetes-integration-for-microsoft-aks"&gt;Microsoft Azure Kubernetes Service (AKS)&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;The &lt;a data-linked-resource-id="3153494606" data-linked-resource-type="page" data-linked-resource-version="3" href="https://docs.mend.io/platform/latest/the-container-image-sbom-report"&gt;Container SBOM report&lt;/a&gt; can now be exported in the CycloneDX 1.6 format.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Introducing &lt;a data-linked-resource-id="3854925841" data-linked-resource-type="page" data-linked-resource-version="1" href="https://docs.mend.io/platform/latest/mend-container-support-matrix"&gt;Wolfi distribution support&lt;/a&gt; for Mend Container.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://docs.mend.io/platform/latest/mend-container-release-notes</guid>
-      <pubDate>Sun, 07 Sep 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 28 Sep 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Mend SAST: Version 25.8.2-HF1 (14-September-2025)</title>
+      <title>Mend SAST: Version 25.9.1 (29-September-2025)</title>
       <link>https://docs.mend.io/platform/latest/mend-sast-release-notes</link>
-      <description>&lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Addressed an issue where execution of C/C++ analysis failed on MacOS with Intel x86 architecture because of a missing library.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Improved the performance of PHP analysis, especially when processing large PHP files.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;All &lt;a data-linked-resource-id="3869310997" data-linked-resource-type="page" data-linked-resource-version="3" href="https://docs.mend.io/platform/latest/data-encryption-configuration-guide"&gt;code snippets are encrypted&lt;/a&gt; by default, to strengthen security and prevent unauthorized access. However, now customers may provide their own encryption key via a new API endpoint.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Security improvements: Multiple core libraries have been updated to their latest secure versions.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Fixed an issue where the analysis depth was sometimes overly restricted. This could lead to inconsistencies between incremental and full scans, especially in &lt;a data-linked-resource-id="2868707330" data-linked-resource-type="page" data-linked-resource-version="32" href="https://docs.mend.io/platform/latest/create-code-scan-configurations-per-project#Scan-Profile"&gt;Fast Scan mode&lt;/a&gt;. With this fix, scan results are now more consistent across modes, and in some cases additional findings may be reported.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://docs.mend.io/platform/latest/mend-sast-release-notes</guid>
-      <pubDate>Sun, 14 Sep 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 29 Sep 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Mend SCA: Version 25.8.2 (07-September-2025)</title>
+      <title>Mend SCA: Version 25.9.1 (28-September-2025)</title>
       <link>https://docs.mend.io/platform/latest/mend-sca-release-notes</link>
-      <description>&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Introducing three new SCA conditions for enhanced &lt;a data-linked-resource-id="2705588276" data-linked-resource-type="page" data-linked-resource-version="26" href="https://docs.mend.io/platform/latest/automate-your-workflows-in-the-mend-platform"&gt;workflows&lt;/a&gt;:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Trigger actions for direct dependencies.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Detect components with multiple licenses to manage compliance risks.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Prioritize vulnerabilities with publicly available exploits for remediation.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Users can now group findings in the Findings tab within the &lt;a data-linked-resource-id="3529867268" data-linked-resource-type="page" data-linked-resource-version="12" href="https://docs.mend.io/platform/latest/the-findings-table#Direct-Library-Side-Panel"&gt;Direct Library side-panel&lt;/a&gt;. This feature enables better analysis of violations by organizing data into collapsible/expandable Library Rows, displaying aggregated information and individual CVE details efficiently.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Introducing significant &lt;a data-linked-resource-id="3162177537" data-linked-resource-type="page" data-linked-resource-version="8" href="https://docs.mend.io/platform/latest/update-a-project-using-an-sbom-import"&gt;SBOM&lt;/a&gt; enhancements: &lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Users can now import Syft and Dependency Track-generated SBOMs.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;The CycloneDX 1.6 format is now supported, both import and export.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Improved error handling for SBOM imports.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Improved Maven matches when importing an SBOM.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Improved reliability and accuracy of npm package resolution.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://docs.mend.io/platform/latest/mend-sca-release-notes</guid>
-      <pubDate>Sun, 07 Sep 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 28 Sep 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Mend AppSec Platform: Version 25.8.2 (07-September-2025)</title>
