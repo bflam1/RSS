@@ -7,13 +7,13 @@
     <atom:link href="https://bflam1.github.io/RSS/atom.xml" rel="self"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 29 Sep 2025 10:50:56 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 30 Sep 2025 11:43:51 +0000</lastBuildDate>
     <item>
-      <title>mend Renovate: 41.131.12</title>
-      <link>https://github.com/renovatebot/renovate/releases/tag/41.131.12</link>
+      <title>mend Renovate: 41.132.3</title>
+      <link>https://github.com/renovatebot/renovate/releases/tag/41.132.3</link>
       <description>&lt;p&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://github.com/renovatebot/renovate/releases/tag/41.131.12</guid>
-      <pubDate>Mon, 29 Sep 2025 10:50:56 +0000</pubDate>
+      <guid isPermaLink="false">https://github.com/renovatebot/renovate/releases/tag/41.132.3</guid>
+      <pubDate>Tue, 30 Sep 2025 11:43:51 +0000</pubDate>
     </item>
     <item>
       <title>Mend for Bitbucket DC: Version 25.8.1.1 (24-August-2025)</title>
@@ -65,11 +65,11 @@
       <pubDate>Mon, 08 Sep 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Mend AI: Version 25.9.1 (28-September-2025)</title>
+      <title>Mend AI: Version 25.9.1.1 (30-September-2025)</title>
       <link>https://docs.mend.io/platform/latest/mend-ai-release-notes</link>
-      <description>&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Mend AI now offers comprehensive organizational reporting, enabling enterprises to generate standardized AI inventory and findings reports filtered by AI system labels. This feature matches the enterprise-grade reporting maturity of Mend SCA, supporting compliance, audit, and executive reporting for AI governance.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Added the option to configure Behavioral Risk targets with &lt;a data-linked-resource-id="3519447827" data-linked-resource-type="page" data-linked-resource-version="6" href="https://docs.mend.io/platform/latest/create-target#Target-Configuration"&gt;&lt;u&gt;predefined responses&lt;/u&gt;&lt;/a&gt; expected by the target in specific scenarios. If the systems actual response matches a predefined response during an adversarial testing scenario, the test case is marked as passed.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;(Premium)&lt;/strong&gt; Introducing two new API endpoints for listing AI components and findings:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;GET /api/v3.0/projects/{projectUuid}/ai/model/findings/security&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;GET /api/v3.0/applications/{applicationUuid}/ai/model/findings/security&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;The models endpoint in the &lt;a class="external-link" href="https://api-docs.mend.io/platform/3.0/findings-project" rel="nofollow" shape="rect"&gt;&lt;u&gt;Findings - Project&lt;/u&gt;&lt;/a&gt; API now contains additional fields, aligning with the data available in the AI Models page of the Mend AI Native AppSec Platform UI.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://docs.mend.io/platform/latest/mend-ai-release-notes</guid>
-      <pubDate>Sun, 28 Sep 2025 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Mend Container: Version 25.9.1 (28-September-2025)</title>
