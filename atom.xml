@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://bflam1.github.io/RSS/atom.xml</id>
   <title>Mend.io Unified Release Notes</title>
-  <updated>2025-09-30T11:43:51+00:00</updated>
+  <updated>2025-10-06T12:37:31+00:00</updated>
   <author>
     <name>Mend Release Bot</name>
     <email>noreply@bflam1.github.io</email>
@@ -12,20 +12,20 @@
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>Aggregated RSS, Atom, and HTML of all Mend release notes.</subtitle>
   <entry>
-    <id>https://github.com/renovatebot/renovate/releases/tag/41.132.3</id>
-    <title>mend Renovate: 41.132.3</title>
-    <updated>2025-09-30T13:45:51.324204+00:00</updated>
+    <id>https://github.com/renovatebot/renovate/releases/tag/41.136.0</id>
+    <title>mend Renovate: 41.136.0</title>
+    <updated>2025-10-06T13:46:21.775495+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
     <content type="html">&lt;p&gt;&lt;/p&gt;</content>
-    <link href="https://github.com/renovatebot/renovate/releases/tag/41.132.3"/>
-    <published>2025-09-30T11:43:51+00:00</published>
+    <link href="https://github.com/renovatebot/renovate/releases/tag/41.136.0"/>
+    <published>2025-10-06T12:37:31+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-bitbucket-data-center-release-notes</id>
     <title>Mend for Bitbucket DC: Version 25.8.1.1 (24-August-2025)</title>
-    <updated>2025-09-30T13:45:51.324197+00:00</updated>
+    <updated>2025-10-06T13:46:21.775487+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -36,7 +36,7 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-gitlab-release-notes</id>
     <title>Mend for GitLab: Version 25.8.1.1 (24-August-2025)</title>
-    <updated>2025-09-30T13:45:51.324191+00:00</updated>
+    <updated>2025-10-06T13:46:21.775479+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -47,7 +47,7 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-github-enterprise-release-notes</id>
     <title>Mend for GitHub Enterprise: Version 25.8.1.4 (14-September-2025) (Hotfix)</title>
-    <updated>2025-09-30T13:45:51.324184+00:00</updated>
+    <updated>2025-10-06T13:46:21.775471+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -58,7 +58,7 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-github-com-release-notes</id>
     <title>Mend for GitHub.com: Version 25.9.1 (28-September-2025)</title>
-    <updated>2025-09-30T13:45:51.324177+00:00</updated>
+    <updated>2025-10-06T13:46:21.775463+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -69,7 +69,7 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-developer-platform-release-notes</id>
     <title>Mend Developer Platform: Version 25.9.1 (28-September-2025)</title>
-    <updated>2025-09-30T13:45:51.324170+00:00</updated>
+    <updated>2025-10-06T13:46:21.775455+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -80,7 +80,7 @@
   <entry>
     <id>https://docs.mend.io/legacy-sca/latest/mend-unified-agent-release-notes</id>
     <title>Mend Unified Agent: Version 25.8.2 (08-September-2025)</title>
-    <updated>2025-09-30T13:45:51.324163+00:00</updated>
+    <updated>2025-10-06T13:46:21.775447+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -91,7 +91,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-cli-release-notes</id>
     <title>Mend CLI: Version 25.8.2 (08-September-2025)</title>
-    <updated>2025-09-30T13:45:51.324157+00:00</updated>
+    <updated>2025-10-06T13:46:21.775439+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -101,19 +101,19 @@
   </entry>
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-ai-release-notes</id>
-    <title>Mend AI: Version 25.9.1.1 (30-September-2025)</title>
-    <updated>2025-09-30T13:45:51.324148+00:00</updated>
+    <title>Mend AI: Version 25.9.1.2 (05-October-2025)</title>
+    <updated>2025-10-06T13:46:21.775430+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
-    <content type="html">&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;(Premium)&lt;/strong&gt; Introducing two new API endpoints for listing AI components and findings:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;GET /api/v3.0/projects/{projectUuid}/ai/model/findings/security&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;GET /api/v3.0/applications/{applicationUuid}/ai/model/findings/security&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;The models endpoint in the &lt;a class="external-link" href="https://api-docs.mend.io/platform/3.0/findings-project" rel="nofollow" shape="rect"&gt;&lt;u&gt;Findings - Project&lt;/u&gt;&lt;/a&gt; API now contains additional fields, aligning with the data available in the AI Models page of the Mend AI Native AppSec Platform UI.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+    <content type="html">&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;(Premium)&lt;/strong&gt; Redesigned the scores on the &lt;a data-linked-resource-id="3519448467" data-linked-resource-type="page" data-linked-resource-version="5" href="https://docs.mend.io/platform/latest/overview-page"&gt;Overview page&lt;/a&gt; of the &lt;a data-linked-resource-id="3519447774" data-linked-resource-type="page" data-linked-resource-version="6" href="https://docs.mend.io/platform/latest/behavioral-risks-red-teaming-in-mend-ai"&gt;Behavioral Risks (Red-Teaming)&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;(Premium)&lt;/strong&gt; Fixed an issue encountered while trying to undo a mitigation fix for red-teaming, followed by the An error occurred while trying to change task status error message.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;(Premium)&lt;/strong&gt; Fixed an inconsistency in the risk surface scores of &lt;a data-linked-resource-id="3519447774" data-linked-resource-type="page" data-linked-resource-version="6" href="https://docs.mend.io/platform/latest/behavioral-risks-red-teaming-in-mend-ai"&gt;Behavioral Risks (Red-Teaming)&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
     <link href="https://docs.mend.io/platform/latest/mend-ai-release-notes"/>
-    <published>2025-09-30T00:00:00+00:00</published>
+    <published>2025-10-05T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-container-release-notes</id>
     <title>Mend Container: Version 25.9.1 (28-September-2025)</title>
-    <updated>2025-09-30T13:45:51.324139+00:00</updated>
+    <updated>2025-10-06T13:46:21.775420+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -124,18 +124,18 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-sast-release-notes</id>
     <title>Mend SAST: Version 25.9.1 (29-September-2025)</title>
-    <updated>2025-09-30T13:45:51.324129+00:00</updated>
+    <updated>2025-10-06T13:46:21.775408+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
-    <content type="html">&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;All &lt;a data-linked-resource-id="3869310997" data-linked-resource-type="page" data-linked-resource-version="3" href="https://docs.mend.io/platform/latest/data-encryption-configuration-guide"&gt;code snippets are encrypted&lt;/a&gt; by default, to strengthen security and prevent unauthorized access. However, now customers may provide their own encryption key via a new API endpoint.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Security improvements: Multiple core libraries have been updated to their latest secure versions.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Fixed an issue where the analysis depth was sometimes overly restricted. This could lead to inconsistencies between incremental and full scans, especially in &lt;a data-linked-resource-id="2868707330" data-linked-resource-type="page" data-linked-resource-version="32" href="https://docs.mend.io/platform/latest/create-code-scan-configurations-per-project#Scan-Profile"&gt;Fast Scan mode&lt;/a&gt;. With this fix, scan results are now more consistent across modes, and in some cases additional findings may be reported.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+    <content type="html">&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;(Open Beta)&lt;/strong&gt; Mend SAST now supports Rust. Click &lt;a data-linked-resource-id="3876421687" data-linked-resource-type="page" data-linked-resource-version="6" href="https://docs.mend.io/platform/latest/rust-closed-beta"&gt;here&lt;/a&gt; to learn about the Rust coverage.  &lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;All &lt;a data-linked-resource-id="3869310997" data-linked-resource-type="page" data-linked-resource-version="3" href="https://docs.mend.io/platform/latest/data-encryption-configuration-guide"&gt;code snippets are encrypted&lt;/a&gt; by default, to strengthen security and prevent unauthorized access. However, now customers may provide their own encryption key via a new API endpoint.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Security improvements: Multiple core libraries have been updated to their latest secure versions.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Fixed an issue where the analysis depth was sometimes overly restricted. This could lead to inconsistencies between incremental and full scans, especially in &lt;a data-linked-resource-id="2868707330" data-linked-resource-type="page" data-linked-resource-version="32" href="https://docs.mend.io/platform/latest/create-code-scan-configurations-per-project#Scan-Profile"&gt;Fast Scan mode&lt;/a&gt;. With this fix, scan results are now more consistent across modes, and in some cases additional findings may be reported.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
     <link href="https://docs.mend.io/platform/latest/mend-sast-release-notes"/>
     <published>2025-09-29T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-sca-release-notes</id>
     <title>Mend SCA: Version 25.9.1 (28-September-2025)</title>
-    <updated>2025-09-30T13:45:51.324113+00:00</updated>
+    <updated>2025-10-06T13:46:21.775391+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -146,7 +146,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-platform-release-notes</id>
     <title>Mend AppSec Platform: Version 25.8.2 (07-September-2025)</title>
-    <updated>2025-09-30T13:45:51.324088+00:00</updated>
+    <updated>2025-10-06T13:46:21.775363+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>

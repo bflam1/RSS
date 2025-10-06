@@ -7,13 +7,13 @@
     <atom:link href="https://bflam1.github.io/RSS/atom.xml" rel="self"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 30 Sep 2025 11:43:51 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Oct 2025 12:37:31 +0000</lastBuildDate>
     <item>
-      <title>mend Renovate: 41.132.3</title>
-      <link>https://github.com/renovatebot/renovate/releases/tag/41.132.3</link>
+      <title>mend Renovate: 41.136.0</title>
+      <link>https://github.com/renovatebot/renovate/releases/tag/41.136.0</link>
       <description>&lt;p&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://github.com/renovatebot/renovate/releases/tag/41.132.3</guid>
-      <pubDate>Tue, 30 Sep 2025 11:43:51 +0000</pubDate>
+      <guid isPermaLink="false">https://github.com/renovatebot/renovate/releases/tag/41.136.0</guid>
+      <pubDate>Mon, 06 Oct 2025 12:37:31 +0000</pubDate>
     </item>
     <item>
       <title>Mend for Bitbucket DC: Version 25.8.1.1 (24-August-2025)</title>
@@ -65,11 +65,11 @@
       <pubDate>Mon, 08 Sep 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Mend AI: Version 25.9.1.1 (30-September-2025)</title>
+      <title>Mend AI: Version 25.9.1.2 (05-October-2025)</title>
       <link>https://docs.mend.io/platform/latest/mend-ai-release-notes</link>
-      <description>&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;(Premium)&lt;/strong&gt; Introducing two new API endpoints for listing AI components and findings:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;GET /api/v3.0/projects/{projectUuid}/ai/model/findings/security&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;GET /api/v3.0/applications/{applicationUuid}/ai/model/findings/security&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;The models endpoint in the &lt;a class="external-link" href="https://api-docs.mend.io/platform/3.0/findings-project" rel="nofollow" shape="rect"&gt;&lt;u&gt;Findings - Project&lt;/u&gt;&lt;/a&gt; API now contains additional fields, aligning with the data available in the AI Models page of the Mend AI Native AppSec Platform UI.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;(Premium)&lt;/strong&gt; Redesigned the scores on the &lt;a data-linked-resource-id="3519448467" data-linked-resource-type="page" data-linked-resource-version="5" href="https://docs.mend.io/platform/latest/overview-page"&gt;Overview page&lt;/a&gt; of the &lt;a data-linked-resource-id="3519447774" data-linked-resource-type="page" data-linked-resource-version="6" href="https://docs.mend.io/platform/latest/behavioral-risks-red-teaming-in-mend-ai"&gt;Behavioral Risks (Red-Teaming)&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;(Premium)&lt;/strong&gt; Fixed an issue encountered while trying to undo a mitigation fix for red-teaming, followed by the An error occurred while trying to change task status error message.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;(Premium)&lt;/strong&gt; Fixed an inconsistency in the risk surface scores of &lt;a data-linked-resource-id="3519447774" data-linked-resource-type="page" data-linked-resource-version="6" href="https://docs.mend.io/platform/latest/behavioral-risks-red-teaming-in-mend-ai"&gt;Behavioral Risks (Red-Teaming)&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://docs.mend.io/platform/latest/mend-ai-release-notes</guid>
-      <pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 05 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Mend Container: Version 25.9.1 (28-September-2025)</title>
@@ -81,7 +81,7 @@
     <item>
       <title>Mend SAST: Version 25.9.1 (29-September-2025)</title>
       <link>https://docs.mend.io/platform/latest/mend-sast-release-notes</link>
-      <description>&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;All &lt;a data-linked-resource-id="3869310997" data-linked-resource-type="page" data-linked-resource-version="3" href="https://docs.mend.io/platform/latest/data-encryption-configuration-guide"&gt;code snippets are encrypted&lt;/a&gt; by default, to strengthen security and prevent unauthorized access. However, now customers may provide their own encryption key via a new API endpoint.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Security improvements: Multiple core libraries have been updated to their latest secure versions.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Fixed an issue where the analysis depth was sometimes overly restricted. This could lead to inconsistencies between incremental and full scans, especially in &lt;a data-linked-resource-id="2868707330" data-linked-resource-type="page" data-linked-resource-version="32" href="https://docs.mend.io/platform/latest/create-code-scan-configurations-per-project#Scan-Profile"&gt;Fast Scan mode&lt;/a&gt;. With this fix, scan results are now more consistent across modes, and in some cases additional findings may be reported.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;(Open Beta)&lt;/strong&gt; Mend SAST now supports Rust. Click &lt;a data-linked-resource-id="3876421687" data-linked-resource-type="page" data-linked-resource-version="6" href="https://docs.mend.io/platform/latest/rust-closed-beta"&gt;here&lt;/a&gt; to learn about the Rust coverage.  &lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;All &lt;a data-linked-resource-id="3869310997" data-linked-resource-type="page" data-linked-resource-version="3" href="https://docs.mend.io/platform/latest/data-encryption-configuration-guide"&gt;code snippets are encrypted&lt;/a&gt; by default, to strengthen security and prevent unauthorized access. However, now customers may provide their own encryption key via a new API endpoint.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Security improvements: Multiple core libraries have been updated to their latest secure versions.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Fixed an issue where the analysis depth was sometimes overly restricted. This could lead to inconsistencies between incremental and full scans, especially in &lt;a data-linked-resource-id="2868707330" data-linked-resource-type="page" data-linked-resource-version="32" href="https://docs.mend.io/platform/latest/create-code-scan-configurations-per-project#Scan-Profile"&gt;Fast Scan mode&lt;/a&gt;. With this fix, scan results are now more consistent across modes, and in some cases additional findings may be reported.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://docs.mend.io/platform/latest/mend-sast-release-notes</guid>
       <pubDate>Mon, 29 Sep 2025 00:00:00 +0000</pubDate>
     </item>
