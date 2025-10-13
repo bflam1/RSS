@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://bflam1.github.io/RSS/atom.xml</id>
   <title>Mend.io Unified Release Notes</title>
-  <updated>2025-10-07T12:55:49+00:00</updated>
+  <updated>2025-10-13T11:19:12+00:00</updated>
   <author>
     <name>Mend Release Bot</name>
     <email>noreply@bflam1.github.io</email>
@@ -12,53 +12,53 @@
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>Aggregated RSS, Atom, and HTML of all Mend release notes.</subtitle>
   <entry>
-    <id>https://github.com/renovatebot/renovate/releases/tag/41.138.5</id>
-    <title>mend Renovate: 41.138.5</title>
-    <updated>2025-10-07T13:45:18.629142+00:00</updated>
+    <id>https://github.com/renovatebot/renovate/releases/tag/41.146.4</id>
+    <title>mend Renovate: 41.146.4</title>
+    <updated>2025-10-13T13:47:47.409764+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
     <content type="html">&lt;p&gt;&lt;/p&gt;</content>
-    <link href="https://github.com/renovatebot/renovate/releases/tag/41.138.5"/>
-    <published>2025-10-07T12:55:49+00:00</published>
+    <link href="https://github.com/renovatebot/renovate/releases/tag/41.146.4"/>
+    <published>2025-10-13T11:19:12+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-bitbucket-data-center-release-notes</id>
-    <title>Mend for Bitbucket DC: Version 25.8.1.1 (24-August-2025)</title>
-    <updated>2025-10-07T13:45:18.629133+00:00</updated>
+    <title>Mend for Bitbucket DC: Version 25.9.1.2 (08-October-2025)</title>
+    <updated>2025-10-13T13:47:47.409756+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
-    <content type="html">&lt;p&gt;Unified Agent 25.4.3-179 | &lt;a class="external-link" href="https://github.com/renovatebot/renovate/releases/tag/41.71.1" rel="nofollow" shape="rect"&gt;Renovate 41.71.1&lt;/a&gt; | Remediate 25.8.1 | Pre-Scan Builder (PSB) 25.8.1&lt;/p&gt;&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;The &lt;a data-linked-resource-id="3328737286" data-linked-resource-type="page" data-linked-resource-version="17" href="https://docs.mend.io/platform/latest/remediation-strategies-in-mend-sca#First-Fix"&gt;First Fix remediation strategy&lt;/a&gt; is now available for Python in self-hosted repository integrations. Enable by setting the environment variable &lt;code&gt;MEND_PYTHON_FIRSTFIX_ENABLED&lt;/code&gt; to true (default is false).&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+    <content type="html">&lt;p&gt;Unified Agent 25.7.2-196 | &lt;a class="external-link" href="https://github.com/renovatebot/renovate/releases/tag/41.97.10" rel="nofollow" shape="rect"&gt;&lt;u&gt;Renovate 41.97.10&lt;/u&gt;&lt;/a&gt; | Remediate 25.9.1 | Pre-Scan Builder (PSB) 25.8.1&lt;/p&gt;&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Introducing a new &lt;a data-linked-resource-id="2524153789" data-linked-resource-type="page" data-linked-resource-version="25" href="https://docs.mend.io/integrations/latest/api-calls"&gt;&lt;u&gt;API endpoint&lt;/u&gt;&lt;/a&gt; for retrieving the number of pending webhooks in the system. This addition provides visibility into the current webhook state and enables users to scale up/down based on webhook backlog.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
     <link href="https://docs.mend.io/integrations/latest/mend-for-bitbucket-data-center-release-notes"/>
-    <published>2025-08-24T00:00:00+00:00</published>
+    <published>2025-10-08T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-gitlab-release-notes</id>
-    <title>Mend for GitLab: Version 25.8.1.1 (24-August-2025)</title>
-    <updated>2025-10-07T13:45:18.629126+00:00</updated>
+    <title>Mend for GitLab: Version 25.9.1.2 (08-October-2025)</title>
+    <updated>2025-10-13T13:47:47.409748+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
-    <content type="html">&lt;p&gt;Unified Agent 25.4.3-179 | &lt;a class="external-link" href="https://github.com/renovatebot/renovate/releases/tag/41.71.1" rel="nofollow" shape="rect"&gt;Renovate 41.71.1&lt;/a&gt; | Remediate 25.8.1 | Pre-Scan Builder (PSB) 25.8.1&lt;/p&gt;&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;The &lt;a data-linked-resource-id="3328737286" data-linked-resource-type="page" data-linked-resource-version="17" href="https://docs.mend.io/platform/latest/remediation-strategies-in-mend-sca#First-Fix"&gt;First Fix remediation strategy&lt;/a&gt; is now available for Python in self-hosted repository integrations. Enable by setting the environment variable &lt;code&gt;MEND_PYTHON_FIRSTFIX_ENABLED&lt;/code&gt; to true (default is false).&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;(SAST)&lt;/strong&gt; Fixed a bug in the proxy configuration of the repository integration which erroneously led to SAST scans not being triggered and a message about incorrect SAST credentials.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+    <content type="html">&lt;p&gt;Unified Agent 25.7.2-196 | &lt;a class="external-link" href="https://github.com/renovatebot/renovate/releases/tag/41.97.10" rel="nofollow" shape="rect"&gt;&lt;u&gt;Renovate 41.97.10&lt;/u&gt;&lt;/a&gt; | Remediate 25.9.1 | Pre-Scan Builder (PSB) 25.8.1&lt;/p&gt;&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Introducing a new &lt;a data-linked-resource-id="2524153789" data-linked-resource-type="page" data-linked-resource-version="25" href="https://docs.mend.io/integrations/latest/api-calls"&gt;&lt;u&gt;API endpoint&lt;/u&gt;&lt;/a&gt; for retrieving the number of pending webhooks in the system. This addition provides visibility into the current webhook state and enables users to scale up/down based on webhook backlog.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
     <link href="https://docs.mend.io/integrations/latest/mend-for-gitlab-release-notes"/>
-    <published>2025-08-24T00:00:00+00:00</published>
+    <published>2025-10-08T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-github-enterprise-release-notes</id>
-    <title>Mend for GitHub Enterprise: Version 25.8.1.4 (14-September-2025) (Hotfix)</title>
-    <updated>2025-10-07T13:45:18.629118+00:00</updated>
+    <title>Mend for GitHub Enterprise: Version 25.9.1.2 (08-October-2025)</title>
+    <updated>2025-10-13T13:47:47.409740+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
-    <content type="html">&lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Fixed an issue where Pull Requests were created with First Fix &lt;a data-linked-resource-id="3328737286" data-linked-resource-type="page" data-linked-resource-version="17" href="https://docs.mend.io/platform/latest/remediation-strategies-in-mend-sca"&gt;remediation strategy suggestions&lt;/a&gt; instead of Least Vulnerable Package.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+    <content type="html">&lt;p&gt;Unified Agent 25.7.2-196 | &lt;a class="external-link" href="https://github.com/renovatebot/renovate/releases/tag/41.97.10" rel="nofollow" shape="rect"&gt;&lt;u&gt;Renovate 41.97.10&lt;/u&gt;&lt;/a&gt; | Remediate 25.9.1 | Pre-Scan Builder (PSB) 25.8.1&lt;/p&gt;&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;If &lt;a data-linked-resource-id="2698314376" data-linked-resource-type="page" data-linked-resource-version="14" href="https://docs.mend.io/integrations/latest/least-vulnerable-packages-feature"&gt;LVP&lt;/a&gt; (Least Vulnerable Package) remediation strategy is enabled, the security check will show the suggested fix accordingly.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Introducing a new &lt;a data-linked-resource-id="2524153789" data-linked-resource-type="page" data-linked-resource-version="25" href="https://docs.mend.io/integrations/latest/api-calls"&gt;API endpoint&lt;/a&gt; for retrieving the number of pending webhooks in the system. This addition provides visibility into the current webhook state and enables users to scale up/down based on webhook backlog.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Security check run table improvements: Easier to see if the vulnerability and suggested fix are reported on a direct dependency or a transitive one.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Fixed an issue where the scanner didnt respect proxy configuration in certain setups, leading to scan failure.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Upgraded PHP in the scanner to version 8.4.8, which is not susceptible to CVE-2024-4577 as some older PHP versions.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Fixed an issue where the scanner was creating root-owned files, leading to temporary directories not being deleted post-use, for improved housekeeping&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Fixed a bug where using the environment variable &lt;code&gt;MEND_GLOBAL_CUSTOMIZATION_REPO&lt;/code&gt; in the controller resulted in the error &lt;code&gt;Failed to get private key from key vault&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;(SAST)&lt;/strong&gt; Fixed an issue where the &lt;code&gt;noDefaultExclusions&lt;/code&gt; setting in the &lt;code&gt;.mendsastcli-config.json&lt;/code&gt; configuration file, used for ignoring predefined exclusions, was ineffective, leading to predefined exclusions not being ignored.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
     <link href="https://docs.mend.io/integrations/latest/mend-for-github-enterprise-release-notes"/>
-    <published>2025-09-14T00:00:00+00:00</published>
+    <published>2025-10-08T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-github-com-release-notes</id>
     <title>Mend for GitHub.com: Version 25.9.1 (28-September-2025)</title>
-    <updated>2025-10-07T13:45:18.629110+00:00</updated>
+    <updated>2025-10-13T13:47:47.409732+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -69,7 +69,7 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-developer-platform-release-notes</id>
     <title>Mend Developer Platform: Version 25.9.1 (28-September-2025)</title>
-    <updated>2025-10-07T13:45:18.629102+00:00</updated>
+    <updated>2025-10-13T13:47:47.409725+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -80,7 +80,7 @@
   <entry>
     <id>https://docs.mend.io/legacy-sca/latest/mend-unified-agent-release-notes</id>
     <title>Mend Unified Agent: Version 25.8.2 (08-September-2025)</title>
-    <updated>2025-10-07T13:45:18.629094+00:00</updated>
+    <updated>2025-10-13T13:47:47.409717+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -91,7 +91,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-cli-release-notes</id>
     <title>Mend CLI: Version 25.8.2 (08-September-2025)</title>
-    <updated>2025-10-07T13:45:18.629085+00:00</updated>
+    <updated>2025-10-13T13:47:47.409708+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -102,7 +102,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-ai-release-notes</id>
     <title>Mend AI: Version 25.9.1.2 (05-October-2025)</title>
-    <updated>2025-10-07T13:45:18.629076+00:00</updated>
+    <updated>2025-10-13T13:47:47.409699+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -113,7 +113,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-container-release-notes</id>
     <title>Mend Container: Version 25.9.1 (28-September-2025)</title>
-    <updated>2025-10-07T13:45:18.629066+00:00</updated>
+    <updated>2025-10-13T13:47:47.409690+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -124,7 +124,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-sast-release-notes</id>
     <title>Mend SAST: Version 25.9.1 (29-September-2025)</title>
-    <updated>2025-10-07T13:45:18.629054+00:00</updated>
+    <updated>2025-10-13T13:47:47.409678+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -135,18 +135,18 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-sca-release-notes</id>
     <title>Mend SCA: Version 25.9.1 (28-September-2025)</title>
-    <updated>2025-10-07T13:45:18.629037+00:00</updated>
+    <updated>2025-10-13T13:47:47.409660+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
-    <content type="html">&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Introducing significant &lt;a data-linked-resource-id="3162177537" data-linked-resource-type="page" data-linked-resource-version="8" href="https://docs.mend.io/platform/latest/update-a-project-using-an-sbom-import"&gt;SBOM&lt;/a&gt; enhancements: &lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Users can now import Syft and Dependency Track-generated SBOMs.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;The CycloneDX 1.6 format is now supported, both import and export.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Improved error handling for SBOM imports.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Improved Maven matches when importing an SBOM.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Improved reliability and accuracy of npm package resolution.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+    <content type="html">&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Introducing significant &lt;a data-linked-resource-id="3162177537" data-linked-resource-type="page" data-linked-resource-version="8" href="https://docs.mend.io/platform/latest/update-a-project-using-an-sbom-import"&gt;&lt;u&gt;SBOM&lt;/u&gt;&lt;/a&gt; enhancements:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Users can now import Syft, Dependency Track and self-generated SBOMs.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;The CycloneDX 1.6 format is now supported, both import and export.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Improved error handling for SBOM imports.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Improved Maven matches when importing an SBOM.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Improved reliability and accuracy of npm package resolution.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
     <link href="https://docs.mend.io/platform/latest/mend-sca-release-notes"/>
     <published>2025-09-28T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-platform-release-notes</id>
     <title>Mend AppSec Platform: Version 25.8.2 (07-September-2025)</title>
-    <updated>2025-10-07T13:45:18.629009+00:00</updated>
+    <updated>2025-10-13T13:47:47.409632+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>

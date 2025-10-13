@@ -15,7 +15,7 @@
   <section>
     <h2><a href="https://docs.mend.io/platform/latest/mend-sca-release-notes">Mend SCA: Version 25.9.1 (28-September-2025)</a></h2>
     <time datetime="2025-09-28T00:00:00+00:00">2025-09-28T00:00:00+00:00</time>
-    <p><strong>New Features and Updates</strong></p><ul><li><p>Introducing significant <a data-linked-resource-id="3162177537" data-linked-resource-type="page" data-linked-resource-version="8" href="https://docs.mend.io/platform/latest/update-a-project-using-an-sbom-import">SBOM</a> enhancements: </p><ul><li><p>Users can now import Syft and Dependency Track-generated SBOMs.</p></li><li><p>The CycloneDX 1.6 format is now supported, both import and export.</p></li><li><p>Improved error handling for SBOM imports.</p></li><li><p>Improved Maven matches when importing an SBOM.</p></li></ul></li><li><p>Improved reliability and accuracy of npm package resolution.</p></li></ul>
+    <p><strong>New Features and Updates</strong></p><ul><li><p>Introducing significant <a data-linked-resource-id="3162177537" data-linked-resource-type="page" data-linked-resource-version="8" href="https://docs.mend.io/platform/latest/update-a-project-using-an-sbom-import"><u>SBOM</u></a> enhancements:</p><ul><li><p>Users can now import Syft, Dependency Track and self-generated SBOMs.</p></li><li><p>The CycloneDX 1.6 format is now supported, both import and export.</p></li><li><p>Improved error handling for SBOM imports.</p></li><li><p>Improved Maven matches when importing an SBOM.</p></li></ul></li><li><p>Improved reliability and accuracy of npm package resolution.</p></li></ul>
   </section>
   <hr/>
   <section>
@@ -61,26 +61,26 @@
   </section>
   <hr/>
   <section>
-    <h2><a href="https://docs.mend.io/integrations/latest/mend-for-github-enterprise-release-notes">Mend for GitHub Enterprise: Version 25.8.1.4 (14-September-2025) (Hotfix)</a></h2>
-    <time datetime="2025-09-14T00:00:00+00:00">2025-09-14T00:00:00+00:00</time>
-    <p><strong>Resolved Issues</strong></p><ul><li><p>Fixed an issue where Pull Requests were created with First Fix <a data-linked-resource-id="3328737286" data-linked-resource-type="page" data-linked-resource-version="17" href="https://docs.mend.io/platform/latest/remediation-strategies-in-mend-sca">remediation strategy suggestions</a> instead of Least Vulnerable Package.</p></li></ul>
+    <h2><a href="https://docs.mend.io/integrations/latest/mend-for-github-enterprise-release-notes">Mend for GitHub Enterprise: Version 25.9.1.2 (08-October-2025)</a></h2>
+    <time datetime="2025-10-08T00:00:00+00:00">2025-10-08T00:00:00+00:00</time>
+    <p>Unified Agent 25.7.2-196 | <a class="external-link" href="https://github.com/renovatebot/renovate/releases/tag/41.97.10" rel="nofollow" shape="rect"><u>Renovate 41.97.10</u></a> | Remediate 25.9.1 | Pre-Scan Builder (PSB) 25.8.1</p><p><strong>New Features and Updates</strong></p><ul><li><p>If <a data-linked-resource-id="2698314376" data-linked-resource-type="page" data-linked-resource-version="14" href="https://docs.mend.io/integrations/latest/least-vulnerable-packages-feature">LVP</a> (Least Vulnerable Package) remediation strategy is enabled, the security check will show the suggested fix accordingly.</p></li><li><p>Introducing a new <a data-linked-resource-id="2524153789" data-linked-resource-type="page" data-linked-resource-version="25" href="https://docs.mend.io/integrations/latest/api-calls">API endpoint</a> for retrieving the number of pending webhooks in the system. This addition provides visibility into the current webhook state and enables users to scale up/down based on webhook backlog.</p></li><li><p>Security check run table improvements: Easier to see if the vulnerability and suggested fix are reported on a direct dependency or a transitive one.</p></li></ul><p><strong>Resolved Issues</strong></p><ul><li><p>Fixed an issue where the scanner didnt respect proxy configuration in certain setups, leading to scan failure.</p></li><li><p>Upgraded PHP in the scanner to version 8.4.8, which is not susceptible to CVE-2024-4577 as some older PHP versions.</p></li><li><p>Fixed an issue where the scanner was creating root-owned files, leading to temporary directories not being deleted post-use, for improved housekeeping</p></li><li><p>Fixed a bug where using the environment variable <code>MEND_GLOBAL_CUSTOMIZATION_REPO</code> in the controller resulted in the error <code>Failed to get private key from key vault</code>.</p></li><li><p><strong>(SAST)</strong> Fixed an issue where the <code>noDefaultExclusions</code> setting in the <code>.mendsastcli-config.json</code> configuration file, used for ignoring predefined exclusions, was ineffective, leading to predefined exclusions not being ignored.</p></li></ul>
   </section>
   <hr/>
   <section>
-    <h2><a href="https://docs.mend.io/integrations/latest/mend-for-gitlab-release-notes">Mend for GitLab: Version 25.8.1.1 (24-August-2025)</a></h2>
-    <time datetime="2025-08-24T00:00:00+00:00">2025-08-24T00:00:00+00:00</time>
-    <p>Unified Agent 25.4.3-179 | <a class="external-link" href="https://github.com/renovatebot/renovate/releases/tag/41.71.1" rel="nofollow" shape="rect">Renovate 41.71.1</a> | Remediate 25.8.1 | Pre-Scan Builder (PSB) 25.8.1</p><p><strong>New Features and Updates</strong></p><ul><li><p>The <a data-linked-resource-id="3328737286" data-linked-resource-type="page" data-linked-resource-version="17" href="https://docs.mend.io/platform/latest/remediation-strategies-in-mend-sca#First-Fix">First Fix remediation strategy</a> is now available for Python in self-hosted repository integrations. Enable by setting the environment variable <code>MEND_PYTHON_FIRSTFIX_ENABLED</code> to true (default is false).</p></li></ul><p><strong>Resolved Issues</strong></p><ul><li><p><strong>(SAST)</strong> Fixed a bug in the proxy configuration of the repository integration which erroneously led to SAST scans not being triggered and a message about incorrect SAST credentials.</p></li></ul>
+    <h2><a href="https://docs.mend.io/integrations/latest/mend-for-gitlab-release-notes">Mend for GitLab: Version 25.9.1.2 (08-October-2025)</a></h2>
+    <time datetime="2025-10-08T00:00:00+00:00">2025-10-08T00:00:00+00:00</time>
+    <p>Unified Agent 25.7.2-196 | <a class="external-link" href="https://github.com/renovatebot/renovate/releases/tag/41.97.10" rel="nofollow" shape="rect"><u>Renovate 41.97.10</u></a> | Remediate 25.9.1 | Pre-Scan Builder (PSB) 25.8.1</p><p><strong>New Features and Updates</strong></p><ul><li><p>Introducing a new <a data-linked-resource-id="2524153789" data-linked-resource-type="page" data-linked-resource-version="25" href="https://docs.mend.io/integrations/latest/api-calls"><u>API endpoint</u></a> for retrieving the number of pending webhooks in the system. This addition provides visibility into the current webhook state and enables users to scale up/down based on webhook backlog.</p></li></ul>
   </section>
   <hr/>
   <section>
-    <h2><a href="https://docs.mend.io/integrations/latest/mend-for-bitbucket-data-center-release-notes">Mend for Bitbucket DC: Version 25.8.1.1 (24-August-2025)</a></h2>
-    <time datetime="2025-08-24T00:00:00+00:00">2025-08-24T00:00:00+00:00</time>
-    <p>Unified Agent 25.4.3-179 | <a class="external-link" href="https://github.com/renovatebot/renovate/releases/tag/41.71.1" rel="nofollow" shape="rect">Renovate 41.71.1</a> | Remediate 25.8.1 | Pre-Scan Builder (PSB) 25.8.1</p><p><strong>New Features and Updates</strong></p><ul><li><p>The <a data-linked-resource-id="3328737286" data-linked-resource-type="page" data-linked-resource-version="17" href="https://docs.mend.io/platform/latest/remediation-strategies-in-mend-sca#First-Fix">First Fix remediation strategy</a> is now available for Python in self-hosted repository integrations. Enable by setting the environment variable <code>MEND_PYTHON_FIRSTFIX_ENABLED</code> to true (default is false).</p></li></ul>
+    <h2><a href="https://docs.mend.io/integrations/latest/mend-for-bitbucket-data-center-release-notes">Mend for Bitbucket DC: Version 25.9.1.2 (08-October-2025)</a></h2>
+    <time datetime="2025-10-08T00:00:00+00:00">2025-10-08T00:00:00+00:00</time>
+    <p>Unified Agent 25.7.2-196 | <a class="external-link" href="https://github.com/renovatebot/renovate/releases/tag/41.97.10" rel="nofollow" shape="rect"><u>Renovate 41.97.10</u></a> | Remediate 25.9.1 | Pre-Scan Builder (PSB) 25.8.1</p><p><strong>New Features and Updates</strong></p><ul><li><p>Introducing a new <a data-linked-resource-id="2524153789" data-linked-resource-type="page" data-linked-resource-version="25" href="https://docs.mend.io/integrations/latest/api-calls"><u>API endpoint</u></a> for retrieving the number of pending webhooks in the system. This addition provides visibility into the current webhook state and enables users to scale up/down based on webhook backlog.</p></li></ul>
   </section>
   <hr/>
   <section>
-    <h2><a href="https://github.com/renovatebot/renovate/releases/tag/41.138.5">mend Renovate: 41.138.5</a></h2>
-    <time datetime="2025-10-07T12:55:49+00:00">2025-10-07T12:55:49+00:00</time>
+    <h2><a href="https://github.com/renovatebot/renovate/releases/tag/41.146.4">mend Renovate: 41.146.4</a></h2>
+    <time datetime="2025-10-13T11:19:12+00:00">2025-10-13T11:19:12+00:00</time>
     <p></p>
   </section>
   <hr/>
