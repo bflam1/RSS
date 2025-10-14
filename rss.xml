@@ -7,13 +7,13 @@
     <atom:link href="https://bflam1.github.io/RSS/atom.xml" rel="self"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 13 Oct 2025 11:19:12 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 14 Oct 2025 12:53:37 +0000</lastBuildDate>
     <item>
-      <title>mend Renovate: 41.146.4</title>
-      <link>https://github.com/renovatebot/renovate/releases/tag/41.146.4</link>
+      <title>mend Renovate: 41.148.4</title>
+      <link>https://github.com/renovatebot/renovate/releases/tag/41.148.4</link>
       <description>&lt;p&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://github.com/renovatebot/renovate/releases/tag/41.146.4</guid>
-      <pubDate>Mon, 13 Oct 2025 11:19:12 +0000</pubDate>
+      <guid isPermaLink="false">https://github.com/renovatebot/renovate/releases/tag/41.148.4</guid>
+      <pubDate>Tue, 14 Oct 2025 12:53:37 +0000</pubDate>
     </item>
     <item>
       <title>Mend for Bitbucket DC: Version 25.9.1.2 (08-October-2025)</title>
