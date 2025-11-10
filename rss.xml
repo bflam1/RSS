@@ -7,13 +7,13 @@
     <atom:link href="https://bflam1.github.io/RSS/atom.xml" rel="self"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 03 Nov 2025 22:21:44 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Nov 2025 10:59:52 +0000</lastBuildDate>
     <item>
-      <title>mend Renovate: 41.169.3</title>
-      <link>https://github.com/renovatebot/renovate/releases/tag/41.169.3</link>
+      <title>mend Renovate: 42.4.0</title>
+      <link>https://github.com/renovatebot/renovate/releases/tag/42.4.0</link>
       <description>&lt;p&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://github.com/renovatebot/renovate/releases/tag/41.169.3</guid>
-      <pubDate>Mon, 03 Nov 2025 22:21:44 +0000</pubDate>
+      <guid isPermaLink="false">https://github.com/renovatebot/renovate/releases/tag/42.4.0</guid>
+      <pubDate>Mon, 10 Nov 2025 10:59:52 +0000</pubDate>
     </item>
     <item>
       <title>Mend for Bitbucket DC: Version 25.10.1.2 (19-October-2025)</title>
@@ -81,7 +81,7 @@
     <item>
       <title>Mend SAST: Version 25.10.2 (03-November-2025)</title>
       <link>https://docs.mend.io/platform/latest/mend-sast-release-notes</link>
-      <description>&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Added CWE-606: Unchecked Input for Loop Condition to the list of CWEs supported by the &lt;a data-linked-resource-id="3888578600" data-linked-resource-type="page" data-linked-resource-version="5" href="https://docs.mend.io/platform/latest/c-c-gen-2"&gt;Gen 2 C/C++ detection engine&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Added support for the PySpark framework to the Python detection engine.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Fixed an issue where suppression comments were truncated after certain characters.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Added the following CWEs to the list of CWEs supported by the &lt;a data-linked-resource-id="3876421687" data-linked-resource-type="page" data-linked-resource-version="8" href="https://docs.mend.io/platform/latest/rust-closed-beta"&gt;Rust detection engine&lt;/a&gt;:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;CWE-79 Cross-site Scripting&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;CWE-327 Insecure Cryptographic Algorithm&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;CWE-328 Weak Hash Strength&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;CWE-614 Sensitive Cookie Without Secure&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;CWE-798 Hardcoded Password/Credentials&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;CWE-942 Origin Validation Error&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;CWE-943 NoSQL Injection&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;CWE-1004 Cookie Without HttpOnly Flag&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Added CWE-606: Unchecked Input for Loop Condition to the list of CWEs supported by the &lt;a data-linked-resource-id="3888578600" data-linked-resource-type="page" data-linked-resource-version="6" href="https://docs.mend.io/platform/latest/c-c-gen-2"&gt;Gen 2 C/C++ detection engine&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Added support for the PySpark framework to the Python detection engine.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Fixed an issue where suppression comments were truncated after certain characters.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://docs.mend.io/platform/latest/mend-sast-release-notes</guid>
       <pubDate>Mon, 03 Nov 2025 00:00:00 +0000</pubDate>
     </item>
