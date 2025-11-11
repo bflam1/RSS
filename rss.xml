@@ -7,13 +7,13 @@
     <atom:link href="https://bflam1.github.io/RSS/atom.xml" rel="self"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 10 Nov 2025 10:59:52 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 11 Nov 2025 09:55:42 +0000</lastBuildDate>
     <item>
-      <title>mend Renovate: 42.4.0</title>
-      <link>https://github.com/renovatebot/renovate/releases/tag/42.4.0</link>
+      <title>mend Renovate: 42.5.4</title>
+      <link>https://github.com/renovatebot/renovate/releases/tag/42.5.4</link>
       <description>&lt;p&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://github.com/renovatebot/renovate/releases/tag/42.4.0</guid>
-      <pubDate>Mon, 10 Nov 2025 10:59:52 +0000</pubDate>
+      <guid isPermaLink="false">https://github.com/renovatebot/renovate/releases/tag/42.5.4</guid>
+      <pubDate>Tue, 11 Nov 2025 09:55:42 +0000</pubDate>
     </item>
     <item>
       <title>Mend for Bitbucket DC: Version 25.10.1.2 (19-October-2025)</title>
@@ -25,7 +25,7 @@
     <item>
       <title>Mend for GitLab: Version 25.10.1.2 (19-October-2025)</title>
       <link>https://docs.mend.io/integrations/latest/mend-for-gitlab-release-notes</link>
-      <description>&lt;p&gt;Unified Agent 25.7.2-196 | &lt;a class="external-link" href="https://github.com/renovatebot/renovate/releases/tag/41.97.10" rel="nofollow" shape="rect"&gt;&lt;u&gt;Renovate 41.97.10&lt;/u&gt;&lt;/a&gt; | Remediate 25.10.1 | Pre-Scan Builder (PSB) 25.9.1&lt;/p&gt;&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;a data-linked-resource-id="3899883538" data-linked-resource-type="page" data-linked-resource-version="7" href="https://docs.mend.io/integrations/latest/configure-sca-reachability-for-gitlab"&gt;SCA Reachability&lt;/a&gt; is now available.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;(SAST)&lt;/strong&gt; Introducing a new &lt;a data-linked-resource-id="3840376890" data-linked-resource-type="page" data-linked-resource-version="15" href="https://docs.mend.io/integrations/latest/suppression-requests-for-sast-in-SCMs"&gt;approval process&lt;/a&gt; for security finding suppressions in code repositories. Developers can propose suppressions, while security managers can approve or reject them, ensuring control without development delays. This bridges developer and security workflows, enhancing efficiency.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;(SAST)&lt;/strong&gt; The onboarding configuration template for SCMs using &lt;code&gt;.whitesource&lt;/code&gt; or &lt;code&gt;.mend&lt;/code&gt; files now explicitly lists available options, including those that previously relied only on defaults, making it easier for users to understand and adjust the settings. &lt;br clear="none"/&gt;&lt;strong&gt;Note:&lt;/strong&gt; &lt;code&gt;enableRemediation&lt;/code&gt; is intentionally not part of the onboarding template, as it requires activating the AI Usage toggle in the Mend AI Native AppSec Platform.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+      <description>&lt;p&gt;Unified Agent 25.7.2-196 | &lt;a class="external-link" href="https://github.com/renovatebot/renovate/releases/tag/41.97.10" rel="nofollow" shape="rect"&gt;&lt;u&gt;Renovate 41.97.10&lt;/u&gt;&lt;/a&gt; | Remediate 25.10.1 | Pre-Scan Builder (PSB) 25.9.1&lt;/p&gt;&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;a data-linked-resource-id="3899883538" data-linked-resource-type="page" data-linked-resource-version="8" href="https://docs.mend.io/integrations/latest/configure-sca-reachability-for-gitlab"&gt;SCA Reachability&lt;/a&gt; is now available.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;(SAST)&lt;/strong&gt; Introducing a new &lt;a data-linked-resource-id="3840376890" data-linked-resource-type="page" data-linked-resource-version="15" href="https://docs.mend.io/integrations/latest/suppression-requests-for-sast-in-SCMs"&gt;approval process&lt;/a&gt; for security finding suppressions in code repositories. Developers can propose suppressions, while security managers can approve or reject them, ensuring control without development delays. This bridges developer and security workflows, enhancing efficiency.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;(SAST)&lt;/strong&gt; The onboarding configuration template for SCMs using &lt;code&gt;.whitesource&lt;/code&gt; or &lt;code&gt;.mend&lt;/code&gt; files now explicitly lists available options, including those that previously relied only on defaults, making it easier for users to understand and adjust the settings. &lt;br clear="none"/&gt;&lt;strong&gt;Note:&lt;/strong&gt; &lt;code&gt;enableRemediation&lt;/code&gt; is intentionally not part of the onboarding template, as it requires activating the AI Usage toggle in the Mend AI Native AppSec Platform.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://docs.mend.io/integrations/latest/mend-for-gitlab-release-notes</guid>
       <pubDate>Sun, 19 Oct 2025 00:00:00 +0000</pubDate>
     </item>

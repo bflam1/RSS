@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://bflam1.github.io/RSS/atom.xml</id>
   <title>Mend.io Unified Release Notes</title>
-  <updated>2025-11-10T10:59:52+00:00</updated>
+  <updated>2025-11-11T09:55:42+00:00</updated>
   <author>
     <name>Mend Release Bot</name>
     <email>noreply@bflam1.github.io</email>
@@ -12,20 +12,20 @@
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>Aggregated RSS, Atom, and HTML of all Mend release notes.</subtitle>
   <entry>
-    <id>https://github.com/renovatebot/renovate/releases/tag/42.4.0</id>
-    <title>mend Renovate: 42.4.0</title>
-    <updated>2025-11-10T13:48:51.829366+00:00</updated>
+    <id>https://github.com/renovatebot/renovate/releases/tag/42.5.4</id>
+    <title>mend Renovate: 42.5.4</title>
+    <updated>2025-11-11T13:46:37.847574+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
     <content type="html">&lt;p&gt;&lt;/p&gt;</content>
-    <link href="https://github.com/renovatebot/renovate/releases/tag/42.4.0"/>
-    <published>2025-11-10T10:59:52+00:00</published>
+    <link href="https://github.com/renovatebot/renovate/releases/tag/42.5.4"/>
+    <published>2025-11-11T09:55:42+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-bitbucket-data-center-release-notes</id>
     <title>Mend for Bitbucket DC: Version 25.10.1.2 (19-October-2025)</title>
-    <updated>2025-11-10T13:48:51.829351+00:00</updated>
+    <updated>2025-11-11T13:46:37.847562+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -36,18 +36,18 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-gitlab-release-notes</id>
     <title>Mend for GitLab: Version 25.10.1.2 (19-October-2025)</title>
-    <updated>2025-11-10T13:48:51.829339+00:00</updated>
+    <updated>2025-11-11T13:46:37.847550+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
-    <content type="html">&lt;p&gt;Unified Agent 25.7.2-196 | &lt;a class="external-link" href="https://github.com/renovatebot/renovate/releases/tag/41.97.10" rel="nofollow" shape="rect"&gt;&lt;u&gt;Renovate 41.97.10&lt;/u&gt;&lt;/a&gt; | Remediate 25.10.1 | Pre-Scan Builder (PSB) 25.9.1&lt;/p&gt;&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;a data-linked-resource-id="3899883538" data-linked-resource-type="page" data-linked-resource-version="7" href="https://docs.mend.io/integrations/latest/configure-sca-reachability-for-gitlab"&gt;SCA Reachability&lt;/a&gt; is now available.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;(SAST)&lt;/strong&gt; Introducing a new &lt;a data-linked-resource-id="3840376890" data-linked-resource-type="page" data-linked-resource-version="15" href="https://docs.mend.io/integrations/latest/suppression-requests-for-sast-in-SCMs"&gt;approval process&lt;/a&gt; for security finding suppressions in code repositories. Developers can propose suppressions, while security managers can approve or reject them, ensuring control without development delays. This bridges developer and security workflows, enhancing efficiency.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;(SAST)&lt;/strong&gt; The onboarding configuration template for SCMs using &lt;code&gt;.whitesource&lt;/code&gt; or &lt;code&gt;.mend&lt;/code&gt; files now explicitly lists available options, including those that previously relied only on defaults, making it easier for users to understand and adjust the settings. &lt;br clear="none"/&gt;&lt;strong&gt;Note:&lt;/strong&gt; &lt;code&gt;enableRemediation&lt;/code&gt; is intentionally not part of the onboarding template, as it requires activating the AI Usage toggle in the Mend AI Native AppSec Platform.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+    <content type="html">&lt;p&gt;Unified Agent 25.7.2-196 | &lt;a class="external-link" href="https://github.com/renovatebot/renovate/releases/tag/41.97.10" rel="nofollow" shape="rect"&gt;&lt;u&gt;Renovate 41.97.10&lt;/u&gt;&lt;/a&gt; | Remediate 25.10.1 | Pre-Scan Builder (PSB) 25.9.1&lt;/p&gt;&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;a data-linked-resource-id="3899883538" data-linked-resource-type="page" data-linked-resource-version="8" href="https://docs.mend.io/integrations/latest/configure-sca-reachability-for-gitlab"&gt;SCA Reachability&lt;/a&gt; is now available.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;(SAST)&lt;/strong&gt; Introducing a new &lt;a data-linked-resource-id="3840376890" data-linked-resource-type="page" data-linked-resource-version="15" href="https://docs.mend.io/integrations/latest/suppression-requests-for-sast-in-SCMs"&gt;approval process&lt;/a&gt; for security finding suppressions in code repositories. Developers can propose suppressions, while security managers can approve or reject them, ensuring control without development delays. This bridges developer and security workflows, enhancing efficiency.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;(SAST)&lt;/strong&gt; The onboarding configuration template for SCMs using &lt;code&gt;.whitesource&lt;/code&gt; or &lt;code&gt;.mend&lt;/code&gt; files now explicitly lists available options, including those that previously relied only on defaults, making it easier for users to understand and adjust the settings. &lt;br clear="none"/&gt;&lt;strong&gt;Note:&lt;/strong&gt; &lt;code&gt;enableRemediation&lt;/code&gt; is intentionally not part of the onboarding template, as it requires activating the AI Usage toggle in the Mend AI Native AppSec Platform.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
     <link href="https://docs.mend.io/integrations/latest/mend-for-gitlab-release-notes"/>
     <published>2025-10-19T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-github-enterprise-release-notes</id>
     <title>Mend for GitHub Enterprise: Version 25.10.1.3 (26-October-2025)</title>
-    <updated>2025-11-10T13:48:51.829330+00:00</updated>
+    <updated>2025-11-11T13:46:37.847541+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -58,7 +58,7 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-github-com-release-notes</id>
     <title>Mend for GitHub.com: Version 25.10.2 (02-November-2025)</title>
-    <updated>2025-11-10T13:48:51.829320+00:00</updated>
+    <updated>2025-11-11T13:46:37.847532+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -69,7 +69,7 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-developer-platform-release-notes</id>
     <title>Mend Developer Platform: Version 25.10.2 (02-November-2025)</title>
-    <updated>2025-11-10T13:48:51.829310+00:00</updated>
+    <updated>2025-11-11T13:46:37.847523+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -80,7 +80,7 @@
   <entry>
     <id>https://docs.mend.io/legacy-sca/latest/mend-unified-agent-release-notes</id>
     <title>Mend Unified Agent: Version 25.10.1 (20-October-2025)</title>
-    <updated>2025-11-10T13:48:51.829300+00:00</updated>
+    <updated>2025-11-11T13:46:37.847515+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -91,7 +91,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-cli-release-notes</id>
     <title>Mend CLI: Version 25.10.2 (03-November-2025)</title>
-    <updated>2025-11-10T13:48:51.829282+00:00</updated>
+    <updated>2025-11-11T13:46:37.847503+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -102,7 +102,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-ai-release-notes</id>
     <title>Mend AI: Version 25.10.1 (19-October-2025)</title>
-    <updated>2025-11-10T13:48:51.829269+00:00</updated>
+    <updated>2025-11-11T13:46:37.847491+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -113,7 +113,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-container-release-notes</id>
     <title>Mend Container: Version 25.10.2 (02-November-2025)</title>
-    <updated>2025-11-10T13:48:51.829257+00:00</updated>
+    <updated>2025-11-11T13:46:37.847479+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -124,7 +124,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-sast-release-notes</id>
     <title>Mend SAST: Version 25.10.2 (03-November-2025)</title>
-    <updated>2025-11-10T13:48:51.829244+00:00</updated>
+    <updated>2025-11-11T13:46:37.847464+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -135,7 +135,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-sca-release-notes</id>
     <title>Mend SCA: Version 25.10.2 (02-November-2025)</title>
-    <updated>2025-11-10T13:48:51.829222+00:00</updated>
+    <updated>2025-11-11T13:46:37.847442+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -146,7 +146,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-platform-release-notes</id>
     <title>Mend AppSec Platform: Version 25.10.1 (20-October-2025)</title>
-    <updated>2025-11-10T13:48:51.829194+00:00</updated>
+    <updated>2025-11-11T13:46:37.847411+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
