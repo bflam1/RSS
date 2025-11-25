@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://bflam1.github.io/RSS/atom.xml</id>
   <title>Mend.io Unified Release Notes</title>
-  <updated>2025-11-24T11:52:25+00:00</updated>
+  <updated>2025-11-25T09:51:42+00:00</updated>
   <author>
     <name>Mend Release Bot</name>
     <email>noreply@bflam1.github.io</email>
@@ -12,20 +12,20 @@
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>Aggregated RSS, Atom, and HTML of all Mend release notes.</subtitle>
   <entry>
-    <id>https://github.com/renovatebot/renovate/releases/tag/42.19.5</id>
-    <title>mend Renovate: 42.19.5</title>
-    <updated>2025-11-24T13:51:50.277453+00:00</updated>
+    <id>https://github.com/renovatebot/renovate/releases/tag/42.19.8</id>
+    <title>mend Renovate: 42.19.8</title>
+    <updated>2025-11-25T13:50:22.542603+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
     <content type="html">&lt;p&gt;&lt;/p&gt;</content>
-    <link href="https://github.com/renovatebot/renovate/releases/tag/42.19.5"/>
-    <published>2025-11-24T11:52:25+00:00</published>
+    <link href="https://github.com/renovatebot/renovate/releases/tag/42.19.8"/>
+    <published>2025-11-25T09:51:42+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-bitbucket-data-center-release-notes</id>
     <title>Mend for Bitbucket DC: Version 25.10.1.2 (19-October-2025)</title>
-    <updated>2025-11-24T13:51:50.277441+00:00</updated>
+    <updated>2025-11-25T13:50:22.542591+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -36,7 +36,7 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-gitlab-release-notes</id>
     <title>Mend for GitLab: Version 25.10.1.2 (19-October-2025)</title>
-    <updated>2025-11-24T13:51:50.277431+00:00</updated>
+    <updated>2025-11-25T13:50:22.542580+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -47,7 +47,7 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-github-enterprise-release-notes</id>
     <title>Mend for GitHub Enterprise: Version 25.10.1.3 (26-October-2025)</title>
-    <updated>2025-11-24T13:51:50.277421+00:00</updated>
+    <updated>2025-11-25T13:50:22.542570+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -58,7 +58,7 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-github-com-release-notes</id>
     <title>Mend for GitHub.com: Version 25.10.3 (16-November-2025)</title>
-    <updated>2025-11-24T13:51:50.277407+00:00</updated>
+    <updated>2025-11-25T13:50:22.542559+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -69,7 +69,7 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-developer-platform-release-notes</id>
     <title>Mend Developer Platform: Version 25.10.3 (16-November-2025)</title>
-    <updated>2025-11-24T13:51:50.277397+00:00</updated>
+    <updated>2025-11-25T13:50:22.542547+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -80,7 +80,7 @@
   <entry>
     <id>https://docs.mend.io/legacy-sca/latest/mend-unified-agent-release-notes</id>
     <title>Mend Unified Agent: Version 25.10.3.1 (19-Nov-2025)</title>
-    <updated>2025-11-24T13:51:50.277388+00:00</updated>
+    <updated>2025-11-25T13:50:22.542537+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -91,7 +91,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-cli-release-notes</id>
     <title>Mend CLI: Version 25.10.3 (17-November-2025)</title>
-    <updated>2025-11-24T13:51:50.277378+00:00</updated>
+    <updated>2025-11-25T13:50:22.542527+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -102,7 +102,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-ai-release-notes</id>
     <title>Mend AI: Version 25.10.3 (16-November-2025)</title>
-    <updated>2025-11-24T13:51:50.277366+00:00</updated>
+    <updated>2025-11-25T13:50:22.542513+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -113,7 +113,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-container-release-notes</id>
     <title>Mend Container: Version 25.10.3 (16-November-2025)</title>
-    <updated>2025-11-24T13:51:50.277354+00:00</updated>
+    <updated>2025-11-25T13:50:22.542496+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -124,7 +124,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-sast-release-notes</id>
     <title>Mend SAST: Version 25.10.3 (17-November-2025)</title>
-    <updated>2025-11-24T13:51:50.277339+00:00</updated>
+    <updated>2025-11-25T13:50:22.542478+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -135,22 +135,22 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-sca-release-notes</id>
     <title>Mend SCA: Version 25.10.3 (16-November-2025)</title>
-    <updated>2025-11-24T13:51:50.277312+00:00</updated>
+    <updated>2025-11-25T13:50:22.542456+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
-    <content type="html">&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;a data-linked-resource-id="2705588276" data-linked-resource-type="page" data-linked-resource-version="27" href="https://docs.mend.io/platform/latest/automate-your-workflows-in-the-mend-platform"&gt;Automation Workflows&lt;/a&gt; now apply in every CLI dependencies scan, regardless of whether the &lt;code&gt;--update&lt;/code&gt; &lt;a data-linked-resource-id="2915500074" data-linked-resource-type="page" data-linked-resource-version="46" href="https://docs.mend.io/platform/latest/configure-the-mend-cli-for-sca"&gt;&lt;u&gt;parameter&lt;/u&gt;&lt;/a&gt; is specified in the scan command or not. &lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;This update has been in limited availability since Oct 27th and is now generally available.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Enhanced the Project view to display each &lt;a data-linked-resource-id="3529867268" data-linked-resource-type="page" data-linked-resource-version="12" href="https://docs.mend.io/platform/latest/the-findings-table"&gt;direct library occurrence with its specific dependency path&lt;/a&gt;, making it easier to distinguish multiple instances within a project. Users now receive clear notifications when actions affect all occurrences, improving clarity while maintaining consistent database behavior and performance.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+    <content type="html">&lt;p local-id="a0ee1331-1005-4c88-9331-215747bc457f"&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="57b00b40-0a93-4f42-b15e-2750595cf935"&gt;&lt;li local-id="52f5d50d-461c-4758-b97a-15cf62c2c8b8"&gt;&lt;p local-id="d24de4ff-c8d0-4221-9b7b-73b487858162"&gt;&lt;a data-linked-resource-id="2705588276" data-linked-resource-type="page" data-linked-resource-version="27" href="https://docs.mend.io/platform/latest/automate-your-workflows-in-the-mend-platform"&gt;Automation Workflows&lt;/a&gt; now apply in every CLI dependencies scan, regardless of whether the &lt;code&gt;--update&lt;/code&gt; &lt;a data-linked-resource-id="2915500074" data-linked-resource-type="page" data-linked-resource-version="46" href="https://docs.mend.io/platform/latest/configure-the-mend-cli-for-sca"&gt;parameter&lt;/a&gt; is specified in the scan command or not. &lt;/p&gt;&lt;ul local-id="fc1f5d29-dc3d-49bd-be86-aa60235fa1ac"&gt;&lt;li local-id="6f45a4e8-41dc-4ec7-a9c0-d6a4a49906cb"&gt;&lt;p local-id="00930533-ff50-41e8-899b-c6241874802e"&gt;This update has been in limited availability since Oct 27th and is now generally available.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li local-id="06afe25e-ab79-4091-96e1-001386720494"&gt;&lt;p local-id="3a7ff8f8-feb7-4c80-9fc1-c02b015cb853"&gt;Enhanced the Project view to display each &lt;a data-linked-resource-id="3529867268" data-linked-resource-type="page" data-linked-resource-version="12" href="https://docs.mend.io/platform/latest/the-findings-table"&gt;direct library occurrence with its specific dependency path&lt;/a&gt;, making it easier to distinguish multiple instances within a project. Users now receive clear notifications when actions affect all occurrences, improving clarity while maintaining consistent database behavior and performance.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
     <link href="https://docs.mend.io/platform/latest/mend-sca-release-notes"/>
     <published>2025-11-16T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-platform-release-notes</id>
     <title>Mend AppSec Platform: Version 25.10.3 (16-November-2025)</title>
-    <updated>2025-11-24T13:51:50.277266+00:00</updated>
+    <updated>2025-11-25T13:50:22.542426+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
-    <content type="html">&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Introducing a &lt;a data-linked-resource-id="3783884952" data-linked-resource-type="page" data-linked-resource-version="17" href="https://docs.mend.io/platform/latest/risk-reduction-dashboard"&gt;Risk Reduction Dashboard&lt;/a&gt; focused on security findings. This tool aids security teams by highlighting relevant issues, enabling swift action, and showcasing potential risk reduction opportunities. Features include a risk funnel and application/project tables with actionable insights, delivering a streamlined, confident user experience.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Added the &lt;strong&gt;Legal Manager&lt;/strong&gt; &lt;a data-linked-resource-id="2869166304" data-linked-resource-type="page" data-linked-resource-version="17" href="https://docs.mend.io/platform/latest/manage-roles-in-the-mend-platform"&gt;role&lt;/a&gt; to the platform (&lt;strong&gt;License and Copyright Assigners&lt;/strong&gt; in Legacy SCA), enabling organizations to assign license and copyright management permissions directly through the UI. This enhancement streamlines user management and supports a more granular permission model, aligning with least-privilege access and role-based administration.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;License and Copyright Assigners&lt;/strong&gt; assignments in Legacy SCA will be reflected as Legal Manager role assignments in the Mend AI-Native AppSec Platform and vice versa.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; &lt;a data-linked-resource-id="2705588276" data-linked-resource-type="page" data-linked-resource-version="27" href="https://docs.mend.io/platform/latest/automate-your-workflows-in-the-mend-platform"&gt;Automation Workflows&lt;/a&gt; now apply in every CLI dependencies scan, regardless of whether the &lt;code&gt;--update&lt;/code&gt; &lt;a data-linked-resource-id="2915500074" data-linked-resource-type="page" data-linked-resource-version="46" href="https://docs.mend.io/platform/latest/configure-the-mend-cli-for-sca#SCA-Upload-Parameters"&gt;&lt;u&gt;parameter&lt;/u&gt;&lt;/a&gt; is specified in the scan command or not. &lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;This update has been in limited availability since Oct 27th and is now generally available.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+    <content type="html">&lt;p local-id="68250883-c39d-4fc8-a24b-c3ab6856b652"&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="f00240bb-6770-438e-a47a-d729d2acd22b"&gt;&lt;li local-id="b14b7de7-5b81-4570-bad9-99b16ac62135"&gt;&lt;p local-id="0d5fbfd4-e7ed-458b-b431-aaacbd1cbc50"&gt;Introducing a &lt;a data-linked-resource-id="3783884952" data-linked-resource-type="page" data-linked-resource-version="17" href="https://docs.mend.io/platform/latest/risk-reduction-dashboard"&gt;Risk Reduction Dashboard&lt;/a&gt; focused on security findings. This tool aids security teams by highlighting relevant issues, enabling swift action, and showcasing potential risk reduction opportunities. Features include a risk funnel and application/project tables with actionable insights, delivering a streamlined, confident user experience.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="b0350e53-c9ca-432a-88df-b867ffb22487"&gt;&lt;p local-id="4cbace54-01d6-480f-b02f-42a338003855"&gt;Added the &lt;strong&gt;Legal Manager&lt;/strong&gt; &lt;a data-linked-resource-id="2869166304" data-linked-resource-type="page" data-linked-resource-version="17" href="https://docs.mend.io/platform/latest/manage-roles-in-the-mend-platform"&gt;role&lt;/a&gt; to the platform (&lt;strong&gt;License and Copyright Assigners&lt;/strong&gt; in Legacy SCA), enabling organizations to assign license and copyright management permissions directly through the UI. This enhancement streamlines user management and supports a more granular permission model, aligning with least-privilege access and role-based administration.&lt;/p&gt;&lt;ul local-id="80ce6939-1084-4653-91cf-4a8a9f51f4ca"&gt;&lt;li local-id="68288616-8035-4bfe-a356-a21fde7c56a1"&gt;&lt;p local-id="49e4ddd6-f8c8-47e5-ab80-c17df0f91fef"&gt;&lt;strong&gt;License and Copyright Assigners&lt;/strong&gt; assignments in Legacy SCA will be reflected as Legal Manager role assignments in the Mend AI-Native AppSec Platform and vice versa.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li local-id="1fd88764-46bf-41ca-806e-bd226291ce12"&gt;&lt;p local-id="0f11a422-0ea9-4480-a13b-2690ca8611b9"&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; &lt;a data-linked-resource-id="2705588276" data-linked-resource-type="page" data-linked-resource-version="27" href="https://docs.mend.io/platform/latest/automate-your-workflows-in-the-mend-platform"&gt;Automation Workflows&lt;/a&gt; now apply in every CLI dependencies scan, regardless of whether the &lt;code&gt;--update&lt;/code&gt; &lt;a data-linked-resource-id="2915500074" data-linked-resource-type="page" data-linked-resource-version="46" href="https://docs.mend.io/platform/latest/configure-the-mend-cli-for-sca"&gt;&lt;u&gt;parameter&lt;/u&gt;&lt;/a&gt; is specified in the scan command or not. &lt;/p&gt;&lt;ul local-id="465b7aad-8c7f-4e14-89c8-f4e58100d195"&gt;&lt;li local-id="0fff45f6-3548-4383-9413-3a136ec2bb4d"&gt;&lt;p local-id="0cc9f596-8683-4f95-b287-5248829f7347"&gt;This update has been in limited availability since Oct 27th and is now generally available.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;</content>
     <link href="https://docs.mend.io/platform/latest/mend-platform-release-notes"/>
     <published>2025-11-16T00:00:00+00:00</published>
   </entry>
