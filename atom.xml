@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://bflam1.github.io/RSS/atom.xml</id>
   <title>Mend.io Unified Release Notes</title>
-  <updated>2025-12-02T11:50:25+00:00</updated>
+  <updated>2025-12-08T06:46:25+00:00</updated>
   <author>
     <name>Mend Release Bot</name>
     <email>noreply@bflam1.github.io</email>
@@ -12,20 +12,20 @@
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>Aggregated RSS, Atom, and HTML of all Mend release notes.</subtitle>
   <entry>
-    <id>https://github.com/renovatebot/renovate/releases/tag/42.29.5</id>
-    <title>mend Renovate: 42.29.5</title>
-    <updated>2025-12-02T13:52:56.725437+00:00</updated>
+    <id>https://github.com/renovatebot/renovate/releases/tag/42.39.4</id>
+    <title>mend Renovate: 42.39.4</title>
+    <updated>2025-12-08T13:52:39.697358+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
     <content type="html">&lt;p&gt;&lt;/p&gt;</content>
-    <link href="https://github.com/renovatebot/renovate/releases/tag/42.29.5"/>
-    <published>2025-12-02T11:50:25+00:00</published>
+    <link href="https://github.com/renovatebot/renovate/releases/tag/42.39.4"/>
+    <published>2025-12-08T06:46:25+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-bitbucket-data-center-release-notes</id>
     <title>Mend for Bitbucket DC: Version 25.11.1 (30-November-2025)</title>
-    <updated>2025-12-02T13:52:56.725424+00:00</updated>
+    <updated>2025-12-08T13:52:39.697346+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -36,7 +36,7 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-gitlab-release-notes</id>
     <title>Mend for GitLab: Version 25.11.1 (30-November-2025)</title>
-    <updated>2025-12-02T13:52:56.725414+00:00</updated>
+    <updated>2025-12-08T13:52:39.697331+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -47,7 +47,7 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-github-enterprise-release-notes</id>
     <title>Mend for GitHub Enterprise: Version 25.11.1 (30-November-2025)</title>
-    <updated>2025-12-02T13:52:56.725404+00:00</updated>
+    <updated>2025-12-08T13:52:39.697081+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -58,7 +58,7 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-github-com-release-notes</id>
     <title>Mend for GitHub.com: Version 25.11.1 (30-November-2025)</title>
-    <updated>2025-12-02T13:52:56.725395+00:00</updated>
+    <updated>2025-12-08T13:52:39.697072+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -69,7 +69,7 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-developer-platform-release-notes</id>
     <title>Mend Developer Platform: Version 25.11.1 (30-November-2025)</title>
-    <updated>2025-12-02T13:52:56.725383+00:00</updated>
+    <updated>2025-12-08T13:52:39.697062+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -79,30 +79,30 @@
   </entry>
   <entry>
     <id>https://docs.mend.io/legacy-sca/latest/mend-unified-agent-release-notes</id>
-    <title>Mend Unified Agent: Version 25.10.3.2 (25-Nov-2025)</title>
-    <updated>2025-12-02T13:52:56.725371+00:00</updated>
+    <title>Mend Unified Agent: Version 25.11.1 (01-December-2025)</title>
+    <updated>2025-12-08T13:52:39.697050+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
-    <content type="html">&lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Fixed an issue where the Unified Agent did not correctly apply the ignore-scripts configuration for npm and yarn scans (&lt;code&gt;npm.ignoreScripts&lt;/code&gt;). This fix ensures script execution is now properly managed during dependency installation.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+    <content type="html">&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="f111d09a-f23f-441f-8963-d0f4279a5d1e"&gt;&lt;li&gt;&lt;p&gt;The yarn package manager v4.x is now officially &lt;a data-linked-resource-id="3149365249" data-linked-resource-type="page" data-linked-resource-version="38" href="https://docs.mend.io/legacy-sca/latest/unified-agent-support-matrix"&gt;supported&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
     <link href="https://docs.mend.io/legacy-sca/latest/mend-unified-agent-release-notes"/>
-    <published>2025-11-25T00:00:00+00:00</published>
+    <published>2025-12-01T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-cli-release-notes</id>
-    <title>Mend CLI: Version 25.11.1 (01-December-2025)</title>
-    <updated>2025-12-02T13:52:56.725361+00:00</updated>
+    <title>Mend CLI: Version 25.11.1.1 (03-December-2025)</title>
+    <updated>2025-12-08T13:52:39.697031+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
-    <content type="html">&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; &lt;a data-linked-resource-id="2915500074" data-linked-resource-type="page" data-linked-resource-version="49" href="https://docs.mend.io/platform/latest/configure-the-mend-cli-for-sca#CLI-SCA-Languages"&gt;&lt;u&gt;Conan&lt;/u&gt;&lt;/a&gt; support in SCA scans, including &lt;a data-linked-resource-id="2936602625" data-linked-resource-type="page" data-linked-resource-version="22" href="https://docs.mend.io/platform/latest/sca-reachability-in-the-mend-cli"&gt;&lt;u&gt;Reachability&lt;/u&gt;&lt;/a&gt; analysis, is now generally available.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;(SAST)&lt;/strong&gt; Organizations are now sorted alphabetically in the CLIs organization selection step, making it easier and faster to navigate large lists.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;(SCA) Hotfix:&lt;/strong&gt; Fixed an issue where scan tags were not displayed in the platform UI, under certain conditions.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
     <link href="https://docs.mend.io/platform/latest/mend-cli-release-notes"/>
-    <published>2025-12-01T00:00:00+00:00</published>
+    <published>2025-12-03T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-ai-release-notes</id>
     <title>Mend AI: Version 25.11.1 (01-December-2025)</title>
-    <updated>2025-12-02T13:52:56.725348+00:00</updated>
+    <updated>2025-12-08T13:52:39.697019+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -113,7 +113,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-container-release-notes</id>
     <title>Mend Container: Version 25.10.3 (16-November-2025)</title>
-    <updated>2025-12-02T13:52:56.725336+00:00</updated>
+    <updated>2025-12-08T13:52:39.697007+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -124,7 +124,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-sast-release-notes</id>
     <title>Mend SAST: Version 25.11.1 (01-December-2025)</title>
-    <updated>2025-12-02T13:52:56.725322+00:00</updated>
+    <updated>2025-12-08T13:52:39.696994+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -135,7 +135,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-sca-release-notes</id>
     <title>Mend SCA: Version 25.11.1 (30-November-2025)</title>
-    <updated>2025-12-02T13:52:56.725296+00:00</updated>
+    <updated>2025-12-08T13:52:39.696972+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -146,7 +146,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-platform-release-notes</id>
     <title>Mend AppSec Platform: Version 25.11.1 (30-November-2025)</title>
-    <updated>2025-12-02T13:52:56.725263+00:00</updated>
+    <updated>2025-12-08T13:52:39.696944+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>

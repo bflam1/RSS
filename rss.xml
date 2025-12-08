@@ -7,13 +7,13 @@
     <atom:link href="https://bflam1.github.io/RSS/atom.xml" rel="self"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 02 Dec 2025 11:50:25 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 08 Dec 2025 06:46:25 +0000</lastBuildDate>
     <item>
-      <title>mend Renovate: 42.29.5</title>
-      <link>https://github.com/renovatebot/renovate/releases/tag/42.29.5</link>
+      <title>mend Renovate: 42.39.4</title>
+      <link>https://github.com/renovatebot/renovate/releases/tag/42.39.4</link>
       <description>&lt;p&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://github.com/renovatebot/renovate/releases/tag/42.29.5</guid>
-      <pubDate>Tue, 02 Dec 2025 11:50:25 +0000</pubDate>
+      <guid isPermaLink="false">https://github.com/renovatebot/renovate/releases/tag/42.39.4</guid>
+      <pubDate>Mon, 08 Dec 2025 06:46:25 +0000</pubDate>
     </item>
     <item>
       <title>Mend for Bitbucket DC: Version 25.11.1 (30-November-2025)</title>
@@ -51,18 +51,18 @@
       <pubDate>Sun, 30 Nov 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Mend Unified Agent: Version 25.10.3.2 (25-Nov-2025)</title>
+      <title>Mend Unified Agent: Version 25.11.1 (01-December-2025)</title>
       <link>https://docs.mend.io/legacy-sca/latest/mend-unified-agent-release-notes</link>
-      <description>&lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Fixed an issue where the Unified Agent did not correctly apply the ignore-scripts configuration for npm and yarn scans (&lt;code&gt;npm.ignoreScripts&lt;/code&gt;). This fix ensures script execution is now properly managed during dependency installation.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="f111d09a-f23f-441f-8963-d0f4279a5d1e"&gt;&lt;li&gt;&lt;p&gt;The yarn package manager v4.x is now officially &lt;a data-linked-resource-id="3149365249" data-linked-resource-type="page" data-linked-resource-version="38" href="https://docs.mend.io/legacy-sca/latest/unified-agent-support-matrix"&gt;supported&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://docs.mend.io/legacy-sca/latest/mend-unified-agent-release-notes</guid>
-      <pubDate>Tue, 25 Nov 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Mend CLI: Version 25.11.1 (01-December-2025)</title>
+      <title>Mend CLI: Version 25.11.1.1 (03-December-2025)</title>
       <link>https://docs.mend.io/platform/latest/mend-cli-release-notes</link>
-      <description>&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; &lt;a data-linked-resource-id="2915500074" data-linked-resource-type="page" data-linked-resource-version="49" href="https://docs.mend.io/platform/latest/configure-the-mend-cli-for-sca#CLI-SCA-Languages"&gt;&lt;u&gt;Conan&lt;/u&gt;&lt;/a&gt; support in SCA scans, including &lt;a data-linked-resource-id="2936602625" data-linked-resource-type="page" data-linked-resource-version="22" href="https://docs.mend.io/platform/latest/sca-reachability-in-the-mend-cli"&gt;&lt;u&gt;Reachability&lt;/u&gt;&lt;/a&gt; analysis, is now generally available.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;(SAST)&lt;/strong&gt; Organizations are now sorted alphabetically in the CLIs organization selection step, making it easier and faster to navigate large lists.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;(SCA) Hotfix:&lt;/strong&gt; Fixed an issue where scan tags were not displayed in the platform UI, under certain conditions.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://docs.mend.io/platform/latest/mend-cli-release-notes</guid>
-      <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 03 Dec 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Mend AI: Version 25.11.1 (01-December-2025)</title>
