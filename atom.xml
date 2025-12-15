@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://bflam1.github.io/RSS/atom.xml</id>
   <title>Mend.io Unified Release Notes</title>
-  <updated>2025-12-09T12:49:30+00:00</updated>
+  <updated>2025-12-15T13:49:40+00:00</updated>
   <author>
     <name>Mend Release Bot</name>
     <email>noreply@bflam1.github.io</email>
@@ -12,86 +12,86 @@
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>Aggregated RSS, Atom, and HTML of all Mend release notes.</subtitle>
   <entry>
-    <id>https://github.com/renovatebot/renovate/releases/tag/42.42.0</id>
-    <title>mend Renovate: 42.42.0</title>
-    <updated>2025-12-09T13:52:38.193677+00:00</updated>
+    <id>https://github.com/renovatebot/renovate/releases/tag/42.54.2</id>
+    <title>mend Renovate: 42.54.2</title>
+    <updated>2025-12-15T13:57:25.315656+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
     <content type="html">&lt;p&gt;&lt;/p&gt;</content>
-    <link href="https://github.com/renovatebot/renovate/releases/tag/42.42.0"/>
-    <published>2025-12-09T12:49:30+00:00</published>
+    <link href="https://github.com/renovatebot/renovate/releases/tag/42.54.2"/>
+    <published>2025-12-15T13:49:40+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-bitbucket-data-center-release-notes</id>
     <title>Mend for Bitbucket DC: Version 25.11.1 (30-November-2025)</title>
-    <updated>2025-12-09T13:52:38.193665+00:00</updated>
+    <updated>2025-12-15T13:57:25.315645+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
-    <content type="html">&lt;p&gt;Unified Agent 25.11.1-223 | &lt;a class="external-link" href="https://github.com/renovatebot/renovate/releases/tag/41.173.1" rel="nofollow" shape="rect"&gt;&lt;u&gt;Renovate 41.173.1&lt;/u&gt;&lt;/a&gt; | Remediate 25.10.1 | Pre-Scan Builder (PSB) 25.8.1&lt;/p&gt;&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;The &lt;a data-linked-resource-id="3713990693" data-linked-resource-type="page" data-linked-resource-version="5" href="https://docs.mend.io/integrations/latest/mend-for-bitbucket-data-center-configuration#BBDC-Scan-Settings"&gt;&lt;strong&gt;&lt;u&gt;cloneSubmodules&lt;/u&gt;&lt;/strong&gt;&lt;/a&gt;&lt;strong&gt; &lt;/strong&gt;feature now supports scanning a repositorys submodules via SSH as well as HTTPS.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;The following languages and package managers are now officially &lt;a data-linked-resource-id="3149365249" data-linked-resource-type="page" data-linked-resource-version="37" href="https://docs.mend.io/legacy-sca/latest/unified-agent-support-matrix"&gt;&lt;u&gt;supported&lt;/u&gt;&lt;/a&gt;:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Node.js 24.x (language)&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;npm 11.x (package manager)&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Gradle 9.x (package manager)&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+    <content type="html">&lt;p&gt;Unified Agent 25.11.1-223 | &lt;a class="external-link" href="https://github.com/renovatebot/renovate/releases/tag/41.173.1" rel="nofollow" shape="rect"&gt;&lt;u&gt;Renovate 41.173.1&lt;/u&gt;&lt;/a&gt; | Remediate 25.10.1 | Pre-Scan Builder (PSB) 25.8.1&lt;/p&gt;&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;The &lt;a data-linked-resource-id="3713990693" data-linked-resource-type="page" data-linked-resource-version="6" href="https://docs.mend.io/integrations/latest/mend-for-bitbucket-data-center-configuration#BBDC-Scan-Settings"&gt;&lt;strong&gt;&lt;u&gt;cloneSubmodules&lt;/u&gt;&lt;/strong&gt;&lt;/a&gt;&lt;strong&gt; &lt;/strong&gt;feature now supports scanning a repositorys submodules via SSH as well as HTTPS.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;The following languages and package managers are now officially &lt;a data-linked-resource-id="3149365249" data-linked-resource-type="page" data-linked-resource-version="38" href="https://docs.mend.io/legacy-sca/latest/unified-agent-support-matrix"&gt;&lt;u&gt;supported&lt;/u&gt;&lt;/a&gt;:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Node.js 24.x (language)&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;npm 11.x (package manager)&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Gradle 9.x (package manager)&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;</content>
     <link href="https://docs.mend.io/integrations/latest/mend-for-bitbucket-data-center-release-notes"/>
     <published>2025-11-30T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-gitlab-release-notes</id>
     <title>Mend for GitLab: Version 25.11.1 (30-November-2025)</title>
-    <updated>2025-12-09T13:52:38.193650+00:00</updated>
+    <updated>2025-12-15T13:57:25.315634+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
-    <content type="html">&lt;p&gt;Unified Agent 25.11.1-223 | &lt;a class="external-link" href="https://github.com/renovatebot/renovate/releases/tag/41.173.1" rel="nofollow" shape="rect"&gt;&lt;u&gt;Renovate 41.173.1&lt;/u&gt;&lt;/a&gt; | Remediate 25.10.1 | Pre-Scan Builder (PSB) 25.8.1&lt;/p&gt;&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;The following languages and package managers are now officially &lt;a data-linked-resource-id="3149365249" data-linked-resource-type="page" data-linked-resource-version="37" href="https://docs.mend.io/legacy-sca/latest/unified-agent-support-matrix"&gt;&lt;u&gt;supported&lt;/u&gt;&lt;/a&gt;:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Node.js 24.x (language)&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;npm 11.x (package manager)&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Gradle 9.x (package manager)&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a data-linked-resource-id="3899883538" data-linked-resource-type="page" data-linked-resource-version="9" href="https://docs.mend.io/integrations/latest/configure-sca-reachability-for-gitlab"&gt;SCA Reachability&lt;/a&gt; now supports zero day configuration. When enabled, the integration will trigger a reachability scan when a new vulnerability is introduced to a dependency that is included in the users codebase.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;(SAST)&lt;/strong&gt; Fixed an issue where SAST scans on pull requests targeting an empty main branch produced misleading results and incorrectly reported a successful scan status.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+    <content type="html">&lt;p&gt;Unified Agent 25.11.1-223 | &lt;a class="external-link" href="https://github.com/renovatebot/renovate/releases/tag/41.173.1" rel="nofollow" shape="rect"&gt;&lt;u&gt;Renovate 41.173.1&lt;/u&gt;&lt;/a&gt; | Remediate 25.10.1 | Pre-Scan Builder (PSB) 25.8.1&lt;/p&gt;&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;The following languages and package managers are now officially &lt;a data-linked-resource-id="3149365249" data-linked-resource-type="page" data-linked-resource-version="38" href="https://docs.mend.io/legacy-sca/latest/unified-agent-support-matrix"&gt;&lt;u&gt;supported&lt;/u&gt;&lt;/a&gt;:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Node.js 24.x (language)&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;npm 11.x (package manager)&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Gradle 9.x (package manager)&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a data-linked-resource-id="3899883538" data-linked-resource-type="page" data-linked-resource-version="9" href="https://docs.mend.io/integrations/latest/configure-sca-reachability-for-gitlab"&gt;SCA Reachability&lt;/a&gt; now supports zero day configuration. When enabled, the integration will trigger a reachability scan when a new vulnerability is introduced to a dependency that is included in the users codebase.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;(SAST)&lt;/strong&gt; Fixed an issue where SAST scans on pull requests targeting an empty main branch produced misleading results and incorrectly reported a successful scan status.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
     <link href="https://docs.mend.io/integrations/latest/mend-for-gitlab-release-notes"/>
     <published>2025-11-30T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-github-enterprise-release-notes</id>
     <title>Mend for GitHub Enterprise: Version 25.11.1 (30-November-2025)</title>
-    <updated>2025-12-09T13:52:38.193383+00:00</updated>
+    <updated>2025-12-15T13:57:25.315624+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
-    <content type="html">&lt;p&gt;Unified Agent 25.11.1-223 | &lt;a class="external-link" href="https://github.com/renovatebot/renovate/releases/tag/41.173.1" rel="nofollow" shape="rect"&gt;&lt;u&gt;Renovate 41.173.1&lt;/u&gt;&lt;/a&gt; | Remediate 25.10.1 | Pre-Scan Builder (PSB) 25.8.1&lt;/p&gt;&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;The &lt;a data-linked-resource-id="2884894993" data-linked-resource-type="page" data-linked-resource-version="32" href="https://docs.mend.io/integrations/latest/configure-mend-for-github-enterprise-for-sca#GHE-Scan-Settings-SCA"&gt;&lt;strong&gt;&lt;u&gt;cloneSubmodules&lt;/u&gt;&lt;/strong&gt;&lt;/a&gt;&lt;strong&gt; &lt;/strong&gt;feature now supports scanning a repositorys submodules via SSH as well as HTTPS.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;The following languages and package managers are now officially &lt;a data-linked-resource-id="3149365249" data-linked-resource-type="page" data-linked-resource-version="37" href="https://docs.mend.io/legacy-sca/latest/unified-agent-support-matrix"&gt;&lt;u&gt;supported&lt;/u&gt;&lt;/a&gt;:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Node.js 24.x (language)&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;npm 11.x (package manager)&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Gradle 9.x (package manager)&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;(SAST)&lt;/strong&gt; Fixed an issue where SAST scans on pull requests targeting an empty main branch produced misleading results and incorrectly reported a successful scan status.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+    <content type="html">&lt;p local-id="b071bffb-a8cf-420e-a2d4-9430814461de"&gt;Unified Agent 25.11.1-223 | &lt;a class="external-link" href="https://github.com/renovatebot/renovate/releases/tag/41.173.1" rel="nofollow" shape="rect"&gt;&lt;u&gt;Renovate 41.173.1&lt;/u&gt;&lt;/a&gt; | Remediate 25.10.1 | Pre-Scan Builder (PSB) 25.8.1&lt;/p&gt;&lt;p local-id="ba9d7a10-08ba-4f1a-b68a-d09493d3a89b"&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="cd549ea8-4b9b-4c1c-b035-a5ec7db19c70"&gt;&lt;li local-id="ea8d6199-fc6b-4811-8142-342aff866bc5"&gt;&lt;p local-id="3362c5d1-a1e7-471a-8bf6-d435b033f02b"&gt;The &lt;a data-linked-resource-id="2884894993" data-linked-resource-type="page" data-linked-resource-version="33" href="https://docs.mend.io/integrations/latest/configure-mend-for-github-enterprise-for-sca#GHE-Scan-Settings-SCA"&gt;&lt;strong&gt;&lt;u&gt;cloneSubmodules&lt;/u&gt;&lt;/strong&gt;&lt;/a&gt;&lt;strong&gt; &lt;/strong&gt;feature now supports scanning a repositorys submodules via SSH as well as HTTPS.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="7382bc7d-4f9b-4b1b-92b4-bb965c871ba2"&gt;&lt;p local-id="77feceb5-e771-460c-80fb-50db20c7e068"&gt;The following languages and package managers are now officially &lt;a data-linked-resource-id="3149365249" data-linked-resource-type="page" data-linked-resource-version="38" href="https://docs.mend.io/legacy-sca/latest/unified-agent-support-matrix"&gt;&lt;u&gt;supported&lt;/u&gt;&lt;/a&gt;:&lt;/p&gt;&lt;ul local-id="a86ec49d-ec2f-42ad-accc-01355f7069fa"&gt;&lt;li local-id="1bd4b182-c2f4-4317-9d89-676ada81692d"&gt;&lt;p local-id="34b5b331-4fbb-43a8-8fa5-95543a8d8c16"&gt;Node.js 24.x (language)&lt;/p&gt;&lt;/li&gt;&lt;li local-id="77ee21f4-b2e9-4fe8-b97c-110c11459801"&gt;&lt;p local-id="a6188761-84e1-47ad-8014-8fab8707486e"&gt;npm 11.x (package manager)&lt;/p&gt;&lt;/li&gt;&lt;li local-id="f52db2ca-9b75-4b73-89fc-aa8236e39767"&gt;&lt;p local-id="8750657a-eb18-4a80-98dd-efce6d0c15ad"&gt;Gradle 9.x (package manager)&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p local-id="07549598-928e-44be-bb45-865285b00857"&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="193adca7-5208-46d9-b755-9f062dfb8513"&gt;&lt;li local-id="f9ce99b6-b58c-43dc-8560-ff4419d96efa"&gt;&lt;p local-id="b3ae76be-3d98-4fe3-9227-5cec6ba2b150"&gt;&lt;strong&gt;(SAST)&lt;/strong&gt; Fixed an issue where SAST scans on pull requests targeting an empty main branch produced misleading results and incorrectly reported a successful scan status.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
     <link href="https://docs.mend.io/integrations/latest/mend-for-github-enterprise-release-notes"/>
     <published>2025-11-30T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-github-com-release-notes</id>
-    <title>Mend for GitHub.com: Version 25.11.1 (30-November-2025)</title>
-    <updated>2025-12-09T13:52:38.193374+00:00</updated>
+    <title>Mend for GitHub.com: Version 25.11.2 (14-December-2025)</title>
+    <updated>2025-12-15T13:57:25.315615+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
-    <content type="html">&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; &lt;a data-linked-resource-id="2915500074" data-linked-resource-type="page" data-linked-resource-version="47" href="https://docs.mend.io/platform/latest/configure-the-mend-cli-for-sca#CLI-SCA-Languages"&gt;&lt;u&gt;Conan&lt;/u&gt;&lt;/a&gt; support in SCA scans, including &lt;a data-linked-resource-id="2936864784" data-linked-resource-type="page" data-linked-resource-version="17" href="https://docs.mend.io/integrations/latest/configure-sca-reachability-for-github-com"&gt;&lt;u&gt;Reachability&lt;/u&gt;&lt;/a&gt; analysis, is now generally available.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;(SAST)&lt;/strong&gt; Fixed an issue where SAST scans on pull requests targeting an empty main branch produced misleading results and incorrectly reported a successful scan status.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+    <content type="html">&lt;p local-id="4b0ce84e-9653-4b5c-af08-9353e7ea12af"&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="0fc62749-3ba3-4170-93ec-d85496cb5883"&gt;&lt;li local-id="8f8cb616-bef0-4b45-a713-8289a4d4551d"&gt;&lt;p local-id="48dec066-87c1-4db2-a844-761f11c60f31"&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; An SCA scan will now be triggered when a &lt;code&gt;versions.kt&lt;/code&gt; file is &lt;a class="external-link" href="https://docs.mend.io/integrations/latest/advanced-technical-information#Scan-Triggering-Files" rel="nofollow" shape="rect"&gt;added or modified&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
     <link href="https://docs.mend.io/integrations/latest/mend-for-github-com-release-notes"/>
-    <published>2025-11-30T00:00:00+00:00</published>
+    <published>2025-12-14T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-developer-platform-release-notes</id>
-    <title>Mend Developer Platform: Version 25.11.1 (30-November-2025)</title>
-    <updated>2025-12-09T13:52:38.193364+00:00</updated>
+    <title>Mend Developer Platform: Version 25.11.2 (14-December-2025)</title>
+    <updated>2025-12-15T13:57:25.315604+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
-    <content type="html">&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; &lt;a data-linked-resource-id="2915500074" data-linked-resource-type="page" data-linked-resource-version="47" href="https://docs.mend.io/platform/latest/configure-the-mend-cli-for-sca#CLI-SCA-Languages"&gt;&lt;u&gt;Conan&lt;/u&gt;&lt;/a&gt; support in SCA scans, including &lt;a data-linked-resource-id="3342794756" data-linked-resource-type="page" data-linked-resource-version="4" href="https://docs.mend.io/integrations/latest/configure-sca-reachability-mend-developer-platform"&gt;&lt;u&gt;Reachability&lt;/u&gt;&lt;/a&gt; analysis, is now generally available.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; An SCA scan will now be triggered when a &lt;code&gt;versions.kt&lt;/code&gt; file is &lt;a data-linked-resource-id="2524153813" data-linked-resource-type="page" data-linked-resource-version="128" href="https://docs.mend.io/integrations/latest/advanced-technical-information#Scan-Triggering-Files"&gt;added or modified&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;UI improvement: Section headers in Settings pages are now &lt;strong&gt;bold&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+    <content type="html">&lt;p local-id="c85c7c79-605a-4388-b7f1-f3b6423f3a91"&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="4f57f36e-e1c3-4fd2-80a1-03e37524a98c"&gt;&lt;li local-id="8bf95bd1-55c7-47b5-a9d7-fb17ba206dc1"&gt;&lt;p local-id="697ca2b5-7350-4170-9f5e-a7347e0b2101"&gt;Minor fixes and improvements to the sorting, filtering and loading speed of the repositories and jobs tables in the Developer Platform UI.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
     <link href="https://docs.mend.io/integrations/latest/mend-developer-platform-release-notes"/>
-    <published>2025-11-30T00:00:00+00:00</published>
+    <published>2025-12-14T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/legacy-sca/latest/mend-unified-agent-release-notes</id>
-    <title>Mend Unified Agent: Version 25.11.1 (01-December-2025)</title>
-    <updated>2025-12-09T13:52:38.193353+00:00</updated>
+    <title>Mend Unified Agent: Version 25.11.2 (15-December-2025)</title>
+    <updated>2025-12-15T13:57:25.315592+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
-    <content type="html">&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="f111d09a-f23f-441f-8963-d0f4279a5d1e"&gt;&lt;li&gt;&lt;p&gt;The yarn package manager v4.x is now officially &lt;a data-linked-resource-id="3149365249" data-linked-resource-type="page" data-linked-resource-version="38" href="https://docs.mend.io/legacy-sca/latest/unified-agent-support-matrix"&gt;supported&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+    <content type="html">&lt;p local-id="e041aaaf-3d08-464d-be29-a824228591bc"&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="5a68c40d-de63-4a4b-836a-62b4ff8fb066"&gt;&lt;li local-id="acfc0e89-2eca-490d-a68d-d0aebfd11c97"&gt;&lt;p local-id="52313438-974d-40d5-8fee-b1cabd63d42a"&gt;Fixed an issue where invalid system paths in certain PNPM and Yarn projects caused Reachability analysis to fail.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="6a1059ab-6cdb-4038-9439-3e514cae7d91"&gt;&lt;p local-id="c00f99ae-d743-4e6d-a562-56e849443e3d"&gt;Fixed an issue where Go projects with build errors caused all dependencies to appear as direct in the UI, resulting in the loss of transitive dependency hierarchy and breaking vulnerability path analysis. Dependency relationships are now accurately reported even when fallback mechanisms are triggered.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="19011c20-b178-4726-bb86-b6d408c7b52b"&gt;&lt;p local-id="1bc0e0b3-a947-4ceb-b083-fd01d966157f"&gt;Fixed an issue where Erlang dependencies could not be resolved during project scans, resulting in incomplete dependency trees.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="07b1122c-7543-4e42-8931-311afa11874d"&gt;&lt;p local-id="2ea21e7b-dd5a-4f99-a109-7e038abe468c"&gt;Fixed an issue where Elixir dependencies could not be resolved during project scans, under certain conditions.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
     <link href="https://docs.mend.io/legacy-sca/latest/mend-unified-agent-release-notes"/>
-    <published>2025-12-01T00:00:00+00:00</published>
+    <published>2025-12-15T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-cli-release-notes</id>
     <title>Mend CLI: Version 25.11.1.1 (03-December-2025)</title>
-    <updated>2025-12-09T13:52:38.193339+00:00</updated>
+    <updated>2025-12-15T13:57:25.315578+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -102,29 +102,29 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-ai-release-notes</id>
     <title>Mend AI: Version 25.11.1 (01-December-2025)</title>
-    <updated>2025-12-09T13:52:38.193327+00:00</updated>
+    <updated>2025-12-15T13:57:25.315544+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
-    <content type="html">&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;(Premium)&lt;/strong&gt; Added OAuth support in the &lt;a data-linked-resource-id="3519447900" data-linked-resource-type="page" data-linked-resource-version="16" href="https://docs.mend.io/platform/latest/red-teaming-integrations#REST-API-Target-Integration"&gt;Red-Teaming REST API Target integration&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;(Premium)&lt;/strong&gt; Traditional Chinese can now be configured as the default language of your application in the &lt;a data-linked-resource-id="3519447827" data-linked-resource-type="page" data-linked-resource-version="8" href="https://docs.mend.io/platform/latest/create-target#Target-Configuration"&gt;Target Configuration&lt;/a&gt; for red-teaming.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+    <content type="html">&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;(Premium)&lt;/strong&gt; Added OAuth support in the &lt;a data-linked-resource-id="3519447900" data-linked-resource-type="page" data-linked-resource-version="18" href="https://docs.mend.io/platform/latest/red-teaming-integrations#REST-API-Target-Integration"&gt;Red-Teaming REST API Target integration&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;(Premium)&lt;/strong&gt; Traditional Chinese can now be configured as the default language of your application in the &lt;a data-linked-resource-id="3519447827" data-linked-resource-type="page" data-linked-resource-version="8" href="https://docs.mend.io/platform/latest/create-target#Target-Configuration"&gt;Target Configuration&lt;/a&gt; for red-teaming.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
     <link href="https://docs.mend.io/platform/latest/mend-ai-release-notes"/>
     <published>2025-12-01T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-container-release-notes</id>
-    <title>Mend Container: Version 25.10.3 (16-November-2025)</title>
-    <updated>2025-12-09T13:52:38.193315+00:00</updated>
+    <title>Mend Container: Version 25.11.2 (14-December-2025)</title>
+    <updated>2025-12-15T13:57:25.315531+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
-    <content type="html">&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;General CLI container scan performance improvements.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Resolved a a log output issue during scans: By removing specific code lines, log messages no longer print to STDOUT/STDERR when MEND_LOG_LEVEL is set. Console logging remains at ERROR level, except in development mode.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Resolved an issue in Desktop Printing Software for Linux where HTML reports for Container Image Attribution displayed an incorrect number of libraries, exceeding the project's parameters when generating reports in the customer's environment.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Fixed an issue where violations generated by workflows were not automatically resolved when their associated findings were suppressed. Now, violations are promptly resolved across all scan types when findings are suppressed, ensuring consistent and immediate updates.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Fixed an issue where users with the Security Analyst role were unable to suppress container findings via API v3 without admin permissions. Suppression can now be performed by users with appropriate non-admin roles.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+    <content type="html">&lt;p local-id="05649393-bb78-4ff1-a988-863bd7c39241"&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="2213b2ed-340e-46ae-ad0b-a819382bf748"&gt;&lt;li local-id="16fea8e7-2008-4ea6-8cfc-bc7a1c6b01a1"&gt;&lt;p local-id="089caaf9-7371-46bf-a470-9f42b3b044ba"&gt;Mend Container registry integration now supports &lt;a data-linked-resource-id="4004282369" data-linked-resource-type="page" data-linked-resource-version="7" href="https://docs.mend.io/platform/latest/configure-private-google-artifact-registry"&gt;Google Artifact Registry (GAR)&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p local-id="436d4659-d4d9-4dc6-9956-ca4895475f03"&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="3d1f7bf1-dfa6-4a2c-8cf7-89ac434717ab"&gt;&lt;li local-id="a9079b31-6f53-416e-a998-bb797ef4b4a3"&gt;&lt;p local-id="fe541071-0d99-4669-81c3-bdb4fa7dd37a"&gt;Fixed an issue where long package names in the Container package name column were not fully visible, allowing users to view the entire package name without limitation.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="8ceebd1f-c3d1-423b-bf7d-ea8d09ab5eef"&gt;&lt;p local-id="6fe33b1f-86af-4e5b-ae9c-6dfc481274a2"&gt;Fixed an issue where the findings count displayed in the scans section and project overview did not always match the actual number of findings, ensuring accurate and consistent vulnerability counts across all views.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
     <link href="https://docs.mend.io/platform/latest/mend-container-release-notes"/>
-    <published>2025-11-16T00:00:00+00:00</published>
+    <published>2025-12-14T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-sast-release-notes</id>
     <title>Mend SAST: Version 25.11.1 (01-December-2025)</title>
-    <updated>2025-12-09T13:52:38.193301+00:00</updated>
+    <updated>2025-12-15T13:57:25.315516+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -134,24 +134,24 @@
   </entry>
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-sca-release-notes</id>
-    <title>Mend SCA: Version 25.11.1 (30-November-2025)</title>
-    <updated>2025-12-09T13:52:38.193278+00:00</updated>
+    <title>Mend SCA: Version 25.11.2 (14-December-2025)</title>
+    <updated>2025-12-15T13:57:25.315493+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
-    <content type="html">&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;SBOM improvements:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Enhanced the &lt;a data-linked-resource-id="3036119171" data-linked-resource-type="page" data-linked-resource-version="16" href="https://docs.mend.io/platform/latest/create-a-project-using-a-dependencies-sbom-import"&gt;SBOM import&lt;/a&gt; experience by introducing a clear, step-by-step process with status indicators, user-friendly messages, and actionable guidance for resolving validation or structure issues. Added a 5 MB log view limit with download options for larger logs, and ensured consistent, readable UX for both SPDX and CycloneDX formats.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Added a new field to the license side panel that displays the SPDX identifier for each license, making it easier for users to identify licenses by their standard SPDX-ID.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Added export to CSV and refresh options to &lt;a data-linked-resource-id="3036119171" data-linked-resource-type="page" data-linked-resource-version="16" href="https://docs.mend.io/platform/latest/create-a-project-using-a-dependencies-sbom-import"&gt;SBOM import&lt;/a&gt; logs. These enhancements make it easier to analyze, filter, and share import results, improving troubleshooting and overall usability.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Streamline library management by consolidating duplicate entries of direct libraries into a single row on the Direct Libraries page. Display the riskiest instance's data and allow pathway navigation via a new dropdown. Ensure actions affect all paths with clear user confirmations.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+    <content type="html">&lt;p local-id="97c4a538-55fd-42bc-b05e-aa7f3b00e135"&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="a99112de-6069-456d-abd5-483d602f0654"&gt;&lt;li local-id="7d9ec0a7-b63f-4492-8805-29a50bfc4ca7"&gt;&lt;p local-id="61afcb89-804a-4cca-b8db-d7d23e07d18c"&gt;Added support for SBOM import through &lt;a class="external-link" href="https://api-docs.mend.io/platform/3.0" rel="nofollow" shape="rect"&gt;API 3.0&lt;/a&gt;, enabling users to upload SBOM files within the application context. A dedicated logs API provides enhanced traceability and integration.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="55973dc5-af67-437d-8511-8e3d22490298"&gt;&lt;p local-id="8b9aa8fd-5e09-4af5-94c9-e8167cc67ae6"&gt;Added a new Reports tab in the Accounts view, enabling account administrators to generate and manage Inventory, Security Alerts by Library, and Security Alerts by Vulnerability &lt;a data-linked-resource-id="3995172907" data-linked-resource-type="page" data-linked-resource-version="1" href="https://docs.mend.io/platform/latest/account-level-reports-in-the-mend-appsec-platform"&gt;reports at the account level&lt;/a&gt;. Reports use an asynchronous flow with updated email notifications and permissions aligned to the Legacy SCA model.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="4575dbed-d1d3-4dca-bad6-ba52a962aa7b"&gt;&lt;p local-id="735aa8ae-b5fb-4cb6-befc-9b025be41d0e"&gt;&lt;a data-linked-resource-id="3576004639" data-linked-resource-type="page" data-linked-resource-version="11" href="https://docs.mend.io/platform/latest/legal-and-compliance-workflows"&gt;Legal and Compliance&lt;/a&gt; workflows now support Jira Issue creation, aligning with other workflows in the Mend AppSec Platform. &lt;/p&gt;&lt;ul local-id="40fed5fa-ac9d-4bfd-87c7-969403b16ba3"&gt;&lt;li local-id="cf7d95df-46f7-4d38-89a9-033f108fbd29"&gt;&lt;p local-id="c674e167-eabd-4f0c-9800-3a68bcd5f171"&gt;The Create Issue action for legal findings is available in the OS Inventory table as well as &lt;a data-linked-resource-id="2774564993" data-linked-resource-type="page" data-linked-resource-version="80" href="https://docs.mend.io/platform/latest/workflow-configuration-parameters"&gt;Automation Workflows&lt;/a&gt; with Licenses conditions.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;</content>
     <link href="https://docs.mend.io/platform/latest/mend-sca-release-notes"/>
-    <published>2025-11-30T00:00:00+00:00</published>
+    <published>2025-12-14T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-platform-release-notes</id>
-    <title>Mend AppSec Platform: Version 25.11.1 (30-November-2025)</title>
-    <updated>2025-12-09T13:52:38.193249+00:00</updated>
+    <title>Mend AppSec Platform: Version 25.11.2 (14-December-2025)</title>
+    <updated>2025-12-15T13:57:25.315461+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
-    <content type="html">&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;UI improvements:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Introducing streamlined filter buttons for a cohesive user experience on &lt;a data-linked-resource-id="3987767385" data-linked-resource-type="page" data-linked-resource-version="6" href="https://docs.mend.io/platform/latest/the-applications-and-projects-views"&gt;Applications and Projects views&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Buttons that do not fit are grouped under a more dropdown &lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Profile and admin options are now consolidated into a single menu. &lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Updated styling and hover effects provide a modern, consistent look across the platform.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+    <content type="html">&lt;p local-id="2339991b-b861-48b9-85c5-d4c235ef56e9"&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="ffc97d5f-8d5a-4a6b-82c9-6803ed64c3db"&gt;&lt;li local-id="2d14acbf-1ac1-4fb0-9c95-59f8a4275928"&gt;&lt;p local-id="78718997-06fa-496b-85b7-d3db86a8a519"&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Added support for SBOM import through &lt;a class="external-link" href="https://api-docs.mend.io/platform/3.0" rel="nofollow" shape="rect"&gt;API 3.0&lt;/a&gt;, enabling users to upload SBOM files within the application context. A dedicated logs API provides enhanced traceability and integration.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="4180ea7e-c352-4f20-b8f9-d97a5729c693"&gt;&lt;p local-id="f912652f-49ec-45cc-b30d-f109e4ea8c4f"&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Added a new Reports tab in the Accounts view, enabling account administrators to generate and manage Inventory, Security Alerts by Library, and Security Alerts by Vulnerability &lt;a data-linked-resource-id="3995172907" data-linked-resource-type="page" data-linked-resource-version="1" href="https://docs.mend.io/platform/latest/account-level-reports-in-the-mend-appsec-platform"&gt;reports at the account level&lt;/a&gt;. Reports use an asynchronous flow with updated email notifications and permissions aligned to the Legacy SCA model.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="5a2c6382-8fa1-4204-a8f6-d7c37f512746"&gt;&lt;p local-id="6269d505-bcf5-47f0-897d-0013f0e4abc2"&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; &lt;a data-linked-resource-id="3576004639" data-linked-resource-type="page" data-linked-resource-version="11" href="https://docs.mend.io/platform/latest/legal-and-compliance-workflows"&gt;Legal and Compliance&lt;/a&gt; workflows now support Jira Issue creation, aligning with other workflows in the Mend AppSec Platform.&lt;/p&gt;&lt;ul local-id="bd848414-aa09-4c28-9db3-4674fe8e9243"&gt;&lt;li local-id="97099761-29a1-4885-902e-20b277dfa28c"&gt;&lt;p local-id="8af61f81-d031-4eff-8269-a5ba29babfec"&gt;The Create Issue action for legal findings is available in the OS Inventory table as well as &lt;a data-linked-resource-id="2774564993" data-linked-resource-type="page" data-linked-resource-version="80" href="https://docs.mend.io/platform/latest/workflow-configuration-parameters"&gt;Automation Workflows&lt;/a&gt; with Licenses conditions.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;</content>
     <link href="https://docs.mend.io/platform/latest/mend-platform-release-notes"/>
-    <published>2025-11-30T00:00:00+00:00</published>
+    <published>2025-12-14T00:00:00+00:00</published>
   </entry>
 </feed>
