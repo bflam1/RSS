@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://bflam1.github.io/RSS/atom.xml</id>
   <title>Mend.io Unified Release Notes</title>
-  <updated>2025-12-22T14:48:59+00:00</updated>
+  <updated>2025-12-28T17:18:55+00:00</updated>
   <author>
     <name>Mend Release Bot</name>
     <email>noreply@bflam1.github.io</email>
@@ -12,20 +12,20 @@
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>Aggregated RSS, Atom, and HTML of all Mend release notes.</subtitle>
   <entry>
-    <id>https://github.com/renovatebot/renovate/releases/tag/42.66.0</id>
-    <title>mend Renovate: 42.66.0</title>
-    <updated>2025-12-23T13:52:47.154114+00:00</updated>
+    <id>https://github.com/renovatebot/renovate/releases/tag/42.66.11</id>
+    <title>mend Renovate: 42.66.11</title>
+    <updated>2025-12-29T13:55:17.324266+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
     <content type="html">&lt;p&gt;&lt;/p&gt;</content>
-    <link href="https://github.com/renovatebot/renovate/releases/tag/42.66.0"/>
-    <published>2025-12-22T14:48:59+00:00</published>
+    <link href="https://github.com/renovatebot/renovate/releases/tag/42.66.11"/>
+    <published>2025-12-28T17:18:55+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-bitbucket-data-center-release-notes</id>
     <title>Mend for Bitbucket DC: Version 25.11.1 (30-November-2025)</title>
-    <updated>2025-12-23T13:52:47.154096+00:00</updated>
+    <updated>2025-12-29T13:55:17.324254+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -36,7 +36,7 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-gitlab-release-notes</id>
     <title>Mend for GitLab: Version 25.11.1 (30-November-2025)</title>
-    <updated>2025-12-23T13:52:47.154087+00:00</updated>
+    <updated>2025-12-29T13:55:17.324244+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -47,7 +47,7 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-github-enterprise-release-notes</id>
     <title>Mend for GitHub Enterprise: Version 25.11.1 (30-November-2025)</title>
-    <updated>2025-12-23T13:52:47.154079+00:00</updated>
+    <updated>2025-12-29T13:55:17.324234+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -58,7 +58,7 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-github-com-release-notes</id>
     <title>Mend for GitHub.com: Version 25.11.2 (14-December-2025)</title>
-    <updated>2025-12-23T13:52:47.154070+00:00</updated>
+    <updated>2025-12-29T13:55:17.324225+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -69,7 +69,7 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-developer-platform-release-notes</id>
     <title>Mend Developer Platform: Version 25.11.2 (14-December-2025)</title>
-    <updated>2025-12-23T13:52:47.154061+00:00</updated>
+    <updated>2025-12-29T13:55:17.324216+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -80,7 +80,7 @@
   <entry>
     <id>https://docs.mend.io/legacy-sca/latest/mend-unified-agent-release-notes</id>
     <title>Mend Unified Agent: Version 25.11.2 (15-December-2025)</title>
-    <updated>2025-12-23T13:52:47.154052+00:00</updated>
+    <updated>2025-12-29T13:55:17.324206+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -91,7 +91,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-cli-release-notes</id>
     <title>Mend CLI: Version 25.11.2.2 (22-December-2025)</title>
-    <updated>2025-12-23T13:52:47.154042+00:00</updated>
+    <updated>2025-12-29T13:55:17.324197+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -102,7 +102,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-ai-release-notes</id>
     <title>Mend AI: Version 25.11.1 (01-December-2025)</title>
-    <updated>2025-12-23T13:52:47.154031+00:00</updated>
+    <updated>2025-12-29T13:55:17.324185+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -112,19 +112,19 @@
   </entry>
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-container-release-notes</id>
-    <title>Mend Container: Version 25.11.2 (14-December-2025)</title>
-    <updated>2025-12-23T13:52:47.154021+00:00</updated>
+    <title>Mend Container: Version 25.12.1 (28-December-2025)</title>
+    <updated>2025-12-29T13:55:17.324174+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
-    <content type="html">&lt;p local-id="05649393-bb78-4ff1-a988-863bd7c39241"&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="2213b2ed-340e-46ae-ad0b-a819382bf748"&gt;&lt;li local-id="16fea8e7-2008-4ea6-8cfc-bc7a1c6b01a1"&gt;&lt;p local-id="089caaf9-7371-46bf-a470-9f42b3b044ba"&gt;Mend Container registry integration now supports &lt;a data-linked-resource-id="4004282369" data-linked-resource-type="page" data-linked-resource-version="7" href="https://docs.mend.io/platform/latest/configure-private-google-artifact-registry"&gt;Google Artifact Registry (GAR)&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p local-id="436d4659-d4d9-4dc6-9956-ca4895475f03"&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="3d1f7bf1-dfa6-4a2c-8cf7-89ac434717ab"&gt;&lt;li local-id="a9079b31-6f53-416e-a998-bb797ef4b4a3"&gt;&lt;p local-id="fe541071-0d99-4669-81c3-bdb4fa7dd37a"&gt;Fixed an issue where long package names in the Container package name column were not fully visible, allowing users to view the entire package name without limitation.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="8ceebd1f-c3d1-423b-bf7d-ea8d09ab5eef"&gt;&lt;p local-id="6fe33b1f-86af-4e5b-ae9c-6dfc481274a2"&gt;Fixed an issue where the findings count displayed in the scans section and project overview did not always match the actual number of findings, ensuring accurate and consistent vulnerability counts across all views.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+    <content type="html">&lt;p local-id="2b40aaf2-b6f0-427a-8139-b893073ed9fa"&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="6b008503-045c-4434-9cf6-4a6b4ab25803"&gt;&lt;li local-id="4761ec64-318d-401b-92b8-e98b809c7892"&gt;&lt;p local-id="1f18205d-b530-46a1-b923-553ad1c20705"&gt;A new &lt;a data-linked-resource-id="2932080641" data-linked-resource-type="page" data-linked-resource-version="29" href="https://docs.mend.io/platform/latest/kubernetes-integrations-in-mend-container"&gt;Kubernetes Integration&lt;/a&gt; is available for &lt;a data-linked-resource-id="4046848001" data-linked-resource-type="page" data-linked-resource-version="7" href="https://docs.mend.io/platform/latest/kubernetes-integration-for-google-gke"&gt;Google Kubernetes Engine (GKE)&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p local-id="ddf789e4-6a56-42a2-bd01-679125a8dbeb"&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="81144580-79fa-458b-a122-b9d69d4a162d"&gt;&lt;li local-id="0aad16e1-8ca6-49ec-b6f2-7173f8007673"&gt;&lt;p local-id="a5d666c7-54cf-4a8d-a61b-5464902ff7d1"&gt;Fixed an issue where some vulnerabilities in Container scans displayed an incorrect detection date of "01/01/2000" and were not included in the summary page count. Now, all vulnerabilities show accurate detection dates and are properly counted.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
     <link href="https://docs.mend.io/platform/latest/mend-container-release-notes"/>
-    <published>2025-12-14T00:00:00+00:00</published>
+    <published>2025-12-28T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-sast-release-notes</id>
     <title>Mend SAST: Version 25.11.2 (15-December-2025)</title>
-    <updated>2025-12-23T13:52:47.154008+00:00</updated>
+    <updated>2025-12-29T13:55:17.324160+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -134,24 +134,24 @@
   </entry>
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-sca-release-notes</id>
-    <title>Mend SCA: Version 25.11.2 (14-December-2025)</title>
-    <updated>2025-12-23T13:52:47.153988+00:00</updated>
+    <title>Mend SCA: Version 25.12.1 (28-December-2025)</title>
+    <updated>2025-12-29T13:55:17.324138+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
-    <content type="html">&lt;p local-id="97c4a538-55fd-42bc-b05e-aa7f3b00e135"&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="a99112de-6069-456d-abd5-483d602f0654"&gt;&lt;li local-id="7d9ec0a7-b63f-4492-8805-29a50bfc4ca7"&gt;&lt;p local-id="61afcb89-804a-4cca-b8db-d7d23e07d18c"&gt;Added support for SBOM import through &lt;a class="external-link" href="https://api-docs.mend.io/platform/3.0" rel="nofollow" shape="rect"&gt;API 3.0&lt;/a&gt;, enabling users to upload SBOM files within the application context. A dedicated logs API provides enhanced traceability and integration.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="55973dc5-af67-437d-8511-8e3d22490298"&gt;&lt;p local-id="8b9aa8fd-5e09-4af5-94c9-e8167cc67ae6"&gt;Added a new Reports tab in the Accounts view, enabling account administrators to generate and manage Inventory, Security Alerts by Library, and Security Alerts by Vulnerability &lt;a data-linked-resource-id="3995172907" data-linked-resource-type="page" data-linked-resource-version="1" href="https://docs.mend.io/platform/latest/account-level-reports-in-the-mend-appsec-platform"&gt;reports at the account level&lt;/a&gt;. Reports use an asynchronous flow with updated email notifications and permissions aligned to the Legacy SCA model.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="4575dbed-d1d3-4dca-bad6-ba52a962aa7b"&gt;&lt;p local-id="735aa8ae-b5fb-4cb6-befc-9b025be41d0e"&gt;&lt;a data-linked-resource-id="3576004639" data-linked-resource-type="page" data-linked-resource-version="11" href="https://docs.mend.io/platform/latest/legal-and-compliance-workflows"&gt;Legal and Compliance&lt;/a&gt; workflows now support Jira Issue creation, aligning with other workflows in the Mend AppSec Platform. &lt;/p&gt;&lt;ul local-id="40fed5fa-ac9d-4bfd-87c7-969403b16ba3"&gt;&lt;li local-id="cf7d95df-46f7-4d38-89a9-033f108fbd29"&gt;&lt;p local-id="c674e167-eabd-4f0c-9800-3a68bcd5f171"&gt;The Create Issue action for legal findings is available in the OS Inventory table as well as &lt;a data-linked-resource-id="2774564993" data-linked-resource-type="page" data-linked-resource-version="80" href="https://docs.mend.io/platform/latest/workflow-configuration-parameters"&gt;Automation Workflows&lt;/a&gt; with Licenses conditions.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+    <content type="html">&lt;p local-id="589cc0ef-a2e1-4457-87a3-288dd297fad2"&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="7a0505d3-5558-4de3-9c82-0d59f54a5073"&gt;&lt;li local-id="2e04036c-5489-4cbf-a79c-aeab79f50fce"&gt;&lt;p local-id="d90989c8-bb55-452e-af90-8b9835befb1e"&gt;Added support for &lt;a class="external-link" href="https://api-docs.mend.io/platform/3.0/applications/createprojectwithsbomscan" rel="nofollow" shape="rect"&gt;SBOM import&lt;/a&gt; via a new API 3.0 endpoint under the Application scope, enabling users to upload SBOM files, automatically create or update projects, and retrieve detailed import logs for improved automation and observability.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p local-id="ee776b8d-8e21-4f5a-8307-2f7b99247bf1"&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="d8ce27bb-3341-4d9d-bc65-24e8467c15af"&gt;&lt;li local-id="c752cbb9-69a5-40ac-8c8c-73f04aeeb854"&gt;&lt;p local-id="3a66a7a5-ab4c-4d3c-abeb-33701b0f8241"&gt;Fixed an issue where &lt;a data-linked-resource-id="2524152880" data-linked-resource-type="page" data-linked-resource-version="44" href="https://docs.mend.io/integrations/latest/mend-advise-for-visual-studio"&gt;Mend Advise for Visual Studio&lt;/a&gt; was not detecting CVEs. Vulnerabilities are now correctly identified for relevant projects.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
     <link href="https://docs.mend.io/platform/latest/mend-sca-release-notes"/>
-    <published>2025-12-14T00:00:00+00:00</published>
+    <published>2025-12-28T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-platform-release-notes</id>
-    <title>Mend AppSec Platform: Version 25.11.2 (14-December-2025)</title>
-    <updated>2025-12-23T13:52:47.153962+00:00</updated>
+    <title>Mend AppSec Platform: Version 25.12.1 (28-December-2025)</title>
+    <updated>2025-12-29T13:55:17.324109+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
-    <content type="html">&lt;p local-id="2339991b-b861-48b9-85c5-d4c235ef56e9"&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="ffc97d5f-8d5a-4a6b-82c9-6803ed64c3db"&gt;&lt;li local-id="febbf134-2051-4ef3-ad9a-4d92ccfd77e9"&gt;&lt;p local-id="4c80f9a5-7061-4575-abe1-873352dce1d9"&gt;&lt;strong&gt;(Open Beta)&lt;/strong&gt; A new &lt;a data-linked-resource-id="3727884300" data-linked-resource-type="page" data-linked-resource-version="9" href="https://docs.mend.io/platform/latest/integrate-mend-results-into-servicenow"&gt;integration with ServiceNows Vulnerability Response&lt;/a&gt; module is now available, enabling Dependencies and Code findings to sync directly from &lt;a class="external-link" href="http://mend.io/" rel="nofollow" shape="rect"&gt;&lt;u&gt;Mend.io&lt;/u&gt;&lt;/a&gt; into ServiceNow. The integration provides drill-down visibility from Applications to Projects and their findings, along with bi-directional updates.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="2d14acbf-1ac1-4fb0-9c95-59f8a4275928"&gt;&lt;p local-id="78718997-06fa-496b-85b7-d3db86a8a519"&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Added support for SBOM import through &lt;a class="external-link" href="https://api-docs.mend.io/platform/3.0" rel="nofollow" shape="rect"&gt;API 3.0&lt;/a&gt;, enabling users to upload SBOM files within the application context. A dedicated logs API provides enhanced traceability and integration.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="4180ea7e-c352-4f20-b8f9-d97a5729c693"&gt;&lt;p local-id="f912652f-49ec-45cc-b30d-f109e4ea8c4f"&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Added a new Reports tab in the Accounts view, enabling account administrators to generate and manage Inventory, Security Alerts by Library, and Security Alerts by Vulnerability &lt;a data-linked-resource-id="3995172907" data-linked-resource-type="page" data-linked-resource-version="1" href="https://docs.mend.io/platform/latest/account-level-reports-in-the-mend-appsec-platform"&gt;reports at the account level&lt;/a&gt;. Reports use an asynchronous flow with updated email notifications and permissions aligned to the Legacy SCA model.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="5a2c6382-8fa1-4204-a8f6-d7c37f512746"&gt;&lt;p local-id="6269d505-bcf5-47f0-897d-0013f0e4abc2"&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; &lt;a data-linked-resource-id="3576004639" data-linked-resource-type="page" data-linked-resource-version="11" href="https://docs.mend.io/platform/latest/legal-and-compliance-workflows"&gt;Legal and Compliance&lt;/a&gt; workflows now support Jira Issue creation, aligning with other workflows in the Mend AppSec Platform.&lt;/p&gt;&lt;ul local-id="bd848414-aa09-4c28-9db3-4674fe8e9243"&gt;&lt;li local-id="97099761-29a1-4885-902e-20b277dfa28c"&gt;&lt;p local-id="8af61f81-d031-4eff-8269-a5ba29babfec"&gt;The Create Issue action for legal findings is available in the OS Inventory table as well as &lt;a data-linked-resource-id="2774564993" data-linked-resource-type="page" data-linked-resource-version="80" href="https://docs.mend.io/platform/latest/workflow-configuration-parameters"&gt;Automation Workflows&lt;/a&gt; with Licenses conditions.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+    <content type="html">&lt;p local-id="9aeb7365-192a-4caa-999f-0e46573bf0cd"&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="339ad523-ceb7-467c-9ae6-dd73678d67cd"&gt;&lt;li local-id="a5e7eeea-a343-48b1-af69-1e3bbb866c34"&gt;&lt;p local-id="1084cd3f-b31e-497e-96df-f01d69b6aef6"&gt;Introducing a &lt;a data-linked-resource-id="3987767385" data-linked-resource-type="page" data-linked-resource-version="12" href="https://docs.mend.io/platform/latest/the-applications-and-projects-views#NLP-Filtering"&gt;natural language search bar powered by AI&lt;/a&gt;, enabling users to filter applications and projects with intuitive prompts. This feature streamlines finding critical information, offers smart filter suggestions, and enhances the overall user experience with quick, relevant results and improved filter management.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="72fb0d3c-0a7c-48f5-b3e2-5e2c68d84c18"&gt;&lt;p local-id="862fec0e-394d-428f-abe9-7993e5522b33"&gt;Enhanced &lt;a data-linked-resource-id="2813526062" data-linked-resource-type="page" data-linked-resource-version="35" href="https://docs.mend.io/platform/latest/configure-single-sign-on-sso"&gt;SAML integration&lt;/a&gt; with new configuration options, improved user provisioning controls, and a modernized UI for a more flexible and secure authentication experience. Updates include, but are not limited to, the following enhancements: &lt;/p&gt;&lt;ul local-id="57f2b242-fab8-4d30-a91b-f332a7fb2fe9"&gt;&lt;li local-id="45939bbb-2ec9-42c7-bf2c-871313e83be9"&gt;&lt;p local-id="ff5bcc74-bb6a-4e03-b0d8-1ab381bc9a0b"&gt;Disabling local logins &lt;/p&gt;&lt;/li&gt;&lt;li local-id="d7ce33d8-2f4a-4f62-a939-692c67513eeb"&gt;&lt;p local-id="d0aee82a-249e-4d17-8298-b7c3b8c84465"&gt;Toggling just-in-time user creation &lt;/p&gt;&lt;/li&gt;&lt;li local-id="27785571-413c-4811-a5f5-115cb1f250e1"&gt;&lt;p local-id="99c2e5fb-913f-4879-9c8e-c31493ca2ca8"&gt;Uploading or editing metadata in multiple formats &lt;/p&gt;&lt;/li&gt;&lt;li local-id="d2544fb2-bb23-4474-a8e8-494aec20c4cb"&gt;&lt;p local-id="069db085-4148-4a59-8bb3-3f84b6fc14ad"&gt;Notifications and visual indicators when the SAML certificate is close to expiration&lt;/p&gt;&lt;/li&gt;&lt;li local-id="6425d0ef-bb15-4707-95d3-fbd0c73a8724"&gt;&lt;p local-id="8c13b9d0-f946-4989-ab85-5148fca9bd4d"&gt;A two-way SSO enforcement across the Mend AppSec Platform and Legacy SCA application.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;</content>
     <link href="https://docs.mend.io/platform/latest/mend-platform-release-notes"/>
-    <published>2025-12-14T00:00:00+00:00</published>
+    <published>2025-12-28T00:00:00+00:00</published>
   </entry>
 </feed>
