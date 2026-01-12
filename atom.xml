@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://bflam1.github.io/RSS/atom.xml</id>
   <title>Mend.io Unified Release Notes</title>
-  <updated>2026-01-06T12:16:45+00:00</updated>
+  <updated>2026-01-12T00:43:46+00:00</updated>
   <author>
     <name>Mend Release Bot</name>
     <email>noreply@bflam1.github.io</email>
@@ -12,20 +12,20 @@
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>Aggregated RSS, Atom, and HTML of all Mend release notes.</subtitle>
   <entry>
-    <id>https://github.com/renovatebot/renovate/releases/tag/42.71.3</id>
-    <title>mend Renovate: 42.71.3</title>
-    <updated>2026-01-06T13:54:30.339538+00:00</updated>
+    <id>https://github.com/renovatebot/renovate/releases/tag/42.78.2</id>
+    <title>mend Renovate: 42.78.2</title>
+    <updated>2026-01-12T13:58:47.306987+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
     <content type="html">&lt;p&gt;&lt;/p&gt;</content>
-    <link href="https://github.com/renovatebot/renovate/releases/tag/42.71.3"/>
-    <published>2026-01-06T12:16:45+00:00</published>
+    <link href="https://github.com/renovatebot/renovate/releases/tag/42.78.2"/>
+    <published>2026-01-12T00:43:46+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-bitbucket-data-center-release-notes</id>
     <title>Mend for Bitbucket DC: Version 25.12.1 (05-January-2026)</title>
-    <updated>2026-01-06T13:54:30.339526+00:00</updated>
+    <updated>2026-01-12T13:58:47.306975+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -36,7 +36,7 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-gitlab-release-notes</id>
     <title>Mend for GitLab: Version 25.12.1 (05-January-2026)</title>
-    <updated>2026-01-06T13:54:30.339516+00:00</updated>
+    <updated>2026-01-12T13:58:47.306963+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -47,7 +47,7 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-github-enterprise-release-notes</id>
     <title>Mend for GitHub Enterprise: Version 25.12.1 (05-January-2026)</title>
-    <updated>2026-01-06T13:54:30.339505+00:00</updated>
+    <updated>2026-01-12T13:58:47.306942+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -57,30 +57,30 @@
   </entry>
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-github-com-release-notes</id>
-    <title>Mend for GitHub.com: Version 25.11.2 (14-December-2025)</title>
-    <updated>2026-01-06T13:54:30.339495+00:00</updated>
+    <title>Mend for GitHub.com: Version 25.12.2 (11-January-2025)</title>
+    <updated>2026-01-12T13:58:47.302019+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
-    <content type="html">&lt;p local-id="4b0ce84e-9653-4b5c-af08-9353e7ea12af"&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="0fc62749-3ba3-4170-93ec-d85496cb5883"&gt;&lt;li local-id="8f8cb616-bef0-4b45-a713-8289a4d4551d"&gt;&lt;p local-id="48dec066-87c1-4db2-a844-761f11c60f31"&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; An SCA scan will now be triggered when a &lt;code&gt;versions.kt&lt;/code&gt; file is &lt;a class="external-link" href="https://docs.mend.io/integrations/latest/advanced-technical-information#Scan-Triggering-Files" rel="nofollow" shape="rect"&gt;added or modified&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p local-id="bda51c96-b8fa-4569-8d71-80cc849c252e"&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="4c9d265a-2164-431c-8007-2b16051c83cc"&gt;&lt;li local-id="0d213c7e-c0f2-460a-87a0-a979d4ea3c0b"&gt;&lt;p local-id="b6a43712-3865-4248-ae39-773a665f31ed"&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Fixed an issue where invalid system paths in certain pnpm and Yarn projects caused Reachability analysis to fail.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+    <content type="html">&lt;p local-id="907bd046-abed-40fa-abc9-b09bdc066ea4"&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="8b0e2c23-0bb3-490c-9a0a-6376f99dc6a0"&gt;&lt;li local-id="72f30468-276a-411d-9697-acf15f699a05"&gt;&lt;p local-id="9ce7f674-ea8a-4d20-870a-ce28557c552b"&gt;Fixed a bug where PR scans were skipped when the PR originated from a cross-org fork.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
     <link href="https://docs.mend.io/integrations/latest/mend-for-github-com-release-notes"/>
-    <published>2025-12-14T00:00:00+00:00</published>
+    <published>2025-01-11T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-developer-platform-release-notes</id>
-    <title>Mend Developer Platform: Version 25.12.1 (28-December-2025)</title>
-    <updated>2026-01-06T13:54:30.339485+00:00</updated>
+    <title>Mend Developer Platform: Version 25.12.2 (12-January-2026)</title>
+    <updated>2026-01-12T13:58:47.302009+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
-    <content type="html">&lt;p local-id="87f7717c-4202-4549-b903-89853e279846"&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="6aace143-8b03-4e64-a334-9bb95a6f15ed"&gt;&lt;li local-id="95d8a8a8-e283-4d21-b0f5-37ab3d9eefee"&gt;&lt;p local-id="31c72428-aa4b-46aa-8ae5-31bc592ba846"&gt;Fixed an issue where admins could not uninstall an SCM organization in certain scenarios.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="6dfc7659-9551-43d5-a677-3d56601799f9"&gt;&lt;p local-id="6b0c99cf-a610-4375-82f8-5e78318ab6ee"&gt;Fixed an issue where Renovate would open an onboarding pull request before onboarding was complete, causing the PR to be immediately closed if onboarding was not set. Now, jobs are only triggered after onboarding is finished, ensuring a smoother onboarding process.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+    <content type="html">&lt;p local-id="5ff4a8c7-b591-40bb-a2dc-0226453c8c86"&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="c445c5e8-be05-4068-ade7-0562262a065e"&gt;&lt;li local-id="ee7835e8-e3ab-4a9d-885f-feb7238634f0"&gt;&lt;p local-id="e489380e-f8fb-4f50-8d74-993a30d91c8f"&gt;The Vulnerability range setting has been changed, from a range that supports lower and upper limits, to Vulnerability threshold, which is a single number for failing checks.&lt;/p&gt;&lt;ul local-id="426bab80-9f64-4d59-9459-391fe6e653c9"&gt;&lt;li local-id="f095db14-fc56-4be3-be9a-f445d763eba7"&gt;&lt;p local-id="c9308baf-1096-4866-994b-882e640d6a65"&gt;For existing configurations which had the lower limit set to a non-round number (e.g., 4.6), the vulnerability threshold has been rounded-down (i.e., 4.0).&lt;/p&gt;&lt;/li&gt;&lt;li local-id="f65efbf9-00e5-44cb-a9b3-7079945cd121"&gt;&lt;p local-id="4305ca1c-fb0e-4b8b-a399-8d6283c81ee2"&gt;The upper limit is now always 10. For existing configurations which had an upper limit configured to anything other than 10, the upper limit is now 10 and non-configurable.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li local-id="c2848517-968c-4678-8221-7240b882bac8"&gt;&lt;p local-id="3dc32c44-9e2c-4e21-b399-017a9109e041"&gt;(GitHub) When the security check is neutral, the license check will now be present and have a neutral status, so that branch protection rules can be fully enforced.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="c8faf004-98cf-4881-939e-5a4b915fb5c6"&gt;&lt;p local-id="3cff3906-37dd-41cf-bb25-da04d4fbc694"&gt;&lt;strong&gt;(SAST)&lt;/strong&gt; The Mend Developer Platform now supports &lt;a data-linked-resource-id="4070932481" data-linked-resource-type="page" data-linked-resource-version="3" href="https://docs.mend.io/integrations/latest/suppress-findings-from-your-azure-devops-repositor"&gt;suppression approval workflows&lt;/a&gt; for &lt;strong&gt;Azure DevOps repositories&lt;/strong&gt;. Developers can request suppressions directly from their workflows, while security managers retain control by approving or rejecting them. This ensures governance over security exceptions without slowing down development.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
     <link href="https://docs.mend.io/integrations/latest/mend-developer-platform-release-notes"/>
-    <published>2025-12-28T00:00:00+00:00</published>
+    <published>2026-01-12T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/legacy-sca/latest/mend-unified-agent-release-notes</id>
     <title>Mend Unified Agent: Version 25.11.2 (15-December-2025)</title>
-    <updated>2026-01-06T13:54:30.339474+00:00</updated>
+    <updated>2026-01-12T13:58:47.301997+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -90,19 +90,19 @@
   </entry>
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-cli-release-notes</id>
-    <title>Mend CLI: Version 25.12.1.2 (05-January-2026)</title>
-    <updated>2026-01-06T13:54:30.339464+00:00</updated>
+    <title>Mend CLI: Version 25.12.2 (12-January-2026)</title>
+    <updated>2026-01-12T13:58:47.301986+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
-    <content type="html">&lt;p local-id="6f9c0248-a803-436e-a3ec-808bdcb36409"&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="300924fd-7334-4573-8322-03625b8ada45"&gt;&lt;li local-id="37af8255-3ee8-4a76-b529-c1768a39a099"&gt;&lt;p local-id="cd0f9f3a-dd5d-4860-a4ff-a0f43f25ad3a"&gt;Updated Mend CLI code scan dependencies for improved security.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+    <content type="html">&lt;p local-id="185a6509-49a8-4b32-a08e-f98630d133c1"&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="e4d7a890-ee8b-45a7-8759-fa9a45eda57c"&gt;&lt;li local-id="503d930e-c033-4729-aa02-6af913bf7314"&gt;&lt;p local-id="06c5e44a-39d1-46e8-ab34-ce534b332c26"&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Added &lt;a data-linked-resource-id="2936602625" data-linked-resource-type="page" data-linked-resource-version="22" href="https://docs.mend.io/platform/latest/sca-reachability-in-the-mend-cli"&gt;reachability analysis&lt;/a&gt; support to the &lt;a data-linked-resource-id="2950398059" data-linked-resource-type="page" data-linked-resource-version="14" href="https://docs.mend.io/platform/latest/mend-cli-self-contained-mode"&gt;CLI in self-contained mode&lt;/a&gt;, allowing users to run reachability checks without external dependencies.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
     <link href="https://docs.mend.io/platform/latest/mend-cli-release-notes"/>
-    <published>2026-01-05T00:00:00+00:00</published>
+    <published>2026-01-12T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-ai-release-notes</id>
     <title>Mend AI: Version 25.12.1 (05-January-2025)</title>
-    <updated>2026-01-06T13:54:30.339451+00:00</updated>
+    <updated>2026-01-12T13:58:47.301973+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -112,19 +112,19 @@
   </entry>
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-container-release-notes</id>
-    <title>Mend Container: Version 25.12.1 (28-December-2025)</title>
-    <updated>2026-01-06T13:54:30.339439+00:00</updated>
+    <title>Mend Container: Version 25.12.2 (11-January-2026)</title>
+    <updated>2026-01-12T13:58:47.301957+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
-    <content type="html">&lt;p local-id="2b40aaf2-b6f0-427a-8139-b893073ed9fa"&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="6b008503-045c-4434-9cf6-4a6b4ab25803"&gt;&lt;li local-id="4761ec64-318d-401b-92b8-e98b809c7892"&gt;&lt;p local-id="1f18205d-b530-46a1-b923-553ad1c20705"&gt;A new &lt;a data-linked-resource-id="2932080641" data-linked-resource-type="page" data-linked-resource-version="29" href="https://docs.mend.io/platform/latest/kubernetes-integrations-in-mend-container"&gt;Kubernetes Integration&lt;/a&gt; is available for &lt;a data-linked-resource-id="4046848001" data-linked-resource-type="page" data-linked-resource-version="7" href="https://docs.mend.io/platform/latest/kubernetes-integration-for-google-gke"&gt;Google Kubernetes Engine (GKE)&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p local-id="ddf789e4-6a56-42a2-bd01-679125a8dbeb"&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="81144580-79fa-458b-a122-b9d69d4a162d"&gt;&lt;li local-id="0aad16e1-8ca6-49ec-b6f2-7173f8007673"&gt;&lt;p local-id="a5d666c7-54cf-4a8d-a61b-5464902ff7d1"&gt;Fixed an issue where some vulnerabilities in Container scans displayed an incorrect detection date of "01/01/2000" and were not included in the summary page count. Now, all vulnerabilities show accurate detection dates and are properly counted.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+    <content type="html">&lt;p local-id="77d6f1fc-ecd8-4c6b-acca-e54ac949e5f1"&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="2a510970-6467-4b8c-a5c3-f24d4a4174ad"&gt;&lt;li local-id="ee1fa601-c18d-4347-a07e-218cb4a11d95"&gt;&lt;p local-id="78c1a04d-4ef9-4cf5-8ecb-d7da729c845a"&gt;Fixed an issue where an old version of Oracle Linux package qemu-guest-agent was specified as a remediation suggestion. The version comparison logic has been updated to ensure only newer package versions are recommended for remediation.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="98a71a1a-2a6d-4f58-bc9b-7c4d562d5a47"&gt;&lt;p local-id="e91a718a-1fb4-4c90-b620-acdff6e3175f"&gt;Fixed an issue where scanning the official Grafana Docker image incorrectly identified the component version, resulting in false-positive vulnerability reports. The scan now accurately detects the correct Grafana version and matches CVEs accordingly.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
     <link href="https://docs.mend.io/platform/latest/mend-container-release-notes"/>
-    <published>2025-12-28T00:00:00+00:00</published>
+    <published>2026-01-11T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-sast-release-notes</id>
     <title>Mend SAST: Version 25.12.1 (05-January-2026)</title>
-    <updated>2026-01-06T13:54:30.339425+00:00</updated>
+    <updated>2026-01-12T13:58:47.301943+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -134,23 +134,23 @@
   </entry>
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-sca-release-notes</id>
-    <title>Mend SCA: Version 25.12.1 (28-December-2025)</title>
-    <updated>2026-01-06T13:54:30.339403+00:00</updated>
+    <title>Mend SCA: Version 25.12.2 (11-January-2026)</title>
+    <updated>2026-01-12T13:58:47.301920+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
-    <content type="html">&lt;p local-id="589cc0ef-a2e1-4457-87a3-288dd297fad2"&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="7a0505d3-5558-4de3-9c82-0d59f54a5073"&gt;&lt;li local-id="2e04036c-5489-4cbf-a79c-aeab79f50fce"&gt;&lt;p local-id="d90989c8-bb55-452e-af90-8b9835befb1e"&gt;Added support for &lt;a class="external-link" href="https://api-docs.mend.io/platform/3.0/applications/createprojectwithsbomscan" rel="nofollow" shape="rect"&gt;SBOM import&lt;/a&gt; via a new API 3.0 endpoint under the Application scope, enabling users to upload SBOM files, automatically create or update projects, and retrieve detailed import logs for improved automation and observability.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p local-id="ee776b8d-8e21-4f5a-8307-2f7b99247bf1"&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="d8ce27bb-3341-4d9d-bc65-24e8467c15af"&gt;&lt;li local-id="c752cbb9-69a5-40ac-8c8c-73f04aeeb854"&gt;&lt;p local-id="3a66a7a5-ab4c-4d3c-abeb-33701b0f8241"&gt;Fixed an issue where &lt;a data-linked-resource-id="2524152880" data-linked-resource-type="page" data-linked-resource-version="44" href="https://docs.mend.io/integrations/latest/mend-advise-for-visual-studio"&gt;Mend Advise for Visual Studio&lt;/a&gt; was not detecting CVEs. Vulnerabilities are now correctly identified for relevant projects.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+    <content type="html">&lt;p local-id="5b904860-a687-4a1f-b2fc-ca38393903f3"&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="e4d7a890-ee8b-45a7-8759-fa9a45eda57c"&gt;&lt;li local-id="4ddfbe04-2a0c-4373-bda9-a971da661f4c"&gt;&lt;p local-id="6ae85884-5f33-4ba9-8689-c913332274bd"&gt;Introducing three asynchronous, account-level API endpoints for exporting Dependencies &lt;a class="external-link" href="https://api-docs.mend.io/platform/3.0/reports-account" rel="nofollow" shape="rect"&gt;reports&lt;/a&gt; in EXCEL format. Users can now generate inventory and findings reports with targeted filters for library name or finding ID, enabling precise data extraction and improved reporting flexibility.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="503d930e-c033-4729-aa02-6af913bf7314"&gt;&lt;p local-id="01692072-f934-4332-ab64-a6842dbd05fe"&gt;Added &lt;a data-linked-resource-id="2936602625" data-linked-resource-type="page" data-linked-resource-version="22" href="https://docs.mend.io/platform/latest/sca-reachability-in-the-mend-cli"&gt;reachability analysis&lt;/a&gt; support to the &lt;a data-linked-resource-id="2950398059" data-linked-resource-type="page" data-linked-resource-version="14" href="https://docs.mend.io/platform/latest/mend-cli-self-contained-mode"&gt;CLI in self-contained mode&lt;/a&gt;, allowing users to run reachability checks without external dependencies.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
     <link href="https://docs.mend.io/platform/latest/mend-sca-release-notes"/>
-    <published>2025-12-28T00:00:00+00:00</published>
+    <published>2026-01-11T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-platform-release-notes</id>
     <title>Mend AppSec Platform: Version 25.12.1 (28-December-2025)</title>
-    <updated>2026-01-06T13:54:30.339371+00:00</updated>
+    <updated>2026-01-12T13:58:47.301891+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
-    <content type="html">&lt;p local-id="9aeb7365-192a-4caa-999f-0e46573bf0cd"&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="339ad523-ceb7-467c-9ae6-dd73678d67cd"&gt;&lt;li local-id="a5e7eeea-a343-48b1-af69-1e3bbb866c34"&gt;&lt;p local-id="1084cd3f-b31e-497e-96df-f01d69b6aef6"&gt;Introducing a &lt;a data-linked-resource-id="3987767385" data-linked-resource-type="page" data-linked-resource-version="13" href="https://docs.mend.io/platform/latest/the-applications-and-projects-views#NLP-Filtering"&gt;natural language search bar powered by AI&lt;/a&gt;, enabling users to filter applications and projects with intuitive prompts. This feature streamlines finding critical information, offers smart filter suggestions, and enhances the overall user experience with quick, relevant results and improved filter management.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="72fb0d3c-0a7c-48f5-b3e2-5e2c68d84c18"&gt;&lt;p local-id="862fec0e-394d-428f-abe9-7993e5522b33"&gt;Enhanced &lt;a data-linked-resource-id="2813526062" data-linked-resource-type="page" data-linked-resource-version="37" href="https://docs.mend.io/platform/latest/configure-single-sign-on-sso"&gt;SAML integration&lt;/a&gt; with new configuration options, improved user provisioning controls, and a modernized UI for a more flexible and secure authentication experience. Updates include, but are not limited to, the following enhancements: &lt;/p&gt;&lt;ul local-id="57f2b242-fab8-4d30-a91b-f332a7fb2fe9"&gt;&lt;li local-id="45939bbb-2ec9-42c7-bf2c-871313e83be9"&gt;&lt;p local-id="ff5bcc74-bb6a-4e03-b0d8-1ab381bc9a0b"&gt;Disabling local logins &lt;/p&gt;&lt;/li&gt;&lt;li local-id="d7ce33d8-2f4a-4f62-a939-692c67513eeb"&gt;&lt;p local-id="d0aee82a-249e-4d17-8298-b7c3b8c84465"&gt;Toggling just-in-time user creation &lt;/p&gt;&lt;/li&gt;&lt;li local-id="27785571-413c-4811-a5f5-115cb1f250e1"&gt;&lt;p local-id="99c2e5fb-913f-4879-9c8e-c31493ca2ca8"&gt;Uploading or editing metadata in multiple formats &lt;/p&gt;&lt;/li&gt;&lt;li local-id="d2544fb2-bb23-4474-a8e8-494aec20c4cb"&gt;&lt;p local-id="069db085-4148-4a59-8bb3-3f84b6fc14ad"&gt;Notifications and visual indicators when the SAML certificate is close to expiration&lt;/p&gt;&lt;/li&gt;&lt;li local-id="6425d0ef-bb15-4707-95d3-fbd0c73a8724"&gt;&lt;p local-id="8c13b9d0-f946-4989-ab85-5148fca9bd4d"&gt;A two-way SSO enforcement across the Mend AppSec Platform and Legacy SCA application.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+    <content type="html">&lt;p local-id="9aeb7365-192a-4caa-999f-0e46573bf0cd"&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="339ad523-ceb7-467c-9ae6-dd73678d67cd"&gt;&lt;li local-id="a5e7eeea-a343-48b1-af69-1e3bbb866c34"&gt;&lt;p local-id="1084cd3f-b31e-497e-96df-f01d69b6aef6"&gt;Introducing a &lt;a data-linked-resource-id="3987767385" data-linked-resource-type="page" data-linked-resource-version="14" href="https://docs.mend.io/platform/latest/the-applications-and-projects-views#NLP-Filtering"&gt;natural language search bar powered by AI&lt;/a&gt;, enabling users to filter applications and projects with intuitive prompts. This feature streamlines finding critical information, offers smart filter suggestions, and enhances the overall user experience with quick, relevant results and improved filter management.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="72fb0d3c-0a7c-48f5-b3e2-5e2c68d84c18"&gt;&lt;p local-id="862fec0e-394d-428f-abe9-7993e5522b33"&gt;Enhanced &lt;a data-linked-resource-id="2813526062" data-linked-resource-type="page" data-linked-resource-version="37" href="https://docs.mend.io/platform/latest/configure-single-sign-on-sso"&gt;SAML integration&lt;/a&gt; with new configuration options, improved user provisioning controls, and a modernized UI for a more flexible and secure authentication experience. Updates include, but are not limited to, the following enhancements: &lt;/p&gt;&lt;ul local-id="57f2b242-fab8-4d30-a91b-f332a7fb2fe9"&gt;&lt;li local-id="45939bbb-2ec9-42c7-bf2c-871313e83be9"&gt;&lt;p local-id="ff5bcc74-bb6a-4e03-b0d8-1ab381bc9a0b"&gt;Disabling local logins &lt;/p&gt;&lt;/li&gt;&lt;li local-id="d7ce33d8-2f4a-4f62-a939-692c67513eeb"&gt;&lt;p local-id="d0aee82a-249e-4d17-8298-b7c3b8c84465"&gt;Toggling just-in-time user creation &lt;/p&gt;&lt;/li&gt;&lt;li local-id="27785571-413c-4811-a5f5-115cb1f250e1"&gt;&lt;p local-id="99c2e5fb-913f-4879-9c8e-c31493ca2ca8"&gt;Uploading or editing metadata in multiple formats &lt;/p&gt;&lt;/li&gt;&lt;li local-id="d2544fb2-bb23-4474-a8e8-494aec20c4cb"&gt;&lt;p local-id="069db085-4148-4a59-8bb3-3f84b6fc14ad"&gt;Notifications and visual indicators when the SAML certificate is close to expiration&lt;/p&gt;&lt;/li&gt;&lt;li local-id="6425d0ef-bb15-4707-95d3-fbd0c73a8724"&gt;&lt;p local-id="8c13b9d0-f946-4989-ab85-5148fca9bd4d"&gt;A two-way SSO enforcement across the Mend AppSec Platform and Legacy SCA application.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;</content>
     <link href="https://docs.mend.io/platform/latest/mend-platform-release-notes"/>
     <published>2025-12-28T00:00:00+00:00</published>
   </entry>
