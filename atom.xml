@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://bflam1.github.io/RSS/atom.xml</id>
   <title>Mend.io Unified Release Notes</title>
-  <updated>2026-01-27T11:44:30+00:00</updated>
+  <updated>2026-02-02T11:18:01+00:00</updated>
   <author>
     <name>Mend Release Bot</name>
     <email>noreply@bflam1.github.io</email>
@@ -12,20 +12,20 @@
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>Aggregated RSS, Atom, and HTML of all Mend release notes.</subtitle>
   <entry>
-    <id>https://github.com/renovatebot/renovate/releases/tag/42.92.14</id>
-    <title>mend Renovate: 42.92.14</title>
-    <updated>2026-01-27T14:02:06.910557+00:00</updated>
+    <id>https://github.com/renovatebot/renovate/releases/tag/43.2.0</id>
+    <title>mend Renovate: 43.2.0</title>
+    <updated>2026-02-02T14:12:09.359866+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
     <content type="html">&lt;p&gt;&lt;/p&gt;</content>
-    <link href="https://github.com/renovatebot/renovate/releases/tag/42.92.14"/>
-    <published>2026-01-27T11:44:30+00:00</published>
+    <link href="https://github.com/renovatebot/renovate/releases/tag/43.2.0"/>
+    <published>2026-02-02T11:18:01+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-bitbucket-data-center-release-notes</id>
     <title>Mend for Bitbucket DC: Version 26.1.1 (25-January-2026)</title>
-    <updated>2026-01-27T14:02:06.910547+00:00</updated>
+    <updated>2026-02-02T14:12:09.359855+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -36,7 +36,7 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-gitlab-release-notes</id>
     <title>Mend for GitLab: Version 26.1.1 (25-January-2026)</title>
-    <updated>2026-01-27T14:02:06.910537+00:00</updated>
+    <updated>2026-02-02T14:12:09.359845+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -47,7 +47,7 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-github-enterprise-release-notes</id>
     <title>Mend for GitHub Enterprise: Version 26.1.1 (25-January-2026)</title>
-    <updated>2026-01-27T14:02:06.910528+00:00</updated>
+    <updated>2026-02-02T14:12:09.359835+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -58,7 +58,7 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-github-com-release-notes</id>
     <title>Mend for GitHub.com: Version 25.12.2 (11-January-2026)</title>
-    <updated>2026-01-27T14:02:06.910519+00:00</updated>
+    <updated>2026-02-02T14:12:09.359825+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -69,18 +69,18 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-developer-platform-release-notes</id>
     <title>Mend Developer Platform: Version 26.1.1 (25-January-2026)</title>
-    <updated>2026-01-27T14:02:06.910509+00:00</updated>
+    <updated>2026-02-02T14:12:09.359813+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
-    <content type="html">&lt;p local-id="18012330-bd1d-4659-8673-8b8f5bea35fd"&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="cb4bddb2-7122-406c-a989-0f0f0432bd09"&gt;&lt;li local-id="5543e3ce-da8b-46f5-ae99-7eb2e9674db4"&gt;&lt;p local-id="fcd3da0c-78d2-4250-9de9-aa069c948307"&gt;&lt;strong&gt;(SAST)&lt;/strong&gt; The Mend Developer Platform now supports &lt;a data-linked-resource-id="4104749062" data-linked-resource-type="page" data-linked-resource-version="1" href="https://docs.mend.io/integrations/latest/suppress-findings-from-your-github-repository"&gt;suppression approval workflows&lt;/a&gt; for &lt;strong&gt;GitHub repositories&lt;/strong&gt;. Developers can request suppressions directly from their workflows, while security managers retain control by approving or rejecting them. This ensures governance over security exceptions without slowing down development.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="f9f90e90-e5fd-493d-b853-36b528d79f61"&gt;&lt;p local-id="3cfdb85b-e3ae-4371-bd9b-07299f472b20"&gt;&lt;strong&gt;(Renovate)&lt;/strong&gt; Added automation to &lt;a class="external-link" href="https://github.com/renovatebot/renovate/discussions/39269" rel="nofollow" shape="rect"&gt;close onboarding pull requests that remain unmerged for over 366 days&lt;/a&gt;. Once closed, these PRs will no longer be updated, and a comment will guide users on how to reopen them if needed. This change helps keep repositories tidy and ensures only active onboarding PRs are maintained.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="8b99aad3-08fa-42d8-a7ad-0765cec7d001"&gt;&lt;p local-id="7f6dc2bb-2993-4e96-a79f-78782057faeb"&gt;Improvements to the workspace rotation feature for Bitbucket workspaces: Enhanced coverage for SAST related API calls.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p local-id="4371d267-3498-47f5-97ce-424dba876f1d"&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="ad5d96a2-549a-4457-b71e-705b7cdf5594"&gt;&lt;li local-id="b1ec0e8b-9437-4f97-828d-7e11f593f02b"&gt;&lt;p local-id="f9c8c98a-ea1e-4205-852b-802acad8eaa1"&gt;Fixed a bug where SCA/SAST scans couldnt be triggered for some repos when using a monorepo configuration.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="e5769738-c8d1-4387-9209-382c65702164"&gt;&lt;p local-id="8dad8f91-7d11-4af3-be3b-9d5adb6dafac"&gt;Fixed a bug in the Azure DevOps onboarding, where projects with more than 100 repositories were hung during step 4 of the onboarding.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+    <content type="html">&lt;p local-id="18012330-bd1d-4659-8673-8b8f5bea35fd"&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="cb4bddb2-7122-406c-a989-0f0f0432bd09"&gt;&lt;li local-id="5543e3ce-da8b-46f5-ae99-7eb2e9674db4"&gt;&lt;p local-id="fcd3da0c-78d2-4250-9de9-aa069c948307"&gt;&lt;strong&gt;(SAST)&lt;/strong&gt; The Mend Developer Platform now supports &lt;a data-linked-resource-id="4104749062" data-linked-resource-type="page" data-linked-resource-version="1" href="https://docs.mend.io/integrations/latest/suppress-findings-from-your-github-repository"&gt;suppression approval workflows&lt;/a&gt; for &lt;strong&gt;GitHub repositories&lt;/strong&gt;. Developers can request suppressions directly from their workflows, while security managers retain control by approving or rejecting them. This ensures governance over security exceptions without slowing down development.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="f9f90e90-e5fd-493d-b853-36b528d79f61"&gt;&lt;p local-id="3cfdb85b-e3ae-4371-bd9b-07299f472b20"&gt;&lt;strong&gt;(Renovate)&lt;/strong&gt; Added automation to &lt;a class="external-link" href="https://github.com/renovatebot/renovate/discussions/39269" rel="nofollow" shape="rect"&gt;close onboarding pull requests that remain unmerged for over 366 days&lt;/a&gt;. Once closed, these PRs will no longer be updated, and a comment will guide users on how to reopen them if needed. This change helps keep repositories tidy and ensures only active onboarding PRs are maintained.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="8b99aad3-08fa-42d8-a7ad-0765cec7d001"&gt;&lt;p local-id="7f6dc2bb-2993-4e96-a79f-78782057faeb"&gt;Improvements to the &lt;a data-linked-resource-id="4120281098" data-linked-resource-type="page" data-linked-resource-version="6" href="https://docs.mend.io/integrations/latest/configure-bitbucket-cloud-for-sast#Bitbucket-Credentials"&gt;workspace rotation feature for Bitbucket workspaces&lt;/a&gt;: Enhanced coverage for SAST related API calls.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p local-id="4371d267-3498-47f5-97ce-424dba876f1d"&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="ad5d96a2-549a-4457-b71e-705b7cdf5594"&gt;&lt;li local-id="b1ec0e8b-9437-4f97-828d-7e11f593f02b"&gt;&lt;p local-id="f9c8c98a-ea1e-4205-852b-802acad8eaa1"&gt;Fixed a bug where SCA/SAST scans couldnt be triggered for some repos when using a monorepo configuration.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="e5769738-c8d1-4387-9209-382c65702164"&gt;&lt;p local-id="8dad8f91-7d11-4af3-be3b-9d5adb6dafac"&gt;Fixed a bug in the Azure DevOps onboarding, where projects with more than 100 repositories were hung during step 4 of the onboarding.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
     <link href="https://docs.mend.io/integrations/latest/mend-developer-platform-release-notes"/>
     <published>2026-01-25T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/legacy-sca/latest/mend-unified-agent-release-notes</id>
     <title>Mend Unified Agent: Version 26.1.1. (26-January-2026)</title>
-    <updated>2026-01-27T14:02:06.910500+00:00</updated>
+    <updated>2026-02-02T14:12:09.359796+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -91,7 +91,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-cli-release-notes</id>
     <title>Mend CLI: Version 26.1.1.3 (26-January-2026)</title>
-    <updated>2026-01-27T14:02:06.910490+00:00</updated>
+    <updated>2026-02-02T14:12:09.359786+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -102,7 +102,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-ai-release-notes</id>
     <title>Mend AI: Version 25.12.1 (05-January-2026)</title>
-    <updated>2026-01-27T14:02:06.910478+00:00</updated>
+    <updated>2026-02-02T14:12:09.359773+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -113,7 +113,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-container-release-notes</id>
     <title>Mend Container: Version 25.12.2 (11-January-2026)</title>
-    <updated>2026-01-27T14:02:06.910466+00:00</updated>
+    <updated>2026-02-02T14:12:09.359757+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -124,18 +124,18 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-sast-release-notes</id>
     <title>Mend SAST: Version 26.1.1 (26-January-2026)</title>
-    <updated>2026-01-27T14:02:06.910452+00:00</updated>
+    <updated>2026-02-02T14:12:09.359742+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
-    <content type="html">&lt;p local-id="4a842744-f3b9-45d8-b876-5da345873683"&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="d7a9c5cd-3624-415c-be47-3772442ab830"&gt;&lt;li local-id="ec105248-6d6a-4bae-be4f-a3f2e2590b1a"&gt;&lt;p local-id="b34153d0-68ac-4c82-afa6-54f1b54f504f"&gt;The Mend Developer Platform now supports &lt;a data-linked-resource-id="4104749062" data-linked-resource-type="page" data-linked-resource-version="1" href="https://docs.mend.io/integrations/latest/suppress-findings-from-your-github-repository"&gt;suppression approval workflows&lt;/a&gt; for &lt;strong&gt;GitHub repositories&lt;/strong&gt;. Developers can request suppressions directly from their workflows, while security managers retain control by approving or rejecting them. This ensures governance over security exceptions without slowing down development.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="08ae6c23-8e94-48c8-bde1-fe06acd32aa7"&gt;&lt;p local-id="df02e82b-062a-41f2-a7df-ca5ecf1b0269"&gt;Automated &lt;a data-linked-resource-id="3081568274" data-linked-resource-type="page" data-linked-resource-version="50" href="https://docs.mend.io/platform/latest/remediate-your-code-sast-findings"&gt;remediation suggestions for Code findings&lt;/a&gt; are now also supported for C and C++. The following CWEs are covered:&lt;br clear="none"/&gt; CWE-22 - Path Traversal&lt;br clear="none"/&gt; CWE-79 - XSS (Cross-Site Scripting)&lt;br clear="none"/&gt; CWE-89 - SQL Injection&lt;br clear="none"/&gt; CWE-117 - Log Injection&lt;br clear="none"/&gt; CWE-601 - Open Redirect&lt;/p&gt;&lt;/li&gt;&lt;li local-id="e2f07c83-342e-4079-a1e5-d40f5e90e145"&gt;&lt;p local-id="eae4a04a-059b-46d2-9768-6b8e79f5e612"&gt;Mend SAST Rust detection is now generally available, offering enhanced security scanning for Rust projects. This update incorporates feedback from beta users and increases coverage of Common Weakness Enumerations (CWEs), enabling developers and security teams to identify vulnerabilities in Rust code with greater accuracy and confidence. Click &lt;a data-linked-resource-id="3876421687" data-linked-resource-type="page" data-linked-resource-version="9" href="https://docs.mend.io/platform/latest/rust"&gt;&lt;u&gt;here&lt;/u&gt;&lt;/a&gt; to learn about the Rust coverage.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="ef4ddc5b-5a36-49b9-8b43-33f7ff59f807"&gt;&lt;p local-id="04c6e07c-614b-4c0f-a636-01bbec5238ea"&gt;Added support for &lt;code&gt;.pbxproj&lt;/code&gt; files in &lt;a data-linked-resource-id="3717988364" data-linked-resource-type="page" data-linked-resource-version="19" href="https://docs.mend.io/platform/latest/code-secret-scanning"&gt;secret scanning&lt;/a&gt;, helping users detect and prevent exposure of sensitive information in Xcode configuration files.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="a6334b9e-157a-4ce6-9164-4742665d428a"&gt;&lt;p local-id="e2599ff9-090a-4f39-9607-0f46019cff7a"&gt;SAST detection for Android, Objective-C and Cold Fusion now supports multi-threading to reduce the scan time.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+    <content type="html">&lt;p local-id="4a842744-f3b9-45d8-b876-5da345873683"&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="d7a9c5cd-3624-415c-be47-3772442ab830"&gt;&lt;li local-id="ec105248-6d6a-4bae-be4f-a3f2e2590b1a"&gt;&lt;p local-id="b34153d0-68ac-4c82-afa6-54f1b54f504f"&gt;The Mend Developer Platform now supports &lt;a data-linked-resource-id="4104749062" data-linked-resource-type="page" data-linked-resource-version="1" href="https://docs.mend.io/integrations/latest/suppress-findings-from-your-github-repository"&gt;suppression approval workflows&lt;/a&gt; for &lt;strong&gt;GitHub repositories&lt;/strong&gt;. Developers can request suppressions directly from their workflows, while security managers retain control by approving or rejecting them. This ensures governance over security exceptions without slowing down development.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="08ae6c23-8e94-48c8-bde1-fe06acd32aa7"&gt;&lt;p local-id="df02e82b-062a-41f2-a7df-ca5ecf1b0269"&gt;Automated &lt;a data-linked-resource-id="3081568274" data-linked-resource-type="page" data-linked-resource-version="51" href="https://docs.mend.io/platform/latest/remediate-your-code-sast-findings"&gt;remediation suggestions for Code findings&lt;/a&gt; are now also supported for C and C++. The following CWEs are covered:&lt;br clear="none"/&gt; CWE-22 - Path Traversal&lt;br clear="none"/&gt; CWE-79 - XSS (Cross-Site Scripting)&lt;br clear="none"/&gt; CWE-89 - SQL Injection&lt;br clear="none"/&gt; CWE-117 - Log Injection&lt;br clear="none"/&gt; CWE-601 - Open Redirect&lt;/p&gt;&lt;/li&gt;&lt;li local-id="e2f07c83-342e-4079-a1e5-d40f5e90e145"&gt;&lt;p local-id="eae4a04a-059b-46d2-9768-6b8e79f5e612"&gt;Mend SAST Rust detection is now generally available, offering enhanced security scanning for Rust projects. This update incorporates feedback from beta users and increases coverage of Common Weakness Enumerations (CWEs), enabling developers and security teams to identify vulnerabilities in Rust code with greater accuracy and confidence. Click &lt;a data-linked-resource-id="3876421687" data-linked-resource-type="page" data-linked-resource-version="9" href="https://docs.mend.io/platform/latest/rust"&gt;&lt;u&gt;here&lt;/u&gt;&lt;/a&gt; to learn about the Rust coverage.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="ef4ddc5b-5a36-49b9-8b43-33f7ff59f807"&gt;&lt;p local-id="04c6e07c-614b-4c0f-a636-01bbec5238ea"&gt;Added support for &lt;code&gt;.pbxproj&lt;/code&gt; files in &lt;a data-linked-resource-id="3717988364" data-linked-resource-type="page" data-linked-resource-version="19" href="https://docs.mend.io/platform/latest/code-secret-scanning"&gt;secret scanning&lt;/a&gt;, helping users detect and prevent exposure of sensitive information in Xcode configuration files.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="a6334b9e-157a-4ce6-9164-4742665d428a"&gt;&lt;p local-id="e2599ff9-090a-4f39-9607-0f46019cff7a"&gt;SAST detection for Android, Objective-C and Cold Fusion now supports multi-threading to reduce the scan time.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
     <link href="https://docs.mend.io/platform/latest/mend-sast-release-notes"/>
     <published>2026-01-26T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-sca-release-notes</id>
     <title>Mend SCA: Version 26.1.1 (25-January-2026)</title>
-    <updated>2026-01-27T14:02:06.910431+00:00</updated>
+    <updated>2026-02-02T14:12:09.359719+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -146,11 +146,11 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-platform-release-notes</id>
     <title>Mend AppSec Platform: Version 26.1.1 (25-January-2026)</title>
-    <updated>2026-01-27T14:02:06.910404+00:00</updated>
+    <updated>2026-02-02T14:12:09.359688+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
-    <content type="html">&lt;p local-id="4c31160f-63b6-45c5-9863-ca461c4c338a"&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="8547bc98-a18c-43c6-afe7-62dad190c399"&gt;&lt;li local-id="80c2c1cd-31c6-4971-a33b-9650c90a7436"&gt;&lt;p local-id="c27d6589-816e-4900-942b-6920b2e41af7"&gt;Introduced a centralized &lt;a data-linked-resource-id="4061855758" data-linked-resource-type="page" data-linked-resource-version="13" href="https://docs.mend.io/platform/latest/the-scans-view"&gt;Scans View&lt;/a&gt;, providing organization-wide visibility into all scan activities. This feature enables administrators and security teams to monitor, filter, and analyze scan metadata, supporting audit readiness, compliance, and executive reporting. Users can easily track scan coverage, investigate issues, and access detailed scan information across multiple applications and projects.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="13dd8216-fab2-43e2-ba24-5402a0817b2d"&gt;&lt;p local-id="fb007566-a57e-4e74-a1f8-df3b3a2db082"&gt;Removed the legacy Library Page from the SCA module. All library-related data is now available through dedicated side-panels, streamlining navigation and improving usability for security, development, and compliance workflows.&lt;/p&gt;&lt;ul local-id="64ccdaf2-70ae-489b-9833-4d5b7c47a960"&gt;&lt;li local-id="840f8741-1a55-4a71-9345-d1ee509ee097"&gt;&lt;p local-id="dfbfa069-5a2c-4be6-96a7-4c59395ee53e"&gt;As part of this change, the &lt;a data-linked-resource-id="3328737286" data-linked-resource-type="page" data-linked-resource-version="18" href="https://docs.mend.io/platform/latest/remediation-strategies-in-mend-sca#LVP"&gt;Least Vulnerable Package remediation strategy (LVP)&lt;/a&gt; has been enhanced and can now recommend both major and minor version upgrade paths. &lt;br clear="none"/&gt;The LVP suggestions are available in the library side-panel under the &lt;a data-linked-resource-id="3529867268" data-linked-resource-type="page" data-linked-resource-version="19" href="https://docs.mend.io/platform/latest/the-findings-table#SCA-Remediation"&gt;Remediation tab&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+    <content type="html">&lt;p local-id="4c31160f-63b6-45c5-9863-ca461c4c338a"&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="8547bc98-a18c-43c6-afe7-62dad190c399"&gt;&lt;li local-id="80c2c1cd-31c6-4971-a33b-9650c90a7436"&gt;&lt;p local-id="c27d6589-816e-4900-942b-6920b2e41af7"&gt;Introduced a centralized &lt;a data-linked-resource-id="4061855758" data-linked-resource-type="page" data-linked-resource-version="13" href="https://docs.mend.io/platform/latest/the-scans-view"&gt;Scans View&lt;/a&gt;, providing organization-wide visibility into all scan activities. This feature enables administrators and security teams to monitor, filter, and analyze scan metadata, supporting audit readiness, compliance, and executive reporting. Users can easily track scan coverage, investigate issues, and access detailed scan information across multiple applications and projects.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="13dd8216-fab2-43e2-ba24-5402a0817b2d"&gt;&lt;p local-id="fb007566-a57e-4e74-a1f8-df3b3a2db082"&gt;Removed the legacy Library Page from the SCA module. All library-related data is now available through dedicated side-panels, streamlining navigation and improving usability for security, development, and compliance workflows.&lt;/p&gt;&lt;ul local-id="64ccdaf2-70ae-489b-9833-4d5b7c47a960"&gt;&lt;li local-id="840f8741-1a55-4a71-9345-d1ee509ee097"&gt;&lt;p local-id="dfbfa069-5a2c-4be6-96a7-4c59395ee53e"&gt;As part of this change, the &lt;a data-linked-resource-id="3328737286" data-linked-resource-type="page" data-linked-resource-version="18" href="https://docs.mend.io/platform/latest/remediation-strategies-in-mend-sca"&gt;Least Vulnerable Package remediation strategy (LVP)&lt;/a&gt; has been enhanced and can now recommend both major and minor version upgrade paths. &lt;br clear="none"/&gt;The LVP suggestions are available in the library side-panel under the &lt;a data-linked-resource-id="3529867268" data-linked-resource-type="page" data-linked-resource-version="19" href="https://docs.mend.io/platform/latest/the-findings-table"&gt;Remediation tab&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;</content>
     <link href="https://docs.mend.io/platform/latest/mend-platform-release-notes"/>
     <published>2026-01-25T00:00:00+00:00</published>
   </entry>
