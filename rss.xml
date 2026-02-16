@@ -7,13 +7,13 @@
     <atom:link href="https://bflam1.github.io/RSS/atom.xml" rel="self"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 10 Feb 2026 13:58:46 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Feb 2026 14:12:33 +0000</lastBuildDate>
     <item>
-      <title>mend Renovate: 43.6.0</title>
-      <link>https://github.com/renovatebot/renovate/releases/tag/43.6.0</link>
+      <title>mend Renovate: 43.17.1</title>
+      <link>https://github.com/renovatebot/renovate/releases/tag/43.17.1</link>
       <description>&lt;p&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://github.com/renovatebot/renovate/releases/tag/43.6.0</guid>
-      <pubDate>Tue, 10 Feb 2026 13:58:46 +0000</pubDate>
+      <guid isPermaLink="false">https://github.com/renovatebot/renovate/releases/tag/43.17.1</guid>
+      <pubDate>Mon, 16 Feb 2026 14:12:33 +0000</pubDate>
     </item>
     <item>
       <title>Mend for Bitbucket DC: Version 26.1.1 (25-January-2026)</title>
@@ -81,7 +81,7 @@
     <item>
       <title>Mend SAST: Version 26.1.2 (09-February-2026)</title>
       <link>https://docs.mend.io/platform/latest/mend-sast-release-notes</link>
-      <description>&lt;p local-id="646ad5aca30b"&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="b8fdb188f0cd"&gt;&lt;li local-id="ea826896e842"&gt;&lt;p local-id="5a01bdbb872f"&gt;Added the ability to generate &lt;a data-linked-resource-id="4144627735" data-linked-resource-type="page" data-linked-resource-version="7" href="https://docs.mend.io/platform/latest/the-resolved-code-findings-report"&gt;SAST reports that include resolved (historical) findings&lt;/a&gt; for a selected time frame. Users can now export these reports in CSV, XML, and JSON formats via both API and Platform UI, enabling better tracking of risk trends and remediation effectiveness for security and compliance needs.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="f9934aa9e4e2"&gt;&lt;p local-id="d14aee97116b"&gt;Increased the accuracy of CWE-79: Cross-site Scripting detection for JavaScript.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="557e0ddfaceb"&gt;&lt;p local-id="c3bd4335abf8"&gt;Multiple minor improvements to increase the accuracy of Rust detection.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="bdbd449c415d"&gt;&lt;p local-id="8488f56083de"&gt;Improved &lt;a data-linked-resource-id="3717988364" data-linked-resource-type="page" data-linked-resource-version="19" href="https://docs.mend.io/platform/latest/code-secret-scanning"&gt;secret scanning&lt;/a&gt; to better detect hardcoded database connection strings.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="f223d22d7264"&gt;&lt;p local-id="889a2ad9b861"&gt;Changes in configuration files now trigger secret scanning even when no actual code is present in the repository.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="067be60736da"&gt;&lt;p local-id="c6d21d115aca"&gt;Repository integration users can now request to disable &lt;a data-linked-resource-id="2917662721" data-linked-resource-type="page" data-linked-resource-version="8" href="https://docs.mend.io/platform/latest/get-training-on-typical-vulnerabilities"&gt;Secure Code Warrior training materials&lt;/a&gt; by contacting Mend Support.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+      <description>&lt;p local-id="646ad5aca30b"&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="b8fdb188f0cd"&gt;&lt;li local-id="ea826896e842"&gt;&lt;p local-id="5a01bdbb872f"&gt;Added the ability to generate &lt;a data-linked-resource-id="4144627735" data-linked-resource-type="page" data-linked-resource-version="7" href="https://docs.mend.io/platform/latest/the-resolved-code-findings-report"&gt;SAST reports that include resolved (historical) findings&lt;/a&gt; for a selected time frame. Users can now export these reports in CSV, XML, and JSON formats via both API and Platform UI, enabling better tracking of risk trends and remediation effectiveness for security and compliance needs.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="f9934aa9e4e2"&gt;&lt;p local-id="d14aee97116b"&gt;Increased the accuracy of CWE-79: Cross-site Scripting detection for JavaScript.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="557e0ddfaceb"&gt;&lt;p local-id="c3bd4335abf8"&gt;Multiple minor improvements to increase the accuracy of Rust detection.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="bdbd449c415d"&gt;&lt;p local-id="8488f56083de"&gt;Improved &lt;a data-linked-resource-id="3717988364" data-linked-resource-type="page" data-linked-resource-version="22" href="https://docs.mend.io/platform/latest/code-secret-scanning"&gt;secret scanning&lt;/a&gt; to better detect hardcoded database connection strings.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="f223d22d7264"&gt;&lt;p local-id="889a2ad9b861"&gt;Changes in configuration files now trigger secret scanning even when no actual code is present in the repository.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="067be60736da"&gt;&lt;p local-id="c6d21d115aca"&gt;Repository integration users can now request to disable &lt;a data-linked-resource-id="2917662721" data-linked-resource-type="page" data-linked-resource-version="8" href="https://docs.mend.io/platform/latest/get-training-on-typical-vulnerabilities"&gt;Secure Code Warrior training materials&lt;/a&gt; by contacting Mend Support.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://docs.mend.io/platform/latest/mend-sast-release-notes</guid>
       <pubDate>Mon, 09 Feb 2026 00:00:00 +0000</pubDate>
     </item>

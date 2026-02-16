@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://bflam1.github.io/RSS/atom.xml</id>
   <title>Mend.io Unified Release Notes</title>
-  <updated>2026-02-10T13:58:46+00:00</updated>
+  <updated>2026-02-16T14:12:33+00:00</updated>
   <author>
     <name>Mend Release Bot</name>
     <email>noreply@bflam1.github.io</email>
@@ -12,20 +12,20 @@
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>Aggregated RSS, Atom, and HTML of all Mend release notes.</subtitle>
   <entry>
-    <id>https://github.com/renovatebot/renovate/releases/tag/43.6.0</id>
-    <title>mend Renovate: 43.6.0</title>
-    <updated>2026-02-10T14:41:25.810536+00:00</updated>
+    <id>https://github.com/renovatebot/renovate/releases/tag/43.17.1</id>
+    <title>mend Renovate: 43.17.1</title>
+    <updated>2026-02-16T14:26:34.935425+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
     <content type="html">&lt;p&gt;&lt;/p&gt;</content>
-    <link href="https://github.com/renovatebot/renovate/releases/tag/43.6.0"/>
-    <published>2026-02-10T13:58:46+00:00</published>
+    <link href="https://github.com/renovatebot/renovate/releases/tag/43.17.1"/>
+    <published>2026-02-16T14:12:33+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-bitbucket-data-center-release-notes</id>
     <title>Mend for Bitbucket DC: Version 26.1.1 (25-January-2026)</title>
-    <updated>2026-02-10T14:41:25.810524+00:00</updated>
+    <updated>2026-02-16T14:26:34.935413+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -36,7 +36,7 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-gitlab-release-notes</id>
     <title>Mend for GitLab: Version 26.1.1 (25-January-2026)</title>
-    <updated>2026-02-10T14:41:25.810514+00:00</updated>
+    <updated>2026-02-16T14:26:34.935403+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -47,7 +47,7 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-github-enterprise-release-notes</id>
     <title>Mend for GitHub Enterprise: Version 26.1.1 (25-January-2026)</title>
-    <updated>2026-02-10T14:41:25.810504+00:00</updated>
+    <updated>2026-02-16T14:26:34.935392+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -58,7 +58,7 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-github-com-release-notes</id>
     <title>Mend for GitHub.com: Version 26.1.2 (08-February-2026)</title>
-    <updated>2026-02-10T14:41:25.810494+00:00</updated>
+    <updated>2026-02-16T14:26:34.935382+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -69,7 +69,7 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-developer-platform-release-notes</id>
     <title>Mend Developer Platform: Version 26.1.2 (08-February-2026)</title>
-    <updated>2026-02-10T14:41:25.810483+00:00</updated>
+    <updated>2026-02-16T14:26:34.935371+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -80,7 +80,7 @@
   <entry>
     <id>https://docs.mend.io/legacy-sca/latest/mend-unified-agent-release-notes</id>
     <title>Mend Unified Agent: Version 26.1.2 (09-February-2026)</title>
-    <updated>2026-02-10T14:41:25.810473+00:00</updated>
+    <updated>2026-02-16T14:26:34.935360+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -91,7 +91,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-cli-release-notes</id>
     <title>Mend CLI: Version 26.1.2.3 (09-February-2026)</title>
-    <updated>2026-02-10T14:41:25.810462+00:00</updated>
+    <updated>2026-02-16T14:26:34.935350+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -102,7 +102,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-ai-release-notes</id>
     <title>Mend AI: Version 25.12.1 (05-January-2026)</title>
-    <updated>2026-02-10T14:41:25.810449+00:00</updated>
+    <updated>2026-02-16T14:26:34.935336+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -113,7 +113,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-container-release-notes</id>
     <title>Mend Container: Version 26.1.2 (08-February-2026)</title>
-    <updated>2026-02-10T14:41:25.810438+00:00</updated>
+    <updated>2026-02-16T14:26:34.935324+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -124,18 +124,18 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-sast-release-notes</id>
     <title>Mend SAST: Version 26.1.2 (09-February-2026)</title>
-    <updated>2026-02-10T14:41:25.810424+00:00</updated>
+    <updated>2026-02-16T14:26:34.935310+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
-    <content type="html">&lt;p local-id="646ad5aca30b"&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="b8fdb188f0cd"&gt;&lt;li local-id="ea826896e842"&gt;&lt;p local-id="5a01bdbb872f"&gt;Added the ability to generate &lt;a data-linked-resource-id="4144627735" data-linked-resource-type="page" data-linked-resource-version="7" href="https://docs.mend.io/platform/latest/the-resolved-code-findings-report"&gt;SAST reports that include resolved (historical) findings&lt;/a&gt; for a selected time frame. Users can now export these reports in CSV, XML, and JSON formats via both API and Platform UI, enabling better tracking of risk trends and remediation effectiveness for security and compliance needs.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="f9934aa9e4e2"&gt;&lt;p local-id="d14aee97116b"&gt;Increased the accuracy of CWE-79: Cross-site Scripting detection for JavaScript.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="557e0ddfaceb"&gt;&lt;p local-id="c3bd4335abf8"&gt;Multiple minor improvements to increase the accuracy of Rust detection.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="bdbd449c415d"&gt;&lt;p local-id="8488f56083de"&gt;Improved &lt;a data-linked-resource-id="3717988364" data-linked-resource-type="page" data-linked-resource-version="19" href="https://docs.mend.io/platform/latest/code-secret-scanning"&gt;secret scanning&lt;/a&gt; to better detect hardcoded database connection strings.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="f223d22d7264"&gt;&lt;p local-id="889a2ad9b861"&gt;Changes in configuration files now trigger secret scanning even when no actual code is present in the repository.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="067be60736da"&gt;&lt;p local-id="c6d21d115aca"&gt;Repository integration users can now request to disable &lt;a data-linked-resource-id="2917662721" data-linked-resource-type="page" data-linked-resource-version="8" href="https://docs.mend.io/platform/latest/get-training-on-typical-vulnerabilities"&gt;Secure Code Warrior training materials&lt;/a&gt; by contacting Mend Support.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+    <content type="html">&lt;p local-id="646ad5aca30b"&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="b8fdb188f0cd"&gt;&lt;li local-id="ea826896e842"&gt;&lt;p local-id="5a01bdbb872f"&gt;Added the ability to generate &lt;a data-linked-resource-id="4144627735" data-linked-resource-type="page" data-linked-resource-version="7" href="https://docs.mend.io/platform/latest/the-resolved-code-findings-report"&gt;SAST reports that include resolved (historical) findings&lt;/a&gt; for a selected time frame. Users can now export these reports in CSV, XML, and JSON formats via both API and Platform UI, enabling better tracking of risk trends and remediation effectiveness for security and compliance needs.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="f9934aa9e4e2"&gt;&lt;p local-id="d14aee97116b"&gt;Increased the accuracy of CWE-79: Cross-site Scripting detection for JavaScript.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="557e0ddfaceb"&gt;&lt;p local-id="c3bd4335abf8"&gt;Multiple minor improvements to increase the accuracy of Rust detection.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="bdbd449c415d"&gt;&lt;p local-id="8488f56083de"&gt;Improved &lt;a data-linked-resource-id="3717988364" data-linked-resource-type="page" data-linked-resource-version="22" href="https://docs.mend.io/platform/latest/code-secret-scanning"&gt;secret scanning&lt;/a&gt; to better detect hardcoded database connection strings.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="f223d22d7264"&gt;&lt;p local-id="889a2ad9b861"&gt;Changes in configuration files now trigger secret scanning even when no actual code is present in the repository.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="067be60736da"&gt;&lt;p local-id="c6d21d115aca"&gt;Repository integration users can now request to disable &lt;a data-linked-resource-id="2917662721" data-linked-resource-type="page" data-linked-resource-version="8" href="https://docs.mend.io/platform/latest/get-training-on-typical-vulnerabilities"&gt;Secure Code Warrior training materials&lt;/a&gt; by contacting Mend Support.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
     <link href="https://docs.mend.io/platform/latest/mend-sast-release-notes"/>
     <published>2026-02-09T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-sca-release-notes</id>
     <title>Mend SCA: Version 26.1.2 (08-February-2026)</title>
-    <updated>2026-02-10T14:41:25.810401+00:00</updated>
+    <updated>2026-02-16T14:26:34.935287+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -146,7 +146,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-platform-release-notes</id>
     <title>Mend AppSec Platform: Version 26.1.2 (08-February-2026)</title>
-    <updated>2026-02-10T14:41:25.810373+00:00</updated>
+    <updated>2026-02-16T14:26:34.935258+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
