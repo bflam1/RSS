@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://bflam1.github.io/RSS/atom.xml</id>
   <title>Mend.io Unified Release Notes</title>
-  <updated>2026-02-23T10:32:46+00:00</updated>
+  <updated>2026-02-24T12:53:43+00:00</updated>
   <author>
     <name>Mend Release Bot</name>
     <email>noreply@bflam1.github.io</email>
@@ -12,53 +12,53 @@
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>Aggregated RSS, Atom, and HTML of all Mend release notes.</subtitle>
   <entry>
-    <id>https://github.com/renovatebot/renovate/releases/tag/43.31.3</id>
-    <title>mend Renovate: 43.31.3</title>
-    <updated>2026-02-23T14:29:53.701023+00:00</updated>
+    <id>https://github.com/renovatebot/renovate/releases/tag/43.32.1</id>
+    <title>mend Renovate: 43.32.1</title>
+    <updated>2026-02-24T14:32:31.696530+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
     <content type="html">&lt;p&gt;&lt;/p&gt;</content>
-    <link href="https://github.com/renovatebot/renovate/releases/tag/43.31.3"/>
-    <published>2026-02-23T10:32:46+00:00</published>
+    <link href="https://github.com/renovatebot/renovate/releases/tag/43.32.1"/>
+    <published>2026-02-24T12:53:43+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-bitbucket-data-center-release-notes</id>
-    <title>Mend for Bitbucket DC: Version 26.1.1 (25-January-2026)</title>
-    <updated>2026-02-23T14:29:53.701012+00:00</updated>
+    <title>Mend for Bitbucket DC: Version 26.2.1.1 (23-February-2026)</title>
+    <updated>2026-02-24T14:32:31.696518+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
-    <content type="html">&lt;p local-id="308a7117-3691-45ba-a40a-c7d7ae54fc00"&gt;Unified Agent 25.11.1-223 | &lt;a class="external-link" href="https://github.com/renovatebot/renovate/releases/tag/42.74.5" rel="nofollow" shape="rect"&gt;&lt;u&gt;Renovate 42.74.5&lt;/u&gt;&lt;/a&gt; | Remediate 26.1.1 | Pre-Scan Builder (PSB) 25.8.1&lt;/p&gt;&lt;p local-id="1783adc1-ce67-4fa9-9658-37f0a6126513"&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="2754b6ab-99ee-44fd-85fd-7a0b3ff5180d"&gt;&lt;li local-id="93335db8-b924-4dc8-a4bd-d39a66d7ef02"&gt;&lt;p local-id="34750a5cec5a"&gt;The repo cloning default utility has been changed from Jgit to Git Shell. This is controllable via the WS_GIT_CONNECTOR &lt;a data-linked-resource-id="2987884545" data-linked-resource-type="page" data-linked-resource-version="53" href="https://docs.mend.io/integrations/latest/environment-variables-for-self-hosted-integrations#Scanner-Env-Variables"&gt;scanner environment variable&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p local-id="689610f1229f"&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="db4153f5-f326-4953-bd39-69161a7e95e6"&gt;&lt;li local-id="c57829a1-9524-41dd-ae55-b45220e77a3e"&gt;&lt;p local-id="1aec38f9-39a2-4495-ac6a-63884177ebfd"&gt;Fixed an issue where a vulnerable cryptography dependency in Miniconda could expose the scanner to CVE-2024-26130 by upgrading to a secure version.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="611a9f99-c39c-4f0f-a6f8-691ac2ade2d2"&gt;&lt;p local-id="7c7f7fb1-40ce-4943-851c-8750da829ebd"&gt;Fixed an authentication issue which led to project installation errors in npm scans if non-default ports were configured to communicate with the package registry. The scanner now correctly preserves the port in the &lt;code&gt;.npmrc&lt;/code&gt; file, ensuring proper credential matching and preventing installation errors for projects using custom registry setups.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+    <content type="html">&lt;p local-id="2acb2c68af02"&gt;Unified Agent 25.12.2 | &lt;a class="external-link" href="https://github.com/renovatebot/renovate/releases/tag/42.99.0" rel="nofollow" shape="rect"&gt;&lt;u&gt;Renovate 42.99.0&lt;/u&gt;&lt;/a&gt; | Remediate 26.2.1 | Pre-Scan Builder (PSB) 25.8.1&lt;/p&gt;&lt;p local-id="5624b3c4fbd7"&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="f924eb88-e95f-4da9-bacc-afae8ec52170"&gt;&lt;li local-id="ad196a13-04b5-4fbb-8783-9891a10feb46"&gt;&lt;p local-id="9ff4ff9d27cf"&gt;Fixed an issue where Bitbucket users received a 500 error when creating issues due to invalid severity values with trailing characters. Added validation to ensure only valid severity types are processed, preventing these errors.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="c001f639-32e5-4b03-bc0e-e99845c6eeb7"&gt;&lt;p local-id="6b3b0fede6fc"&gt;Fixed an issue where the scanner could get stuck in a loop after a scan timed out, repeatedly logging timeout errors instead of properly cancelling the task. The process now ensures scans are cancelled as expected, improving reliability for long-running scans.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="e8781669-677d-4dc1-89ae-61df1e6d30e9"&gt;&lt;p local-id="d2e5cd3ad369"&gt;Fixed a bug which led to scans running for more than 6 hours and timing out.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="3cf03bdd-1c2e-4293-af23-9c5b612ea2a7"&gt;&lt;p local-id="395cdec61f83"&gt;Fixed an issue where the &lt;code&gt;DockerfileFull&lt;/code&gt; output image size exceeded 20GB. The build process was optimized to reduce image size and improve efficiency.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
     <link href="https://docs.mend.io/integrations/latest/mend-for-bitbucket-data-center-release-notes"/>
-    <published>2026-01-25T00:00:00+00:00</published>
+    <published>2026-02-23T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-gitlab-release-notes</id>
-    <title>Mend for GitLab: Version 26.1.1 (25-January-2026)</title>
-    <updated>2026-02-23T14:29:53.701003+00:00</updated>
+    <title>Mend for GitLab: Version 26.2.1.1 (23-February-2026)</title>
+    <updated>2026-02-24T14:32:31.696507+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
-    <content type="html">&lt;p local-id="2877d970-e467-4e51-a61e-fba4ae96f326"&gt;Unified Agent 25.11.1-223 | &lt;a class="external-link" href="https://github.com/renovatebot/renovate/releases/tag/42.74.5" rel="nofollow" shape="rect"&gt;&lt;u&gt;Renovate 42.74.5&lt;/u&gt;&lt;/a&gt; | Remediate 26.1.1 | Pre-Scan Builder (PSB) 25.8.1&lt;/p&gt;&lt;p local-id="0f768dd7-a8d1-479b-ba5e-d5d172ca73da"&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="2a5cc04c-c78c-4155-b1ae-697ec89c3986"&gt;&lt;li local-id="ea78c2f9-51e3-4a0d-bc97-cd8ca1aa445a"&gt;&lt;p local-id="7001b647d760"&gt;The repo cloning default utility has been changed from Jgit to Git Shell. This is controllable via the WS_GIT_CONNECTOR &lt;a data-linked-resource-id="2987884545" data-linked-resource-type="page" data-linked-resource-version="53" href="https://docs.mend.io/integrations/latest/environment-variables-for-self-hosted-integrations#Scanner-Env-Variables"&gt;scanner environment variable&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p local-id="e3227aa06d22"&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="923c29dd-1579-4f9b-aa9c-3a7f396cbbad"&gt;&lt;li local-id="addd6200-1278-46f5-8ae9-f201bad6da21"&gt;&lt;p local-id="56f7b1e0-efbe-4fb7-885b-798d4d86a493"&gt;Fixed an issue where a vulnerable cryptography dependency in Miniconda could expose the scanner to CVE-2024-26130 by upgrading to a secure version.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="7d6cb398-4c84-41ee-bd4b-c45803e37a65"&gt;&lt;p local-id="957de99c-f65f-4257-b17c-86905c0f973d"&gt;Fixed an authentication issue which led to project installation errors in npm scans if non-default ports were configured to communicate with the package registry. The scanner now correctly preserves the port in the &lt;code&gt;.npmrc&lt;/code&gt; file, ensuring proper credential matching and preventing installation errors for projects using custom registry setups.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+    <content type="html">&lt;p local-id="c841d0170ba3"&gt;Unified Agent 25.12.2 | &lt;a class="external-link" href="https://github.com/renovatebot/renovate/releases/tag/42.99.0" rel="nofollow" shape="rect"&gt;&lt;u&gt;Renovate 42.99.0&lt;/u&gt;&lt;/a&gt; | Remediate 26.2.1 | Pre-Scan Builder (PSB) 25.8.1&lt;/p&gt;&lt;p local-id="c591885fbbd0"&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="c2c1f35d-b419-4725-b7ba-9cb916d9f1b1"&gt;&lt;li local-id="5eac050b-9d64-4d15-bf5b-930990f23165"&gt;&lt;p local-id="015c18de9b7a"&gt;Fixed an issue where the scanner could get stuck in a loop after a scan timed out, repeatedly logging timeout errors instead of properly cancelling the task. The process now ensures scans are cancelled as expected, improving reliability for long-running scans.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="827b7fd3-3938-48e1-84f0-711bcf928c52"&gt;&lt;p local-id="0647af4c24ae"&gt;Fixed a bug which led to scans running for more than 6 hours and timing out.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="753bdb2a-121a-4be0-a2be-02774ab171de"&gt;&lt;p local-id="4c73f433dfcd"&gt;Fixed an issue where the &lt;code&gt;DockerfileFull&lt;/code&gt; output image size exceeded 20GB. The build process was optimized to reduce image size and improve efficiency.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="7fc43088-8c3f-466b-8926-428502248922"&gt;&lt;p local-id="a552eca1895a"&gt;&lt;strong&gt;(Remediate)&lt;/strong&gt; Fixed an issue where the cleanup command did not function correctly when executed in shell mode.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
     <link href="https://docs.mend.io/integrations/latest/mend-for-gitlab-release-notes"/>
-    <published>2026-01-25T00:00:00+00:00</published>
+    <published>2026-02-23T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-github-enterprise-release-notes</id>
-    <title>Mend for GitHub Enterprise: Version 26.1.1 (25-January-2026)</title>
-    <updated>2026-02-23T14:29:53.700993+00:00</updated>
+    <title>Mend for GitHub Enterprise: Version 26.2.1.1 (23-February-2026)</title>
+    <updated>2026-02-24T14:32:31.696497+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
-    <content type="html">&lt;p local-id="4e8a2aa6-5937-4741-9500-9db5b762ed8f"&gt;Unified Agent 25.11.1-223 | &lt;a class="external-link" href="https://github.com/renovatebot/renovate/releases/tag/42.74.5" rel="nofollow" shape="rect"&gt;&lt;u&gt;Renovate 42.74.5&lt;/u&gt;&lt;/a&gt; | Remediate 26.1.1 | Pre-Scan Builder (PSB) 25.8.1&lt;/p&gt;&lt;p local-id="5a93c18a-2563-4954-a78f-94b96cb543ef"&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="0f3f6286acba"&gt;&lt;li local-id="da8027dc9f14"&gt;&lt;p local-id="39390ceb98ae"&gt;The repo cloning default utility has been changed from Jgit to Git Shell. This is controllable via the WS_GIT_CONNECTOR &lt;a data-linked-resource-id="2987884545" data-linked-resource-type="page" data-linked-resource-version="53" href="https://docs.mend.io/integrations/latest/environment-variables-for-self-hosted-integrations#Scanner-Env-Variables"&gt;scanner environment variable&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p local-id="64c4942848c5"&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="9011f9b2-8c81-4964-bc9b-06bcd6196211"&gt;&lt;li local-id="2f57f10b-8195-4597-af5a-c7ddd3865905"&gt;&lt;p local-id="a0d29c10-13c3-4a87-a731-7fd252402c1b"&gt;Fixed an issue where marking a license alert as Ignored in the Mend Platform would not prevent the integration from listing it as a policy violation in the License Check run and auto-creating a GitHub issue for it.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="d0efb4c3-639c-4fd9-b15d-c32304a65e32"&gt;&lt;p local-id="7d4df426-ea1e-4688-be47-9301173defd9"&gt;Fixed a bug where PR scans were skipped when the PR originated from a cross-org fork.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="731340cf-eafe-46e4-a8ce-327f3b81fcf8"&gt;&lt;p local-id="ca6a76a4-0ab9-4d8b-b3f3-7ab2f06af66e"&gt;Upgraded the "cryptography" library in the scanner from version 42.0.2 to 46.0.3, to fix CVE-2024-26130.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="4a40fd73-00c1-4c4a-b2d0-a4080a787a49"&gt;&lt;p local-id="a46fb739-3e4b-4f20-9fe0-b8b6eb1c3e95"&gt;Fixed an authentication issue which led to project installation errors in npm scans if non-default ports were configured to communicate with the package registry. The scanner now correctly preserves the port in the &lt;code&gt;.npmrc&lt;/code&gt; file, ensuring proper credential matching and preventing installation errors for projects using custom registry setups.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+    <content type="html">&lt;p local-id="11a76dd90702"&gt;Unified Agent 25.12.2 | &lt;a class="external-link" href="https://github.com/renovatebot/renovate/releases/tag/42.99.0" rel="nofollow" shape="rect"&gt;&lt;u&gt;Renovate 42.99.0&lt;/u&gt;&lt;/a&gt; | Remediate 26.2.1 | Pre-Scan Builder (PSB) 25.8.1&lt;/p&gt;&lt;p local-id="689aefb3cec5"&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="a20c7b57-8403-4877-b1d2-8fac35208cf7"&gt;&lt;li local-id="bb8ff83a-1e3d-49cd-828d-4091882ecf63"&gt;&lt;p local-id="5d285e3549e8"&gt;Fixed an issue where the scanner could get stuck in a loop after a scan timed out, repeatedly logging timeout errors instead of properly cancelling the task. The process now ensures scans are cancelled as expected, improving reliability for long-running scans.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="c04e09b6-ef23-4b66-8dd1-b5c95763e53a"&gt;&lt;p local-id="928aeb25c4c4"&gt;Fixed a bug which led to scans running for more than 6 hours and timing out.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="608e029b-941e-48ba-bca8-9595764381de"&gt;&lt;p local-id="f185a89e023f"&gt;Fixed an issue where the &lt;code&gt;DockerfileFull&lt;/code&gt; output image size exceeded 20GB. The build process was optimized to reduce image size and improve efficiency.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
     <link href="https://docs.mend.io/integrations/latest/mend-for-github-enterprise-release-notes"/>
-    <published>2026-01-25T00:00:00+00:00</published>
+    <published>2026-02-23T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-github-com-release-notes</id>
     <title>Mend for GitHub.com: Version 26.1.2 (08-February-2026)</title>
-    <updated>2026-02-23T14:29:53.700983+00:00</updated>
+    <updated>2026-02-24T14:32:31.696487+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -69,7 +69,7 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-developer-platform-release-notes</id>
     <title>Mend Developer Platform: Version 26.2.1 (22-February-2026)</title>
-    <updated>2026-02-23T14:29:53.700974+00:00</updated>
+    <updated>2026-02-24T14:32:31.696477+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -80,7 +80,7 @@
   <entry>
     <id>https://docs.mend.io/legacy-sca/latest/mend-unified-agent-release-notes</id>
     <title>Mend Unified Agent: Version 26.2.1 (23-February-2026)</title>
-    <updated>2026-02-23T14:29:53.700964+00:00</updated>
+    <updated>2026-02-24T14:32:31.696467+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -91,7 +91,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-cli-release-notes</id>
     <title>Mend CLI: Version 26.2.1 (23-February-2026)</title>
-    <updated>2026-02-23T14:29:53.700955+00:00</updated>
+    <updated>2026-02-24T14:32:31.696456+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -102,7 +102,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-ai-release-notes</id>
     <title>Mend AI: Version 25.12.1 (05-January-2026)</title>
-    <updated>2026-02-23T14:29:53.700942+00:00</updated>
+    <updated>2026-02-24T14:32:31.696443+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -113,7 +113,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-container-release-notes</id>
     <title>Mend Container: Version 26.1.2 (08-February-2026)</title>
-    <updated>2026-02-23T14:29:53.700930+00:00</updated>
+    <updated>2026-02-24T14:32:31.696431+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -124,7 +124,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-sast-release-notes</id>
     <title>Mend SAST: Version 26.2.1 (23-February-2026)</title>
-    <updated>2026-02-23T14:29:53.700915+00:00</updated>
+    <updated>2026-02-24T14:32:31.696416+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -135,18 +135,18 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-sca-release-notes</id>
     <title>Mend SCA: Version 26.2.1 (22-February-2026)</title>
-    <updated>2026-02-23T14:29:53.700893+00:00</updated>
+    <updated>2026-02-24T14:32:31.696394+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
-    <content type="html">&lt;p local-id="4d42ba7cf008"&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="57e22a5d81cf"&gt;&lt;li local-id="ec23fcbd6d9b"&gt;&lt;p local-id="6904020923fd"&gt;&lt;a data-linked-resource-id="4125261826" data-linked-resource-type="page" data-linked-resource-version="22" href="https://docs.mend.io/platform/latest/source-file-management-in-the-mend-appsec-platform"&gt;Source File Matching in Mend Platform&lt;/a&gt; introduces automatic and manual grouping of source files into logical libraries, improving vulnerability detection, license attribution, and compliance reporting. This update adds a new Source File column, a dedicated Source Files page, and manual override options, streamlining workflows for Security and Legal teams while ensuring more accurate and actionable insights.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="ee5ee0534a5f"&gt;&lt;p local-id="7a39a18d2023"&gt;NVIDIA Proprietary Software License is now automatically detected and classified as proprietary.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p local-id="7b7f4e2ab05b"&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="6133f0ee08f8"&gt;&lt;li local-id="49779319c957"&gt;&lt;p local-id="d11da32c154c"&gt;Fixed an issue where certain libraries were incorrectly flagged with CVE-2021-41248.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="137a6adb-8b48-4c6a-89ea-9f348702cdd4"&gt;&lt;p local-id="6b6c8bdf120b"&gt;Fixed an issue where the Attribution Report did not display license texts for some licenses.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="4d46b5f29ac2"&gt;&lt;p local-id="1bf8bbac8eb8"&gt;Fixed an issue where the SPDX SBOM report would erroneously display NOASSERTION or NONE for the licenseConcluded and licenseDeclared fields.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="a0c50371-1151-4d4e-9763-cdfef5327eee"&gt;&lt;p local-id="3d635af3d354"&gt;Fixed an issue where certain Intel MKL libraries were not properly assigned to the "Intel Simplified Software License". The license has now been added and these libraries are correctly associated with it.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+    <content type="html">&lt;p local-id="4d42ba7cf008"&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="57e22a5d81cf"&gt;&lt;li local-id="ec23fcbd6d9b"&gt;&lt;p local-id="6904020923fd"&gt;&lt;a data-linked-resource-id="4125261826" data-linked-resource-type="page" data-linked-resource-version="22" href="https://docs.mend.io/platform/latest/source-file-management-in-the-mend-appsec-platform"&gt;Source File Matching in Mend Platform&lt;/a&gt; introduces automatic and manual grouping of source files into logical libraries, improving vulnerability detection, license attribution, and compliance reporting. This update adds a new Source File column, a dedicated Source Files page, and manual override options, streamlining workflows for Security and Legal teams while ensuring more accurate and actionable insights.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="ee5ee0534a5f"&gt;&lt;p local-id="7a39a18d2023"&gt;NVIDIA Proprietary Software License is now automatically detected and classified as proprietary.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="00e982c964c1"&gt;&lt;p local-id="e893d2f0782e"&gt;Added a &lt;a data-linked-resource-id="2524152488" data-linked-resource-type="page" data-linked-resource-version="32" href="https://docs.mend.io/platform/latest/risk-score-attribution-license-analysis"&gt;risk score&lt;/a&gt; of 65 to the version-less LGPL and Mozilla licenses.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p local-id="7b7f4e2ab05b"&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="6133f0ee08f8"&gt;&lt;li local-id="49779319c957"&gt;&lt;p local-id="d11da32c154c"&gt;Fixed an issue where certain libraries were incorrectly flagged with CVE-2021-41248.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="137a6adb-8b48-4c6a-89ea-9f348702cdd4"&gt;&lt;p local-id="6b6c8bdf120b"&gt;Fixed an issue where the Attribution Report did not display license texts for some licenses.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="4d46b5f29ac2"&gt;&lt;p local-id="1bf8bbac8eb8"&gt;Fixed an issue where the SPDX SBOM report would erroneously display NOASSERTION or NONE for the licenseConcluded and licenseDeclared fields.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="a0c50371-1151-4d4e-9763-cdfef5327eee"&gt;&lt;p local-id="3d635af3d354"&gt;Fixed an issue where certain Intel MKL libraries were not properly assigned to the "Intel Simplified Software License". The license has now been added and these libraries are correctly associated with it.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
     <link href="https://docs.mend.io/platform/latest/mend-sca-release-notes"/>
     <published>2026-02-22T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-platform-release-notes</id>
     <title>Mend AppSec Platform: Version 26.2.1 (22-February-2026)</title>
-    <updated>2026-02-23T14:29:53.700863+00:00</updated>
+    <updated>2026-02-24T14:32:31.696362+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
