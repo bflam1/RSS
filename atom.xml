@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://bflam1.github.io/RSS/atom.xml</id>
   <title>Mend.io Unified Release Notes</title>
-  <updated>2026-03-03T03:53:20+00:00</updated>
+  <updated>2026-03-09T13:49:46+00:00</updated>
   <author>
     <name>Mend Release Bot</name>
     <email>noreply@bflam1.github.io</email>
@@ -12,20 +12,20 @@
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>Aggregated RSS, Atom, and HTML of all Mend release notes.</subtitle>
   <entry>
-    <id>https://github.com/renovatebot/renovate/releases/tag/43.49.0</id>
-    <title>mend Renovate: 43.49.0</title>
-    <updated>2026-03-03T14:10:10.141672+00:00</updated>
+    <id>https://github.com/renovatebot/renovate/releases/tag/43.60.0</id>
+    <title>mend Renovate: 43.60.0</title>
+    <updated>2026-03-09T14:30:55.130990+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
     <content type="html">&lt;p&gt;&lt;/p&gt;</content>
-    <link href="https://github.com/renovatebot/renovate/releases/tag/43.49.0"/>
-    <published>2026-03-03T03:53:20+00:00</published>
+    <link href="https://github.com/renovatebot/renovate/releases/tag/43.60.0"/>
+    <published>2026-03-09T13:49:46+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-bitbucket-data-center-release-notes</id>
     <title>Mend for Bitbucket DC: Version 26.2.1.1 (23-February-2026)</title>
-    <updated>2026-03-03T14:10:10.141660+00:00</updated>
+    <updated>2026-03-09T14:30:55.130979+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -36,7 +36,7 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-gitlab-release-notes</id>
     <title>Mend for GitLab: Version 26.2.1.1 (23-February-2026)</title>
-    <updated>2026-03-03T14:10:10.141650+00:00</updated>
+    <updated>2026-03-09T14:30:55.130968+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -47,7 +47,7 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-github-enterprise-release-notes</id>
     <title>Mend for GitHub Enterprise: Version 26.2.1.1 (23-February-2026)</title>
-    <updated>2026-03-03T14:10:10.141639+00:00</updated>
+    <updated>2026-03-09T14:30:55.130958+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -57,30 +57,30 @@
   </entry>
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-github-com-release-notes</id>
-    <title>Mend for GitHub.com: Version 26.1.2 (08-February-2026)</title>
-    <updated>2026-03-03T14:10:10.141629+00:00</updated>
+    <title>Mend for GitHub.com: Version 26.2.2 (08-March-2026)</title>
+    <updated>2026-03-09T14:30:55.130948+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
-    <content type="html">&lt;p local-id="22f2a5e354ab"&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="18a100ba7cc3"&gt;&lt;li local-id="9f4c6c55d0c3"&gt;&lt;p local-id="635507efa63f"&gt;Fixed an issue where Gradle dependencies failed to resolve for React Native Android projects, ensuring accurate detection and resolution of dependencies by properly handling project structure and Gradle wrapper logic.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="42d13ae94e57"&gt;&lt;p local-id="b1de244dd723"&gt;Fixed an issue where the scanner could get stuck in a loop after a scan timed out, repeatedly logging timeout errors instead of properly cancelling the task. The process now ensures scans are cancelled as expected, improving reliability for long-running scans.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="66308165309b"&gt;&lt;p local-id="58a49abdbdbb"&gt;Fixed a bug which led to scans running for more than 6 hours and timing out.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+    <content type="html">&lt;p local-id="686cedb4234e"&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="db5187ad-08d6-4f31-9394-c29b8c8932c8"&gt;&lt;li local-id="c6ead0c7-9fb3-441e-b1e7-c4d3dd15fc06"&gt;&lt;p local-id="0a18e37caa70"&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Fixed an issue where scans of .NET projects would fail with error MSB4057 if a &lt;Project&gt; tag existed under &lt;ProjectReference&gt; in the csproj file. Scans now complete successfully in this scenario.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="24079919-1905-44da-a924-27aeb3bc0308"&gt;&lt;p local-id="446a10a26848"&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Fixed an issue where post-scan cleanup and statistics were not executed if the scan process ended with an error, ensuring proper handling and reporting even when scans fail.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
     <link href="https://docs.mend.io/integrations/latest/mend-for-github-com-release-notes"/>
-    <published>2026-02-08T00:00:00+00:00</published>
+    <published>2026-03-08T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-developer-platform-release-notes</id>
-    <title>Mend Developer Platform: Version 26.2.1 (22-February-2026)</title>
-    <updated>2026-03-03T14:10:10.141619+00:00</updated>
+    <title>Mend Developer Platform: Version 26.2.2 (08-March-2026)</title>
+    <updated>2026-03-09T14:30:55.130937+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
-    <content type="html">&lt;p local-id="4c579338c50a"&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="d255f7c9-e097-4a20-b7b1-5681b79e9631"&gt;&lt;li local-id="e4085d206317"&gt;&lt;p local-id="63e10c1cb3c5"&gt;&lt;strong&gt;(AZDO)&lt;/strong&gt; The Developer Platform will now alert Azure DevOps integration users with a banner when their authentication to Azure is no longer working, and provide a button to reconnect.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p local-id="f44a9853c789"&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="452e6e93d8c1"&gt;&lt;li local-id="0f02c6c7-3e78-45f8-905a-33a9bab3af67"&gt;&lt;p local-id="c66cd3acc865"&gt;Fixed an issue where Gradle dependencies failed to resolve for React Native Android projects, ensuring accurate detection and resolution of dependencies by properly handling project structure and Gradle wrapper logic.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="cfdc9d79b0d8"&gt;&lt;p local-id="f80db7875201"&gt;Fixed an issue where API calls with heavy processing would fail due to insufficient timeout settings. The HTTP request timeout has been increased to better support longer-running operations.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="1482a8836c45"&gt;&lt;p local-id="fd9febcb21ab"&gt;Fixed an issue where no IN_PROGRESS check run was set when a delayed Reachability scan was added, ensuring users now receive accurate scan status updates during delayed scans.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+    <content type="html">&lt;p local-id="82d047aa0e7b"&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="e3b378a5aec3"&gt;&lt;li local-id="b7fb77da06e3"&gt;&lt;p local-id="30365990381f"&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Fixed an issue where scans of .NET projects would fail with error MSB4057 if a &lt;Project&gt; tag existed under &lt;ProjectReference&gt; in the csproj file. Scans now complete successfully in this scenario.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="be91ed75-ad24-400e-bda7-644212897f7c"&gt;&lt;p local-id="c6984393634b"&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Fixed an issue where post-scan cleanup and statistics were not executed if the scan process ended with an error, ensuring proper handling and reporting even when scans fail.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
     <link href="https://docs.mend.io/integrations/latest/mend-developer-platform-release-notes"/>
-    <published>2026-02-22T00:00:00+00:00</published>
+    <published>2026-03-08T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/legacy-sca/latest/mend-unified-agent-release-notes</id>
     <title>Mend Unified Agent: Version 26.2.1 (23-February-2026)</title>
-    <updated>2026-03-03T14:10:10.141609+00:00</updated>
+    <updated>2026-03-09T14:30:55.130927+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -91,7 +91,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-cli-release-notes</id>
     <title>Mend CLI: Version 26.2.1 (23-February-2026)</title>
-    <updated>2026-03-03T14:10:10.141598+00:00</updated>
+    <updated>2026-03-09T14:30:55.130916+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -102,7 +102,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-ai-release-notes</id>
     <title>Mend AI: Version 25.12.1 (05-January-2026)</title>
-    <updated>2026-03-03T14:10:10.141585+00:00</updated>
+    <updated>2026-03-09T14:30:55.130902+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -112,19 +112,19 @@
   </entry>
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-container-release-notes</id>
-    <title>Mend Container: Version 26.1.2 (08-February-2026)</title>
-    <updated>2026-03-03T14:10:10.141573+00:00</updated>
+    <title>Mend Container: Version 26.2.2 (08-March-2026)</title>
+    <updated>2026-03-09T14:30:55.130890+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
-    <content type="html">&lt;p local-id="c71d32a5c673"&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="afcd4329ef8a"&gt;&lt;li local-id="78680b061fd4"&gt;&lt;p local-id="56bf2543d65a"&gt;Kubernetes system namespaces can now be included in the scan using a dedicated toggle in the configuration of your &lt;a data-linked-resource-id="2932080641" data-linked-resource-type="page" data-linked-resource-version="32" href="https://docs.mend.io/platform/latest/kubernetes-integrations-in-mend-container"&gt;Kubernetes integration&lt;/a&gt; in the Mend AppSec Platform UI.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="8e0cacb485d0"&gt;&lt;p local-id="5ab9e3dde914"&gt;Added support for updating credentials for existing Registry and Kubernetes integrations.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="caa3fdef-8b44-4ea8-a90a-1a15a29a88dc"&gt;&lt;p local-id="d266e2fdeb21"&gt;Optimized the scanner to clean up image files during the scan process, significantly reducing storage usage and improving resource efficiency.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+    <content type="html">&lt;p local-id="a857c34b815f"&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="06714c28-069c-419b-8181-b3b1eca13eaf"&gt;&lt;li local-id="bbe20ca23dd9"&gt;&lt;p local-id="ada4a0bcbd4a"&gt;Fixed an issue where registry URLs were not being validated correctly, leading to errors during ECR integration.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
     <link href="https://docs.mend.io/platform/latest/mend-container-release-notes"/>
-    <published>2026-02-08T00:00:00+00:00</published>
+    <published>2026-03-08T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-sast-release-notes</id>
     <title>Mend SAST: Version 26.2.1 (23-February-2026)</title>
-    <updated>2026-03-03T14:10:10.141559+00:00</updated>
+    <updated>2026-03-09T14:30:55.130874+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -134,24 +134,24 @@
   </entry>
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-sca-release-notes</id>
-    <title>Mend SCA: Version 26.2.1 (22-February-2026)</title>
-    <updated>2026-03-03T14:10:10.141536+00:00</updated>
+    <title>Mend SCA: Version 26.2.2 (08-March-2026)</title>
+    <updated>2026-03-09T14:30:55.130835+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
-    <content type="html">&lt;p local-id="4d42ba7cf008"&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="57e22a5d81cf"&gt;&lt;li local-id="ec23fcbd6d9b"&gt;&lt;p local-id="6904020923fd"&gt;&lt;a data-linked-resource-id="4125261826" data-linked-resource-type="page" data-linked-resource-version="22" href="https://docs.mend.io/platform/latest/source-file-management-in-the-mend-appsec-platform"&gt;Source File Matching in Mend Platform&lt;/a&gt; introduces automatic and manual grouping of source files into logical libraries, improving vulnerability detection, license attribution, and compliance reporting. This update adds a new Source File column, a dedicated Source Files page, and manual override options, streamlining workflows for Security and Legal teams while ensuring more accurate and actionable insights.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="ee5ee0534a5f"&gt;&lt;p local-id="7a39a18d2023"&gt;NVIDIA Proprietary Software License is now automatically detected and classified as proprietary.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="00e982c964c1"&gt;&lt;p local-id="e893d2f0782e"&gt;Added a &lt;a data-linked-resource-id="2524152488" data-linked-resource-type="page" data-linked-resource-version="33" href="https://docs.mend.io/platform/latest/risk-score-attribution-license-analysis"&gt;risk score&lt;/a&gt; of 65 to the version-less LGPL and Mozilla licenses.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p local-id="7b7f4e2ab05b"&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="6133f0ee08f8"&gt;&lt;li local-id="49779319c957"&gt;&lt;p local-id="d11da32c154c"&gt;Fixed an issue where certain libraries were incorrectly flagged with CVE-2021-41248.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="137a6adb-8b48-4c6a-89ea-9f348702cdd4"&gt;&lt;p local-id="6b6c8bdf120b"&gt;Fixed an issue where the Attribution Report did not display license texts for some licenses.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="4d46b5f29ac2"&gt;&lt;p local-id="1bf8bbac8eb8"&gt;Fixed an issue where the SPDX SBOM report would erroneously display NOASSERTION or NONE for the licenseConcluded and licenseDeclared fields.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="a0c50371-1151-4d4e-9763-cdfef5327eee"&gt;&lt;p local-id="3d635af3d354"&gt;Fixed an issue where certain Intel MKL libraries were not properly assigned to the "Intel Simplified Software License". The license has now been added and these libraries are correctly associated with it.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+    <content type="html">&lt;p local-id="6fbd4e877409"&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="f43c77fd-0f6e-48e4-ad8f-6cf9af05f5e4"&gt;&lt;li local-id="12fdf82f4acf"&gt;&lt;p local-id="e91c5f2a488f"&gt;Added a new EPSS Score column to the &lt;a data-linked-resource-id="3529867268" data-linked-resource-type="page" data-linked-resource-version="20" href="https://docs.mend.io/platform/latest/the-findings-table#Findings-Table"&gt;Dependencies  Findings&lt;/a&gt; table, allowing users to view exploit likelihood at a glance and sort by risk. This enhancement streamlines vulnerability triage and prioritization by making EPSS data directly accessible without drilling into details.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
     <link href="https://docs.mend.io/platform/latest/mend-sca-release-notes"/>
-    <published>2026-02-22T00:00:00+00:00</published>
+    <published>2026-03-08T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-platform-release-notes</id>
-    <title>Mend AppSec Platform: Version 26.2.1 (22-February-2026)</title>
-    <updated>2026-03-03T14:10:10.141506+00:00</updated>
+    <title>Mend AppSec Platform: Version 26.2.2 (08-March-2026)</title>
+    <updated>2026-03-09T14:30:55.130804+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
-    <content type="html">&lt;p local-id="e8e5a7981dd5"&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="57e22a5d81cf"&gt;&lt;li local-id="7d483702-2f81-4d61-828a-b11c007e8e8e"&gt;&lt;p local-id="df68f587f329"&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; &lt;a data-linked-resource-id="4125261826" data-linked-resource-type="page" data-linked-resource-version="22" href="https://docs.mend.io/platform/latest/source-file-management-in-the-mend-appsec-platform"&gt;Source File Matching in Mend Platform&lt;/a&gt; introduces automatic and manual grouping of source files into logical libraries, improving vulnerability detection, license attribution, and compliance reporting. This update adds a new Source File column, a dedicated Source Files page, and manual override options, streamlining workflows for Security and Legal teams while ensuring more accurate and actionable insights.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="4ac75bfbd533"&gt;&lt;p local-id="b9a53fdd472e"&gt;UI improvements:&lt;/p&gt;&lt;ul local-id="bf574d92-b64f-4d09-b71e-4da11714dc42"&gt;&lt;li local-id="0ccebb36-f8ed-4b1b-a43b-8348321318be"&gt;&lt;p local-id="051c16f824e7"&gt;Standardized the placement and design of refresh and update indicators across all main pages for a more consistent and intuitive user experience.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="99130560-5002-4a7b-b24b-c486dc346050"&gt;&lt;p local-id="01ace8f3b2bc"&gt;Added a &lt;strong&gt;rows-per-page selector&lt;/strong&gt; to paginated tables, allowing users to choose between 50 (default) and 100 rows per page directly from the pagination footer.&lt;/p&gt;&lt;p local-id="2ae37a93cbbe"&gt;This improves usability by reducing page navigation and making it easier to review larger datasets.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p local-id="bcc82cd3a20a"&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="6af15577-a731-4da1-9477-261eb58d298d"&gt;&lt;li local-id="2bae5d0c-760b-4e27-b99a-24aefc2658ba"&gt;&lt;p local-id="4d576e1edead"&gt;Fixed an issue where tag values were not displayed in the scan summary, even though they appeared correctly in project scans. Tag values now consistently show in both views.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="a1036926-0981-476d-afad-a50e1a039685"&gt;&lt;p local-id="9a9ee2854a71"&gt;Fixed an issue where users switching from the Legacy UI to the Mend AppSec Platform were redirected to the login screen instead of being automatically authenticated, under certain conditions.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="3a240fefe45b"&gt;&lt;p local-id="85afd5113d98"&gt;Fixed an issue where users could not search for all Jira projects in the mappings input fields of the Legacy UI.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="aa8fef2cc117"&gt;&lt;p local-id="05fae539c913"&gt;Fixed an issue where importing platform OpenAPI schema definitions into API management tools resulted in syntax errors.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+    <content type="html">&lt;p local-id="7ea8fa2e38da"&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="961bd96e44f2"&gt;&lt;li local-id="1a7cae14be6d"&gt;&lt;p local-id="c9332aee585c"&gt;Added a new EPSS Score column to the &lt;a data-linked-resource-id="3529867268" data-linked-resource-type="page" data-linked-resource-version="20" href="https://docs.mend.io/platform/latest/the-findings-table#Findings-Table"&gt;Dependencies  Findings&lt;/a&gt; table, allowing users to view exploit likelihood at a glance and sort by risk. This enhancement streamlines vulnerability triage and prioritization by making EPSS data directly accessible without drilling into details.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="0ad941ad-3b6d-4438-9c0a-21c33c04c9d4"&gt;&lt;p local-id="ad25691fabd3"&gt;Added a new pre-defined "Auditor" role that provides read-only access for service users requiring data visibility.&lt;/p&gt;&lt;ul local-id="2dc7a56c13da"&gt;&lt;li local-id="a29bd836b230"&gt;&lt;p local-id="f4d1b4876150"&gt;&lt;strong&gt;Auditor&lt;/strong&gt; role assignments in Legacy SCA will automatically be reflected as such in the Mend AppSec Platform and vice versa.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li local-id="e0c9851c8d8e"&gt;&lt;p local-id="ad22343933b5"&gt;Added support for filtering scans, reports, findings, and violations by the &lt;strong&gt;AI scan engine&lt;/strong&gt; across the Mend AppSec Platform. The AI option is always visible in Scan Engine filters and enabled for customers with relevant entitlements.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="34ef39f6d963"&gt;&lt;p local-id="f3945a597970"&gt;UI Improvements:&lt;/p&gt;&lt;ul local-id="f8b0f0ca8766"&gt;&lt;li local-id="6d2bd827-965d-48db-9deb-be924bca308b"&gt;&lt;p local-id="dbbc74a73e53"&gt;Updated the table selection experience by moving the select all/deselect all controls into a single checkbox in the table header.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="c6d3221b61e5"&gt;&lt;p local-id="637417568876"&gt;Redesigned and relocated the Refresh button for a more intuitive user experience.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="efd864cf609e"&gt;&lt;p local-id="f8053ce885b4"&gt;Updated the Workflows and Reports pages by replacing filters with new filter buttons, making filtering more streamlined and user-friendly. &lt;/p&gt;&lt;/li&gt;&lt;li local-id="38898c6c-505b-44e5-b0ce-6324fee12863"&gt;&lt;p local-id="55ac940b9425"&gt;The Reports page now displays the "Delete" bulk action button only when a table row is selected, and the button text has been updated from Remove to Delete for improved clarity.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p local-id="a36ed5e205f5"&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="a3f2dd2273dc"&gt;&lt;li local-id="e4082183-7766-4527-aa4f-49c41f2e9821"&gt;&lt;p local-id="0a41db3c58e8"&gt;Fixed an issue where suppression comments longer than 255 characters were being truncated when retrieved via the UI, API, or CSV export, despite being saved correctly. Now, comments up to 500 characters are fully supported and displayed consistently across all interfaces.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
     <link href="https://docs.mend.io/platform/latest/mend-platform-release-notes"/>
-    <published>2026-02-22T00:00:00+00:00</published>
+    <published>2026-03-08T00:00:00+00:00</published>
   </entry>
 </feed>
