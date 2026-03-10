@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://bflam1.github.io/RSS/atom.xml</id>
   <title>Mend.io Unified Release Notes</title>
-  <updated>2026-03-09T13:49:46+00:00</updated>
+  <updated>2026-03-10T13:25:58+00:00</updated>
   <author>
     <name>Mend Release Bot</name>
     <email>noreply@bflam1.github.io</email>
@@ -12,20 +12,20 @@
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>Aggregated RSS, Atom, and HTML of all Mend release notes.</subtitle>
   <entry>
-    <id>https://github.com/renovatebot/renovate/releases/tag/43.60.0</id>
-    <title>mend Renovate: 43.60.0</title>
-    <updated>2026-03-09T14:30:55.130990+00:00</updated>
+    <id>https://github.com/renovatebot/renovate/releases/tag/43.61.0</id>
+    <title>mend Renovate: 43.61.0</title>
+    <updated>2026-03-10T14:11:47.666553+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
     <content type="html">&lt;p&gt;&lt;/p&gt;</content>
-    <link href="https://github.com/renovatebot/renovate/releases/tag/43.60.0"/>
-    <published>2026-03-09T13:49:46+00:00</published>
+    <link href="https://github.com/renovatebot/renovate/releases/tag/43.61.0"/>
+    <published>2026-03-10T13:25:58+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-bitbucket-data-center-release-notes</id>
     <title>Mend for Bitbucket DC: Version 26.2.1.1 (23-February-2026)</title>
-    <updated>2026-03-09T14:30:55.130979+00:00</updated>
+    <updated>2026-03-10T14:11:47.666542+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -36,7 +36,7 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-gitlab-release-notes</id>
     <title>Mend for GitLab: Version 26.2.1.1 (23-February-2026)</title>
-    <updated>2026-03-09T14:30:55.130968+00:00</updated>
+    <updated>2026-03-10T14:11:47.666533+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -47,7 +47,7 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-github-enterprise-release-notes</id>
     <title>Mend for GitHub Enterprise: Version 26.2.1.1 (23-February-2026)</title>
-    <updated>2026-03-09T14:30:55.130958+00:00</updated>
+    <updated>2026-03-10T14:11:47.666523+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -58,7 +58,7 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-github-com-release-notes</id>
     <title>Mend for GitHub.com: Version 26.2.2 (08-March-2026)</title>
-    <updated>2026-03-09T14:30:55.130948+00:00</updated>
+    <updated>2026-03-10T14:11:47.666514+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -69,7 +69,7 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-developer-platform-release-notes</id>
     <title>Mend Developer Platform: Version 26.2.2 (08-March-2026)</title>
-    <updated>2026-03-09T14:30:55.130937+00:00</updated>
+    <updated>2026-03-10T14:11:47.666504+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -79,30 +79,30 @@
   </entry>
   <entry>
     <id>https://docs.mend.io/legacy-sca/latest/mend-unified-agent-release-notes</id>
-    <title>Mend Unified Agent: Version 26.2.1 (23-February-2026)</title>
-    <updated>2026-03-09T14:30:55.130927+00:00</updated>
+    <title>Mend Unified Agent: Version 26.2.2 (09-March-2026)</title>
+    <updated>2026-03-10T14:11:47.666495+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
-    <content type="html">&lt;p local-id="ab61f35cb3b0"&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="5050bbed-9e5d-4f24-b171-e43bf69c9f9b"&gt;&lt;li local-id="af124239b7b1"&gt;&lt;p local-id="ab7d6e3ddc9b"&gt;Fixed an issue where scanning large Docker container images in OCI tar format could fail silently due to unnecessary duplication of the .tar file, which exhausted disk space and resulted in incomplete scans with no reported dependencies.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="7a2adc25-ed06-4a0f-8523-16c299a96a0e"&gt;&lt;p local-id="d43017625339"&gt;Fixed an issue where Docker image scans failed when using the new Docker CLI output format. The Unified Agent now correctly parses image IDs, ensuring successful vulnerability scans for Docker images regardless of Docker CLI changes.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+    <content type="html">&lt;p local-id="d8e7b01758b4"&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="151b7dd48185"&gt;&lt;li local-id="5e427301a748"&gt;&lt;p local-id="7e34d4dea5c2"&gt;Fixed an issue where the Unified Agent reported incorrect versions for transitive dependencies in Poetry projects using explicit sources, which could trigger false-positive vulnerability alerts. The agent now correctly honors the versions specified in poetry.lock, ensuring accurate dependency reporting.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="c2e9ae23-dd5f-4568-904b-d1745f072f12"&gt;&lt;p local-id="c71dd47a857b"&gt;Fixed an issue where source files smaller than 512 bytes, which should be ignored during scanning, were still included in update requests, potentially causing false positive library detections. Now, such files are properly excluded, ensuring more accurate scan results.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
     <link href="https://docs.mend.io/legacy-sca/latest/mend-unified-agent-release-notes"/>
-    <published>2026-02-23T00:00:00+00:00</published>
+    <published>2026-03-09T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-cli-release-notes</id>
-    <title>Mend CLI: Version 26.2.1 (23-February-2026)</title>
-    <updated>2026-03-09T14:30:55.130916+00:00</updated>
+    <title>Mend CLI: Version 26.2.2 (09-March-2026)</title>
+    <updated>2026-03-10T14:11:47.666485+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
-    <content type="html">&lt;p local-id="b3defa645595"&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="4fd460df-561c-4344-8c4f-411fa367d0e9"&gt;&lt;li local-id="17ba4e3b-cb89-4cde-b397-6ee05993252c"&gt;&lt;p local-id="55b6fee893ef"&gt;Improved the CLIs log file processing and zipping to optimize handling of large log file uploads.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="cc2141b95fd2"&gt;&lt;p local-id="25c3b00e1543"&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; The CLI will now visually indicate whether a Mend AI scan has started running and, upon completion, whether it succeeded.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+    <content type="html">&lt;p local-id="70087f9f84ba"&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="dc08d0f6d213"&gt;&lt;li local-id="ad9fa2b47d92"&gt;&lt;p local-id="e1350994a9c2"&gt;The &lt;code&gt;mend auth&lt;/code&gt; command now provides a unified &lt;a data-linked-resource-id="2718564622" data-linked-resource-type="page" data-linked-resource-version="39" href="https://docs.mend.io/platform/latest/authenticate-your-login-for-the-mend-cli"&gt;login experience&lt;/a&gt;  there is no longer a need to select between SAST and SCA during authentication. A single login applies to all scan engines, simplifying CLI setup. Existing environment variable configurations continue to work for backward compatibility. &lt;/p&gt;&lt;ul local-id="63e55ef5a384"&gt;&lt;li local-id="d722143c32ec"&gt;&lt;p local-id="2c8d5ab4d46d"&gt;This feature will be rolled out gradually to all environments until March 23rd.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;</content>
     <link href="https://docs.mend.io/platform/latest/mend-cli-release-notes"/>
-    <published>2026-02-23T00:00:00+00:00</published>
+    <published>2026-03-09T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-ai-release-notes</id>
     <title>Mend AI: Version 25.12.1 (05-January-2026)</title>
-    <updated>2026-03-09T14:30:55.130902+00:00</updated>
+    <updated>2026-03-10T14:11:47.666472+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -113,7 +113,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-container-release-notes</id>
     <title>Mend Container: Version 26.2.2 (08-March-2026)</title>
-    <updated>2026-03-09T14:30:55.130890+00:00</updated>
+    <updated>2026-03-10T14:11:47.666461+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -123,34 +123,34 @@
   </entry>
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-sast-release-notes</id>
-    <title>Mend SAST: Version 26.2.1 (23-February-2026)</title>
-    <updated>2026-03-09T14:30:55.130874+00:00</updated>
+    <title>Mend SAST: Version 26.2.2 (09-March-2026)</title>
+    <updated>2026-03-10T14:11:47.666447+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
-    <content type="html">&lt;p local-id="b769a17131e4"&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="948a92054025"&gt;&lt;li local-id="39992642b0ef"&gt;&lt;p local-id="06695e6d262e"&gt;Increased the accuracy of CWE-502: Deserialization of Untrusted Data and CWE-798: Hard-Coded Credentials detection for C#.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+    <content type="html">&lt;p local-id="71e216745f9c"&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="a2e0586fe483"&gt;&lt;li local-id="efe00cb0e6ea"&gt;&lt;p local-id="b9e1c407b144"&gt;Added support for CWE-457: Use of Uninitialized Variable and CWE-824: Access of Uninitialized Pointer to C/C++ analysis in low probability mode.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="f666bcc81dee"&gt;&lt;p local-id="96d8a33c70b7"&gt;The custom sources and sinks configuration pages now include links to the relevant documentation, making it easier to learn how to define custom taint sources and sinks.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="88df640b6704"&gt;&lt;p local-id="440dbd76ab7d"&gt;When a finding is suppressed and its corresponding GitHub issue is closed, Mend now adds a comment to the issue with the suppression reason, any additional comments, and the user who performed the suppression. This provides a clear audit trail directly within GitHub, regardless of whether the suppression was initiated from a repository-level request or directly on the Mend platform.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="41981bb3bed1"&gt;&lt;p local-id="ac0ce6612358"&gt;Suppression request tables now show who approved or rejected each request in a new Reviewed By column, giving security managers a complete audit trail of suppression decisions.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="acf10ab6742d"&gt;&lt;p local-id="37cc2482d20e"&gt;The finding details page now includes a refresh button in the Comments tab, allowing you to quickly check for new comments.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p local-id="233ecd5d72a3"&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="eb65380cc49a"&gt;&lt;li local-id="13a34fff97d4"&gt;&lt;p local-id="530068ade17d"&gt;Fixed an issue where adding a custom source in JavaScript did not result in automatically adding the surrounding method as an entry point, potentially preventing the taint source from being reached.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="df8cd13e72d5"&gt;&lt;p local-id="12dcdf90ff76"&gt;Fixed a false positive where Hardcoded Password was incorrectly reported for masked passwords in Python files.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="1962b626adf6"&gt;&lt;p local-id="e33011b4705a"&gt;Fixed an issue where the Hardcoded Credentials (CWE-798) finding was incorrectly reported as an SQL injection, ensuring accurate vulnerability identification in scan results.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="9fac8f179380"&gt;&lt;p local-id="6c42ec41b1b0"&gt;Fixed an issue where the &lt;a data-linked-resource-id="3153494017" data-linked-resource-type="page" data-linked-resource-version="2" href="https://docs.mend.io/platform/latest/the-code-compliance-report"&gt;Code Compliance report&lt;/a&gt; displayed vulnerability counts even after all findings were suppressed, ensuring accurate statistics are shown in compliance and severity reports.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
     <link href="https://docs.mend.io/platform/latest/mend-sast-release-notes"/>
-    <published>2026-02-23T00:00:00+00:00</published>
+    <published>2026-03-09T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-sca-release-notes</id>
     <title>Mend SCA: Version 26.2.2 (08-March-2026)</title>
-    <updated>2026-03-09T14:30:55.130835+00:00</updated>
+    <updated>2026-03-10T14:11:47.666425+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
-    <content type="html">&lt;p local-id="6fbd4e877409"&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="f43c77fd-0f6e-48e4-ad8f-6cf9af05f5e4"&gt;&lt;li local-id="12fdf82f4acf"&gt;&lt;p local-id="e91c5f2a488f"&gt;Added a new EPSS Score column to the &lt;a data-linked-resource-id="3529867268" data-linked-resource-type="page" data-linked-resource-version="20" href="https://docs.mend.io/platform/latest/the-findings-table#Findings-Table"&gt;Dependencies  Findings&lt;/a&gt; table, allowing users to view exploit likelihood at a glance and sort by risk. This enhancement streamlines vulnerability triage and prioritization by making EPSS data directly accessible without drilling into details.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+    <content type="html">&lt;p local-id="6fbd4e877409"&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="f43c77fd-0f6e-48e4-ad8f-6cf9af05f5e4"&gt;&lt;li local-id="12fdf82f4acf"&gt;&lt;p local-id="e91c5f2a488f"&gt;Added a new EPSS Score column to the &lt;a data-linked-resource-id="3529867268" data-linked-resource-type="page" data-linked-resource-version="20" href="https://docs.mend.io/platform/latest/the-findings-table#Findings-Table"&gt;Dependencies  Findings&lt;/a&gt; table, allowing users to view exploit likelihood at a glance and sort by risk. This enhancement streamlines vulnerability triage and prioritization by making EPSS data directly accessible without drilling into details.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="b16dfc06dddb"&gt;&lt;p local-id="4943d7174f65"&gt;Added a new &lt;code&gt;dependencyContexts&lt;/code&gt; field to the &lt;a class="external-link" href="https://api-docs.mend.io/platform/3.0/findings-project/getsecurityvulnerabilityfindings" rel="nofollow" shape="rect"&gt;Get Project Security Findings&lt;/a&gt; API. This field lets you see how each vulnerable component appears in the dependency graph (direct vs. transitive and its root libraries), enabling clear mapping to the &lt;a class="external-link" href="https://api-docs.mend.io/platform/3.0/findings-project/getrootlibrarysecurityvulnerabilityfindings" rel="nofollow" shape="rect"&gt;Get Root Libraries Security Findings&lt;/a&gt; endpoint and improving reachability analysis.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
     <link href="https://docs.mend.io/platform/latest/mend-sca-release-notes"/>
     <published>2026-03-08T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-platform-release-notes</id>
     <title>Mend AppSec Platform: Version 26.2.2 (08-March-2026)</title>
-    <updated>2026-03-09T14:30:55.130804+00:00</updated>
+    <updated>2026-03-10T14:11:47.666396+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
-    <content type="html">&lt;p local-id="7ea8fa2e38da"&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="961bd96e44f2"&gt;&lt;li local-id="1a7cae14be6d"&gt;&lt;p local-id="c9332aee585c"&gt;Added a new EPSS Score column to the &lt;a data-linked-resource-id="3529867268" data-linked-resource-type="page" data-linked-resource-version="20" href="https://docs.mend.io/platform/latest/the-findings-table#Findings-Table"&gt;Dependencies  Findings&lt;/a&gt; table, allowing users to view exploit likelihood at a glance and sort by risk. This enhancement streamlines vulnerability triage and prioritization by making EPSS data directly accessible without drilling into details.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="0ad941ad-3b6d-4438-9c0a-21c33c04c9d4"&gt;&lt;p local-id="ad25691fabd3"&gt;Added a new pre-defined "Auditor" role that provides read-only access for service users requiring data visibility.&lt;/p&gt;&lt;ul local-id="2dc7a56c13da"&gt;&lt;li local-id="a29bd836b230"&gt;&lt;p local-id="f4d1b4876150"&gt;&lt;strong&gt;Auditor&lt;/strong&gt; role assignments in Legacy SCA will automatically be reflected as such in the Mend AppSec Platform and vice versa.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li local-id="e0c9851c8d8e"&gt;&lt;p local-id="ad22343933b5"&gt;Added support for filtering scans, reports, findings, and violations by the &lt;strong&gt;AI scan engine&lt;/strong&gt; across the Mend AppSec Platform. The AI option is always visible in Scan Engine filters and enabled for customers with relevant entitlements.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="34ef39f6d963"&gt;&lt;p local-id="f3945a597970"&gt;UI Improvements:&lt;/p&gt;&lt;ul local-id="f8b0f0ca8766"&gt;&lt;li local-id="6d2bd827-965d-48db-9deb-be924bca308b"&gt;&lt;p local-id="dbbc74a73e53"&gt;Updated the table selection experience by moving the select all/deselect all controls into a single checkbox in the table header.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="c6d3221b61e5"&gt;&lt;p local-id="637417568876"&gt;Redesigned and relocated the Refresh button for a more intuitive user experience.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="efd864cf609e"&gt;&lt;p local-id="f8053ce885b4"&gt;Updated the Workflows and Reports pages by replacing filters with new filter buttons, making filtering more streamlined and user-friendly. &lt;/p&gt;&lt;/li&gt;&lt;li local-id="38898c6c-505b-44e5-b0ce-6324fee12863"&gt;&lt;p local-id="55ac940b9425"&gt;The Reports page now displays the "Delete" bulk action button only when a table row is selected, and the button text has been updated from Remove to Delete for improved clarity.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p local-id="a36ed5e205f5"&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="a3f2dd2273dc"&gt;&lt;li local-id="e4082183-7766-4527-aa4f-49c41f2e9821"&gt;&lt;p local-id="0a41db3c58e8"&gt;Fixed an issue where suppression comments longer than 255 characters were being truncated when retrieved via the UI, API, or CSV export, despite being saved correctly. Now, comments up to 500 characters are fully supported and displayed consistently across all interfaces.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+    <content type="html">&lt;p local-id="7ea8fa2e38da"&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="961bd96e44f2"&gt;&lt;li local-id="1a7cae14be6d"&gt;&lt;p local-id="c9332aee585c"&gt;Added a new EPSS Score column to the &lt;a data-linked-resource-id="3529867268" data-linked-resource-type="page" data-linked-resource-version="20" href="https://docs.mend.io/platform/latest/the-findings-table#Findings-Table"&gt;Dependencies  Findings&lt;/a&gt; table, allowing users to view exploit likelihood at a glance and sort by risk. This enhancement streamlines vulnerability triage and prioritization by making EPSS data directly accessible without drilling into details.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="0ad941ad-3b6d-4438-9c0a-21c33c04c9d4"&gt;&lt;p local-id="ad25691fabd3"&gt;Added a new pre-defined "Auditor" role that provides read-only access for service users requiring data visibility.&lt;/p&gt;&lt;ul local-id="2dc7a56c13da"&gt;&lt;li local-id="a29bd836b230"&gt;&lt;p local-id="f4d1b4876150"&gt;&lt;strong&gt;Auditor&lt;/strong&gt; role assignments in Legacy SCA will automatically be reflected as such in the Mend AppSec Platform and vice versa.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li local-id="e0c9851c8d8e"&gt;&lt;p local-id="ad22343933b5"&gt;Added support for filtering scans, reports, findings, and violations by the &lt;strong&gt;AI scan engine&lt;/strong&gt; across the Mend AppSec Platform. The AI option is always visible in Scan Engine filters and enabled for customers with relevant entitlements.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="b16dfc06dddb"&gt;&lt;p local-id="cae5a130c96e"&gt;Added a new &lt;code&gt;dependencyContexts&lt;/code&gt; field to the &lt;a class="external-link" href="https://api-docs.mend.io/platform/3.0/findings-project/getsecurityvulnerabilityfindings" rel="nofollow" shape="rect"&gt;Get Project Security Findings&lt;/a&gt; API. This field lets you see how each vulnerable component appears in the dependency graph (direct vs. transitive and its root libraries), enabling clear mapping to the &lt;a class="external-link" href="https://api-docs.mend.io/platform/3.0/findings-project/getrootlibrarysecurityvulnerabilityfindings" rel="nofollow" shape="rect"&gt;Get Root Libraries Security Findings&lt;/a&gt; endpoint and improving reachability analysis.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="34ef39f6d963"&gt;&lt;p local-id="f3945a597970"&gt;UI Improvements:&lt;/p&gt;&lt;ul local-id="f8b0f0ca8766"&gt;&lt;li local-id="6d2bd827-965d-48db-9deb-be924bca308b"&gt;&lt;p local-id="dbbc74a73e53"&gt;Updated the table selection experience by moving the select all/deselect all controls into a single checkbox in the table header.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="c6d3221b61e5"&gt;&lt;p local-id="637417568876"&gt;Redesigned and relocated the Refresh button for a more intuitive user experience.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="efd864cf609e"&gt;&lt;p local-id="f8053ce885b4"&gt;Updated the Workflows and Reports pages by replacing filters with new filter buttons, making filtering more streamlined and user-friendly. &lt;/p&gt;&lt;/li&gt;&lt;li local-id="38898c6c-505b-44e5-b0ce-6324fee12863"&gt;&lt;p local-id="55ac940b9425"&gt;The Reports page now displays the "Delete" bulk action button only when a table row is selected, and the button text has been updated from Remove to Delete for improved clarity.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p local-id="a36ed5e205f5"&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="a3f2dd2273dc"&gt;&lt;li local-id="e4082183-7766-4527-aa4f-49c41f2e9821"&gt;&lt;p local-id="0a41db3c58e8"&gt;Fixed an issue where suppression comments longer than 255 characters were being truncated when retrieved via the UI, API, or CSV export, despite being saved correctly. Now, comments up to 500 characters are fully supported and displayed consistently across all interfaces.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
     <link href="https://docs.mend.io/platform/latest/mend-platform-release-notes"/>
     <published>2026-03-08T00:00:00+00:00</published>
   </entry>
