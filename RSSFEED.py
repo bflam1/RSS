@@ -32,7 +32,8 @@ release_pages = {
 
 # GitHub Renovate feed
 github_feeds = {
-    "mend Renovate": "https://github.com/renovatebot/renovate/releases.atom"
+    "Mend Renovate CLI": "https://github.com/renovatebot/renovate/releases.atom",
+    "Mend Renovate CC-EE": "https://github.com/mend/renovate-ce-ee/releases.atom"
 }
 
 # ─── Utility: Normalize and fix quotes ─────────────────────────────────────────
