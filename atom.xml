@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://bflam1.github.io/RSS/atom.xml</id>
   <title>Mend.io Unified Release Notes</title>
-  <updated>2026-03-23T07:45:56+00:00</updated>
+  <updated>2026-03-24T13:02:08+00:00</updated>
   <author>
     <name>Mend Release Bot</name>
     <email>noreply@bflam1.github.io</email>
@@ -12,31 +12,31 @@
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>Aggregated RSS, Atom, and HTML of all Mend release notes.</subtitle>
   <entry>
-    <id>https://github.com/mend/renovate-ce-ee/releases/tag/14.1.1</id>
-    <title>Mend Renovate CC-EE: 14.1.1</title>
-    <updated>2026-03-23T14:38:33.664388+00:00</updated>
+    <id>https://github.com/mend/renovate-ce-ee/releases/tag/14.2.0</id>
+    <title>Mend Renovate CC-EE: 14.2.0</title>
+    <updated>2026-03-24T14:40:34.994938+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
     <content type="html">&lt;p&gt;&lt;/p&gt;</content>
-    <link href="https://github.com/mend/renovate-ce-ee/releases/tag/14.1.1"/>
-    <published>2026-03-11T10:30:47+00:00</published>
+    <link href="https://github.com/mend/renovate-ce-ee/releases/tag/14.2.0"/>
+    <published>2026-03-23T15:56:53+00:00</published>
   </entry>
   <entry>
-    <id>https://github.com/renovatebot/renovate/releases/tag/43.86.1</id>
-    <title>Mend Renovate CLI: 43.86.1</title>
-    <updated>2026-03-23T14:38:33.664379+00:00</updated>
+    <id>https://github.com/renovatebot/renovate/releases/tag/43.89.1</id>
+    <title>Mend Renovate CLI: 43.89.1</title>
+    <updated>2026-03-24T14:40:34.994928+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
     <content type="html">&lt;p&gt;&lt;/p&gt;</content>
-    <link href="https://github.com/renovatebot/renovate/releases/tag/43.86.1"/>
-    <published>2026-03-23T07:45:56+00:00</published>
+    <link href="https://github.com/renovatebot/renovate/releases/tag/43.89.1"/>
+    <published>2026-03-24T13:02:08+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-bitbucket-data-center-release-notes</id>
     <title>Mend for Bitbucket DC: Version 26.3.1 (23-March-2026)</title>
-    <updated>2026-03-23T14:38:33.664367+00:00</updated>
+    <updated>2026-03-24T14:40:34.994917+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -47,7 +47,7 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-gitlab-release-notes</id>
     <title>Mend for GitLab: Version 26.3.1 (23-March-2026)</title>
-    <updated>2026-03-23T14:38:33.664357+00:00</updated>
+    <updated>2026-03-24T14:40:34.994908+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -58,7 +58,7 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-github-enterprise-release-notes</id>
     <title>Mend for GitHub Enterprise: Version 26.3.1 (23-March-2026)</title>
-    <updated>2026-03-23T14:38:33.664347+00:00</updated>
+    <updated>2026-03-24T14:40:34.994898+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -69,7 +69,7 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-github-com-release-notes</id>
     <title>Mend for GitHub.com: Version 26.3.1 (22-March-2026)</title>
-    <updated>2026-03-23T14:38:33.664337+00:00</updated>
+    <updated>2026-03-24T14:40:34.994887+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -80,7 +80,7 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-developer-platform-release-notes</id>
     <title>Mend Developer Platform: Version 26.3.1 (22-March-2026)</title>
-    <updated>2026-03-23T14:38:33.664327+00:00</updated>
+    <updated>2026-03-24T14:40:34.994876+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -91,7 +91,7 @@
   <entry>
     <id>https://docs.mend.io/legacy-sca/latest/mend-unified-agent-release-notes</id>
     <title>Mend Unified Agent: Version 26.3.1 (23-March-2026)</title>
-    <updated>2026-03-23T14:38:33.664317+00:00</updated>
+    <updated>2026-03-24T14:40:34.994866+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -102,7 +102,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-cli-release-notes</id>
     <title>Mend CLI: Version 26.3.1 (23-March-2026)</title>
-    <updated>2026-03-23T14:38:33.664305+00:00</updated>
+    <updated>2026-03-24T14:40:34.994855+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -113,7 +113,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-ai-release-notes</id>
     <title>Mend AI: Version 25.12.1 (05-January-2026)</title>
-    <updated>2026-03-23T14:38:33.664287+00:00</updated>
+    <updated>2026-03-24T14:40:34.994838+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -124,7 +124,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-container-release-notes</id>
     <title>Mend Container: Version 26.3.1 (22-March-2026)</title>
-    <updated>2026-03-23T14:38:33.664276+00:00</updated>
+    <updated>2026-03-24T14:40:34.994827+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -135,7 +135,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-sast-release-notes</id>
     <title>Mend SAST: Version 26.3.1 (23-March-2026)</title>
-    <updated>2026-03-23T14:38:33.664261+00:00</updated>
+    <updated>2026-03-24T14:40:34.994812+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -146,18 +146,18 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-sca-release-notes</id>
     <title>Mend SCA: Version 26.3.1 (22-March-2026)</title>
-    <updated>2026-03-23T14:38:33.664238+00:00</updated>
+    <updated>2026-03-24T14:40:34.994791+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
-    <content type="html">&lt;p local-id="fe92e05c9951"&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="2313ab11c512"&gt;&lt;li local-id="7b9d645e-0a09-4d2d-8e23-2d2e28ebcb3d"&gt;&lt;p local-id="818463cae1b6"&gt;Added support for the &lt;strong&gt;uv package manager&lt;/strong&gt; via both Mend CLI and repository integrations, enabling security scanning and Reachability analysis for Python projects managed with uv.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="014800d6-7129-433c-8796-bac951d7005c"&gt;&lt;p local-id="840719b0570a"&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Added support for disabling specific package manager resolvers in the Mend CLI using the &lt;a data-linked-resource-id="2915500074" data-linked-resource-type="page" data-linked-resource-version="65" href="https://docs.mend.io/platform/latest/configure-the-mend-cli-for-sca#CLI-SCA-scan-parameters"&gt;MEND_SCA_{PACAKGE_MANAGER}_RESOLVEDEPENDENCIES environment variable&lt;/a&gt;, allowing more granular control over dependency resolution.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="d9ea6a7df7b5"&gt;&lt;p local-id="3b8ac1ac8143"&gt;Improved the detection accuracy of Go libraries.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="d27b3d4afd3f"&gt;&lt;p local-id="4522ac3f5778"&gt;Added a &lt;a data-linked-resource-id="2524152488" data-linked-resource-type="page" data-linked-resource-version="34" href="https://docs.mend.io/platform/latest/risk-score-attribution-license-analysis"&gt;risk score&lt;/a&gt; of 65 to the LGPL 2.1 or later license.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p local-id="3d4c3e4132b7"&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="78dca60c-ee2e-409a-8ebd-5945089d7928"&gt;&lt;li local-id="d49a012e-8d7e-47a6-b430-9f6774f8fac9"&gt;&lt;p local-id="868048c6eab6"&gt;Fixed an issue where the package URL for NuGet packages in the &lt;a data-linked-resource-id="3153526785" data-linked-resource-type="page" data-linked-resource-version="5" href="https://docs.mend.io/platform/latest/the-dependencies-due-diligence-report"&gt;due diligence report&lt;/a&gt; was incorrectly generated with an unnecessary api. prefix. The URL construction logic has been updated to ensure accurate links.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+    <content type="html">&lt;p local-id="fe92e05c9951"&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="2313ab11c512"&gt;&lt;li local-id="7b9d645e-0a09-4d2d-8e23-2d2e28ebcb3d"&gt;&lt;p local-id="818463cae1b6"&gt;Added support for the &lt;strong&gt;uv package manager&lt;/strong&gt; via both Mend CLI and repository integrations, enabling security scanning and Reachability analysis for Python projects managed with uv.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="014800d6-7129-433c-8796-bac951d7005c"&gt;&lt;p local-id="840719b0570a"&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Added support for disabling specific package manager resolvers in the Mend CLI using the &lt;a data-linked-resource-id="2915500074" data-linked-resource-type="page" data-linked-resource-version="66" href="https://docs.mend.io/platform/latest/configure-the-mend-cli-for-sca#CLI-SCA-scan-parameters"&gt;MEND_SCA_{PACAKGE_MANAGER}_RESOLVEDEPENDENCIES environment variable&lt;/a&gt;, allowing more granular control over dependency resolution.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="d9ea6a7df7b5"&gt;&lt;p local-id="3b8ac1ac8143"&gt;Improved the detection accuracy of Go libraries.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="d27b3d4afd3f"&gt;&lt;p local-id="4522ac3f5778"&gt;Added a &lt;a data-linked-resource-id="2524152488" data-linked-resource-type="page" data-linked-resource-version="34" href="https://docs.mend.io/platform/latest/risk-score-attribution-license-analysis"&gt;risk score&lt;/a&gt; of 65 to the LGPL 2.1 or later license.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="205e094b-3c1e-407d-98af-d2f5fa5d2e4e"&gt;&lt;p local-id="b27eb65c773e"&gt;The Mend AppSec Platform now provides a dedicated &lt;a data-linked-resource-id="4224876603" data-linked-resource-type="page" data-linked-resource-version="7" href="https://docs.mend.io/platform/latest/zero-day-management-in-the-mend-appsec-platform"&gt;&lt;strong&gt;&lt;u&gt;Zero-Day Data&lt;/u&gt;&lt;/strong&gt;&lt;/a&gt; page, available via the Profile menu. This page is designed as a live, authoritative source of ZeroDay information. It is independent of your inventory: You can see &lt;a class="external-link" href="http://mend.io/" rel="nofollow" shape="rect"&gt;&lt;u&gt;Mend.io&lt;/u&gt;&lt;/a&gt;s ZeroDay data even before or beyond your specific scans.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p local-id="3d4c3e4132b7"&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="78dca60c-ee2e-409a-8ebd-5945089d7928"&gt;&lt;li local-id="d49a012e-8d7e-47a6-b430-9f6774f8fac9"&gt;&lt;p local-id="868048c6eab6"&gt;Fixed an issue where the package URL for NuGet packages in the &lt;a data-linked-resource-id="3153526785" data-linked-resource-type="page" data-linked-resource-version="5" href="https://docs.mend.io/platform/latest/the-dependencies-due-diligence-report"&gt;due diligence report&lt;/a&gt; was incorrectly generated with an unnecessary api. prefix. The URL construction logic has been updated to ensure accurate links.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
     <link href="https://docs.mend.io/platform/latest/mend-sca-release-notes"/>
     <published>2026-03-22T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-platform-release-notes</id>
     <title>Mend AppSec Platform: Version 26.3.1 (22-March-2026)</title>
-    <updated>2026-03-23T14:38:33.664184+00:00</updated>
+    <updated>2026-03-24T14:40:34.994760+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
