@@ -1,0 +1,21 @@
+# Generated feed output
+mend_combined_release_feed.*
+docs/
+
+# Claude Code local settings
+.claude/
+
+# VS Code
+.vscode/
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# OS files
+.DS_Store
+Thumbs.db
