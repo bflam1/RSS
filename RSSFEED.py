@@ -6,13 +6,41 @@ Requires: requests, beautifulsoup4, feedgen, python-dateutil
 """
 
 import html
+import logging
 import re
+import bleach
 import requests
 from bs4 import BeautifulSoup, Tag
 from feedgen.feed import FeedGenerator
 from datetime import datetime, timezone
 from dateutil import parser as dateparser
-from urllib.parse import urljoin
+from urllib.parse import urljoin, urlparse
+
+logging.basicConfig(level=logging.WARNING)
+
+# ─── URL Allowlist ────────────────────────────────────────────────────────────
+ALLOWED_DOMAINS = {'docs.mend.io', 'github.com'}
+
+def validate_url(url: str) -> str:
+    parsed = urlparse(url)
+    if parsed.scheme != 'https':
+        raise ValueError(f"URL must use HTTPS scheme: {url}")
+    if parsed.netloc not in ALLOWED_DOMAINS:
+        raise ValueError(f"URL domain not in allowlist: {parsed.netloc}")
+    return url
+
+# ─── HTML Sanitization Allowlist ──────────────────────────────────────────────
+BLEACH_TAGS = [
+    'p', 'br', 'strong', 'em', 'b', 'i', 'u', 'a', 'ul', 'ol', 'li',
+    'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'blockquote', 'code', 'pre',
+    'table', 'thead', 'tbody', 'tr', 'th', 'td', 'span', 'div', 'section',
+    'hr', 'img',
+]
+BLEACH_ATTRS = {
+    'a': ['href', 'title', 'target', 'rel'],
+    'img': ['src', 'alt', 'title', 'width', 'height'],
+    '*': ['class'],
+}
 
 # ─── Configuration ────────────────────────────────────────────────────────────
 release_pages = {
@@ -41,8 +69,8 @@ def normalize_quotes(text: str) -> str:
     text = html.unescape(text)
     try:
         text = text.encode('latin-1', errors='ignore').decode('utf-8', errors='ignore')
-    except:
-        pass
+    except Exception as e:
+        logging.warning("normalize_quotes encoding failed: %s", e)
     for ch in ['\u201c', '\u201d', '“', '”', '\u201e', '\u201f', '„', '‟']:
         text = text.replace(ch, '"')
     for ch in ['\u2018', '\u2019', '‘', '’']:
@@ -51,7 +79,8 @@ def normalize_quotes(text: str) -> str:
 
 # ─── Helper: extract latest release block with HTML ────────────────────────────
 def fetch_latest_release_html(url: str):
-    resp = requests.get(url, timeout=10)
+    validate_url(url)
+    resp = requests.get(url, timeout=10, verify=True)
     resp.raise_for_status()
     soup = BeautifulSoup(resp.content, 'html.parser')
     header = next((tag for tag in soup.find_all(['h2','h3','h4']) if tag.get_text(strip=True).lower().startswith('version')), None)
@@ -82,8 +111,8 @@ def parse_version_date(version_text: str) -> datetime:
             if dt.tzinfo is None:
                 dt = dt.replace(tzinfo=timezone.utc)
             return dt
-        except:
-            pass
+        except Exception as e:
+            logging.warning("parse_version_date failed for %r: %s", version_text, e)
     return datetime.now(timezone.utc)
 
 # ─── Build feed entries ────────────────────────────────────────────────────────
@@ -98,7 +127,9 @@ for name, url in release_pages.items():
     })
 
 for name, feed_url in github_feeds.items():
-    resp = requests.get(feed_url, timeout=10)
+    validate_url(feed_url)
+    resp = requests.get(feed_url, timeout=10, verify=True)
+    resp.raise_for_status()
     soup = BeautifulSoup(resp.content, 'xml')
     entry_xml = soup.find('entry')
     if entry_xml:
@@ -173,7 +204,8 @@ with open(html_file, 'w', encoding='utf-8') as f:
         iso = e['pubDate'].isoformat()
         f.write(f'  <section>\n    <h2><a href="{e["link"]}">{e["title"]}</a></h2>\n')
         f.write(f'    <time datetime="{iso}">{iso}</time>\n')
-        f.write(f'    {e["description"]}\n')
+        safe_desc = bleach.clean(e["description"], tags=BLEACH_TAGS, attributes=BLEACH_ATTRS, strip=True)
+        f.write(f'    {safe_desc}\n')
         f.write('  </section>\n  <hr/>\n')
     f.write('</body>\n</html>')
 print(f"✅ HTML feed generated: {html_file}")
