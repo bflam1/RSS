@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://bflam1.github.io/RSS/atom.xml</id>
   <title>Mend.io Unified Release Notes</title>
-  <updated>2026-03-31T13:44:43+00:00</updated>
+  <updated>2026-04-06T11:46:29+00:00</updated>
   <author>
     <name>Mend Release Bot</name>
     <email>noreply@bflam1.github.io</email>
@@ -14,7 +14,7 @@
   <entry>
     <id>https://github.com/mend/renovate-ce-ee/releases/tag/mend-renovate-enterprise-edition-9.0.0</id>
     <title>Mend Renovate CC-EE: mend-renovate-enterprise-edition-9.0.0</title>
-    <updated>2026-03-31T14:45:54.623879+00:00</updated>
+    <updated>2026-04-06T14:30:51.512194+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -23,20 +23,20 @@
     <published>2026-03-25T08:19:19+00:00</published>
   </entry>
   <entry>
-    <id>https://github.com/renovatebot/renovate/releases/tag/43.101.4</id>
-    <title>Mend Renovate CLI: 43.101.4</title>
-    <updated>2026-03-31T14:45:54.623869+00:00</updated>
+    <id>https://github.com/renovatebot/renovate/releases/tag/43.104.7</id>
+    <title>Mend Renovate CLI: 43.104.7</title>
+    <updated>2026-04-06T14:30:51.512183+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
     <content type="html">&lt;p&gt;&lt;/p&gt;</content>
-    <link href="https://github.com/renovatebot/renovate/releases/tag/43.101.4"/>
-    <published>2026-03-31T13:44:43+00:00</published>
+    <link href="https://github.com/renovatebot/renovate/releases/tag/43.104.7"/>
+    <published>2026-04-06T11:46:29+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-bitbucket-data-center-release-notes</id>
     <title>Mend for Bitbucket DC: Version 26.3.1 (23-March-2026)</title>
-    <updated>2026-03-31T14:45:54.623857+00:00</updated>
+    <updated>2026-04-06T14:30:51.512171+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -46,19 +46,19 @@
   </entry>
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-gitlab-release-notes</id>
-    <title>Mend for GitLab: Version 26.3.1 (23-March-2026)</title>
-    <updated>2026-03-31T14:45:54.623848+00:00</updated>
+    <title>Mend for GitLab: Version 26.3.1.1 (31-March-2026)</title>
+    <updated>2026-04-06T14:30:51.512161+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
-    <content type="html">&lt;p local-id="0ea08a1cf304"&gt;Unified Agent 26.2.2 | &lt;a class="external-link" href="https://github.com/renovatebot/renovate/releases/tag/43.59.4" rel="nofollow" shape="rect"&gt;&lt;u&gt;Renovate 43.59.4&lt;/u&gt;&lt;/a&gt; | Remediate 26.3.1 | Pre-Scan Builder (PSB) 25.8.1&lt;/p&gt;&lt;p local-id="8e07ee2c54de"&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="e3af03fc-0e0a-4aaf-b0a3-a6db684c3354"&gt;&lt;li local-id="db8cb5d7-1897-4637-ad3c-c240d784f8db"&gt;&lt;p local-id="d3cc0ab8b20d"&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Added support for the &lt;strong&gt;uv&lt;/strong&gt; package manager, enabling security scanning and Reachability analysis for Python projects managed with uv. Refer to &lt;a data-linked-resource-id="2915500074" data-linked-resource-type="page" data-linked-resource-version="68" href="https://docs.mend.io/platform/latest/configure-the-mend-cli-for-sca#CLI-SCA-Languages"&gt;this&lt;/a&gt; table for more details.&lt;/p&gt;&lt;ul local-id="fcc8422d81ea"&gt;&lt;li local-id="1d484294-a42f-4922-9497-e63db67c7275"&gt;&lt;p local-id="238ec12e46bd"&gt;&lt;strong&gt;Note:&lt;/strong&gt; The SCA orchestrator &lt;a data-linked-resource-id="2987884545" data-linked-resource-type="page" data-linked-resource-version="55" href="https://docs.mend.io/integrations/latest/environment-variables-for-self-hosted-integrations#Scanner-Env-Variables"&gt;&lt;u&gt;scanner environment variable&lt;/u&gt;&lt;/a&gt; must be enabled for uv detection to work (&lt;code&gt;MEND_SCA_ORCHESTRATOR_ENABLED=true&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p local-id="aa4fde318a13"&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="d4254fe7-39a5-4ead-aa8a-a8e8fb2feeba"&gt;&lt;li local-id="5f8e2c4f-72dc-4eeb-916c-ff6c8b5ffd47"&gt;&lt;p local-id="0aa72535f192"&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Fixed an issue where scans of .NET projects would fail with error MSB4057 if a &lt;Project&gt; tag existed under &lt;ProjectReference&gt; in the csproj file. Scans now complete successfully in this scenario.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="b94c9e35-b0cf-4775-956d-d6e566dfa7c3"&gt;&lt;p local-id="58526f07a7df"&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Fixed an issue where Gradle dependencies failed to resolve for React Native Android projects, ensuring accurate detection and resolution of dependencies by properly handling project structure and Gradle wrapper logic.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="fa777813-39df-475b-b62e-279f6972b4d5"&gt;&lt;p local-id="77ba7e50a501"&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Fixed an issue where post-scan cleanup and statistics were not executed if the scan process ended with an error, ensuring proper handling and reporting even when scans fail.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+    <content type="html">&lt;p local-id="b1ca76737e33"&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="6060bb36d128"&gt;&lt;li local-id="63e46dc46817"&gt;&lt;p local-id="78713d07c157"&gt;&lt;strong&gt;(SAST)&lt;/strong&gt; Fixed an issue where SAST scan job queues would build up for repositories with large file counts, potentially leading to reduced performance.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
     <link href="https://docs.mend.io/integrations/latest/mend-for-gitlab-release-notes"/>
-    <published>2026-03-23T00:00:00+00:00</published>
+    <published>2026-03-31T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-github-enterprise-release-notes</id>
     <title>Mend for GitHub Enterprise: Version 26.3.1 (23-March-2026)</title>
-    <updated>2026-03-31T14:45:54.623838+00:00</updated>
+    <updated>2026-04-06T14:30:51.512151+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -69,7 +69,7 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-github-com-release-notes</id>
     <title>Mend for GitHub.com: Version 26.3.1 (22-March-2026)</title>
-    <updated>2026-03-31T14:45:54.623828+00:00</updated>
+    <updated>2026-04-06T14:30:51.512141+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -80,7 +80,7 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-developer-platform-release-notes</id>
     <title>Mend Developer Platform: Version 26.3.1 (22-March-2026)</title>
-    <updated>2026-03-31T14:45:54.623817+00:00</updated>
+    <updated>2026-04-06T14:30:51.512128+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -91,7 +91,7 @@
   <entry>
     <id>https://docs.mend.io/legacy-sca/latest/mend-unified-agent-release-notes</id>
     <title>Mend Unified Agent: Version 26.3.1 (23-March-2026)</title>
-    <updated>2026-03-31T14:45:54.623806+00:00</updated>
+    <updated>2026-04-06T14:30:51.512110+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -102,18 +102,18 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-cli-release-notes</id>
     <title>Mend CLI: Version 26.3.1 (23-March-2026)</title>
-    <updated>2026-03-31T14:45:54.623795+00:00</updated>
+    <updated>2026-04-06T14:30:51.512094+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
-    <content type="html">&lt;p local-id="894d30bbadbf"&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="2313ab11c512"&gt;&lt;li local-id="612bd88e0de5"&gt;&lt;p local-id="ca1da5f34f1d"&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Added support for the &lt;strong&gt;uv package manager&lt;/strong&gt;, enabling security scanning and Reachability analysis for Python projects managed with uv.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="014800d6-7129-433c-8796-bac951d7005c"&gt;&lt;p local-id="7108af3761bd"&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Added support for disabling specific package manager resolvers using the &lt;a data-linked-resource-id="2915500074" data-linked-resource-type="page" data-linked-resource-version="66" href="https://docs.mend.io/platform/latest/configure-the-mend-cli-for-sca#CLI-SCA-scan-parameters"&gt;MEND_SCA_{PACAKGE_MANAGER}_RESOLVEDEPENDENCIES environment variable&lt;/a&gt;, allowing more granular control over dependency resolution.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="16d9453c366f"&gt;&lt;p local-id="03088bc313a9"&gt;&lt;strong&gt;(SAST)&lt;/strong&gt; Updated some of the CLIs Code dependencies for improved security.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+    <content type="html">&lt;p local-id="894d30bbadbf"&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="2313ab11c512"&gt;&lt;li local-id="612bd88e0de5"&gt;&lt;p local-id="ca1da5f34f1d"&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Added support for the &lt;strong&gt;uv package manager&lt;/strong&gt;, enabling security scanning and Reachability analysis for Python projects managed with uv.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="014800d6-7129-433c-8796-bac951d7005c"&gt;&lt;p local-id="7108af3761bd"&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Added support for disabling specific package manager resolvers using the &lt;a data-linked-resource-id="2915500074" data-linked-resource-type="page" data-linked-resource-version="66" href="https://docs.mend.io/platform/latest/configure-the-mend-cli-for-sca#CLI-SCA-scan-parameters"&gt;MEND_SCA_{PACAKGE_MANAGER}_RESOLVEDEPENDENCIES environment variable&lt;/a&gt;, allowing more granular control over dependency resolution.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="16d9453c366f"&gt;&lt;p local-id="03088bc313a9"&gt;&lt;strong&gt;(SAST)&lt;/strong&gt; Updated some of the CLI's Code dependencies for improved security.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
     <link href="https://docs.mend.io/platform/latest/mend-cli-release-notes"/>
     <published>2026-03-23T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-ai-release-notes</id>
     <title>Mend AI: Version 25.12.1 (05-January-2026)</title>
-    <updated>2026-03-31T14:45:54.623782+00:00</updated>
+    <updated>2026-04-06T14:30:51.512073+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -124,18 +124,18 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-container-release-notes</id>
     <title>Mend Container: Version 26.3.1 (22-March-2026)</title>
-    <updated>2026-03-31T14:45:54.623771+00:00</updated>
+    <updated>2026-04-06T14:30:51.512054+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
-    <content type="html">&lt;p local-id="e2dd713fca4a"&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="516c22b5-db58-4602-9f6f-557a65aa15a8"&gt;&lt;li local-id="04c6322597f4"&gt;&lt;p local-id="022c60e2fe4a"&gt;Introduced a new &lt;a data-linked-resource-id="3552313351" data-linked-resource-type="page" data-linked-resource-version="6" href="https://docs.mend.io/platform/latest/risk-factors-in-mend-container#Managing-Risk-in-Docker-Images"&gt;risk factor&lt;/a&gt; based on Docker VEX data, highlighting when vulnerabilities are not applicable to Docker packages, with improved visibility and filtering in the Containers view.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="18285011b369"&gt;&lt;p local-id="52fb8510eb7c"&gt;Added support for &lt;a data-linked-resource-id="4226744321" data-linked-resource-type="page" data-linked-resource-version="10" href="https://docs.mend.io/platform/latest/docker-hardened-images"&gt;Docker Hardened Images (DHI)&lt;/a&gt;, including a clear badge and filtering options for DHI packages. &lt;/p&gt;&lt;/li&gt;&lt;li local-id="d927db8d81dc"&gt;&lt;p local-id="e5a4d6ee1298"&gt;Added a Suppression Comment column to the CSV export of suppressed container findings.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p local-id="96a0df9101ec"&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="d63b58f5-8cd1-42c4-a18f-f616b8404816"&gt;&lt;li local-id="5284f99b-7e55-4160-bae6-a936ea40d3db"&gt;&lt;p local-id="441ac3f55373"&gt;Fixed an issue where the java-17-amazon-corretto-headless package was falsely flagged with multiple CVEs, caused by identical software versions being incorrectly flagged as different.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="e1a8fdd75e26"&gt;&lt;p local-id="5b8a695690cd"&gt;Fixed an issue where the total findings count in the summary page did not match the findings listed under Containers &gt; Findings, ensuring consistent and accurate reporting across both views.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="2a579d14-fa77-46fb-8a82-74655f8ed563"&gt;&lt;p local-id="910c87bc4aaf"&gt;Fixed an issue where the "Total Findings by Severity" widget in the Security Dashboard displayed inconsistent numbers compared to the detailed application view after findings were suppressed. The dashboard now accurately reflects the correct number of findings for each severity level.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="a17917655563"&gt;&lt;p local-id="f0f04f277419"&gt;Improved CVE detection for RPM packages.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="7bc70fe5-be15-45b1-8419-495db01ed60c"&gt;&lt;p local-id="6db34f1ebbd8"&gt;Fixed an issue where CycloneDX SBOMs generated from container image scans did not include license information for certain NuGet components. Now, all detected NuGet dependencies will have their license data properly reflected in the SBOM when available.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+    <content type="html">&lt;p local-id="e2dd713fca4a"&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="516c22b5-db58-4602-9f6f-557a65aa15a8"&gt;&lt;li local-id="04c6322597f4"&gt;&lt;p local-id="022c60e2fe4a"&gt;Introduced a new &lt;a data-linked-resource-id="3552313351" data-linked-resource-type="page" data-linked-resource-version="6" href="https://docs.mend.io/platform/latest/risk-factors-in-mend-container#Managing-Risk-in-Docker-Images"&gt;risk factor&lt;/a&gt; based on Docker VEX data, highlighting when vulnerabilities are not applicable to Docker packages, with improved visibility and filtering in the Containers view.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="18285011b369"&gt;&lt;p local-id="52fb8510eb7c"&gt;Added support for &lt;a data-linked-resource-id="4226744321" data-linked-resource-type="page" data-linked-resource-version="10" href="https://docs.mend.io/platform/latest/docker-hardened-images"&gt;Docker Hardened Images (DHI)&lt;/a&gt;, including a clear badge and filtering options for DHI packages. &lt;/p&gt;&lt;/li&gt;&lt;li local-id="d927db8d81dc"&gt;&lt;p local-id="e5a4d6ee1298"&gt;Added a "Suppression Comment" column to the CSV export of suppressed container findings.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p local-id="96a0df9101ec"&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="d63b58f5-8cd1-42c4-a18f-f616b8404816"&gt;&lt;li local-id="5284f99b-7e55-4160-bae6-a936ea40d3db"&gt;&lt;p local-id="441ac3f55373"&gt;Fixed an issue where the java-17-amazon-corretto-headless package was falsely flagged with multiple CVEs, caused by identical software versions being incorrectly flagged as different.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="e1a8fdd75e26"&gt;&lt;p local-id="5b8a695690cd"&gt;Fixed an issue where the total findings count in the summary page did not match the findings listed under Containers &gt; Findings, ensuring consistent and accurate reporting across both views.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="2a579d14-fa77-46fb-8a82-74655f8ed563"&gt;&lt;p local-id="910c87bc4aaf"&gt;Fixed an issue where the "Total Findings by Severity" widget in the Security Dashboard displayed inconsistent numbers compared to the detailed application view after findings were suppressed. The dashboard now accurately reflects the correct number of findings for each severity level.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="a17917655563"&gt;&lt;p local-id="f0f04f277419"&gt;Improved CVE detection for RPM packages.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="7bc70fe5-be15-45b1-8419-495db01ed60c"&gt;&lt;p local-id="6db34f1ebbd8"&gt;Fixed an issue where CycloneDX SBOMs generated from container image scans did not include license information for certain NuGet components. Now, all detected NuGet dependencies will have their license data properly reflected in the SBOM when available.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
     <link href="https://docs.mend.io/platform/latest/mend-container-release-notes"/>
     <published>2026-03-22T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-sast-release-notes</id>
     <title>Mend SAST: Version 26.3.1 (23-March-2026)</title>
-    <updated>2026-03-31T14:45:54.623757+00:00</updated>
+    <updated>2026-04-06T14:30:51.512032+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -146,22 +146,22 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-sca-release-notes</id>
     <title>Mend SCA: Version 26.3.1 (22-March-2026)</title>
-    <updated>2026-03-31T14:45:54.623732+00:00</updated>
+    <updated>2026-04-06T14:30:51.511975+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
-    <content type="html">&lt;p local-id="fe92e05c9951"&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="2313ab11c512"&gt;&lt;li local-id="7b9d645e-0a09-4d2d-8e23-2d2e28ebcb3d"&gt;&lt;p local-id="818463cae1b6"&gt;Added support for the &lt;strong&gt;uv package manager&lt;/strong&gt; via both Mend CLI and repository integrations, enabling security scanning and Reachability analysis for Python projects managed with uv.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="014800d6-7129-433c-8796-bac951d7005c"&gt;&lt;p local-id="840719b0570a"&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Added support for disabling specific package manager resolvers in the Mend CLI using the &lt;a data-linked-resource-id="2915500074" data-linked-resource-type="page" data-linked-resource-version="68" href="https://docs.mend.io/platform/latest/configure-the-mend-cli-for-sca#CLI-SCA-scan-parameters"&gt;MEND_SCA_{PACAKGE_MANAGER}_RESOLVEDEPENDENCIES environment variable&lt;/a&gt;, allowing more granular control over dependency resolution.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="d9ea6a7df7b5"&gt;&lt;p local-id="3b8ac1ac8143"&gt;Improved the detection accuracy of Go libraries.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="d27b3d4afd3f"&gt;&lt;p local-id="4522ac3f5778"&gt;Added a &lt;a data-linked-resource-id="2524152488" data-linked-resource-type="page" data-linked-resource-version="34" href="https://docs.mend.io/platform/latest/risk-score-attribution-license-analysis"&gt;risk score&lt;/a&gt; of 65 to the LGPL 2.1 or later license.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="205e094b-3c1e-407d-98af-d2f5fa5d2e4e"&gt;&lt;p local-id="b27eb65c773e"&gt;The Mend AppSec Platform now provides a dedicated &lt;a data-linked-resource-id="4224876603" data-linked-resource-type="page" data-linked-resource-version="8" href="https://docs.mend.io/platform/latest/zero-day-management-in-the-mend-appsec-platform"&gt;&lt;strong&gt;&lt;u&gt;Zero-Day Data&lt;/u&gt;&lt;/strong&gt;&lt;/a&gt; page, available via the Profile menu. This page is designed as a live, authoritative source of ZeroDay information. It is independent of your inventory: You can see &lt;a class="external-link" href="http://mend.io/" rel="nofollow" shape="rect"&gt;&lt;u&gt;Mend.io&lt;/u&gt;&lt;/a&gt;s ZeroDay data even before or beyond your specific scans.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p local-id="3d4c3e4132b7"&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="78dca60c-ee2e-409a-8ebd-5945089d7928"&gt;&lt;li local-id="d49a012e-8d7e-47a6-b430-9f6774f8fac9"&gt;&lt;p local-id="868048c6eab6"&gt;Fixed an issue where the package URL for NuGet packages in the &lt;a data-linked-resource-id="3153526785" data-linked-resource-type="page" data-linked-resource-version="5" href="https://docs.mend.io/platform/latest/the-dependencies-due-diligence-report"&gt;due diligence report&lt;/a&gt; was incorrectly generated with an unnecessary api. prefix. The URL construction logic has been updated to ensure accurate links.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+    <content type="html">&lt;p local-id="fe92e05c9951"&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="2313ab11c512"&gt;&lt;li local-id="7b9d645e-0a09-4d2d-8e23-2d2e28ebcb3d"&gt;&lt;p local-id="818463cae1b6"&gt;Added support for the &lt;strong&gt;uv package manager&lt;/strong&gt; via both Mend CLI and repository integrations, enabling security scanning and Reachability analysis for Python projects managed with uv.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="014800d6-7129-433c-8796-bac951d7005c"&gt;&lt;p local-id="840719b0570a"&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Added support for disabling specific package manager resolvers in the Mend CLI using the &lt;a data-linked-resource-id="2915500074" data-linked-resource-type="page" data-linked-resource-version="68" href="https://docs.mend.io/platform/latest/configure-the-mend-cli-for-sca#CLI-SCA-scan-parameters"&gt;MEND_SCA_{PACAKGE_MANAGER}_RESOLVEDEPENDENCIES environment variable&lt;/a&gt;, allowing more granular control over dependency resolution.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="d9ea6a7df7b5"&gt;&lt;p local-id="3b8ac1ac8143"&gt;Improved the detection accuracy of Go libraries.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="d27b3d4afd3f"&gt;&lt;p local-id="4522ac3f5778"&gt;Added a &lt;a data-linked-resource-id="2524152488" data-linked-resource-type="page" data-linked-resource-version="34" href="https://docs.mend.io/platform/latest/risk-score-attribution-license-analysis"&gt;risk score&lt;/a&gt; of 65 to the "LGPL 2.1 or later" license.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="205e094b-3c1e-407d-98af-d2f5fa5d2e4e"&gt;&lt;p local-id="b27eb65c773e"&gt;The Mend AppSec Platform now provides a dedicated &lt;a data-linked-resource-id="4224876603" data-linked-resource-type="page" data-linked-resource-version="8" href="https://docs.mend.io/platform/latest/zero-day-management-in-the-mend-appsec-platform"&gt;&lt;strong&gt;&lt;u&gt;Zero-Day Data&lt;/u&gt;&lt;/strong&gt;&lt;/a&gt; page, available via the Profile menu. This page is designed as a live, authoritative source of Zero‑Day information. It is independent of your inventory: You can see &lt;a class="external-link" href="http://mend.io/" rel="nofollow" shape="rect"&gt;&lt;u&gt;Mend.io&lt;/u&gt;&lt;/a&gt;'s Zero‑Day data even before or beyond your specific scans.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p local-id="3d4c3e4132b7"&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="78dca60c-ee2e-409a-8ebd-5945089d7928"&gt;&lt;li local-id="d49a012e-8d7e-47a6-b430-9f6774f8fac9"&gt;&lt;p local-id="868048c6eab6"&gt;Fixed an issue where the package URL for NuGet packages in the &lt;a data-linked-resource-id="3153526785" data-linked-resource-type="page" data-linked-resource-version="5" href="https://docs.mend.io/platform/latest/the-dependencies-due-diligence-report"&gt;due diligence report&lt;/a&gt; was incorrectly generated with an unnecessary "api." prefix. The URL construction logic has been updated to ensure accurate links.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
     <link href="https://docs.mend.io/platform/latest/mend-sca-release-notes"/>
     <published>2026-03-22T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-platform-release-notes</id>
     <title>Mend AppSec Platform: Version 26.3.1 (22-March-2026)</title>
-    <updated>2026-03-31T14:45:54.623701+00:00</updated>
+    <updated>2026-04-06T14:30:51.511934+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
-    <content type="html">&lt;p local-id="82138d173c25"&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="c7a6bf26f61e"&gt;&lt;li local-id="d68e37f9e63f"&gt;&lt;p local-id="563ad52f444f"&gt;&lt;a data-linked-resource-id="4131323928" data-linked-resource-type="page" data-linked-resource-version="9" href="https://docs.mend.io/platform/latest/prioritize-results-based-on-context"&gt;Contextual Project Classification&lt;/a&gt; is now available on request in Mend Forge. When enabled, AI automatically analyzes your codebase, identifies applications that handle sensitive data like payments, healthcare records, and PII and assigns corresponding labels to the project.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="df760bdb00bd"&gt;&lt;p local-id="e152c057e15d"&gt;The MCP server used in the &lt;a data-linked-resource-id="3717529625" data-linked-resource-type="page" data-linked-resource-version="41" href="https://docs.mend.io/renovate/latest/mend-agentic-integration"&gt;agentic integrations&lt;/a&gt; now supports an optional X-OrgId header in its configuration. Users who belong to multiple organizations can use this to specify which organization the MCP tools should operate against.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="a3368d7e42c9"&gt;&lt;p local-id="7569f7d766f4"&gt;Added a &lt;strong&gt;Select all results&lt;/strong&gt; option when creating a &lt;strong&gt;Legal&lt;/strong&gt; &lt;a data-linked-resource-id="2774564993" data-linked-resource-type="page" data-linked-resource-version="90" href="https://docs.mend.io/platform/latest/workflow-configuration-parameters"&gt;automation workflow&lt;/a&gt; with the &lt;strong&gt;Licenses&lt;/strong&gt; event condition, allowing users to quickly select all visible licenses (up to 50 per page).&lt;/p&gt;&lt;/li&gt;&lt;li local-id="f9a527f6-ecca-4f63-a878-bd4eab353a9d"&gt;&lt;p local-id="05be8dd510f9"&gt;Updated the &lt;a data-linked-resource-id="3949789213" data-linked-resource-type="page" data-linked-resource-version="1" href="https://docs.mend.io/platform/latest/security-dashboard"&gt;security dashboard&lt;/a&gt; header with new filter buttons for scan engine, labels, and timeframe, providing a streamlined and consistent user experience that matches the &lt;a data-linked-resource-id="3493953547" data-linked-resource-type="page" data-linked-resource-version="25" href="https://docs.mend.io/platform/latest/value-dashboard"&gt;value dashboard&lt;/a&gt;. Outdated text was removed and filter accessibility was improved.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p local-id="471fa5825879"&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="78dca60c-ee2e-409a-8ebd-5945089d7928"&gt;&lt;li local-id="d49a012e-8d7e-47a6-b430-9f6774f8fac9"&gt;&lt;p local-id="a442fcced438"&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Fixed an issue where the package URL for NuGet packages in the &lt;a data-linked-resource-id="3153526785" data-linked-resource-type="page" data-linked-resource-version="5" href="https://docs.mend.io/platform/latest/the-dependencies-due-diligence-report"&gt;due diligence report&lt;/a&gt; was incorrectly generated with an unnecessary api. prefix. The URL construction logic has been updated to ensure accurate links.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+    <content type="html">&lt;p local-id="82138d173c25"&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="c7a6bf26f61e"&gt;&lt;li local-id="d68e37f9e63f"&gt;&lt;p local-id="563ad52f444f"&gt;&lt;a data-linked-resource-id="4131323928" data-linked-resource-type="page" data-linked-resource-version="9" href="https://docs.mend.io/platform/latest/prioritize-results-based-on-context"&gt;Contextual Project Classification&lt;/a&gt; is now available on request in Mend Forge. When enabled, AI automatically analyzes your codebase, identifies applications that handle sensitive data like payments, healthcare records, and PII and assigns corresponding labels to the project.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="df760bdb00bd"&gt;&lt;p local-id="e152c057e15d"&gt;The MCP server used in the &lt;a data-linked-resource-id="3717529625" data-linked-resource-type="page" data-linked-resource-version="41" href="https://docs.mend.io/renovate/latest/mend-agentic-integration"&gt;agentic integrations&lt;/a&gt; now supports an optional X-OrgId header in its configuration. Users who belong to multiple organizations can use this to specify which organization the MCP tools should operate against.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="a3368d7e42c9"&gt;&lt;p local-id="7569f7d766f4"&gt;Added a &lt;strong&gt;"Select all results"&lt;/strong&gt; option when creating a &lt;strong&gt;Legal&lt;/strong&gt; &lt;a data-linked-resource-id="2774564993" data-linked-resource-type="page" data-linked-resource-version="90" href="https://docs.mend.io/platform/latest/workflow-configuration-parameters"&gt;automation workflow&lt;/a&gt; with the &lt;strong&gt;Licenses&lt;/strong&gt; event condition, allowing users to quickly select all visible licenses (up to 50 per page).&lt;/p&gt;&lt;/li&gt;&lt;li local-id="f9a527f6-ecca-4f63-a878-bd4eab353a9d"&gt;&lt;p local-id="05be8dd510f9"&gt;Updated the &lt;a data-linked-resource-id="3949789213" data-linked-resource-type="page" data-linked-resource-version="2" href="https://docs.mend.io/platform/latest/security-dashboard"&gt;security dashboard&lt;/a&gt; header with new filter buttons for scan engine, labels, and timeframe, providing a streamlined and consistent user experience that matches the &lt;a data-linked-resource-id="3493953547" data-linked-resource-type="page" data-linked-resource-version="25" href="https://docs.mend.io/platform/latest/value-dashboard"&gt;value dashboard&lt;/a&gt;. Outdated text was removed and filter accessibility was improved.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p local-id="471fa5825879"&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="78dca60c-ee2e-409a-8ebd-5945089d7928"&gt;&lt;li local-id="d49a012e-8d7e-47a6-b430-9f6774f8fac9"&gt;&lt;p local-id="a442fcced438"&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Fixed an issue where the package URL for NuGet packages in the &lt;a data-linked-resource-id="3153526785" data-linked-resource-type="page" data-linked-resource-version="5" href="https://docs.mend.io/platform/latest/the-dependencies-due-diligence-report"&gt;due diligence report&lt;/a&gt; was incorrectly generated with an unnecessary "api." prefix. The URL construction logic has been updated to ensure accurate links.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
     <link href="https://docs.mend.io/platform/latest/mend-platform-release-notes"/>
     <published>2026-03-22T00:00:00+00:00</published>
   </entry>
