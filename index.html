@@ -7,15 +7,15 @@
 <body>
   <h1>Mend.io Unified Release Notes</h1>
   <section>
-    <h2><a href="https://docs.mend.io/platform/latest/mend-platform-release-notes">Mend AppSec Platform: Version 26.3.1 (22-March-2026)</a></h2>
-    <time datetime="2026-03-22T00:00:00+00:00">2026-03-22T00:00:00+00:00</time>
-    <p><strong>New Features and Updates</strong></p><ul><li><p><a href="https://docs.mend.io/platform/latest/prioritize-results-based-on-context">Contextual Project Classification</a> is now available on request in Mend Forge. When enabled, AI automatically analyzes your codebase, identifies applications that handle sensitive data like payments, healthcare records, and PII and assigns corresponding labels to the project.</p></li><li><p>The MCP server used in the <a href="https://docs.mend.io/renovate/latest/mend-agentic-integration">agentic integrations</a> now supports an optional X-OrgId header in its configuration. Users who belong to multiple organizations can use this to specify which organization the MCP tools should operate against.</p></li><li><p>Added a <strong>"Select all results"</strong> option when creating a <strong>Legal</strong> <a href="https://docs.mend.io/platform/latest/workflow-configuration-parameters">automation workflow</a> with the <strong>Licenses</strong> event condition, allowing users to quickly select all visible licenses (up to 50 per page).</p></li><li><p>Updated the <a href="https://docs.mend.io/platform/latest/security-dashboard">security dashboard</a> header with new filter buttons for scan engine, labels, and timeframe, providing a streamlined and consistent user experience that matches the <a href="https://docs.mend.io/platform/latest/value-dashboard">value dashboard</a>. Outdated text was removed and filter accessibility was improved.</p></li></ul><p><strong>Resolved Issues</strong></p><ul><li><p><strong>(SCA)</strong> Fixed an issue where the package URL for NuGet packages in the <a href="https://docs.mend.io/platform/latest/the-dependencies-due-diligence-report">due diligence report</a> was incorrectly generated with an unnecessary "api." prefix. The URL construction logic has been updated to ensure accurate links.</p></li></ul>
+    <h2><a href="https://docs.mend.io/platform/latest/mend-platform-release-notes">Mend AppSec Platform: Version 26.3.2 (12-April-2026)</a></h2>
+    <time datetime="2026-04-12T00:00:00+00:00">2026-04-12T00:00:00+00:00</time>
+    <p><strong>New Features and Updates</strong></p><ul><li><p>Introducing new <a href="https://docs.mend.io/platform/latest/zero-day-management-in-the-mend-appsec-platform">Zero-Day response workflows</a> in the Mend AppSec Platform, offering immediate risk visibility, audit-level transparency, and user-controlled enforcement for critical vulnerabilities. Users benefit from prominent alerts, a dedicated Zero-Day catalog, configurable workflows, and permanent violation tracking—streamlining investigation and remediation without added operational burden.</p></li><li><p>Enhanced Jira security tickets now provide direct links to relevant areas in the Mend AppSec Platform, display project-level violation details, show violation counts per vulnerability, and make CVE identifiers clickable for quick investigation. These updates give security and AppSec teams richer context and faster access to remediation tools, streamlining the triage and resolution process.</p></li><li><p>UI Improvements:</p><ul><li><p>The toggle button group component has been redesigned with a modernized look. Border and divider visibility have been improved across all states, ensuring selected button fills no longer obscure borders and dividers remain clearly visible between buttons.</p></li><li><p>Updated the bulk actions in the My Integrations and Containers Security pages to use a new floating bulk action toolbar, improving clarity of available bulk actions for selected assets.</p></li></ul></li></ul><p><strong>Resolved Issues</strong></p><ul><li><p>Fixed an issue where typing at a certain speed in the Applications or Projects search box could cause letters to be removed from the search phrase. The search input now consistently retains all characters as typed.</p></li><li><p>Fixed an issue where Organization Member users could not view data in the "Proprietary" section of the Applications page, instead seeing an "ERR" row. Data now displays correctly in this view.</p></li></ul>
   </section>
   <hr/>
   <section>
-    <h2><a href="https://docs.mend.io/platform/latest/mend-sca-release-notes">Mend SCA: Version 26.3.1 (22-March-2026)</a></h2>
-    <time datetime="2026-03-22T00:00:00+00:00">2026-03-22T00:00:00+00:00</time>
-    <p><strong>New Features and Updates</strong></p><ul><li><p>Added support for the <strong>uv package manager</strong> via both Mend CLI and repository integrations, enabling security scanning and Reachability analysis for Python projects managed with uv.</p></li><li><p><strong>(SCA)</strong> Added support for disabling specific package manager resolvers in the Mend CLI using the <a href="https://docs.mend.io/platform/latest/configure-the-mend-cli-for-sca#CLI-SCA-scan-parameters">MEND_SCA_{PACAKGE_MANAGER}_RESOLVEDEPENDENCIES environment variable</a>, allowing more granular control over dependency resolution.</p></li><li><p>Improved the detection accuracy of Go libraries.</p></li><li><p>Added a <a href="https://docs.mend.io/platform/latest/risk-score-attribution-license-analysis">risk score</a> of 65 to the "LGPL 2.1 or later" license.</p></li><li><p>The Mend AppSec Platform now provides a dedicated <a href="https://docs.mend.io/platform/latest/zero-day-management-in-the-mend-appsec-platform"><strong><u>Zero-Day Data</u></strong></a> page, available via the Profile menu. This page is designed as a live, authoritative source of Zero‑Day information. It is independent of your inventory: You can see <a class="external-link" href="http://mend.io/" rel="nofollow"><u>Mend.io</u></a>'s Zero‑Day data even before or beyond your specific scans.</p></li></ul><p><strong>Resolved Issues</strong></p><ul><li><p>Fixed an issue where the package URL for NuGet packages in the <a href="https://docs.mend.io/platform/latest/the-dependencies-due-diligence-report">due diligence report</a> was incorrectly generated with an unnecessary "api." prefix. The URL construction logic has been updated to ensure accurate links.</p></li></ul>
+    <h2><a href="https://docs.mend.io/platform/latest/mend-sca-release-notes">Mend SCA: Version 26.3.2 (12-April-2026)</a></h2>
+    <time datetime="2026-04-12T00:00:00+00:00">2026-04-12T00:00:00+00:00</time>
+    <p><strong>New Features and Updates</strong></p><ul><li><p>Introducing new <a href="https://docs.mend.io/platform/latest/zero-day-management-in-the-mend-appsec-platform">Zero-Day response workflows</a> in the Mend AppSec Platform, offering immediate risk visibility, audit-level transparency, and user-controlled enforcement for critical vulnerabilities. Users benefit from prominent alerts, a dedicated Zero-Day catalog, configurable workflows, and permanent violation tracking—streamlining investigation and remediation without added operational burden.</p></li></ul>
   </section>
   <hr/>
   <section>
@@ -25,9 +25,9 @@
   </section>
   <hr/>
   <section>
-    <h2><a href="https://docs.mend.io/platform/latest/mend-container-release-notes">Mend Container: Version 26.3.1 (22-March-2026)</a></h2>
-    <time datetime="2026-03-22T00:00:00+00:00">2026-03-22T00:00:00+00:00</time>
-    <p><strong>New Features and Updates</strong></p><ul><li><p>Introduced a new <a href="https://docs.mend.io/platform/latest/risk-factors-in-mend-container#Managing-Risk-in-Docker-Images">risk factor</a> based on Docker VEX data, highlighting when vulnerabilities are not applicable to Docker packages, with improved visibility and filtering in the Containers view.</p></li><li><p>Added support for <a href="https://docs.mend.io/platform/latest/docker-hardened-images">Docker Hardened Images (DHI)</a>, including a clear badge and filtering options for DHI packages. </p></li><li><p>Added a "Suppression Comment" column to the CSV export of suppressed container findings.</p></li></ul><p><strong>Resolved Issues</strong></p><ul><li><p>Fixed an issue where the java-17-amazon-corretto-headless package was falsely flagged with multiple CVEs, caused by identical software versions being incorrectly flagged as different.</p></li><li><p>Fixed an issue where the total findings count in the summary page did not match the findings listed under Containers &gt; Findings, ensuring consistent and accurate reporting across both views.</p></li><li><p>Fixed an issue where the "Total Findings by Severity" widget in the Security Dashboard displayed inconsistent numbers compared to the detailed application view after findings were suppressed. The dashboard now accurately reflects the correct number of findings for each severity level.</p></li><li><p>Improved CVE detection for RPM packages.</p></li><li><p>Fixed an issue where CycloneDX SBOMs generated from container image scans did not include license information for certain NuGet components. Now, all detected NuGet dependencies will have their license data properly reflected in the SBOM when available.</p></li></ul>
+    <h2><a href="https://docs.mend.io/platform/latest/mend-container-release-notes">Mend Container: Version 26.3.2 (12-April-2026)</a></h2>
+    <time datetime="2026-04-12T00:00:00+00:00">2026-04-12T00:00:00+00:00</time>
+    <p><strong>Resolved Issues</strong></p><ul><li><p>Fixed an issue where Azure Container Registry (ACR) integrations would intermittently fail with 401 Unauthorized errors after successful credential validation and initial scans, preventing subsequent scans from running as expected.</p></li></ul>
   </section>
   <hr/>
   <section>
@@ -55,9 +55,9 @@
   </section>
   <hr/>
   <section>
-    <h2><a href="https://docs.mend.io/integrations/latest/mend-for-github-com-release-notes">Mend for GitHub.com: Version 26.3.1 (22-March-2026)</a></h2>
-    <time datetime="2026-03-22T00:00:00+00:00">2026-03-22T00:00:00+00:00</time>
-    <p><strong>New Features and Updates</strong></p><ul><li><p><strong>(SCA)</strong> Added support for the <strong>uv package manager</strong>, enabling security scanning and Reachability analysis for Python projects managed with uv.</p></li></ul>
+    <h2><a href="https://docs.mend.io/integrations/latest/mend-for-github-com-release-notes">Mend for GitHub.com: Version 26.3.2 (12-April-2026)</a></h2>
+    <time datetime="2026-04-12T00:00:00+00:00">2026-04-12T00:00:00+00:00</time>
+    <p><strong>New Features and Updates</strong></p><ul><li><p><strong>(SCA)</strong> Introduced a lower priority queue for <a href="https://docs.mend.io/integrations/latest/configure-sca-reachability-for-github-com">Reachability</a> "zero day" scans. This enhancement prevents system overload and ensures more reliable scan processing for enterprise customers with large deployments during periods of high CVE alert activity.</p></li></ul>
   </section>
   <hr/>
   <section>
@@ -79,14 +79,14 @@
   </section>
   <hr/>
   <section>
-    <h2><a href="https://github.com/renovatebot/renovate/releases/tag/43.108.1">Mend Renovate CLI: 43.108.1</a></h2>
-    <time datetime="2026-04-07T13:02:27+00:00">2026-04-07T13:02:27+00:00</time>
+    <h2><a href="https://github.com/renovatebot/renovate/releases/tag/43.112.0">Mend Renovate CLI: 43.112.0</a></h2>
+    <time datetime="2026-04-13T14:47:28+00:00">2026-04-13T14:47:28+00:00</time>
     <p></p>
   </section>
   <hr/>
   <section>
-    <h2><a href="https://github.com/mend/renovate-ce-ee/releases/tag/mend-renovate-enterprise-edition-9.0.0">Mend Renovate CC-EE: mend-renovate-enterprise-edition-9.0.0</a></h2>
-    <time datetime="2026-03-25T08:19:19+00:00">2026-03-25T08:19:19+00:00</time>
+    <h2><a href="https://github.com/mend/renovate-ce-ee/releases/tag/14.3.0">Mend Renovate CC-EE: 14.3.0</a></h2>
+    <time datetime="2026-04-09T08:04:12+00:00">2026-04-09T08:04:12+00:00</time>
     <p></p>
   </section>
   <hr/>
