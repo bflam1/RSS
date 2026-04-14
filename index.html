@@ -15,13 +15,13 @@
   <section>
     <h2><a href="https://docs.mend.io/platform/latest/mend-sca-release-notes">Mend SCA: Version 26.3.2 (12-April-2026)</a></h2>
     <time datetime="2026-04-12T00:00:00+00:00">2026-04-12T00:00:00+00:00</time>
-    <p><strong>New Features and Updates</strong></p><ul><li><p>Introducing new <a href="https://docs.mend.io/platform/latest/zero-day-management-in-the-mend-appsec-platform">Zero-Day response workflows</a> in the Mend AppSec Platform, offering immediate risk visibility, audit-level transparency, and user-controlled enforcement for critical vulnerabilities. Users benefit from prominent alerts, a dedicated Zero-Day catalog, configurable workflows, and permanent violation tracking—streamlining investigation and remediation without added operational burden.</p></li></ul>
+    <p><strong>New Features and Updates</strong></p><ul><li><p>Introducing new <a href="https://docs.mend.io/platform/latest/zero-day-management-in-the-mend-appsec-platform">Zero-Day response workflows</a> in the Mend AppSec Platform, offering immediate risk visibility, audit-level transparency, and user-controlled enforcement for critical vulnerabilities. Users benefit from prominent alerts, a dedicated Zero-Day catalog, configurable workflows, and permanent violation tracking—streamlining investigation and remediation without added operational burden.</p></li><li><p>Improved license accuracy of Maven libraries. Updates include clearer license version specificity, removal of redundant entries, and detection of previously unknown licenses.</p></li></ul>
   </section>
   <hr/>
   <section>
-    <h2><a href="https://docs.mend.io/platform/latest/mend-sast-release-notes">Mend SAST: Version 26.3.1 (23-March-2026)</a></h2>
-    <time datetime="2026-03-23T00:00:00+00:00">2026-03-23T00:00:00+00:00</time>
-    <p><strong>New Features and Updates</strong></p><ul><li><p>Organization admin users can now see all suppression requests across the organization in a single view, with filtering by application, project, status, and reason. Results can be exported to CSV for compliance and audit purposes. The view is accessible via <strong>Findings --&gt; Suppression Requests</strong>.</p><ul><li><p>This feature will be gradually rolled out to all environments until April 6th, 2026.</p></li></ul></li><li><p>Reduced memory consumption and improved performance of Go analysis.</p></li><li><p>Optimized a potentially time consuming post-processing step for log records.</p></li></ul><p><strong>Resolved Issues</strong></p><ul><li><p>Fixed an issue where suppressing findings via the API did not update the findings count in the Code Findings JSON report, causing the count to remain non-zero even though findings were suppressed. Now, the count correctly reflects zero after suppression through the API, ensuring consistency with the UI behavior.</p></li><li><p>Fixed an issue where certain DOM-based cross-site scripting (CWE-79) vulnerabilities were not being identified by the JavaScript analysis engine.</p></li><li><p>Fixed an issue where NoSQL Injection vulnerabilities in JavaScript applications using MongoDBClient were not properly detected.</p></li><li><p>Injecting objects into Angular components is now handled correctly during JavaScript/TypeScript analysis.</p></li></ul>
+    <h2><a href="https://docs.mend.io/platform/latest/mend-sast-release-notes">Mend SAST: Version 26.3.2 (13-April-2026)</a></h2>
+    <time datetime="2026-04-13T00:00:00+00:00">2026-04-13T00:00:00+00:00</time>
+    <p><strong>New Features and Updates</strong></p><ul><li><p>Improved the formatting of suppression request comments. Comments are now displayed more concisely, with clearer attribution and support for bold and italic text, making it easier to communicate during the review and approval process.</p></li><li><p>Minor accuracy improvements of the remediation suggestions across all supported languages and CWEs.</p></li><li><p>Improved accuracy for CWE-79: Cross-site Scripting detection in React code.</p></li></ul><p><strong>Resolved Issues</strong></p><ul><li><p>Fixed an issue where the OWASP Top 10 bar chart was missing from the PDF version of the code compliance report.</p></li><li><p>Fixed an issue where the C++ engine reported malformed data flows, causing sink lines to appear in temporary files and preventing snippet reading or signature computation.</p></li><li><p>Fixed an issue related to the MEND_SAST_STORAGE_LIMIT environment variable.</p></li></ul>
   </section>
   <hr/>
   <section>
@@ -37,21 +37,21 @@
   </section>
   <hr/>
   <section>
-    <h2><a href="https://docs.mend.io/platform/latest/mend-cli-release-notes">Mend CLI: Version 26.3.1 (23-March-2026)</a></h2>
-    <time datetime="2026-03-23T00:00:00+00:00">2026-03-23T00:00:00+00:00</time>
-    <p><strong>New Features and Updates</strong></p><ul><li><p><strong>(SCA)</strong> Added support for the <strong>uv package manager</strong>, enabling security scanning and Reachability analysis for Python projects managed with uv.</p></li><li><p><strong>(SCA)</strong> Added support for disabling specific package manager resolvers using the <a href="https://docs.mend.io/platform/latest/configure-the-mend-cli-for-sca#CLI-SCA-scan-parameters">MEND_SCA_{PACAKGE_MANAGER}_RESOLVEDEPENDENCIES environment variable</a>, allowing more granular control over dependency resolution.</p></li><li><p><strong>(SAST)</strong> Updated some of the CLI's Code dependencies for improved security.</p></li></ul>
+    <h2><a href="https://docs.mend.io/platform/latest/mend-cli-release-notes">Mend CLI: Version 26.3.2 (13-April-2026)</a></h2>
+    <time datetime="2026-04-13T00:00:00+00:00">2026-04-13T00:00:00+00:00</time>
+    <p><strong>New Features and Updates</strong></p><ul><li><p>The CLI login process now prompts users to select their organization, ensuring accurate project association and simplifying organization switching between runs.</p></li></ul>
   </section>
   <hr/>
   <section>
-    <h2><a href="https://docs.mend.io/legacy-sca/latest/mend-unified-agent-release-notes">Mend Unified Agent: Version 26.3.1 (23-March-2026)</a></h2>
-    <time datetime="2026-03-23T00:00:00+00:00">2026-03-23T00:00:00+00:00</time>
-    <p><strong>Resolved Issues</strong></p><ul><li><p>Fixed an issue where scanning OCI-format Docker images with layers larger than 2 GB caused manifest parsing to fail, resulting in scans returning zero dependencies and potentially overriding existing project inventory. The layer size field is now correctly handled for large images.</p></li><li><p>Fixed an issue where Go module package names were incorrectly treated as case-insensitive when calculating the Additional SHA1. Package names differing only by letter casing are now recognized as distinct, aligning with Go language standards.</p></li></ul>
+    <h2><a href="https://docs.mend.io/legacy-sca/latest/mend-unified-agent-release-notes">Mend Unified Agent: Version 26.3.2 (14-April-2026)</a></h2>
+    <time datetime="2026-04-14T00:00:00+00:00">2026-04-14T00:00:00+00:00</time>
+    <p><strong>Resolved Issues</strong></p><ul><li><p>Fixed an issue where the Unified Agent failed to detect npm dependencies in Yarn Berry (v4) projects using workspaces. The scanner now correctly identifies and processes workspace package.json files and root yarn.lock files, ensuring all dependencies are accurately reported in scan results.</p></li><li><p>Fixed an issue where configuring <code>python.pipPath</code> to an absolute path caused <code>setup.py</code> dependency resolution to detect only one dependency instead of the full dependency tree. All dependencies are now correctly identified during scans when using an absolute pip path.</p></li></ul>
   </section>
   <hr/>
   <section>
-    <h2><a href="https://docs.mend.io/integrations/latest/mend-developer-platform-release-notes">Mend Developer Platform: Version 26.3.1 (22-March-2026)</a></h2>
-    <time datetime="2026-03-22T00:00:00+00:00">2026-03-22T00:00:00+00:00</time>
-    <p><strong>New Features and Updates</strong></p><ul><li><p><strong>(SCA)</strong> Added support for the <strong>uv package manager</strong>, enabling security scanning and Reachability analysis for Python projects managed with uv.</p></li></ul>
+    <h2><a href="https://docs.mend.io/integrations/latest/mend-developer-platform-release-notes">Mend Developer Platform: Version 26.3.2 (12-April-2026)</a></h2>
+    <time datetime="2026-04-12T00:00:00+00:00">2026-04-12T00:00:00+00:00</time>
+    <p><strong>New Features and Updates</strong></p><ul><li><p><strong>(SCA)</strong> Added support for disabling specific package manager resolvers using the <a href="https://docs.mend.io/platform/latest/configure-the-mend-cli-for-sca#CLI-SCA-scan-parameters">MEND_SCA_{PACAKGE_MANAGER}_RESOLVEDEPENDENCIES environment variable</a> that can be configured in the Credentials page, allowing more granular control over dependency resolution.</p></li></ul>
   </section>
   <hr/>
   <section>
@@ -79,8 +79,8 @@
   </section>
   <hr/>
   <section>
-    <h2><a href="https://github.com/renovatebot/renovate/releases/tag/43.112.0">Mend Renovate CLI: 43.112.0</a></h2>
-    <time datetime="2026-04-13T14:47:28+00:00">2026-04-13T14:47:28+00:00</time>
+    <h2><a href="https://github.com/renovatebot/renovate/releases/tag/43.117.0">Mend Renovate CLI: 43.117.0</a></h2>
+    <time datetime="2026-04-14T14:57:01+00:00">2026-04-14T14:57:01+00:00</time>
     <p></p>
   </section>
   <hr/>
