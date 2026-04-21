@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://bflam1.github.io/RSS/atom.xml</id>
   <title>Mend.io Unified Release Notes</title>
-  <updated>2026-04-20T14:47:56+00:00</updated>
+  <updated>2026-04-21T14:32:29+00:00</updated>
   <author>
     <name>Mend Release Bot</name>
     <email>noreply@bflam1.github.io</email>
@@ -14,7 +14,7 @@
   <entry>
     <id>https://github.com/mend/renovate-ce-ee/releases/tag/14.4.0</id>
     <title>Mend Renovate CC-EE: 14.4.0</title>
-    <updated>2026-04-20T15:03:26.127755+00:00</updated>
+    <updated>2026-04-21T14:56:36.041315+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -23,20 +23,20 @@
     <published>2026-04-20T14:47:56+00:00</published>
   </entry>
   <entry>
-    <id>https://github.com/renovatebot/renovate/releases/tag/43.133.0</id>
-    <title>Mend Renovate CLI: 43.133.0</title>
-    <updated>2026-04-20T15:03:26.127745+00:00</updated>
+    <id>https://github.com/renovatebot/renovate/releases/tag/43.138.1</id>
+    <title>Mend Renovate CLI: 43.138.1</title>
+    <updated>2026-04-21T14:56:36.041305+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
     <content type="html">&lt;p&gt;&lt;/p&gt;</content>
-    <link href="https://github.com/renovatebot/renovate/releases/tag/43.133.0"/>
-    <published>2026-04-20T13:18:11+00:00</published>
+    <link href="https://github.com/renovatebot/renovate/releases/tag/43.138.1"/>
+    <published>2026-04-21T14:32:29+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-bitbucket-data-center-release-notes</id>
     <title>Mend for Bitbucket DC: Version 26.4.1.1 (19-April-2026)</title>
-    <updated>2026-04-20T15:03:26.127734+00:00</updated>
+    <updated>2026-04-21T14:56:36.041294+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -47,7 +47,7 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-gitlab-release-notes</id>
     <title>Mend for GitLab: Version 26.4.1.1 (19-April-2026)</title>
-    <updated>2026-04-20T15:03:26.127724+00:00</updated>
+    <updated>2026-04-21T14:56:36.041284+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -58,7 +58,7 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-github-enterprise-release-notes</id>
     <title>Mend for GitHub Enterprise: Version 26.4.1.1 (19-April-2026)</title>
-    <updated>2026-04-20T15:03:26.127714+00:00</updated>
+    <updated>2026-04-21T14:56:36.041274+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -69,7 +69,7 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-github-com-release-notes</id>
     <title>Mend for GitHub.com: Version 26.4.1 (19-April-2026)</title>
-    <updated>2026-04-20T15:03:26.127704+00:00</updated>
+    <updated>2026-04-21T14:56:36.041263+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -80,7 +80,7 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-developer-platform-release-notes</id>
     <title>Mend Developer Platform: Version 26.4.1 (19-April-2026)</title>
-    <updated>2026-04-20T15:03:26.127693+00:00</updated>
+    <updated>2026-04-21T14:56:36.041246+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -91,7 +91,7 @@
   <entry>
     <id>https://docs.mend.io/legacy-sca/latest/mend-unified-agent-release-notes</id>
     <title>Mend Unified Agent: Version 26.3.2 (14-April-2026)</title>
-    <updated>2026-04-20T15:03:26.127683+00:00</updated>
+    <updated>2026-04-21T14:56:36.041229+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -102,7 +102,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-cli-release-notes</id>
     <title>Mend CLI: Version 26.4.1 (20-April-2026)</title>
-    <updated>2026-04-20T15:03:26.127672+00:00</updated>
+    <updated>2026-04-21T14:56:36.041213+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -113,7 +113,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-ai-release-notes</id>
     <title>Mend AI: Version 25.12.1 (05-January-2026)</title>
-    <updated>2026-04-20T15:03:26.127659+00:00</updated>
+    <updated>2026-04-21T14:56:36.041193+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -124,7 +124,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-container-release-notes</id>
     <title>Mend Container: Version 26.3.2 (12-April-2026)</title>
-    <updated>2026-04-20T15:03:26.127647+00:00</updated>
+    <updated>2026-04-21T14:56:36.041174+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -135,7 +135,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-sast-release-notes</id>
     <title>Mend SAST: Version 26.4.1 (20-April-2026)</title>
-    <updated>2026-04-20T15:03:26.127632+00:00</updated>
+    <updated>2026-04-21T14:56:36.041153+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -146,7 +146,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-sca-release-notes</id>
     <title>Mend SCA: Version 26.3.2 (12-April-2026)</title>
-    <updated>2026-04-20T15:03:26.127606+00:00</updated>
+    <updated>2026-04-21T14:56:36.041121+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -157,7 +157,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-platform-release-notes</id>
     <title>Mend AppSec Platform: Version 26.4.1 (19-April-2026)</title>
-    <updated>2026-04-20T15:03:26.127567+00:00</updated>
+    <updated>2026-04-21T14:56:36.041079+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
