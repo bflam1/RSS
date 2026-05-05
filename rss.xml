@@ -7,7 +7,7 @@
     <atom:link href="https://bflam1.github.io/RSS/atom.xml" rel="self"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 04 May 2026 13:52:02 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 05 May 2026 14:32:46 +0000</lastBuildDate>
     <item>
       <title>Mend Renovate CC-EE: 14.5.0</title>
       <link>https://github.com/mend/renovate-ce-ee/releases/tag/14.5.0</link>
@@ -16,11 +16,11 @@
       <pubDate>Mon, 27 Apr 2026 14:10:51 +0000</pubDate>
     </item>
     <item>
-      <title>Mend Renovate CLI: 43.163.0</title>
-      <link>https://github.com/renovatebot/renovate/releases/tag/43.163.0</link>
+      <title>Mend Renovate CLI: 43.165.0</title>
+      <link>https://github.com/renovatebot/renovate/releases/tag/43.165.0</link>
       <description>&lt;p&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://github.com/renovatebot/renovate/releases/tag/43.163.0</guid>
-      <pubDate>Mon, 04 May 2026 13:52:02 +0000</pubDate>
+      <guid isPermaLink="false">https://github.com/renovatebot/renovate/releases/tag/43.165.0</guid>
+      <pubDate>Tue, 05 May 2026 14:32:46 +0000</pubDate>
     </item>
     <item>
       <title>Mend for Bitbucket DC: Version 26.4.1.1 (19-April-2026)</title>
@@ -95,7 +95,7 @@
     <item>
       <title>Mend SCA: Version 26.3.2 (12-April-2026)</title>
       <link>https://docs.mend.io/platform/latest/mend-sca-release-notes</link>
-      <description>&lt;p local-id="8870b5036733"&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="ebb386bf22f4"&gt;&lt;li local-id="dfb4ba70-2244-47d5-8e0b-a124d951f04e"&gt;&lt;p local-id="dee7ed23a1ba"&gt;Introducing new &lt;a data-linked-resource-id="4224876603" data-linked-resource-type="page" data-linked-resource-version="23" href="https://docs.mend.io/platform/latest/zero-day-management-in-the-mend-appsec-platform"&gt;Zero-Day response workflows&lt;/a&gt; in the Mend AppSec Platform, offering immediate risk visibility, audit-level transparency, and user-controlled enforcement for critical vulnerabilities. Users benefit from prominent alerts, a dedicated Zero-Day catalog, configurable workflows, and permanent violation tracking—streamlining investigation and remediation without added operational burden.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="462ddaa38523"&gt;&lt;p local-id="d3ac49fabe3f"&gt;Improved license accuracy of Maven libraries. Updates include clearer license version specificity, removal of redundant entries, and detection of previously unknown licenses.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="cedff4c9-3913-4423-893e-023ec43fde22"&gt;&lt;p local-id="afae971ab1df"&gt;The &lt;a data-linked-resource-id="3153526785" data-linked-resource-type="page" data-linked-resource-version="6" href="https://docs.mend.io/platform/latest/the-dependencies-due-diligence-report"&gt;Due Diligence&lt;/a&gt; report can now be generated in Excel format.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p local-id="6eb427bf8a01"&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="7016d39c-840f-4ad0-bb8c-a000aa5b9339"&gt;&lt;li local-id="eaa22f61-b9c7-4a84-89c9-2172118cdcc9"&gt;&lt;p local-id="b04c867933a5"&gt;Fixed an issue where certain "software.amazon.awssdk" components displayed duplicated or incorrect copyright statements. All affected components now show accurate and consistent copyright information.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+      <description>&lt;p local-id="8870b5036733"&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="ebb386bf22f4"&gt;&lt;li local-id="dfb4ba70-2244-47d5-8e0b-a124d951f04e"&gt;&lt;p local-id="dee7ed23a1ba"&gt;Introducing new &lt;a data-linked-resource-id="4224876603" data-linked-resource-type="page" data-linked-resource-version="23" href="https://docs.mend.io/platform/latest/zero-day-management-in-the-mend-appsec-platform"&gt;Zero-Day response workflows&lt;/a&gt; in the Mend AppSec Platform, offering immediate risk visibility, audit-level transparency, and user-controlled enforcement for critical vulnerabilities. Users benefit from prominent alerts, a dedicated Zero-Day catalog, configurable workflows, and permanent violation tracking—streamlining investigation and remediation without added operational burden.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="462ddaa38523"&gt;&lt;p local-id="d3ac49fabe3f"&gt;Improved license accuracy of Maven libraries. Updates include clearer license version specificity, removal of redundant entries, and detection of previously unknown licenses.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="cedff4c9-3913-4423-893e-023ec43fde22"&gt;&lt;p local-id="afae971ab1df"&gt;The &lt;a data-linked-resource-id="3153526785" data-linked-resource-type="page" data-linked-resource-version="7" href="https://docs.mend.io/platform/latest/the-dependencies-due-diligence-report"&gt;Due Diligence&lt;/a&gt; report can now be generated in Excel format.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p local-id="6eb427bf8a01"&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="7016d39c-840f-4ad0-bb8c-a000aa5b9339"&gt;&lt;li local-id="eaa22f61-b9c7-4a84-89c9-2172118cdcc9"&gt;&lt;p local-id="b04c867933a5"&gt;Fixed an issue where certain "software.amazon.awssdk" components displayed duplicated or incorrect copyright statements. All affected components now show accurate and consistent copyright information.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://docs.mend.io/platform/latest/mend-sca-release-notes</guid>
       <pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate>
     </item>

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://bflam1.github.io/RSS/atom.xml</id>
   <title>Mend.io Unified Release Notes</title>
-  <updated>2026-05-04T13:52:02+00:00</updated>
+  <updated>2026-05-05T14:32:46+00:00</updated>
   <author>
     <name>Mend Release Bot</name>
     <email>noreply@bflam1.github.io</email>
@@ -14,7 +14,7 @@
   <entry>
     <id>https://github.com/mend/renovate-ce-ee/releases/tag/14.5.0</id>
     <title>Mend Renovate CC-EE: 14.5.0</title>
-    <updated>2026-05-04T15:30:56.891784+00:00</updated>
+    <updated>2026-05-05T15:46:23.288235+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -23,20 +23,20 @@
     <published>2026-04-27T14:10:51+00:00</published>
   </entry>
   <entry>
-    <id>https://github.com/renovatebot/renovate/releases/tag/43.163.0</id>
-    <title>Mend Renovate CLI: 43.163.0</title>
-    <updated>2026-05-04T15:30:56.891774+00:00</updated>
+    <id>https://github.com/renovatebot/renovate/releases/tag/43.165.0</id>
+    <title>Mend Renovate CLI: 43.165.0</title>
+    <updated>2026-05-05T15:46:23.288226+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
     <content type="html">&lt;p&gt;&lt;/p&gt;</content>
-    <link href="https://github.com/renovatebot/renovate/releases/tag/43.163.0"/>
-    <published>2026-05-04T13:52:02+00:00</published>
+    <link href="https://github.com/renovatebot/renovate/releases/tag/43.165.0"/>
+    <published>2026-05-05T14:32:46+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-bitbucket-data-center-release-notes</id>
     <title>Mend for Bitbucket DC: Version 26.4.1.1 (19-April-2026)</title>
-    <updated>2026-05-04T15:30:56.891763+00:00</updated>
+    <updated>2026-05-05T15:46:23.288216+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -47,7 +47,7 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-gitlab-release-notes</id>
     <title>Mend for GitLab: Version 26.4.1.1 (19-April-2026)</title>
-    <updated>2026-05-04T15:30:56.891752+00:00</updated>
+    <updated>2026-05-05T15:46:23.288207+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -58,7 +58,7 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-github-enterprise-release-notes</id>
     <title>Mend for GitHub Enterprise: Version 26.4.1.1 (19-April-2026)</title>
-    <updated>2026-05-04T15:30:56.891742+00:00</updated>
+    <updated>2026-05-05T15:46:23.288197+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -69,7 +69,7 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-github-com-release-notes</id>
     <title>Mend for GitHub.com: Version 26.4.2 (03-May-2026)</title>
-    <updated>2026-05-04T15:30:56.891731+00:00</updated>
+    <updated>2026-05-05T15:46:23.288188+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -80,7 +80,7 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-developer-platform-release-notes</id>
     <title>Mend Developer Platform: Version 26.4.2 (03-May-2026)</title>
-    <updated>2026-05-04T15:30:56.891721+00:00</updated>
+    <updated>2026-05-05T15:46:23.288179+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -91,7 +91,7 @@
   <entry>
     <id>https://docs.mend.io/legacy-sca/latest/mend-unified-agent-release-notes</id>
     <title>Mend Unified Agent: Version 26.3.2 (14-April-2026)</title>
-    <updated>2026-05-04T15:30:56.891711+00:00</updated>
+    <updated>2026-05-05T15:46:23.288169+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -102,7 +102,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-cli-release-notes</id>
     <title>Mend CLI: Version 26.4.2 (04-May-2026)</title>
-    <updated>2026-05-04T15:30:56.891701+00:00</updated>
+    <updated>2026-05-05T15:46:23.288160+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -113,7 +113,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-ai-release-notes</id>
     <title>Mend AI: Version 25.12.1 (05-January-2026)</title>
-    <updated>2026-05-04T15:30:56.891689+00:00</updated>
+    <updated>2026-05-05T15:46:23.288147+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -124,7 +124,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-container-release-notes</id>
     <title>Mend Container: Version 26.4.2 (03-May-2026)</title>
-    <updated>2026-05-04T15:30:56.891676+00:00</updated>
+    <updated>2026-05-05T15:46:23.288136+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -135,7 +135,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-sast-release-notes</id>
     <title>Mend SAST: Version 26.4.2 (04-May-2026)</title>
-    <updated>2026-05-04T15:30:56.891662+00:00</updated>
+    <updated>2026-05-05T15:46:23.288122+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -146,18 +146,18 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-sca-release-notes</id>
     <title>Mend SCA: Version 26.3.2 (12-April-2026)</title>
-    <updated>2026-05-04T15:30:56.891639+00:00</updated>
+    <updated>2026-05-05T15:46:23.288100+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
-    <content type="html">&lt;p local-id="8870b5036733"&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="ebb386bf22f4"&gt;&lt;li local-id="dfb4ba70-2244-47d5-8e0b-a124d951f04e"&gt;&lt;p local-id="dee7ed23a1ba"&gt;Introducing new &lt;a data-linked-resource-id="4224876603" data-linked-resource-type="page" data-linked-resource-version="23" href="https://docs.mend.io/platform/latest/zero-day-management-in-the-mend-appsec-platform"&gt;Zero-Day response workflows&lt;/a&gt; in the Mend AppSec Platform, offering immediate risk visibility, audit-level transparency, and user-controlled enforcement for critical vulnerabilities. Users benefit from prominent alerts, a dedicated Zero-Day catalog, configurable workflows, and permanent violation tracking—streamlining investigation and remediation without added operational burden.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="462ddaa38523"&gt;&lt;p local-id="d3ac49fabe3f"&gt;Improved license accuracy of Maven libraries. Updates include clearer license version specificity, removal of redundant entries, and detection of previously unknown licenses.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="cedff4c9-3913-4423-893e-023ec43fde22"&gt;&lt;p local-id="afae971ab1df"&gt;The &lt;a data-linked-resource-id="3153526785" data-linked-resource-type="page" data-linked-resource-version="6" href="https://docs.mend.io/platform/latest/the-dependencies-due-diligence-report"&gt;Due Diligence&lt;/a&gt; report can now be generated in Excel format.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p local-id="6eb427bf8a01"&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="7016d39c-840f-4ad0-bb8c-a000aa5b9339"&gt;&lt;li local-id="eaa22f61-b9c7-4a84-89c9-2172118cdcc9"&gt;&lt;p local-id="b04c867933a5"&gt;Fixed an issue where certain "software.amazon.awssdk" components displayed duplicated or incorrect copyright statements. All affected components now show accurate and consistent copyright information.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+    <content type="html">&lt;p local-id="8870b5036733"&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="ebb386bf22f4"&gt;&lt;li local-id="dfb4ba70-2244-47d5-8e0b-a124d951f04e"&gt;&lt;p local-id="dee7ed23a1ba"&gt;Introducing new &lt;a data-linked-resource-id="4224876603" data-linked-resource-type="page" data-linked-resource-version="23" href="https://docs.mend.io/platform/latest/zero-day-management-in-the-mend-appsec-platform"&gt;Zero-Day response workflows&lt;/a&gt; in the Mend AppSec Platform, offering immediate risk visibility, audit-level transparency, and user-controlled enforcement for critical vulnerabilities. Users benefit from prominent alerts, a dedicated Zero-Day catalog, configurable workflows, and permanent violation tracking—streamlining investigation and remediation without added operational burden.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="462ddaa38523"&gt;&lt;p local-id="d3ac49fabe3f"&gt;Improved license accuracy of Maven libraries. Updates include clearer license version specificity, removal of redundant entries, and detection of previously unknown licenses.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="cedff4c9-3913-4423-893e-023ec43fde22"&gt;&lt;p local-id="afae971ab1df"&gt;The &lt;a data-linked-resource-id="3153526785" data-linked-resource-type="page" data-linked-resource-version="7" href="https://docs.mend.io/platform/latest/the-dependencies-due-diligence-report"&gt;Due Diligence&lt;/a&gt; report can now be generated in Excel format.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p local-id="6eb427bf8a01"&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="7016d39c-840f-4ad0-bb8c-a000aa5b9339"&gt;&lt;li local-id="eaa22f61-b9c7-4a84-89c9-2172118cdcc9"&gt;&lt;p local-id="b04c867933a5"&gt;Fixed an issue where certain "software.amazon.awssdk" components displayed duplicated or incorrect copyright statements. All affected components now show accurate and consistent copyright information.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
     <link href="https://docs.mend.io/platform/latest/mend-sca-release-notes"/>
     <published>2026-04-12T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-platform-release-notes</id>
     <title>Mend AppSec Platform: Version 26.4.2 (03-May-2026)</title>
-    <updated>2026-05-04T15:30:56.891606+00:00</updated>
+    <updated>2026-05-05T15:46:23.288069+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
