@@ -9,7 +9,7 @@
   <section>
     <h2><a href="https://docs.mend.io/platform/latest/mend-platform-release-notes">Mend AppSec Platform: Version 26.4.2 (03-May-2026)</a></h2>
     <time datetime="2026-05-03T00:00:00+00:00">2026-05-03T00:00:00+00:00</time>
-    <p><strong>New Features and Updates</strong></p><ul><li><p>UI Improvements:</p><ul><li><p>Updated the administration screens to feature a modern floating bulk actions toolbar at the bottom, making bulk actions more visible and accessible. This change streamlines the user experience by consolidating selected item counts and available actions into a single, easy-to-reach toolbar, ensuring consistency and reducing clicks across all administration screens.</p></li></ul></li></ul><p><strong>Resolved Issues</strong></p><ul><li><p>Fixed an issue where violations linked to a deleted workflow were not removed, which caused data inconsistencies. Now, when a workflow is deleted, all associated violations are properly deleted to maintain data integrity.</p></li><li><p>Fixed an issue where manual Jira issue creation from Mend for Jira Cloud displayed a success message but failed to create a Jira ticket if the required issue type was missing or misconfigured in the target Jira project.</p></li><li><p>Fixed an issue where workflow email notifications weren't sent, ensuring that notifications are now delivered as expected when workflow conditions are met.</p></li><li><p>Fixed an issue where filtering the File Path column in the Source Files tab of the OS Inventory did not return results as expected. Filtering now works correctly, allowing users to search for files by path.</p></li><li><p>Fixed an issue where the Mend Advise browser extension would display a timeout error when analyzing the <code>NJsonSchema 11.0.2</code> package.</p></li></ul>
+    <p><strong>New Features and Updates</strong></p><ul><li><p><a href="https://docs.mend.io/integrations/latest/mend-sast-visual-studio-code-plugin">Mend for Visual Studio Code</a> will be available on the Open-VSX registry starting May 8th, 2026, making it installable directly from AI-native IDEs such as Cursor, Windsurf, Kiro, and Antigravity. Developers using these editors will be able to find and install the extension from their built-in extensions marketplace without any additional steps.</p></li></ul><ul><li><p>UI Improvements:</p><ul><li><p>Updated the administration screens to feature a modern floating bulk actions toolbar at the bottom, making bulk actions more visible and accessible. This change streamlines the user experience by consolidating selected item counts and available actions into a single, easy-to-reach toolbar, ensuring consistency and reducing clicks across all administration screens.</p></li></ul></li></ul><p><strong>Resolved Issues</strong></p><ul><li><p>Fixed an issue where violations linked to a deleted workflow were not removed, which caused data inconsistencies. Now, when a workflow is deleted, all associated violations are properly deleted to maintain data integrity.</p></li><li><p>Fixed an issue where manual Jira issue creation from Mend for Jira Cloud displayed a success message but failed to create a Jira ticket if the required issue type was missing or misconfigured in the target Jira project.</p></li><li><p>Fixed an issue where workflow email notifications weren't sent, ensuring that notifications are now delivered as expected when workflow conditions are met.</p></li><li><p>Fixed an issue where filtering the File Path column in the Source Files tab of the OS Inventory did not return results as expected. Filtering now works correctly, allowing users to search for files by path.</p></li><li><p>Fixed an issue where the Mend Advise browser extension would display a timeout error when analyzing the <code>NJsonSchema 11.0.2</code> package.</p></li></ul>
   </section>
   <hr/>
   <section>
@@ -21,7 +21,7 @@
   <section>
     <h2><a href="https://docs.mend.io/platform/latest/mend-sast-release-notes">Mend SAST: Version 26.4.2 (04-May-2026)</a></h2>
     <time datetime="2026-05-04T00:00:00+00:00">2026-05-04T00:00:00+00:00</time>
-    <p><strong>New Features and Updates</strong></p><ul><li><p>Added taint analysis support for Python smbclient to enhance detection of path traversal vulnerabilities.</p></li><li><p>Added support to ensure that SSRF vulnerabilities in JavaScript are reported only when detected on the server side, improving the accuracy of security findings.</p></li></ul>
+    <p><strong>New Features and Updates</strong></p><ul><li><p>Added taint analysis support for Python smbclient to enhance detection of path traversal vulnerabilities.</p></li><li><p>Added support to ensure that SSRF vulnerabilities in JavaScript are reported only when detected on the server side, improving the accuracy of security findings.</p></li><li><p>Secret scanning is now available in <a href="https://docs.mend.io/integrations/latest/mend-sast-visual-studio-code-plugin">Mend for Visual Studio Code</a>.</p></li></ul>
   </section>
   <hr/>
   <section>
@@ -39,13 +39,13 @@
   <section>
     <h2><a href="https://docs.mend.io/platform/latest/mend-cli-release-notes">Mend CLI: Version 26.4.2 (04-May-2026)</a></h2>
     <time datetime="2026-05-04T00:00:00+00:00">2026-05-04T00:00:00+00:00</time>
-    <p><strong>Resolved Issues</strong></p><ul><li><p>Fixed an issue where the CLI logged missing Python packages from requirements.txt at the DEBUG level instead of WARNING. </p></li><li><p>Fixed an issue where the CLI would incorrectly mark scans of invalid projects as failed. Now, such projects are only marked as failed in <a href="https://docs.mend.io/platform/latest/configure-the-mend-cli-for-sca#CLI-SCA-scan-parameters">strict mode</a>; in non-strict mode, a warning is logged without failing the scan.</p></li></ul>
+    <p><strong>Resolved Issues</strong></p><ul><li><p>Updated the crypto/x509 and crypto/tls packages by upgrading the Go version in the CLI from 1.25 to 1.26.2, to resolve CVE-2026-32280.</p></li><li><p><strong>(SCA)</strong> Fixed an issue where the CLI logged missing Python packages from requirements.txt at the DEBUG level instead of WARNING. </p></li><li><p><strong>(SCA)</strong> Fixed an issue where the CLI would incorrectly mark scans of invalid projects as failed. Now, such projects are only marked as failed in <a href="https://docs.mend.io/platform/latest/configure-the-mend-cli-for-sca#CLI-SCA-scan-parameters">strict mode</a>; in non-strict mode, a warning is logged without failing the scan.</p></li><li><p><strong>(AI)</strong> Fixed an issue where the Mend CLI AI scanner did not detect PaddlePaddle model files with the .pdiparams extension, resulting in inconsistent scan coverage. Both .pdiparams and .pdparams files are now properly recognized and scanned.</p></li></ul>
   </section>
   <hr/>
   <section>
-    <h2><a href="https://docs.mend.io/legacy-sca/latest/mend-unified-agent-release-notes">Mend Unified Agent: Version 26.3.2 (14-April-2026)</a></h2>
-    <time datetime="2026-04-14T00:00:00+00:00">2026-04-14T00:00:00+00:00</time>
-    <p><strong>Resolved Issues</strong></p><ul><li><p>Fixed an issue where the Unified Agent failed to detect npm dependencies in Yarn Berry (v4) projects using workspaces. The scanner now correctly identifies and processes workspace package.json files and root yarn.lock files, ensuring all dependencies are accurately reported in scan results.</p></li><li><p>Fixed an issue where configuring <code>python.pipPath</code> to an absolute path caused <code>setup.py</code> dependency resolution to detect only one dependency instead of the full dependency tree. All dependencies are now correctly identified during scans when using an absolute pip path.</p></li></ul>
+    <h2><a href="https://docs.mend.io/legacy-sca/latest/mend-unified-agent-release-notes">Mend Unified Agent: Version 26.4.2.1 (05-May-2026)</a></h2>
+    <time datetime="2026-05-05T00:00:00+00:00">2026-05-05T00:00:00+00:00</time>
+    <p><strong>Resolved Issues</strong></p><ul><li><p><strong>Hotfix:</strong> Fixed an issue where Unified Agent v26.4.2 failed to load on older JDK versions due to the signed JAR manifest exceeding the JVM's maximum allowed size. The fix reduces the manifest size by excluding unnecessary Multi-Release entries, ensuring compatibility with affected JDKs while retaining all security updates.</p></li></ul>
   </section>
   <hr/>
   <section>
@@ -55,9 +55,9 @@
   </section>
   <hr/>
   <section>
-    <h2><a href="https://docs.mend.io/integrations/latest/mend-for-github-com-release-notes">Mend for GitHub.com: Version 26.4.2 (03-May-2026)</a></h2>
-    <time datetime="2026-05-03T00:00:00+00:00">2026-05-03T00:00:00+00:00</time>
-    <p><strong>New Features and Updates</strong></p><ul><li><p>Suppressions and suppression requests can now be triggered via a special comment rather than a checkbox, giving developers the ability to include additional context with each suppression.</p><ul><li><p>The configuration file now supports a new <code>issueType</code> setting — <code>findingIncludingPullRequests</code> — which, when enabled, creates GitHub issues for all detected findings, including those from pull requests to base branches.</p></li><li><p>This setting also unlocks optional two-way communication: Comments posted in the Mend AppSec Platform appear on the corresponding GitHub issue, and comments made on the GitHub issue that contain a special command are reflected in the Mend AppSec Platform. This keeps developers and security teams in their respective environments while remaining in sync.</p></li></ul></li></ul>
+    <h2><a href="https://docs.mend.io/integrations/latest/mend-for-github-com-release-notes">Mend for GitHub.com: Version 26.4.1 (19-April-2026)</a></h2>
+    <time datetime="2026-04-19T00:00:00+00:00">2026-04-19T00:00:00+00:00</time>
+    <p><strong>New Features and Updates</strong></p><ul><li><p>Added support for disabling specific package manager resolvers using the <a href="https://docs.mend.io/platform/latest/mend-sca-cli-support-matrix#Resolver-Exclusion">{PACAKGE_MANAGER}.resolveDependencies parameter</a>, allowing more granular control over dependency resolution.</p></li></ul>
   </section>
   <hr/>
   <section>
@@ -79,8 +79,8 @@
   </section>
   <hr/>
   <section>
-    <h2><a href="https://github.com/renovatebot/renovate/releases/tag/43.165.0">Mend Renovate CLI: 43.165.0</a></h2>
-    <time datetime="2026-05-05T14:32:46+00:00">2026-05-05T14:32:46+00:00</time>
+    <h2><a href="https://github.com/renovatebot/renovate/releases/tag/43.173.2">Mend Renovate CLI: 43.173.2</a></h2>
+    <time datetime="2026-05-11T16:03:19+00:00">2026-05-11T16:03:19+00:00</time>
     <p></p>
   </section>
   <hr/>
