@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://bflam1.github.io/RSS/atom.xml</id>
   <title>Mend.io Unified Release Notes</title>
-  <updated>2026-05-11T16:03:19+00:00</updated>
+  <updated>2026-05-12T15:37:11+00:00</updated>
   <author>
     <name>Mend Release Bot</name>
     <email>noreply@bflam1.github.io</email>
@@ -14,7 +14,7 @@
   <entry>
     <id>https://github.com/mend/renovate-ce-ee/releases/tag/14.5.0</id>
     <title>Mend Renovate CC-EE: 14.5.0</title>
-    <updated>2026-05-11T16:15:43.076503+00:00</updated>
+    <updated>2026-05-12T16:00:14.242376+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -23,64 +23,64 @@
     <published>2026-04-27T14:10:51+00:00</published>
   </entry>
   <entry>
-    <id>https://github.com/renovatebot/renovate/releases/tag/43.173.2</id>
-    <title>Mend Renovate CLI: 43.173.2</title>
-    <updated>2026-05-11T16:15:43.076492+00:00</updated>
+    <id>https://github.com/renovatebot/renovate/releases/tag/43.176.2</id>
+    <title>Mend Renovate CLI: 43.176.2</title>
+    <updated>2026-05-12T16:00:14.242365+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
     <content type="html">&lt;p&gt;&lt;/p&gt;</content>
-    <link href="https://github.com/renovatebot/renovate/releases/tag/43.173.2"/>
-    <published>2026-05-11T16:03:19+00:00</published>
+    <link href="https://github.com/renovatebot/renovate/releases/tag/43.176.2"/>
+    <published>2026-05-12T15:37:11+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-bitbucket-data-center-release-notes</id>
     <title>Mend for Bitbucket DC: Version 26.4.1.1 (19-April-2026)</title>
-    <updated>2026-05-11T16:15:43.076479+00:00</updated>
+    <updated>2026-05-12T16:00:14.242354+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
-    <content type="html">&lt;p local-id="7a3f6cb0206f"&gt;Unified Agent 26.3.2 | &lt;a class="external-link" href="https://github.com/renovatebot/renovate/releases/tag/43.102.11" rel="nofollow" shape="rect"&gt;&lt;u&gt;Renovate 43.102.11&lt;/u&gt;&lt;/a&gt; | Remediate 26.4.1 | Pre-Scan Builder (PSB) 25.8.1&lt;/p&gt;&lt;p local-id="37d7b0b92875"&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="94b0656b-05fe-4286-b148-5bf5b9ddeb19"&gt;&lt;li local-id="2a15d9ea-dc76-40da-9e9b-7d9cea6667b6"&gt;&lt;p local-id="aaeb8b1707cf"&gt;Added support for disabling specific package manager resolvers using the &lt;a data-linked-resource-id="3166109697" data-linked-resource-type="page" data-linked-resource-version="79" href="https://docs.mend.io/platform/latest/mend-sca-cli-support-matrix#Resolver-Exclusion"&gt;{PACAKGE_MANAGER}.resolveDependencies parameter&lt;/a&gt;, allowing more granular control over dependency resolution.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p local-id="b863fbaee69d"&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="a613bc11-7c00-4e5f-a0d2-a6934f165cb5"&gt;&lt;li local-id="f3a7b939-46b4-432d-a0f6-4889c48cc6a1"&gt;&lt;p local-id="92357bd34c86"&gt;Fixed an issue where the clone, fetch, and checkout commands in the scanner were limited to a fixed 15‑minute timeout, which caused failures with large repositories. Timeouts are now configurable through the environment variables listed below, providing better support for large repositories.&lt;/p&gt;&lt;ul local-id="39499b6c-adf4-406f-853e-87b025d5bc64"&gt;&lt;li local-id="ca61a4d6-3bf1-48de-b614-3cab704a8cea"&gt;&lt;p local-id="61250bb52d44"&gt;GIT_CLONE_TIMEOUT_MINS &lt;/p&gt;&lt;/li&gt;&lt;li local-id="2037d7b9-64c2-49f6-9207-62946c182ac8"&gt;&lt;p local-id="d6d1378cb82d"&gt;GIT_FETCH_TIMEOUT_MINS &lt;/p&gt;&lt;/li&gt;&lt;li local-id="3accfc04-dde5-427f-91b0-00be2a559d38"&gt;&lt;p local-id="85359e4c06d2"&gt;GIT_CHECKOUT_TIMEOUT_MINS&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+    <content type="html">&lt;p local-id="7a3f6cb0206f"&gt;Unified Agent 26.3.2 | &lt;a class="external-link" href="https://github.com/renovatebot/renovate/releases/tag/43.102.11" rel="nofollow" shape="rect"&gt;&lt;u&gt;Renovate 43.102.11&lt;/u&gt;&lt;/a&gt; | Remediate 26.4.1 | Pre-Scan Builder (PSB) 25.8.1&lt;/p&gt;&lt;p local-id="37d7b0b92875"&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="94b0656b-05fe-4286-b148-5bf5b9ddeb19"&gt;&lt;li local-id="2a15d9ea-dc76-40da-9e9b-7d9cea6667b6"&gt;&lt;p local-id="aaeb8b1707cf"&gt;Added support for disabling specific package manager resolvers using the &lt;a data-linked-resource-id="3166109697" data-linked-resource-type="page" data-linked-resource-version="80" href="https://docs.mend.io/platform/latest/mend-sca-cli-support-matrix#Resolver-Exclusion"&gt;{PACAKGE_MANAGER}.resolveDependencies parameter&lt;/a&gt;, allowing more granular control over dependency resolution.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p local-id="b863fbaee69d"&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="a613bc11-7c00-4e5f-a0d2-a6934f165cb5"&gt;&lt;li local-id="f3a7b939-46b4-432d-a0f6-4889c48cc6a1"&gt;&lt;p local-id="92357bd34c86"&gt;Fixed an issue where the clone, fetch, and checkout commands in the scanner were limited to a fixed 15‑minute timeout, which caused failures with large repositories. Timeouts are now configurable through the environment variables listed below, providing better support for large repositories.&lt;/p&gt;&lt;ul local-id="39499b6c-adf4-406f-853e-87b025d5bc64"&gt;&lt;li local-id="ca61a4d6-3bf1-48de-b614-3cab704a8cea"&gt;&lt;p local-id="61250bb52d44"&gt;GIT_CLONE_TIMEOUT_MINS &lt;/p&gt;&lt;/li&gt;&lt;li local-id="2037d7b9-64c2-49f6-9207-62946c182ac8"&gt;&lt;p local-id="d6d1378cb82d"&gt;GIT_FETCH_TIMEOUT_MINS &lt;/p&gt;&lt;/li&gt;&lt;li local-id="3accfc04-dde5-427f-91b0-00be2a559d38"&gt;&lt;p local-id="85359e4c06d2"&gt;GIT_CHECKOUT_TIMEOUT_MINS&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;</content>
     <link href="https://docs.mend.io/integrations/latest/mend-for-bitbucket-data-center-release-notes"/>
     <published>2026-04-19T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-gitlab-release-notes</id>
     <title>Mend for GitLab: Version 26.4.1.1 (19-April-2026)</title>
-    <updated>2026-05-11T16:15:43.076467+00:00</updated>
+    <updated>2026-05-12T16:00:14.242343+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
-    <content type="html">&lt;p local-id="681be5a5f025"&gt;Unified Agent 26.3.2 | &lt;a class="external-link" href="https://github.com/renovatebot/renovate/releases/tag/43.102.11" rel="nofollow" shape="rect"&gt;&lt;u&gt;Renovate 43.102.11&lt;/u&gt;&lt;/a&gt; | Remediate 26.4.1 | Pre-Scan Builder (PSB) 25.8.1&lt;/p&gt;&lt;p local-id="410ca5b3a2b0"&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="320a54c5-2756-4106-9378-b8dad97e5f6d"&gt;&lt;li local-id="1dfb2bb7-46ee-4853-98e7-2bc2bf99689d"&gt;&lt;p local-id="d91bfc1ade95"&gt;Added support for disabling specific package manager resolvers using the &lt;a data-linked-resource-id="3166109697" data-linked-resource-type="page" data-linked-resource-version="79" href="https://docs.mend.io/platform/latest/mend-sca-cli-support-matrix#Resolver-Exclusion"&gt;{PACAKGE_MANAGER}.resolveDependencies parameter&lt;/a&gt;, allowing more granular control over dependency resolution.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="7795b481-59bf-45df-adae-cb3ab29ce17b"&gt;&lt;p local-id="7915f2680fc2"&gt;Introduced a lower priority queue for &lt;a data-linked-resource-id="3899883538" data-linked-resource-type="page" data-linked-resource-version="16" href="https://docs.mend.io/integrations/latest/configure-sca-reachability-for-gitlab"&gt;&lt;u&gt;Reachability&lt;/u&gt;&lt;/a&gt; "zero day" scans. This enhancement prevents system overload and ensures more reliable scan processing for enterprise customers with large deployments during periods of high CVE alert activity.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p local-id="92242d95bf99"&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="a754122b7971"&gt;&lt;li local-id="bff1412d-b20c-4976-8d63-e0727ef87f9e"&gt;&lt;p local-id="5a1d37cc78de"&gt;Fixed an issue where the clone, fetch, and checkout commands in the scanner were limited to a fixed 15‑minute timeout, which caused failures with large repositories. Timeouts are now configurable through the environment variables listed below, providing better support for large repositories.&lt;/p&gt;&lt;ul local-id="f335e4df-43ba-4e02-aae0-393ea56fd3a6"&gt;&lt;li local-id="d5d5c5b8-dd6f-419b-8eaa-0866dddbd8fe"&gt;&lt;p local-id="4c7cc08a63be"&gt;GIT_CLONE_TIMEOUT_MINS &lt;/p&gt;&lt;/li&gt;&lt;li local-id="3902b627-0ac9-4eb5-91c2-ea72c6d1cd29"&gt;&lt;p local-id="a561cbcd58c4"&gt;GIT_FETCH_TIMEOUT_MINS &lt;/p&gt;&lt;/li&gt;&lt;li local-id="6b631243-6343-462d-9b49-0683a7c4b0b7"&gt;&lt;p local-id="d568b1caee30"&gt;GIT_CHECKOUT_TIMEOUT_MINS&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+    <content type="html">&lt;p local-id="681be5a5f025"&gt;Unified Agent 26.3.2 | &lt;a class="external-link" href="https://github.com/renovatebot/renovate/releases/tag/43.102.11" rel="nofollow" shape="rect"&gt;&lt;u&gt;Renovate 43.102.11&lt;/u&gt;&lt;/a&gt; | Remediate 26.4.1 | Pre-Scan Builder (PSB) 25.8.1&lt;/p&gt;&lt;p local-id="410ca5b3a2b0"&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="320a54c5-2756-4106-9378-b8dad97e5f6d"&gt;&lt;li local-id="1dfb2bb7-46ee-4853-98e7-2bc2bf99689d"&gt;&lt;p local-id="d91bfc1ade95"&gt;Added support for disabling specific package manager resolvers using the &lt;a data-linked-resource-id="3166109697" data-linked-resource-type="page" data-linked-resource-version="80" href="https://docs.mend.io/platform/latest/mend-sca-cli-support-matrix#Resolver-Exclusion"&gt;{PACAKGE_MANAGER}.resolveDependencies parameter&lt;/a&gt;, allowing more granular control over dependency resolution.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="7795b481-59bf-45df-adae-cb3ab29ce17b"&gt;&lt;p local-id="7915f2680fc2"&gt;Introduced a lower priority queue for &lt;a data-linked-resource-id="3899883538" data-linked-resource-type="page" data-linked-resource-version="18" href="https://docs.mend.io/integrations/latest/configure-sca-reachability-for-gitlab"&gt;&lt;u&gt;Reachability&lt;/u&gt;&lt;/a&gt; "zero day" scans. This enhancement prevents system overload and ensures more reliable scan processing for enterprise customers with large deployments during periods of high CVE alert activity.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p local-id="92242d95bf99"&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="a754122b7971"&gt;&lt;li local-id="bff1412d-b20c-4976-8d63-e0727ef87f9e"&gt;&lt;p local-id="5a1d37cc78de"&gt;Fixed an issue where the clone, fetch, and checkout commands in the scanner were limited to a fixed 15‑minute timeout, which caused failures with large repositories. Timeouts are now configurable through the environment variables listed below, providing better support for large repositories.&lt;/p&gt;&lt;ul local-id="f335e4df-43ba-4e02-aae0-393ea56fd3a6"&gt;&lt;li local-id="d5d5c5b8-dd6f-419b-8eaa-0866dddbd8fe"&gt;&lt;p local-id="4c7cc08a63be"&gt;GIT_CLONE_TIMEOUT_MINS &lt;/p&gt;&lt;/li&gt;&lt;li local-id="3902b627-0ac9-4eb5-91c2-ea72c6d1cd29"&gt;&lt;p local-id="a561cbcd58c4"&gt;GIT_FETCH_TIMEOUT_MINS &lt;/p&gt;&lt;/li&gt;&lt;li local-id="6b631243-6343-462d-9b49-0683a7c4b0b7"&gt;&lt;p local-id="d568b1caee30"&gt;GIT_CHECKOUT_TIMEOUT_MINS&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;</content>
     <link href="https://docs.mend.io/integrations/latest/mend-for-gitlab-release-notes"/>
     <published>2026-04-19T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-github-enterprise-release-notes</id>
     <title>Mend for GitHub Enterprise: Version 26.4.1.1 (19-April-2026)</title>
-    <updated>2026-05-11T16:15:43.076455+00:00</updated>
+    <updated>2026-05-12T16:00:14.242333+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
-    <content type="html">&lt;p local-id="f8f84ff21baf"&gt;Unified Agent 26.3.2 | &lt;a class="external-link" href="https://github.com/renovatebot/renovate/releases/tag/43.102.11" rel="nofollow" shape="rect"&gt;&lt;u&gt;Renovate 43.102.11&lt;/u&gt;&lt;/a&gt; | Remediate 26.4.1 | Pre-Scan Builder (PSB) 25.8.1&lt;/p&gt;&lt;p local-id="726856e05372"&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="c52a8384-1e6c-4d02-887b-fac2d79400db"&gt;&lt;li local-id="e497f0c2-ad15-46bf-9a08-ca286e1e9e40"&gt;&lt;p local-id="d5315136ee8a"&gt;Added support for disabling specific package manager resolvers using the &lt;a data-linked-resource-id="3166109697" data-linked-resource-type="page" data-linked-resource-version="79" href="https://docs.mend.io/platform/latest/mend-sca-cli-support-matrix#Resolver-Exclusion"&gt;{PACAKGE_MANAGER}.resolveDependencies parameter&lt;/a&gt;, allowing more granular control over dependency resolution.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="a61c89cc-5348-46b9-96e7-90122eed04e2"&gt;&lt;p local-id="8fce75bb95ef"&gt;Introduced a lower priority queue for &lt;a data-linked-resource-id="2884895138" data-linked-resource-type="page" data-linked-resource-version="31" href="https://docs.mend.io/integrations/latest/configure-sca-reachability-for-github-enterprise"&gt;&lt;u&gt;Reachability&lt;/u&gt;&lt;/a&gt; "zero day" scans. This enhancement prevents system overload and ensures more reliable scan processing for enterprise customers with large deployments during periods of high CVE alert activity.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p local-id="d749f8e8a2f4"&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="ec748b46-053c-4f87-9c31-62859e61e034"&gt;&lt;li local-id="3115ae16-4cbe-4f93-bbd5-1c62e6cf6064"&gt;&lt;p local-id="1b8baa2341b3"&gt;Fixed an issue where the clone, fetch, and checkout commands in the scanner were limited to a fixed 15‑minute timeout, which caused failures with large repositories. Timeouts are now configurable through the environment variables listed below, providing better support for large repositories.&lt;/p&gt;&lt;ul local-id="e24bb76a-9c94-480e-b019-3017b44627d4"&gt;&lt;li local-id="fd46d12f-fc97-45de-b751-18ddf0417fed"&gt;&lt;p local-id="948f1040f0bf"&gt;GIT_CLONE_TIMEOUT_MINS &lt;/p&gt;&lt;/li&gt;&lt;li local-id="262a1ef8-5256-4a35-bf08-f8b6bfe55f4b"&gt;&lt;p local-id="ca76e926739b"&gt;GIT_FETCH_TIMEOUT_MINS &lt;/p&gt;&lt;/li&gt;&lt;li local-id="d930adca-5f08-468c-8b17-8b6267279858"&gt;&lt;p local-id="a2b798c6b80c"&gt;GIT_CHECKOUT_TIMEOUT_MINS&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+    <content type="html">&lt;p local-id="f8f84ff21baf"&gt;Unified Agent 26.3.2 | &lt;a class="external-link" href="https://github.com/renovatebot/renovate/releases/tag/43.102.11" rel="nofollow" shape="rect"&gt;&lt;u&gt;Renovate 43.102.11&lt;/u&gt;&lt;/a&gt; | Remediate 26.4.1 | Pre-Scan Builder (PSB) 25.8.1&lt;/p&gt;&lt;p local-id="726856e05372"&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="c52a8384-1e6c-4d02-887b-fac2d79400db"&gt;&lt;li local-id="e497f0c2-ad15-46bf-9a08-ca286e1e9e40"&gt;&lt;p local-id="d5315136ee8a"&gt;Added support for disabling specific package manager resolvers using the &lt;a data-linked-resource-id="3166109697" data-linked-resource-type="page" data-linked-resource-version="80" href="https://docs.mend.io/platform/latest/mend-sca-cli-support-matrix#Resolver-Exclusion"&gt;{PACAKGE_MANAGER}.resolveDependencies parameter&lt;/a&gt;, allowing more granular control over dependency resolution.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="a61c89cc-5348-46b9-96e7-90122eed04e2"&gt;&lt;p local-id="8fce75bb95ef"&gt;Introduced a lower priority queue for &lt;a data-linked-resource-id="2884895138" data-linked-resource-type="page" data-linked-resource-version="33" href="https://docs.mend.io/integrations/latest/configure-sca-reachability-for-github-enterprise"&gt;&lt;u&gt;Reachability&lt;/u&gt;&lt;/a&gt; "zero day" scans. This enhancement prevents system overload and ensures more reliable scan processing for enterprise customers with large deployments during periods of high CVE alert activity.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p local-id="d749f8e8a2f4"&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="ec748b46-053c-4f87-9c31-62859e61e034"&gt;&lt;li local-id="3115ae16-4cbe-4f93-bbd5-1c62e6cf6064"&gt;&lt;p local-id="1b8baa2341b3"&gt;Fixed an issue where the clone, fetch, and checkout commands in the scanner were limited to a fixed 15‑minute timeout, which caused failures with large repositories. Timeouts are now configurable through the environment variables listed below, providing better support for large repositories.&lt;/p&gt;&lt;ul local-id="e24bb76a-9c94-480e-b019-3017b44627d4"&gt;&lt;li local-id="fd46d12f-fc97-45de-b751-18ddf0417fed"&gt;&lt;p local-id="948f1040f0bf"&gt;GIT_CLONE_TIMEOUT_MINS &lt;/p&gt;&lt;/li&gt;&lt;li local-id="262a1ef8-5256-4a35-bf08-f8b6bfe55f4b"&gt;&lt;p local-id="ca76e926739b"&gt;GIT_FETCH_TIMEOUT_MINS &lt;/p&gt;&lt;/li&gt;&lt;li local-id="d930adca-5f08-468c-8b17-8b6267279858"&gt;&lt;p local-id="a2b798c6b80c"&gt;GIT_CHECKOUT_TIMEOUT_MINS&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;</content>
     <link href="https://docs.mend.io/integrations/latest/mend-for-github-enterprise-release-notes"/>
     <published>2026-04-19T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-github-com-release-notes</id>
     <title>Mend for GitHub.com: Version 26.4.1 (19-April-2026)</title>
-    <updated>2026-05-11T16:15:43.076444+00:00</updated>
+    <updated>2026-05-12T16:00:14.242323+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
-    <content type="html">&lt;p local-id="a1f39f2ca7a2"&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="c52a8384-1e6c-4d02-887b-fac2d79400db"&gt;&lt;li local-id="14442997856c"&gt;&lt;p local-id="772f4a84ac54"&gt;Added support for disabling specific package manager resolvers using the &lt;a data-linked-resource-id="3166109697" data-linked-resource-type="page" data-linked-resource-version="79" href="https://docs.mend.io/platform/latest/mend-sca-cli-support-matrix#Resolver-Exclusion"&gt;{PACAKGE_MANAGER}.resolveDependencies parameter&lt;/a&gt;, allowing more granular control over dependency resolution.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+    <content type="html">&lt;p local-id="a1f39f2ca7a2"&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="c52a8384-1e6c-4d02-887b-fac2d79400db"&gt;&lt;li local-id="14442997856c"&gt;&lt;p local-id="772f4a84ac54"&gt;Added support for disabling specific package manager resolvers using the &lt;a data-linked-resource-id="3166109697" data-linked-resource-type="page" data-linked-resource-version="80" href="https://docs.mend.io/platform/latest/mend-sca-cli-support-matrix#Resolver-Exclusion"&gt;{PACAKGE_MANAGER}.resolveDependencies parameter&lt;/a&gt;, allowing more granular control over dependency resolution.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
     <link href="https://docs.mend.io/integrations/latest/mend-for-github-com-release-notes"/>
     <published>2026-04-19T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-developer-platform-release-notes</id>
     <title>Mend Developer Platform: Version 26.4.2 (03-May-2026)</title>
-    <updated>2026-05-11T16:15:43.076431+00:00</updated>
+    <updated>2026-05-12T16:00:14.242313+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -91,7 +91,7 @@
   <entry>
     <id>https://docs.mend.io/legacy-sca/latest/mend-unified-agent-release-notes</id>
     <title>Mend Unified Agent: Version 26.4.2.1 (05-May-2026)</title>
-    <updated>2026-05-11T16:15:43.076412+00:00</updated>
+    <updated>2026-05-12T16:00:14.242302+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -102,7 +102,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-cli-release-notes</id>
     <title>Mend CLI: Version 26.4.2 (04-May-2026)</title>
-    <updated>2026-05-11T16:15:43.076395+00:00</updated>
+    <updated>2026-05-12T16:00:14.242290+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -113,7 +113,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-ai-release-notes</id>
     <title>Mend AI: Version 25.12.1 (05-January-2026)</title>
-    <updated>2026-05-11T16:15:43.076374+00:00</updated>
+    <updated>2026-05-12T16:00:14.242277+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -124,7 +124,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-container-release-notes</id>
     <title>Mend Container: Version 26.4.2 (03-May-2026)</title>
-    <updated>2026-05-11T16:15:43.076354+00:00</updated>
+    <updated>2026-05-12T16:00:14.242264+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -135,7 +135,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-sast-release-notes</id>
     <title>Mend SAST: Version 26.4.2 (04-May-2026)</title>
-    <updated>2026-05-11T16:15:43.076332+00:00</updated>
+    <updated>2026-05-12T16:00:14.242249+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -146,7 +146,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-sca-release-notes</id>
     <title>Mend SCA: Version 26.3.2 (12-April-2026)</title>
-    <updated>2026-05-11T16:15:43.076295+00:00</updated>
+    <updated>2026-05-12T16:00:14.242226+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -157,7 +157,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-platform-release-notes</id>
     <title>Mend AppSec Platform: Version 26.4.2 (03-May-2026)</title>
-    <updated>2026-05-11T16:15:43.076250+00:00</updated>
+    <updated>2026-05-12T16:00:14.242182+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
