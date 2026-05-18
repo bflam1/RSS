@@ -7,21 +7,21 @@
 <body>
   <h1>Mend.io Unified Release Notes</h1>
   <section>
-    <h2><a href="https://docs.mend.io/platform/latest/mend-platform-release-notes">Mend AppSec Platform: Version 26.4.2 (03-May-2026)</a></h2>
-    <time datetime="2026-05-03T00:00:00+00:00">2026-05-03T00:00:00+00:00</time>
-    <p><strong>New Features and Updates</strong></p><ul><li><p><a href="https://docs.mend.io/integrations/latest/mend-sast-visual-studio-code-plugin">Mend for Visual Studio Code</a> will be available on the Open-VSX registry starting May 8th, 2026, making it installable directly from AI-native IDEs such as Cursor, Windsurf, Kiro, and Antigravity. Developers using these editors will be able to find and install the extension from their built-in extensions marketplace without any additional steps.</p></li></ul><ul><li><p>UI Improvements:</p><ul><li><p>Updated the administration screens to feature a modern floating bulk actions toolbar at the bottom, making bulk actions more visible and accessible. This change streamlines the user experience by consolidating selected item counts and available actions into a single, easy-to-reach toolbar, ensuring consistency and reducing clicks across all administration screens.</p></li></ul></li></ul><p><strong>Resolved Issues</strong></p><ul><li><p>Fixed an issue where violations linked to a deleted workflow were not removed, which caused data inconsistencies. Now, when a workflow is deleted, all associated violations are properly deleted to maintain data integrity.</p></li><li><p>Fixed an issue where manual Jira issue creation from Mend for Jira Cloud displayed a success message but failed to create a Jira ticket if the required issue type was missing or misconfigured in the target Jira project.</p></li><li><p>Fixed an issue where workflow email notifications weren't sent, ensuring that notifications are now delivered as expected when workflow conditions are met.</p></li><li><p>Fixed an issue where filtering the File Path column in the Source Files tab of the OS Inventory did not return results as expected. Filtering now works correctly, allowing users to search for files by path.</p></li><li><p>Fixed an issue where the Mend Advise browser extension would display a timeout error when analyzing the <code>NJsonSchema 11.0.2</code> package.</p></li></ul>
+    <h2><a href="https://docs.mend.io/platform/latest/mend-platform-release-notes">Mend AppSec Platform: Version 26.4.3 (17-May-2026)</a></h2>
+    <time datetime="2026-05-17T00:00:00+00:00">2026-05-17T00:00:00+00:00</time>
+    <p><strong>New Features and Updates</strong></p><ul><li><p><strong>(Closed Beta)</strong> Introducing custom roles with granular permissions, allowing organizations to define and assign least-privilege access via groups at both organization and application levels. This update enhances security and governance by enabling fine-grained control, separation of duties, and centralized role management, while maintaining full compatibility with existing roles.</p></li><li><p>Mend's <a href="https://docs.mend.io/integrations/latest/mend-agentic-integration">MCP server</a> now exposes security findings across SAST and SCA scanning engines so developers can query vulnerability data directly from their AI-powered tools and workflows. The findings come enriched with remediation suggestions, making it easier to understand and fix issues without leaving the tools they already use, or by instructing an agent to fix them. Developers can ask questions like "What are the top 5 security issues in this repo?" or "Explain this SQL injection finding" and their preferred agent will be able to answer these questions by communicating with the MCP server.</p></li><li><p>UI Improvements:</p><ul><li><p>Added an "Assigned by" field to each copyright entry in the OS library side panel, making it clear whether a copyright was detected by <a class="external-link" href="http://Mend.io" rel="nofollow">Mend.io</a> or manually set by a user. This enhancement improves audit clarity by matching the display logic already used in the Licenses tab, helping users easily distinguish between system-detected and user-overridden copyrights.</p></li><li><p>Replaced the floating filter row in Admin &gt; Applications with platform-standard filter buttons, saving vertical space and making active filters clearer. This update aligns the filtering experience with the rest of the platform for a more consistent and user-friendly interface.</p></li></ul></li></ul><p><strong>Resolved Issues</strong></p><ul><li><p><strong>(SCA)</strong> Fixed an issue where Mend CLI dependency scans would intermittently fail during policy compliance checks, resulting in an "asyncCheckPolicyCompliace failed" message. Scans now complete successfully without unexpected interruptions.</p></li></ul>
   </section>
   <hr/>
   <section>
-    <h2><a href="https://docs.mend.io/platform/latest/mend-sca-release-notes">Mend SCA: Version 26.3.2 (12-April-2026)</a></h2>
-    <time datetime="2026-04-12T00:00:00+00:00">2026-04-12T00:00:00+00:00</time>
-    <p><strong>New Features and Updates</strong></p><ul><li><p>Introducing new <a href="https://docs.mend.io/platform/latest/zero-day-management-in-the-mend-appsec-platform">Zero-Day response workflows</a> in the Mend AppSec Platform, offering immediate risk visibility, audit-level transparency, and user-controlled enforcement for critical vulnerabilities. Users benefit from prominent alerts, a dedicated Zero-Day catalog, configurable workflows, and permanent violation tracking—streamlining investigation and remediation without added operational burden.</p></li><li><p>Improved license accuracy of Maven libraries. Updates include clearer license version specificity, removal of redundant entries, and detection of previously unknown licenses.</p></li><li><p>The <a href="https://docs.mend.io/platform/latest/the-dependencies-due-diligence-report">Due Diligence</a> report can now be generated in Excel format.</p></li></ul><p><strong>Resolved Issues</strong></p><ul><li><p>Fixed an issue where certain "software.amazon.awssdk" components displayed duplicated or incorrect copyright statements. All affected components now show accurate and consistent copyright information.</p></li></ul>
+    <h2><a href="https://docs.mend.io/platform/latest/mend-sca-release-notes">Mend SCA: Version 26.4.3 (18-May-2026)</a></h2>
+    <time datetime="2026-05-18T00:00:00+00:00">2026-05-18T00:00:00+00:00</time>
+    <p><strong>New Features and Updates</strong></p><ul><li><p><strong>(Limited Availability)</strong> Introducing an improved .NET resolver in the Mend CLI, which relies on <code>.deps.json</code> in the build folder for increased dependency detection accuracy.</p></li></ul><p><strong>Resolved Issues</strong></p><ul><li><p>Fixed an issue where an incorrect license was reported for newrelic-agent-3.39.1.jar</p></li></ul>
   </section>
   <hr/>
   <section>
-    <h2><a href="https://docs.mend.io/platform/latest/mend-sast-release-notes">Mend SAST: Version 26.4.2 (04-May-2026)</a></h2>
-    <time datetime="2026-05-04T00:00:00+00:00">2026-05-04T00:00:00+00:00</time>
-    <p><strong>New Features and Updates</strong></p><ul><li><p>Added taint analysis support for Python smbclient to enhance detection of path traversal vulnerabilities.</p></li><li><p>Added support to ensure that SSRF vulnerabilities in JavaScript are reported only when detected on the server side, improving the accuracy of security findings.</p></li><li><p>Secret scanning is now available in <a href="https://docs.mend.io/integrations/latest/mend-sast-visual-studio-code-plugin">Mend for Visual Studio Code</a>.</p></li></ul>
+    <h2><a href="https://docs.mend.io/platform/latest/mend-sast-release-notes">Mend SAST: Version 26.4.3 (18-May-2026)</a></h2>
+    <time datetime="2026-05-18T00:00:00+00:00">2026-05-18T00:00:00+00:00</time>
+    <p><strong>New Features and Updates</strong></p><ul><li><p>The <a href="https://docs.mend.io/platform/latest/go-gen-2">Gen 2 Go detection engine</a> is now generally available, delivering increased coverage and accuracy for Go code analysis.</p></li><li><p>Secrets scanning now detects hardcoded Stripe credentials more robustly.</p></li><li><p>Improved secret detection by addressing cases where certain secrets were previously missed during scanning.</p></li></ul><p><strong>Resolved Issues</strong></p><ul><li><p>Fixed an issue where SSRF (Server-Side Request Forgery) vulnerabilities were incorrectly flagged as false positives in C# (Gen2) scans.</p></li></ul>
   </section>
   <hr/>
   <section>
@@ -37,27 +37,27 @@
   </section>
   <hr/>
   <section>
-    <h2><a href="https://docs.mend.io/platform/latest/mend-cli-release-notes">Mend CLI: Version 26.4.2 (04-May-2026)</a></h2>
-    <time datetime="2026-05-04T00:00:00+00:00">2026-05-04T00:00:00+00:00</time>
-    <p><strong>Resolved Issues</strong></p><ul><li><p>Updated the crypto/x509 and crypto/tls packages by upgrading the Go version in the CLI from 1.25 to 1.26.2, to resolve CVE-2026-32280.</p></li><li><p><strong>(SCA)</strong> Fixed an issue where the CLI logged missing Python packages from requirements.txt at the DEBUG level instead of WARNING. </p></li><li><p><strong>(SCA)</strong> Fixed an issue where the CLI would incorrectly mark scans of invalid projects as failed. Now, such projects are only marked as failed in <a href="https://docs.mend.io/platform/latest/configure-the-mend-cli-for-sca#CLI-SCA-scan-parameters">strict mode</a>; in non-strict mode, a warning is logged without failing the scan.</p></li><li><p><strong>(AI)</strong> Fixed an issue where the Mend CLI AI scanner did not detect PaddlePaddle model files with the .pdiparams extension, resulting in inconsistent scan coverage. Both .pdiparams and .pdparams files are now properly recognized and scanned.</p></li></ul>
+    <h2><a href="https://docs.mend.io/platform/latest/mend-cli-release-notes">Mend CLI: Version 26.4.3 (18-May-2026)</a></h2>
+    <time datetime="2026-05-18T00:00:00+00:00">2026-05-18T00:00:00+00:00</time>
+    <p><strong>New Features and Updates</strong></p><ul><li><p><strong>(Limited Availability)</strong> <strong>(SCA)</strong> Introducing an improved .NET resolver which relies on <code>.deps.json</code> in the build folder for increased dependency detection accuracy.</p></li></ul><p><strong>Resolved Issues</strong></p><ul><li><p><strong>(SCA)</strong> Fixed an issue where dependency scans would intermittently fail during policy compliance checks, resulting in an "asyncCheckPolicyCompliace failed" message. Scans now complete successfully without unexpected interruptions.</p></li><li><p><strong>(SCA)</strong> Fixed an issue where environment variable-based configurations were not loaded correctly in the CLI, resulting in empty values. The CLI now properly reads MEND_-prefixed environment variables and applies them as expected.</p></li></ul>
   </section>
   <hr/>
   <section>
-    <h2><a href="https://docs.mend.io/legacy-sca/latest/mend-unified-agent-release-notes">Mend Unified Agent: Version 26.4.2.1 (05-May-2026)</a></h2>
-    <time datetime="2026-05-05T00:00:00+00:00">2026-05-05T00:00:00+00:00</time>
-    <p><strong>Resolved Issues</strong></p><ul><li><p><strong>Hotfix:</strong> Fixed an issue where Unified Agent v26.4.2 failed to load on older JDK versions due to the signed JAR manifest exceeding the JVM's maximum allowed size. The fix reduces the manifest size by excluding unnecessary Multi-Release entries, ensuring compatibility with affected JDKs while retaining all security updates.</p></li></ul>
+    <h2><a href="https://docs.mend.io/legacy-sca/latest/mend-unified-agent-release-notes">Mend Unified Agent: Version 26.4.3 (18-May-2026)</a></h2>
+    <time datetime="2026-05-18T00:00:00+00:00">2026-05-18T00:00:00+00:00</time>
+    <ul><li><p>No notable updates.</p></li></ul>
   </section>
   <hr/>
   <section>
-    <h2><a href="https://docs.mend.io/integrations/latest/mend-developer-platform-release-notes">Mend Developer Platform: Version 26.4.2 (03-May-2026)</a></h2>
-    <time datetime="2026-05-03T00:00:00+00:00">2026-05-03T00:00:00+00:00</time>
-    <p><strong>Resolved Issues</strong></p><ul><li><p>Fixed an issue where the installed repositories table in the Developer Platform was not updating to reflect changes from GitHub, causing UI inconsistencies in certain scenarios. The sync process was improved to ensure accurate repository data and consistent UI experience.</p></li></ul>
+    <h2><a href="https://docs.mend.io/integrations/latest/mend-developer-platform-release-notes">Mend Developer Platform: Version 26.4.3 (17-May-2026)</a></h2>
+    <time datetime="2026-05-17T00:00:00+00:00">2026-05-17T00:00:00+00:00</time>
+    <p><strong>New Features and Updates</strong></p><ul><li><p>Improved the navigation in the repository page within the developer platform, especially for organizations with a large number of repositories.</p></li></ul><p><strong>Resolved Issues</strong></p><ul><li><p>(AZDO) Fixed an issue where pull request scans between configured base branches in Azure DevOps could fail with a "Failed to retrieve base branch mend project" error, even though a valid scan occurred on the commit itself. This resolves inconsistent scan behavior when multiple base branches are configured.</p></li><li><p>(AZDO) Fixed an issue where onboarding failed for users with a large number of Azure DevOps organizations, causing excessive loading times and timeouts. The onboarding flow was redesigned to fetch and display organizations first, allowing users to select specific organizations before loading their projects, significantly improving performance and user experience.</p></li><li><p><strong>(SCA)</strong> Fixed an issue where projects specifying .NET 10 in the .csproj file did not resolve dependencies as expected. The system now detects SDK version mismatches, automatically installs the required .NET SDK, and retries dependency resolution to ensure all dependencies are properly detected.</p></li></ul>
   </section>
   <hr/>
   <section>
-    <h2><a href="https://docs.mend.io/integrations/latest/mend-for-github-com-release-notes">Mend for GitHub.com: Version 26.4.1 (19-April-2026)</a></h2>
-    <time datetime="2026-04-19T00:00:00+00:00">2026-04-19T00:00:00+00:00</time>
-    <p><strong>New Features and Updates</strong></p><ul><li><p>Added support for disabling specific package manager resolvers using the <a href="https://docs.mend.io/platform/latest/mend-sca-cli-support-matrix#Resolver-Exclusion">{PACAKGE_MANAGER}.resolveDependencies parameter</a>, allowing more granular control over dependency resolution.</p></li></ul>
+    <h2><a href="https://docs.mend.io/integrations/latest/mend-for-github-com-release-notes">Mend for GitHub.com: Version 26.4.3 (17-May-2026)</a></h2>
+    <time datetime="2026-05-17T00:00:00+00:00">2026-05-17T00:00:00+00:00</time>
+    <p><strong>Resolved Issues</strong></p><ul><li><p><strong>(SCA)</strong> Fixed an issue where projects specifying .NET 10 in the .csproj file did not resolve dependencies as expected. The system now detects SDK version mismatches, automatically installs the required .NET SDK, and retries dependency resolution to ensure all dependencies are properly detected.</p></li></ul>
   </section>
   <hr/>
   <section>
@@ -79,8 +79,8 @@
   </section>
   <hr/>
   <section>
-    <h2><a href="https://github.com/renovatebot/renovate/releases/tag/43.176.2">Mend Renovate CLI: 43.176.2</a></h2>
-    <time datetime="2026-05-12T15:37:11+00:00">2026-05-12T15:37:11+00:00</time>
+    <h2><a href="https://github.com/renovatebot/renovate/releases/tag/43.184.0">Mend Renovate CLI: 43.184.0</a></h2>
+    <time datetime="2026-05-18T16:30:02+00:00">2026-05-18T16:30:02+00:00</time>
     <p></p>
   </section>
   <hr/>
