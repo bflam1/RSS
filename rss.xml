@@ -7,7 +7,7 @@
     <atom:link href="https://bflam1.github.io/RSS/atom.xml" rel="self"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 18 May 2026 16:30:02 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 19 May 2026 16:30:00 +0000</lastBuildDate>
     <item>
       <title>Mend Renovate CC-EE: 14.5.0</title>
       <link>https://github.com/mend/renovate-ce-ee/releases/tag/14.5.0</link>
@@ -16,11 +16,11 @@
       <pubDate>Mon, 27 Apr 2026 14:10:51 +0000</pubDate>
     </item>
     <item>
-      <title>Mend Renovate CLI: 43.184.0</title>
-      <link>https://github.com/renovatebot/renovate/releases/tag/43.184.0</link>
+      <title>Mend Renovate CLI: 43.186.0</title>
+      <link>https://github.com/renovatebot/renovate/releases/tag/43.186.0</link>
       <description>&lt;p&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://github.com/renovatebot/renovate/releases/tag/43.184.0</guid>
-      <pubDate>Mon, 18 May 2026 16:30:02 +0000</pubDate>
+      <guid isPermaLink="false">https://github.com/renovatebot/renovate/releases/tag/43.186.0</guid>
+      <pubDate>Tue, 19 May 2026 16:30:00 +0000</pubDate>
     </item>
     <item>
       <title>Mend for Bitbucket DC: Version 26.4.1.1 (19-April-2026)</title>
@@ -88,7 +88,7 @@
     <item>
       <title>Mend SAST: Version 26.4.3 (18-May-2026)</title>
       <link>https://docs.mend.io/platform/latest/mend-sast-release-notes</link>
-      <description>&lt;p local-id="fd9f9c74c3b3"&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="629d7f25-c84f-440d-bbc8-8085ad709b27"&gt;&lt;li local-id="fda59befeac9"&gt;&lt;p local-id="ac3562437572"&gt;The &lt;a data-linked-resource-id="4299849739" data-linked-resource-type="page" data-linked-resource-version="4" href="https://docs.mend.io/platform/latest/go-gen-2"&gt;Gen 2 Go detection engine&lt;/a&gt; is now generally available, delivering increased coverage and accuracy for Go code analysis.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="c74d10e262f4"&gt;&lt;p local-id="157fec4e86ff"&gt;Secrets scanning now detects hardcoded Stripe credentials more robustly.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="fdec3005ed57"&gt;&lt;p local-id="fdeb34652cee"&gt;Improved secret detection by addressing cases where certain secrets were previously missed during scanning.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p local-id="b81a49aa27f0"&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="f8f1bb9b-397e-41ca-8ad2-b091bb7e5474"&gt;&lt;li local-id="2aede88b-e0c2-456c-9a64-f5b03381d0e1"&gt;&lt;p local-id="a8150b784739"&gt;Fixed an issue where SSRF (Server-Side Request Forgery) vulnerabilities were incorrectly flagged as false positives in C# (Gen2) scans.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+      <description>&lt;p local-id="fd9f9c74c3b3"&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="629d7f25-c84f-440d-bbc8-8085ad709b27"&gt;&lt;li local-id="fda59befeac9"&gt;&lt;p local-id="ac3562437572"&gt;Mend now offers a SAST plugin for &lt;a data-linked-resource-id="4302307339" data-linked-resource-type="page" data-linked-resource-version="8" href="https://docs.mend.io/integrations/latest/mend-code-security-tool-for-jetbrains"&gt;JetBrains IDEs&lt;/a&gt; (IntelliJ and others), allowing developers to find and fix security vulnerabilities without leaving their editor. The plugin allows developers to run a scan, highlights vulnerable lines of code directly in the editor, and separates the new issues introduced by the developer's own changes from the existing issues — keeping the noise low. For each finding, developers can see remediation suggestions, code flow traces, CWE descriptions, and training materials. Applying a fix is a single click: the plugin shows a code diff and patches the file automatically. IDE scans are kept isolated from the Mend AppSec Platform, meaning local scans don't affect project-level statistics.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="56a4abf2da95"&gt;&lt;p local-id="a09fa26b18cd"&gt;The &lt;a data-linked-resource-id="4299849739" data-linked-resource-type="page" data-linked-resource-version="4" href="https://docs.mend.io/platform/latest/go-gen-2"&gt;Gen 2 Go detection engine&lt;/a&gt; is now generally available, delivering increased coverage and accuracy for Go code analysis.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="00b598a548b4"&gt;&lt;p local-id="e1f45da22aa7"&gt;Secrets scanning now detects hardcoded Stripe credentials more robustly.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="fdec3005ed57"&gt;&lt;p local-id="fdeb34652cee"&gt;Improved secret detection by addressing cases where certain secrets were previously missed during scanning.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p local-id="b81a49aa27f0"&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="f8f1bb9b-397e-41ca-8ad2-b091bb7e5474"&gt;&lt;li local-id="2aede88b-e0c2-456c-9a64-f5b03381d0e1"&gt;&lt;p local-id="a8150b784739"&gt;Fixed an issue where SSRF (Server-Side Request Forgery) vulnerabilities were incorrectly flagged as false positives in C# (Gen2) scans.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://docs.mend.io/platform/latest/mend-sast-release-notes</guid>
       <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
     </item>

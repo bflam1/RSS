@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://bflam1.github.io/RSS/atom.xml</id>
   <title>Mend.io Unified Release Notes</title>
-  <updated>2026-05-18T16:30:02+00:00</updated>
+  <updated>2026-05-19T16:30:00+00:00</updated>
   <author>
     <name>Mend Release Bot</name>
     <email>noreply@bflam1.github.io</email>
@@ -14,7 +14,7 @@
   <entry>
     <id>https://github.com/mend/renovate-ce-ee/releases/tag/14.5.0</id>
     <title>Mend Renovate CC-EE: 14.5.0</title>
-    <updated>2026-05-18T16:38:45.306689+00:00</updated>
+    <updated>2026-05-19T16:36:24.726026+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -23,20 +23,20 @@
     <published>2026-04-27T14:10:51+00:00</published>
   </entry>
   <entry>
-    <id>https://github.com/renovatebot/renovate/releases/tag/43.184.0</id>
-    <title>Mend Renovate CLI: 43.184.0</title>
-    <updated>2026-05-18T16:38:45.306680+00:00</updated>
+    <id>https://github.com/renovatebot/renovate/releases/tag/43.186.0</id>
+    <title>Mend Renovate CLI: 43.186.0</title>
+    <updated>2026-05-19T16:36:24.726017+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
     <content type="html">&lt;p&gt;&lt;/p&gt;</content>
-    <link href="https://github.com/renovatebot/renovate/releases/tag/43.184.0"/>
-    <published>2026-05-18T16:30:02+00:00</published>
+    <link href="https://github.com/renovatebot/renovate/releases/tag/43.186.0"/>
+    <published>2026-05-19T16:30:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-bitbucket-data-center-release-notes</id>
     <title>Mend for Bitbucket DC: Version 26.4.1.1 (19-April-2026)</title>
-    <updated>2026-05-18T16:38:45.306669+00:00</updated>
+    <updated>2026-05-19T16:36:24.726006+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -47,7 +47,7 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-gitlab-release-notes</id>
     <title>Mend for GitLab: Version 26.4.1.1 (19-April-2026)</title>
-    <updated>2026-05-18T16:38:45.306659+00:00</updated>
+    <updated>2026-05-19T16:36:24.725996+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -58,7 +58,7 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-github-enterprise-release-notes</id>
     <title>Mend for GitHub Enterprise: Version 26.4.1.1 (19-April-2026)</title>
-    <updated>2026-05-18T16:38:45.306649+00:00</updated>
+    <updated>2026-05-19T16:36:24.725985+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -69,7 +69,7 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-github-com-release-notes</id>
     <title>Mend for GitHub.com: Version 26.4.3 (17-May-2026)</title>
-    <updated>2026-05-18T16:38:45.306639+00:00</updated>
+    <updated>2026-05-19T16:36:24.725969+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -80,7 +80,7 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-developer-platform-release-notes</id>
     <title>Mend Developer Platform: Version 26.4.3 (17-May-2026)</title>
-    <updated>2026-05-18T16:38:45.306630+00:00</updated>
+    <updated>2026-05-19T16:36:24.725953+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -91,7 +91,7 @@
   <entry>
     <id>https://docs.mend.io/legacy-sca/latest/mend-unified-agent-release-notes</id>
     <title>Mend Unified Agent: Version 26.4.3 (18-May-2026)</title>
-    <updated>2026-05-18T16:38:45.306620+00:00</updated>
+    <updated>2026-05-19T16:36:24.725938+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -102,7 +102,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-cli-release-notes</id>
     <title>Mend CLI: Version 26.4.3 (18-May-2026)</title>
-    <updated>2026-05-18T16:38:45.306611+00:00</updated>
+    <updated>2026-05-19T16:36:24.725921+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -113,7 +113,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-ai-release-notes</id>
     <title>Mend AI: Version 25.12.1 (05-January-2026)</title>
-    <updated>2026-05-18T16:38:45.306599+00:00</updated>
+    <updated>2026-05-19T16:36:24.725902+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -124,7 +124,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-container-release-notes</id>
     <title>Mend Container: Version 26.4.2 (03-May-2026)</title>
-    <updated>2026-05-18T16:38:45.306587+00:00</updated>
+    <updated>2026-05-19T16:36:24.725882+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -135,18 +135,18 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-sast-release-notes</id>
     <title>Mend SAST: Version 26.4.3 (18-May-2026)</title>
-    <updated>2026-05-18T16:38:45.306573+00:00</updated>
+    <updated>2026-05-19T16:36:24.725860+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
-    <content type="html">&lt;p local-id="fd9f9c74c3b3"&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="629d7f25-c84f-440d-bbc8-8085ad709b27"&gt;&lt;li local-id="fda59befeac9"&gt;&lt;p local-id="ac3562437572"&gt;The &lt;a data-linked-resource-id="4299849739" data-linked-resource-type="page" data-linked-resource-version="4" href="https://docs.mend.io/platform/latest/go-gen-2"&gt;Gen 2 Go detection engine&lt;/a&gt; is now generally available, delivering increased coverage and accuracy for Go code analysis.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="c74d10e262f4"&gt;&lt;p local-id="157fec4e86ff"&gt;Secrets scanning now detects hardcoded Stripe credentials more robustly.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="fdec3005ed57"&gt;&lt;p local-id="fdeb34652cee"&gt;Improved secret detection by addressing cases where certain secrets were previously missed during scanning.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p local-id="b81a49aa27f0"&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="f8f1bb9b-397e-41ca-8ad2-b091bb7e5474"&gt;&lt;li local-id="2aede88b-e0c2-456c-9a64-f5b03381d0e1"&gt;&lt;p local-id="a8150b784739"&gt;Fixed an issue where SSRF (Server-Side Request Forgery) vulnerabilities were incorrectly flagged as false positives in C# (Gen2) scans.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+    <content type="html">&lt;p local-id="fd9f9c74c3b3"&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="629d7f25-c84f-440d-bbc8-8085ad709b27"&gt;&lt;li local-id="fda59befeac9"&gt;&lt;p local-id="ac3562437572"&gt;Mend now offers a SAST plugin for &lt;a data-linked-resource-id="4302307339" data-linked-resource-type="page" data-linked-resource-version="8" href="https://docs.mend.io/integrations/latest/mend-code-security-tool-for-jetbrains"&gt;JetBrains IDEs&lt;/a&gt; (IntelliJ and others), allowing developers to find and fix security vulnerabilities without leaving their editor. The plugin allows developers to run a scan, highlights vulnerable lines of code directly in the editor, and separates the new issues introduced by the developer's own changes from the existing issues — keeping the noise low. For each finding, developers can see remediation suggestions, code flow traces, CWE descriptions, and training materials. Applying a fix is a single click: the plugin shows a code diff and patches the file automatically. IDE scans are kept isolated from the Mend AppSec Platform, meaning local scans don't affect project-level statistics.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="56a4abf2da95"&gt;&lt;p local-id="a09fa26b18cd"&gt;The &lt;a data-linked-resource-id="4299849739" data-linked-resource-type="page" data-linked-resource-version="4" href="https://docs.mend.io/platform/latest/go-gen-2"&gt;Gen 2 Go detection engine&lt;/a&gt; is now generally available, delivering increased coverage and accuracy for Go code analysis.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="00b598a548b4"&gt;&lt;p local-id="e1f45da22aa7"&gt;Secrets scanning now detects hardcoded Stripe credentials more robustly.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="fdec3005ed57"&gt;&lt;p local-id="fdeb34652cee"&gt;Improved secret detection by addressing cases where certain secrets were previously missed during scanning.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p local-id="b81a49aa27f0"&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="f8f1bb9b-397e-41ca-8ad2-b091bb7e5474"&gt;&lt;li local-id="2aede88b-e0c2-456c-9a64-f5b03381d0e1"&gt;&lt;p local-id="a8150b784739"&gt;Fixed an issue where SSRF (Server-Side Request Forgery) vulnerabilities were incorrectly flagged as false positives in C# (Gen2) scans.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
     <link href="https://docs.mend.io/platform/latest/mend-sast-release-notes"/>
     <published>2026-05-18T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-sca-release-notes</id>
     <title>Mend SCA: Version 26.4.3 (18-May-2026)</title>
-    <updated>2026-05-18T16:38:45.306549+00:00</updated>
+    <updated>2026-05-19T16:36:24.725832+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -157,7 +157,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-platform-release-notes</id>
     <title>Mend AppSec Platform: Version 26.4.3 (17-May-2026)</title>
-    <updated>2026-05-18T16:38:45.306517+00:00</updated>
+    <updated>2026-05-19T16:36:24.725792+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>

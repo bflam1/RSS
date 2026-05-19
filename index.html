@@ -21,7 +21,7 @@
   <section>
     <h2><a href="https://docs.mend.io/platform/latest/mend-sast-release-notes">Mend SAST: Version 26.4.3 (18-May-2026)</a></h2>
     <time datetime="2026-05-18T00:00:00+00:00">2026-05-18T00:00:00+00:00</time>
-    <p><strong>New Features and Updates</strong></p><ul><li><p>The <a href="https://docs.mend.io/platform/latest/go-gen-2">Gen 2 Go detection engine</a> is now generally available, delivering increased coverage and accuracy for Go code analysis.</p></li><li><p>Secrets scanning now detects hardcoded Stripe credentials more robustly.</p></li><li><p>Improved secret detection by addressing cases where certain secrets were previously missed during scanning.</p></li></ul><p><strong>Resolved Issues</strong></p><ul><li><p>Fixed an issue where SSRF (Server-Side Request Forgery) vulnerabilities were incorrectly flagged as false positives in C# (Gen2) scans.</p></li></ul>
+    <p><strong>New Features and Updates</strong></p><ul><li><p>Mend now offers a SAST plugin for <a href="https://docs.mend.io/integrations/latest/mend-code-security-tool-for-jetbrains">JetBrains IDEs</a> (IntelliJ and others), allowing developers to find and fix security vulnerabilities without leaving their editor. The plugin allows developers to run a scan, highlights vulnerable lines of code directly in the editor, and separates the new issues introduced by the developer's own changes from the existing issues — keeping the noise low. For each finding, developers can see remediation suggestions, code flow traces, CWE descriptions, and training materials. Applying a fix is a single click: the plugin shows a code diff and patches the file automatically. IDE scans are kept isolated from the Mend AppSec Platform, meaning local scans don't affect project-level statistics.</p></li><li><p>The <a href="https://docs.mend.io/platform/latest/go-gen-2">Gen 2 Go detection engine</a> is now generally available, delivering increased coverage and accuracy for Go code analysis.</p></li><li><p>Secrets scanning now detects hardcoded Stripe credentials more robustly.</p></li><li><p>Improved secret detection by addressing cases where certain secrets were previously missed during scanning.</p></li></ul><p><strong>Resolved Issues</strong></p><ul><li><p>Fixed an issue where SSRF (Server-Side Request Forgery) vulnerabilities were incorrectly flagged as false positives in C# (Gen2) scans.</p></li></ul>
   </section>
   <hr/>
   <section>
@@ -79,8 +79,8 @@
   </section>
   <hr/>
   <section>
-    <h2><a href="https://github.com/renovatebot/renovate/releases/tag/43.184.0">Mend Renovate CLI: 43.184.0</a></h2>
-    <time datetime="2026-05-18T16:30:02+00:00">2026-05-18T16:30:02+00:00</time>
+    <h2><a href="https://github.com/renovatebot/renovate/releases/tag/43.186.0">Mend Renovate CLI: 43.186.0</a></h2>
+    <time datetime="2026-05-19T16:30:00+00:00">2026-05-19T16:30:00+00:00</time>
     <p></p>
   </section>
   <hr/>
