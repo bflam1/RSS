@@ -9,7 +9,7 @@
   <section>
     <h2><a href="https://docs.mend.io/platform/latest/mend-platform-release-notes">Mend AppSec Platform: Version 26.4.3 (17-May-2026)</a></h2>
     <time datetime="2026-05-17T00:00:00+00:00">2026-05-17T00:00:00+00:00</time>
-    <p><strong>New Features and Updates</strong></p><ul><li><p><strong>(Closed Beta)</strong> Introducing custom roles with granular permissions, allowing organizations to define and assign least-privilege access via groups at both organization and application levels. This update enhances security and governance by enabling fine-grained control, separation of duties, and centralized role management, while maintaining full compatibility with existing roles.</p></li><li><p>Mend's <a href="https://docs.mend.io/integrations/latest/mend-agentic-integration">MCP server</a> now exposes security findings across SAST and SCA scanning engines so developers can query vulnerability data directly from their AI-powered tools and workflows. The findings come enriched with remediation suggestions, making it easier to understand and fix issues without leaving the tools they already use, or by instructing an agent to fix them. Developers can ask questions like "What are the top 5 security issues in this repo?" or "Explain this SQL injection finding" and their preferred agent will be able to answer these questions by communicating with the MCP server.</p></li><li><p>UI Improvements:</p><ul><li><p>Added an "Assigned by" field to each copyright entry in the OS library side panel, making it clear whether a copyright was detected by <a class="external-link" href="http://Mend.io" rel="nofollow">Mend.io</a> or manually set by a user. This enhancement improves audit clarity by matching the display logic already used in the Licenses tab, helping users easily distinguish between system-detected and user-overridden copyrights.</p></li><li><p>Replaced the floating filter row in Admin &gt; Applications with platform-standard filter buttons, saving vertical space and making active filters clearer. This update aligns the filtering experience with the rest of the platform for a more consistent and user-friendly interface.</p></li></ul></li></ul><p><strong>Resolved Issues</strong></p><ul><li><p><strong>(SCA)</strong> Fixed an issue where Mend CLI dependency scans would intermittently fail during policy compliance checks, resulting in an "asyncCheckPolicyCompliace failed" message. Scans now complete successfully without unexpected interruptions.</p></li></ul>
+    <p><strong>New Features and Updates</strong></p><ul><li><p><strong>(Closed Beta)</strong> Introducing custom roles with granular permissions, allowing organizations to define and assign least-privilege access via groups at both organization and application levels. This update enhances security and governance by enabling fine-grained control, separation of duties, and centralized role management, while maintaining full compatibility with existing roles.</p></li><li><p>UI Improvements:</p><ul><li><p>Added an "Assigned by" field to each copyright entry in the OS library side panel, making it clear whether a copyright was detected by <a class="external-link" href="http://Mend.io" rel="nofollow">Mend.io</a> or manually set by a user. This enhancement improves audit clarity by matching the display logic already used in the Licenses tab, helping users easily distinguish between system-detected and user-overridden copyrights.</p></li><li><p>Replaced the floating filter row in Admin &gt; Applications with platform-standard filter buttons, saving vertical space and making active filters clearer. This update aligns the filtering experience with the rest of the platform for a more consistent and user-friendly interface.</p></li></ul></li></ul><p><strong>Resolved Issues</strong></p><ul><li><p><strong>(SCA)</strong> Fixed an issue where Mend CLI dependency scans would intermittently fail during policy compliance checks, resulting in an "asyncCheckPolicyCompliace failed" message. Scans now complete successfully without unexpected interruptions.</p></li></ul>
   </section>
   <hr/>
   <section>
@@ -43,9 +43,9 @@
   </section>
   <hr/>
   <section>
-    <h2><a href="https://docs.mend.io/legacy-sca/latest/mend-unified-agent-release-notes">Mend Unified Agent: Version 26.4.3 (18-May-2026)</a></h2>
-    <time datetime="2026-05-18T00:00:00+00:00">2026-05-18T00:00:00+00:00</time>
-    <ul><li><p>No notable updates.</p></li></ul>
+    <h2><a href="https://docs.mend.io/legacy-sca/latest/mend-unified-agent-release-notes">Mend Unified Agent: Version 26.4.3.1 (21-May-2026)</a></h2>
+    <time datetime="2026-05-21T00:00:00+00:00">2026-05-21T00:00:00+00:00</time>
+    <p><strong>Resolved Issues</strong></p><ul><li><p><strong>Hotfix: </strong>Fixed an issue where the Unified Agent failed to correctly identify Python .whl files in the local cache for packages using calendar-based or single-integer versioning. This fix ensures that all dependency metadata, including file paths and hashes, is accurately captured during Poetry scans.</p></li></ul>
   </section>
   <hr/>
   <section>
@@ -79,8 +79,8 @@
   </section>
   <hr/>
   <section>
-    <h2><a href="https://github.com/renovatebot/renovate/releases/tag/43.186.0">Mend Renovate CLI: 43.186.0</a></h2>
-    <time datetime="2026-05-19T16:30:00+00:00">2026-05-19T16:30:00+00:00</time>
+    <h2><a href="https://github.com/renovatebot/renovate/releases/tag/43.195.5">Mend Renovate CLI: 43.195.5</a></h2>
+    <time datetime="2026-05-25T13:46:32+00:00">2026-05-25T13:46:32+00:00</time>
     <p></p>
   </section>
   <hr/>
