@@ -7,104 +7,323 @@
     <atom:link href="https://bflam1.github.io/RSS/atom.xml" rel="self"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 26 May 2026 09:31:48 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jun 2026 18:28:29 +0000</lastBuildDate>
     <item>
-      <title>Mend Renovate CC-EE: 14.5.0</title>
-      <link>https://github.com/mend/renovate-ce-ee/releases/tag/14.5.0</link>
+      <title>Mend Renovate CC-EE: 14.6.0</title>
+      <link>https://github.com/mend/renovate-ce-ee/releases/tag/14.6.0</link>
       <description>&lt;p&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://github.com/mend/renovate-ce-ee/releases/tag/14.5.0</guid>
-      <pubDate>Mon, 27 Apr 2026 14:10:51 +0000</pubDate>
+      <guid isPermaLink="false">https://github.com/mend/renovate-ce-ee/releases/tag/14.6.0</guid>
+      <pubDate>Mon, 01 Jun 2026 18:28:29 +0000</pubDate>
     </item>
     <item>
-      <title>Mend Renovate CLI: 43.195.8</title>
-      <link>https://github.com/renovatebot/renovate/releases/tag/43.195.8</link>
+      <title>Mend Renovate CLI: 43.207.3</title>
+      <link>https://github.com/renovatebot/renovate/releases/tag/43.207.3</link>
       <description>&lt;p&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://github.com/renovatebot/renovate/releases/tag/43.195.8</guid>
-      <pubDate>Tue, 26 May 2026 09:31:48 +0000</pubDate>
+      <guid isPermaLink="false">https://github.com/renovatebot/renovate/releases/tag/43.207.3</guid>
+      <pubDate>Mon, 01 Jun 2026 16:42:41 +0000</pubDate>
     </item>
     <item>
-      <title>Mend for Bitbucket DC: Version 26.4.1.1 (19-April-2026)</title>
+      <title>Mend for Bitbucket DC: Version 26.5.1.2 (01-June-2026)</title>
       <link>https://docs.mend.io/integrations/latest/mend-for-bitbucket-data-center-release-notes</link>
-      <description>&lt;p local-id="7a3f6cb0206f"&gt;Unified Agent 26.3.2 | &lt;a class="external-link" href="https://github.com/renovatebot/renovate/releases/tag/43.102.11" rel="nofollow" shape="rect"&gt;&lt;u&gt;Renovate 43.102.11&lt;/u&gt;&lt;/a&gt; | Remediate 26.4.1 | Pre-Scan Builder (PSB) 25.8.1&lt;/p&gt;&lt;p local-id="37d7b0b92875"&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="94b0656b-05fe-4286-b148-5bf5b9ddeb19"&gt;&lt;li local-id="2a15d9ea-dc76-40da-9e9b-7d9cea6667b6"&gt;&lt;p local-id="aaeb8b1707cf"&gt;Added support for disabling specific package manager resolvers using the &lt;a data-linked-resource-id="3166109697" data-linked-resource-type="page" data-linked-resource-version="80" href="https://docs.mend.io/platform/latest/mend-sca-cli-support-matrix#Resolver-Exclusion"&gt;{PACAKGE_MANAGER}.resolveDependencies parameter&lt;/a&gt;, allowing more granular control over dependency resolution.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p local-id="b863fbaee69d"&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="a613bc11-7c00-4e5f-a0d2-a6934f165cb5"&gt;&lt;li local-id="f3a7b939-46b4-432d-a0f6-4889c48cc6a1"&gt;&lt;p local-id="92357bd34c86"&gt;Fixed an issue where the clone, fetch, and checkout commands in the scanner were limited to a fixed 15‑minute timeout, which caused failures with large repositories. Timeouts are now configurable through the environment variables listed below, providing better support for large repositories.&lt;/p&gt;&lt;ul local-id="39499b6c-adf4-406f-853e-87b025d5bc64"&gt;&lt;li local-id="ca61a4d6-3bf1-48de-b614-3cab704a8cea"&gt;&lt;p local-id="61250bb52d44"&gt;GIT_CLONE_TIMEOUT_MINS &lt;/p&gt;&lt;/li&gt;&lt;li local-id="2037d7b9-64c2-49f6-9207-62946c182ac8"&gt;&lt;p local-id="d6d1378cb82d"&gt;GIT_FETCH_TIMEOUT_MINS &lt;/p&gt;&lt;/li&gt;&lt;li local-id="3accfc04-dde5-427f-91b0-00be2a559d38"&gt;&lt;p local-id="85359e4c06d2"&gt;GIT_CHECKOUT_TIMEOUT_MINS&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+      <description>
+&lt;p&gt;Unified Agent 26.4.3.1 | &lt;a data-scope="external" href="https://github.com/renovatebot/renovate/releases/tag/43.141.3" rel="external noreferrer"&gt;&lt;u&gt;Renovate 43.141.3&lt;/u&gt;&lt;/a&gt; | Remediate 26.5.1 | Pre-Scan Builder (PSB) 25.8.1&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Added logic to prevent AI scans from running on feature branches during repository integration scans. AI scans will now only run on base branches, ensuring feature branches are excluded from automated AI analysis.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Fixed an issue where projects specifying .NET 10 in the .csproj file did not resolve dependencies as expected. The system now detects SDK version mismatches, automatically installs the required .NET SDK, and retries dependency resolution to ensure all dependencies are properly detected.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Fixed an issue where preserved user agent properties were not enforced during SCM scans, allowing unintended overrides. Now, all relevant properties are correctly handled to ensure consistent enforcement.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
       <guid isPermaLink="false">https://docs.mend.io/integrations/latest/mend-for-bitbucket-data-center-release-notes</guid>
-      <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Mend for GitLab: Version 26.4.1.1 (19-April-2026)</title>
+      <title>Mend for GitLab: Version 26.5.1.2 (01-June-2026)</title>
       <link>https://docs.mend.io/integrations/latest/mend-for-gitlab-release-notes</link>
-      <description>&lt;p local-id="681be5a5f025"&gt;Unified Agent 26.3.2 | &lt;a class="external-link" href="https://github.com/renovatebot/renovate/releases/tag/43.102.11" rel="nofollow" shape="rect"&gt;&lt;u&gt;Renovate 43.102.11&lt;/u&gt;&lt;/a&gt; | Remediate 26.4.1 | Pre-Scan Builder (PSB) 25.8.1&lt;/p&gt;&lt;p local-id="410ca5b3a2b0"&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="320a54c5-2756-4106-9378-b8dad97e5f6d"&gt;&lt;li local-id="1dfb2bb7-46ee-4853-98e7-2bc2bf99689d"&gt;&lt;p local-id="d91bfc1ade95"&gt;Added support for disabling specific package manager resolvers using the &lt;a data-linked-resource-id="3166109697" data-linked-resource-type="page" data-linked-resource-version="80" href="https://docs.mend.io/platform/latest/mend-sca-cli-support-matrix#Resolver-Exclusion"&gt;{PACAKGE_MANAGER}.resolveDependencies parameter&lt;/a&gt;, allowing more granular control over dependency resolution.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="7795b481-59bf-45df-adae-cb3ab29ce17b"&gt;&lt;p local-id="7915f2680fc2"&gt;Introduced a lower priority queue for &lt;a data-linked-resource-id="3899883538" data-linked-resource-type="page" data-linked-resource-version="18" href="https://docs.mend.io/integrations/latest/configure-sca-reachability-for-gitlab"&gt;&lt;u&gt;Reachability&lt;/u&gt;&lt;/a&gt; "zero day" scans. This enhancement prevents system overload and ensures more reliable scan processing for enterprise customers with large deployments during periods of high CVE alert activity.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p local-id="92242d95bf99"&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="a754122b7971"&gt;&lt;li local-id="bff1412d-b20c-4976-8d63-e0727ef87f9e"&gt;&lt;p local-id="5a1d37cc78de"&gt;Fixed an issue where the clone, fetch, and checkout commands in the scanner were limited to a fixed 15‑minute timeout, which caused failures with large repositories. Timeouts are now configurable through the environment variables listed below, providing better support for large repositories.&lt;/p&gt;&lt;ul local-id="f335e4df-43ba-4e02-aae0-393ea56fd3a6"&gt;&lt;li local-id="d5d5c5b8-dd6f-419b-8eaa-0866dddbd8fe"&gt;&lt;p local-id="4c7cc08a63be"&gt;GIT_CLONE_TIMEOUT_MINS &lt;/p&gt;&lt;/li&gt;&lt;li local-id="3902b627-0ac9-4eb5-91c2-ea72c6d1cd29"&gt;&lt;p local-id="a561cbcd58c4"&gt;GIT_FETCH_TIMEOUT_MINS &lt;/p&gt;&lt;/li&gt;&lt;li local-id="6b631243-6343-462d-9b49-0683a7c4b0b7"&gt;&lt;p local-id="d568b1caee30"&gt;GIT_CHECKOUT_TIMEOUT_MINS&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+      <description>
+&lt;p&gt;Unified Agent 26.4.3.1 | &lt;a data-scope="external" href="https://github.com/renovatebot/renovate/releases/tag/43.141.3" rel="external noreferrer"&gt;&lt;u&gt;Renovate 43.141.3&lt;/u&gt;&lt;/a&gt; | Remediate 26.5.1 | Pre-Scan Builder (PSB) 25.8.1&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Added logic to prevent AI scans from running on feature branches during repository integration scans. AI scans will now only run on base branches, ensuring feature branches are excluded from automated AI analysis.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Fixed an issue where projects specifying .NET 10 in the .csproj file did not resolve dependencies as expected. The system now detects SDK version mismatches, automatically installs the required .NET SDK, and retries dependency resolution to ensure all dependencies are properly detected.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Fixed an issue where preserved user agent properties were not enforced during SCM scans, allowing unintended overrides. Now, all relevant properties are correctly handled to ensure consistent enforcement.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
       <guid isPermaLink="false">https://docs.mend.io/integrations/latest/mend-for-gitlab-release-notes</guid>
-      <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Mend for GitHub Enterprise: Version 26.4.1.1 (19-April-2026)</title>
+      <title>Mend for GitHub Enterprise: Version 26.5.1.2 (01-June-2026)</title>
       <link>https://docs.mend.io/integrations/latest/mend-for-github-enterprise-release-notes</link>
-      <description>&lt;p local-id="f8f84ff21baf"&gt;Unified Agent 26.3.2 | &lt;a class="external-link" href="https://github.com/renovatebot/renovate/releases/tag/43.102.11" rel="nofollow" shape="rect"&gt;&lt;u&gt;Renovate 43.102.11&lt;/u&gt;&lt;/a&gt; | Remediate 26.4.1 | Pre-Scan Builder (PSB) 25.8.1&lt;/p&gt;&lt;p local-id="726856e05372"&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="c52a8384-1e6c-4d02-887b-fac2d79400db"&gt;&lt;li local-id="e497f0c2-ad15-46bf-9a08-ca286e1e9e40"&gt;&lt;p local-id="d5315136ee8a"&gt;Added support for disabling specific package manager resolvers using the &lt;a data-linked-resource-id="3166109697" data-linked-resource-type="page" data-linked-resource-version="80" href="https://docs.mend.io/platform/latest/mend-sca-cli-support-matrix#Resolver-Exclusion"&gt;{PACAKGE_MANAGER}.resolveDependencies parameter&lt;/a&gt;, allowing more granular control over dependency resolution.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="a61c89cc-5348-46b9-96e7-90122eed04e2"&gt;&lt;p local-id="8fce75bb95ef"&gt;Introduced a lower priority queue for &lt;a data-linked-resource-id="2884895138" data-linked-resource-type="page" data-linked-resource-version="33" href="https://docs.mend.io/integrations/latest/configure-sca-reachability-for-github-enterprise"&gt;&lt;u&gt;Reachability&lt;/u&gt;&lt;/a&gt; "zero day" scans. This enhancement prevents system overload and ensures more reliable scan processing for enterprise customers with large deployments during periods of high CVE alert activity.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p local-id="d749f8e8a2f4"&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="ec748b46-053c-4f87-9c31-62859e61e034"&gt;&lt;li local-id="3115ae16-4cbe-4f93-bbd5-1c62e6cf6064"&gt;&lt;p local-id="1b8baa2341b3"&gt;Fixed an issue where the clone, fetch, and checkout commands in the scanner were limited to a fixed 15‑minute timeout, which caused failures with large repositories. Timeouts are now configurable through the environment variables listed below, providing better support for large repositories.&lt;/p&gt;&lt;ul local-id="e24bb76a-9c94-480e-b019-3017b44627d4"&gt;&lt;li local-id="fd46d12f-fc97-45de-b751-18ddf0417fed"&gt;&lt;p local-id="948f1040f0bf"&gt;GIT_CLONE_TIMEOUT_MINS &lt;/p&gt;&lt;/li&gt;&lt;li local-id="262a1ef8-5256-4a35-bf08-f8b6bfe55f4b"&gt;&lt;p local-id="ca76e926739b"&gt;GIT_FETCH_TIMEOUT_MINS &lt;/p&gt;&lt;/li&gt;&lt;li local-id="d930adca-5f08-468c-8b17-8b6267279858"&gt;&lt;p local-id="a2b798c6b80c"&gt;GIT_CHECKOUT_TIMEOUT_MINS&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+      <description>
+&lt;p&gt;Unified Agent 26.4.3.1 | &lt;a data-scope="external" href="https://github.com/renovatebot/renovate/releases/tag/43.141.3" rel="external noreferrer"&gt;&lt;u&gt;Renovate 43.141.3&lt;/u&gt;&lt;/a&gt; | Remediate 26.5.1 | Pre-Scan Builder (PSB) 25.8.1&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;(SAST)&lt;/strong&gt; Introducing seamless two-way communication between developers and security reviewers on security findings. Developers can now comment on findings directly from their repository, while reviewer comments from the Mend Platform are instantly visible to developers, streamlining collaboration and accelerating issue resolution.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;For GitHub Enterprise (using the .whitesource file), security actions such as suppressing findings can now be triggered by posting a comment on the PR or issue instead of checking a checkbox. This makes it easier to add context when suppressing a finding and provides clearer feedback confirming that an action was performed.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Introduced a new issueType configuration option - &lt;code&gt;findingsIncludingPullRequests&lt;/code&gt; - which creates a separate issue for all findings on both base branches and on feature branches with pull requests to base branches.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;When that option is enabled, developers and security reviewers can communicate directly on security findings without leaving their tools. Developers can add comments on findings from their GitHub Enterprise repository, and comments added by security reviewers in the Mend Platform are automatically synced to the repository. Likewise, comments added in the repository (via a special command) are synced back to the Mend Platform, ensuring conversations stay mirrored and visible in both locations. This eliminates the need for back-and-forth communication through external channels, making it faster and easier to clarify remediation steps and resolve security issues.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;When suppression requests are approved or rejected, the corresponding GitHub issue gets updated.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The feature will be rolled out gradually in the next two weeks.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Added logic to prevent AI scans from running on feature branches during repository integration scans. AI scans will now only run on base branches, ensuring feature branches are excluded from automated AI analysis.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Fixed an issue where deleting a GitHub Enterprise organization did not remove the corresponding Mend product/application, resulting in orphaned entries. Now, Mend correctly deletes the product/application when the organization is deleted.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Fixed an issue where projects specifying .NET 10 in the .csproj file did not resolve dependencies as expected. The system now detects SDK version mismatches, automatically installs the required .NET SDK, and retries dependency resolution to ensure all dependencies are properly detected.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Fixed an issue where preserved user agent properties were not enforced during SCM scans, allowing unintended overrides. Now, all relevant properties are correctly handled to ensure consistent enforcement.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
       <guid isPermaLink="false">https://docs.mend.io/integrations/latest/mend-for-github-enterprise-release-notes</guid>
-      <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Mend for GitHub.com: Version 26.4.3 (17-May-2026)</title>
+      <title>Mend for GitHub.com: Version 26.5.1.1 (31-May-2026)</title>
       <link>https://docs.mend.io/integrations/latest/mend-for-github-com-release-notes</link>
-      <description>&lt;p local-id="36e2db69f654"&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="9a5e3371-1c17-4a9d-a5d4-ee8b741af287"&gt;&lt;li local-id="f52f80de-c68f-4d8b-b29f-6d301b997bd0"&gt;&lt;p local-id="795ee1ba4205"&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Fixed an issue where projects specifying .NET 10 in the .csproj file did not resolve dependencies as expected. The system now detects SDK version mismatches, automatically installs the required .NET SDK, and retries dependency resolution to ensure all dependencies are properly detected.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+      <description>
+&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;(SAST)&lt;/strong&gt; Introducing seamless two-way communication between developers and security reviewers on security findings. Developers can now comment on findings directly from their repository, while reviewer comments from the Mend Platform are instantly visible to developers, streamlining collaboration and accelerating issue resolution.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;For GitHub.com (using the .whitesource file), security actions such as suppressing findings can now be triggered by posting a comment on the PR or issue instead of checking a checkbox. This makes it easier to add context when suppressing a finding and provides clearer feedback confirming that an action was performed.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Introduced a new issueType configuration option - &lt;code&gt;findingsIncludingPullRequests&lt;/code&gt; - which creates a separate issue for all findings on both base branches and on feature branches with pull requests to base branches.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;When that option is enabled, developers and security reviewers can communicate directly on security findings without leaving their tools. Developers can add comments on findings from their GitHub repository, and comments added by security reviewers in the Mend Platform are automatically synced to the repository. Likewise, comments added in the repository (via a special command) are synced back to the Mend Platform, ensuring conversations stay mirrored and visible in both locations. This eliminates the need for back-and-forth communication through external channels, making it faster and easier to clarify remediation steps and resolve security issues.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;When suppression requests are approved or rejected, the corresponding GitHub issue gets updated.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The feature will be rolled out gradually in the next two weeks.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Added logic to prevent AI scans from running on feature branches during repository integration scans. AI scans will now only run on base branches, ensuring feature branches are excluded from automated AI analysis.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
       <guid isPermaLink="false">https://docs.mend.io/integrations/latest/mend-for-github-com-release-notes</guid>
-      <pubDate>Sun, 17 May 2026 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Mend Developer Platform: Version 26.4.3 (17-May-2026)</title>
+      <title>Mend Developer Platform: Version 26.5.1 (31-May-2026)</title>
       <link>https://docs.mend.io/integrations/latest/mend-developer-platform-release-notes</link>
-      <description>&lt;p local-id="c164ded30ccc"&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="cffbde7e-932a-44ec-953f-ead20bba334e"&gt;&lt;li local-id="fc1898926638"&gt;&lt;p local-id="5122884b3bd8"&gt;Improved the navigation in the repository page within the developer platform, especially for organizations with a large number of repositories.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p local-id="c6d7cb6732e7"&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="3c3d25d7-450b-418d-bb4f-5dca225e4e2b"&gt;&lt;li local-id="8113a469-c638-4bdd-91e5-18990d587d95"&gt;&lt;p local-id="69e0610f6d24"&gt;(AZDO) Fixed an issue where pull request scans between configured base branches in Azure DevOps could fail with a "Failed to retrieve base branch mend project" error, even though a valid scan occurred on the commit itself. This resolves inconsistent scan behavior when multiple base branches are configured.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="ecd0b553-2508-4e8d-afca-c395e2a2099e"&gt;&lt;p local-id="7bb8b9ef3691"&gt;(AZDO) Fixed an issue where onboarding failed for users with a large number of Azure DevOps organizations, causing excessive loading times and timeouts. The onboarding flow was redesigned to fetch and display organizations first, allowing users to select specific organizations before loading their projects, significantly improving performance and user experience.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="595dee13e3dd"&gt;&lt;p local-id="7b7f959097e7"&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Fixed an issue where projects specifying .NET 10 in the .csproj file did not resolve dependencies as expected. The system now detects SDK version mismatches, automatically installs the required .NET SDK, and retries dependency resolution to ensure all dependencies are properly detected.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+      <description>
+&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Enhanced the onboarding and sidebar experience for GitLab users by enabling efficient loading and navigation of large numbers of groups and subgroups. This update introduces incremental loading, improved selection indicators, and removes the search bar and group counters for a smoother, more scalable user experience.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;(GitHub) Fixed an issue where non-admin members of GitHub organizations enforcing SAML SSO were denied access to their organization in the Developer Platform. This occurred when the user's OAuth token was not SAML-authorized, causing a permission error. The authentication process has been updated to verify organization membership using GitHub App credentials, ensuring consistent access for all legitimate members regardless of their individual token's SAML status.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;(AZDO) Fixed an issue where an organization secret could not be added in &lt;a data-scope="external" href="http://developer-eu.mend.io/" rel="external noreferrer"&gt;developer-eu.mend.io&lt;/a&gt; for Azure DevOps.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
       <guid isPermaLink="false">https://docs.mend.io/integrations/latest/mend-developer-platform-release-notes</guid>
-      <pubDate>Sun, 17 May 2026 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Mend Unified Agent: Version 26.4.3.1 (21-May-2026)</title>
+      <title>Mend Unified Agent: Version 26.5.1 (01-June-2026)</title>
       <link>https://docs.mend.io/legacy-sca/latest/mend-unified-agent-release-notes</link>
-      <description>&lt;p local-id="824f78af9764"&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="08eb826a58bc"&gt;&lt;li local-id="af2a93eedbd1"&gt;&lt;p local-id="b9eb5918306e"&gt;&lt;strong&gt;Hotfix: &lt;/strong&gt;Fixed an issue where the Unified Agent failed to correctly identify Python .whl files in the local cache for packages using calendar-based or single-integer versioning. This fix ensures that all dependency metadata, including file paths and hashes, is accurately captured during Poetry scans.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+      <description>
+&lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Fixed an issue where the Unified Agent would hang indefinitely when processing compressed offline request files on newer JDK versions, such as Java 21. This was caused by a threading deadlock during decompression. The process has been updated to use a more efficient, non-threaded decompression method, ensuring compatibility across all supported JDK versions and significantly improving processing speed.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
       <guid isPermaLink="false">https://docs.mend.io/legacy-sca/latest/mend-unified-agent-release-notes</guid>
-      <pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Mend CLI: Version 26.4.3 (18-May-2026)</title>
       <link>https://docs.mend.io/platform/latest/mend-cli-release-notes</link>
-      <description>&lt;p local-id="898c94478fa9"&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="55cd656b5ca4"&gt;&lt;li local-id="547e2b2928f9"&gt;&lt;p local-id="e345340ad8f0"&gt;&lt;strong&gt;(Limited Availability)&lt;/strong&gt; &lt;strong&gt;(SCA)&lt;/strong&gt; Introducing an improved .NET resolver which relies on &lt;code&gt;&lt;project_name&gt;.deps.json&lt;/code&gt; in the build folder for increased dependency detection accuracy.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p local-id="9521a2f33303"&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="8a95876a-65b3-439a-834d-d4057218f436"&gt;&lt;li local-id="e1c41a7b-ad92-439f-b41f-324036e67e3f"&gt;&lt;p local-id="d4ae7949abf7"&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Fixed an issue where dependency scans would intermittently fail during policy compliance checks, resulting in an "asyncCheckPolicyCompliace failed" message. Scans now complete successfully without unexpected interruptions.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="6e190022-684d-48d0-99a4-1925e8ba86c1"&gt;&lt;p local-id="c7c3dd24c5df"&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Fixed an issue where environment variable-based configurations were not loaded correctly in the CLI, resulting in empty values. The CLI now properly reads MEND_-prefixed environment variables and applies them as expected.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+      <description>
+&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;(Limited Availability)&lt;/strong&gt; &lt;strong&gt;(SCA)&lt;/strong&gt; Introducing an improved .NET resolver which relies on &lt;code&gt;&lt;project_name&gt;.deps.json&lt;/code&gt; in the build folder for increased dependency detection accuracy.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Fixed an issue where dependency scans would intermittently fail during policy compliance checks, resulting in an "asyncCheckPolicyCompliace failed" message. Scans now complete successfully without unexpected interruptions.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Fixed an issue where environment variable-based configurations were not loaded correctly in the CLI, resulting in empty values. The CLI now properly reads MEND_-prefixed environment variables and applies them as expected.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
       <guid isPermaLink="false">https://docs.mend.io/platform/latest/mend-cli-release-notes</guid>
       <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Mend AI: Version 25.12.1 (05-January-2026)</title>
       <link>https://docs.mend.io/platform/latest/mend-ai-release-notes</link>
-      <description>&lt;p local-id="bbe72b97-0bc2-43d9-aa21-f2cad95df6fc"&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="94228aa5-6b3d-4e9e-894c-ac5f4a1963c5"&gt;&lt;li local-id="6930035b-48a3-42cc-8e97-9ece0b0d749c"&gt;&lt;p local-id="cdbbba34-75a3-4e8d-ad2d-27402bf5c8f8"&gt;&lt;strong&gt;(Premium / Core)&lt;/strong&gt; Introducing &lt;a data-linked-resource-id="3889922052" data-linked-resource-type="page" data-linked-resource-version="24" href="https://docs.mend.io/platform/latest/system-prompt-risk"&gt;&lt;strong&gt;System Prompt Risk&lt;/strong&gt;&lt;/a&gt; (open beta), a new detection and remediation offering by Mend AI, for mitigating risks posed by system prompts used in conversational AI interfaces. &lt;/p&gt;&lt;ul local-id="2f08d716-3e1b-4fcd-8a49-109ac5c1336e"&gt;&lt;li local-id="045a62a2-d4e6-4e7f-9b0d-850c087a0b56"&gt;&lt;p local-id="6a6fd5fd-bf2d-4a92-b733-b891395c62c3"&gt;A new System Prompt Risk table inventories system prompts and provides quick export/sharing and deep-link side panel for prompt context.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="f3b932f1-248b-4b50-b3e3-a9cd46079289"&gt;&lt;p local-id="a2eac59d-fb22-49bd-a145-ed6a4c4b05fd"&gt;System Prompt Risks are integrated into the existing &lt;a data-linked-resource-id="3813965828" data-linked-resource-type="page" data-linked-resource-version="5" href="https://docs.mend.io/platform/latest/risk-factors-in-mend-ai"&gt;AI Security Risk Factors&lt;/a&gt; across Projects and Applications. The classification appears as a Conversational Interface chip, is filterable, and automatically participates in dashboards and workflows.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="739ff798-14fc-47e0-a944-aa4f676705ff"&gt;&lt;p local-id="3369a5a5-6102-42c5-9724-c102ca4699d7"&gt;Remediation in the form of a &lt;strong&gt;hardened system prompt&lt;/strong&gt; is available in the System Prompt side panel, providing clear, copy-ready remediation guidance for AppSec engineers and developers.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="0e6d0222-8b4b-4cc8-9020-48c7bc5f918a"&gt;&lt;p local-id="45be7115-9240-4c1e-a335-e2554554a39e"&gt;The &lt;a data-linked-resource-id="3806789636" data-linked-resource-type="page" data-linked-resource-version="15" href="https://docs.mend.io/platform/latest/ai-security-dashboard"&gt;AI Security Dashboard&lt;/a&gt; has been enriched with system prompt risk data.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="57a28a16-64c1-4f9b-bb57-d76a1afbf06f"&gt;&lt;p local-id="4af6cf1d-53e0-406d-abdb-bf67c6e85160"&gt;System prompt risk data is also available via &lt;a class="external-link" href="https://api-docs.mend.io/platform/3.0/ai" rel="nofollow" shape="rect"&gt;API&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+      <description>
+&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;(Premium / Core)&lt;/strong&gt; Introducing &lt;a data-scope="internal" href="https://docs.mend.io/platform/latest/system-prompt-risk"&gt;&lt;strong&gt;System Prompt Risk&lt;/strong&gt;&lt;/a&gt; (open beta), a new detection and remediation offering by Mend AI, for mitigating risks posed by system prompts used in conversational AI interfaces.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;A new System Prompt Risk table inventories system prompts and provides quick export/sharing and deep-link side panel for prompt context.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;System Prompt Risks are integrated into the existing &lt;a data-scope="internal" href="https://docs.mend.io/platform/latest/risk-factors-in-mend-ai"&gt;AI Security Risk Factors&lt;/a&gt; across Projects and Applications. The classification appears as a Conversational Interface chip, is filterable, and automatically participates in dashboards and workflows.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Remediation in the form of a &lt;strong&gt;hardened system prompt&lt;/strong&gt; is available in the System Prompt side panel, providing clear, copy-ready remediation guidance for AppSec engineers and developers.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The &lt;a data-scope="internal" href="https://docs.mend.io/platform/latest/ai-security-dashboard"&gt;AI Security Dashboard&lt;/a&gt; has been enriched with system prompt risk data.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;System prompt risk data is also available via &lt;a data-scope="external" href="https://api-docs.mend.io/platform/3.0/ai" rel="external noreferrer"&gt;API&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
       <guid isPermaLink="false">https://docs.mend.io/platform/latest/mend-ai-release-notes</guid>
       <pubDate>Mon, 05 Jan 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Mend Container: Version 26.4.2 (03-May-2026)</title>
       <link>https://docs.mend.io/platform/latest/mend-container-release-notes</link>
-      <description>&lt;p local-id="804760115e67"&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="cd82e364-2b19-4006-8efa-9cb6356d37eb"&gt;&lt;li local-id="1ca7b5fad9a8"&gt;&lt;p local-id="2a1d06520026"&gt;Fixed an issue where the &lt;code&gt;bson&lt;/code&gt; package version was incorrectly detected as UNKNOWN, resulting in a false positive for CVE-2020-7610. The scanner now accurately identifies bson@1.1.4 and avoids reporting this vulnerability when the correct version is present.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+      <description>
+&lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Fixed an issue where the &lt;code&gt;bson&lt;/code&gt; package version was incorrectly detected as UNKNOWN, resulting in a false positive for CVE-2020-7610. The scanner now accurately identifies bson@1.1.4 and avoids reporting this vulnerability when the correct version is present.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
       <guid isPermaLink="false">https://docs.mend.io/platform/latest/mend-container-release-notes</guid>
       <pubDate>Sun, 03 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Mend SAST: Version 26.4.3 (18-May-2026)</title>
+      <title>Mend SAST: Version 26.5.1 (01-June-2026)</title>
       <link>https://docs.mend.io/platform/latest/mend-sast-release-notes</link>
-      <description>&lt;p local-id="fd9f9c74c3b3"&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="629d7f25-c84f-440d-bbc8-8085ad709b27"&gt;&lt;li local-id="fda59befeac9"&gt;&lt;p local-id="ac3562437572"&gt;Mend now offers a SAST plugin for &lt;a data-linked-resource-id="4302307339" data-linked-resource-type="page" data-linked-resource-version="8" href="https://docs.mend.io/integrations/latest/mend-code-security-tool-for-jetbrains"&gt;JetBrains IDEs&lt;/a&gt; (IntelliJ and others), allowing developers to find and fix security vulnerabilities without leaving their editor. The plugin allows developers to run a scan, highlights vulnerable lines of code directly in the editor, and separates the new issues introduced by the developer's own changes from the existing issues — keeping the noise low. For each finding, developers can see remediation suggestions, code flow traces, CWE descriptions, and training materials. Applying a fix is a single click: the plugin shows a code diff and patches the file automatically. IDE scans are kept isolated from the Mend AppSec Platform, meaning local scans don't affect project-level statistics.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="56a4abf2da95"&gt;&lt;p local-id="a09fa26b18cd"&gt;The &lt;a data-linked-resource-id="4299849739" data-linked-resource-type="page" data-linked-resource-version="4" href="https://docs.mend.io/platform/latest/go-gen-2"&gt;Gen 2 Go detection engine&lt;/a&gt; is now generally available, delivering increased coverage and accuracy for Go code analysis.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="00b598a548b4"&gt;&lt;p local-id="e1f45da22aa7"&gt;Secrets scanning now detects hardcoded Stripe credentials more robustly.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="fdec3005ed57"&gt;&lt;p local-id="fdeb34652cee"&gt;Improved secret detection by addressing cases where certain secrets were previously missed during scanning.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p local-id="b81a49aa27f0"&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="f8f1bb9b-397e-41ca-8ad2-b091bb7e5474"&gt;&lt;li local-id="2aede88b-e0c2-456c-9a64-f5b03381d0e1"&gt;&lt;p local-id="a8150b784739"&gt;Fixed an issue where SSRF (Server-Side Request Forgery) vulnerabilities were incorrectly flagged as false positives in C# (Gen2) scans.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+      <description>
+&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;(Closed Beta)&lt;/strong&gt; Mend SAST now supports a new programming language! First as a closed beta program, customers can now analyze &lt;a data-scope="internal" href="https://docs.mend.io/platform/latest/scala"&gt;Scala&lt;/a&gt; projects to even further reduce security risk.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Improved accuracy of Dangerous Method detection in Swift.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
       <guid isPermaLink="false">https://docs.mend.io/platform/latest/mend-sast-release-notes</guid>
-      <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Mend SCA: Version 26.4.3 (18-May-2026)</title>
+      <title>Mend SCA: Version 26.5.1 (31-May-2026)</title>
       <link>https://docs.mend.io/platform/latest/mend-sca-release-notes</link>
-      <description>&lt;p local-id="3a306f173f99"&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="83e13713-c0dd-4bfe-aca9-20088c75540f"&gt;&lt;li local-id="7fdbac41-1a48-41e6-9091-d867a7fb74b0"&gt;&lt;p local-id="4e0ce4703f62"&gt;&lt;strong&gt;(Limited Availability)&lt;/strong&gt; Introducing an improved .NET resolver in the Mend CLI, which relies on &lt;code&gt;&lt;project_name&gt;.deps.json&lt;/code&gt; in the build folder for increased dependency detection accuracy.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p local-id="224d8e52c3cb"&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="c638ce1845b0"&gt;&lt;li local-id="7090875b36bf"&gt;&lt;p local-id="abb1a9f7837a"&gt;Fixed an issue where an incorrect license was reported for newrelic-agent-3.39.1.jar&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+      <description>
+&lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Fixed an issue where inconsistent license information was identified for popular Python packages. The license reporting logic has been updated to ensure the primary license is consistently and accurately reflected across all versions and distributions.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Fixed an issue where the "Show only vulnerable libraries" toggle in the Tree View did not filter out non-vulnerable libraries, causing all libraries to be displayed regardless of their vulnerability status. Now, enabling the toggle correctly shows only libraries with associated findings.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Fixed an issue where the APIv3 endpoint for exporting project SBOM reports asynchronously did not generate reports as expected.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Fixed an issue where users with the Product Administrator role received a failed scan status when using the SBOM Import API. The fix ensures that scans now finish with the correct status for authorized users.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
       <guid isPermaLink="false">https://docs.mend.io/platform/latest/mend-sca-release-notes</guid>
-      <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Mend AppSec Platform: Version 26.4.3 (17-May-2026)</title>
+      <title>Mend AppSec Platform: Version 26.5.1 (31-May-2026)</title>
       <link>https://docs.mend.io/platform/latest/mend-platform-release-notes</link>
-      <description>&lt;p local-id="c94e86597eec"&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="1d47db605110"&gt;&lt;li local-id="2987f7d9a376"&gt;&lt;p local-id="9054e7e1365a"&gt;&lt;strong&gt;(Closed Beta)&lt;/strong&gt; Introducing custom roles with granular permissions, allowing organizations to define and assign least-privilege access via groups at both organization and application levels. This update enhances security and governance by enabling fine-grained control, separation of duties, and centralized role management, while maintaining full compatibility with existing roles.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="39f7f5d220f5"&gt;&lt;p local-id="932811239bd0"&gt;UI Improvements:&lt;/p&gt;&lt;ul local-id="37bc6b044432"&gt;&lt;li local-id="dec7c8ba-719b-4d89-9295-d29fb6fe6f4e"&gt;&lt;p local-id="793e3287b9b6"&gt;Added an "Assigned by" field to each copyright entry in the OS library side panel, making it clear whether a copyright was detected by &lt;a class="external-link" href="http://Mend.io" rel="nofollow" shape="rect"&gt;Mend.io&lt;/a&gt; or manually set by a user. This enhancement improves audit clarity by matching the display logic already used in the Licenses tab, helping users easily distinguish between system-detected and user-overridden copyrights.&lt;/p&gt;&lt;/li&gt;&lt;li local-id="d839868a-f8e2-4f9e-86cf-456774dceb0b"&gt;&lt;p local-id="375019c78622"&gt;Replaced the floating filter row in Admin &gt; Applications with platform-standard filter buttons, saving vertical space and making active filters clearer. This update aligns the filtering experience with the rest of the platform for a more consistent and user-friendly interface.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p local-id="8dcaa957a5b8"&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;&lt;ul local-id="ffb7d895-12f9-4134-a84c-f54b73ff5435"&gt;&lt;li local-id="e1c41a7b-ad92-439f-b41f-324036e67e3f"&gt;&lt;p local-id="bcdc73172570"&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Fixed an issue where Mend CLI dependency scans would intermittently fail during policy compliance checks, resulting in an "asyncCheckPolicyCompliace failed" message. Scans now complete successfully without unexpected interruptions.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+      <description>
+&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a data-scope="internal" href="https://docs.mend.io/integrations/latest/mend-agentic-integration"&gt;Mend's MCP server&lt;/a&gt; now exposes security findings across SAST and SCA scanning engines so developers can query vulnerability data directly from their AI-powered tools and workflows. The findings come enriched with remediation suggestions, making it easier to understand and fix issues without leaving the tools they already use, or by instructing an agent to fix them. Developers can ask questions like "What are the top 5 security issues in this repo?" or "Explain this SQL injection finding" and their preferred agent will be able to answer these questions by communicating with the MCP server.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Fixed an issue where the "Show only vulnerable libraries" toggle in the Tree View did not filter out non-vulnerable libraries, causing all libraries to be displayed regardless of their vulnerability status. Now, enabling the toggle correctly shows only libraries with associated findings.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Fixed an issue where the APIv3 endpoint for exporting project SBOM reports asynchronously did not generate reports as expected.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Fixed an issue where users with the Product Administrator role received a failed scan status when using the SBOM Import API. The fix ensures that scans now finish with the correct status for authorized users.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
       <guid isPermaLink="false">https://docs.mend.io/platform/latest/mend-platform-release-notes</guid>
-      <pubDate>Sun, 17 May 2026 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
