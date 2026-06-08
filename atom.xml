@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://bflam1.github.io/RSS/atom.xml</id>
   <title>Mend.io Unified Release Notes</title>
-  <updated>2026-06-02T17:22:19+00:00</updated>
+  <updated>2026-06-08T13:55:24+00:00</updated>
   <author>
     <name>Mend Release Bot</name>
     <email>noreply@bflam1.github.io</email>
@@ -14,7 +14,7 @@
   <entry>
     <id>https://github.com/mend/renovate-ce-ee/releases/tag/mend-renovate-enterprise-edition-9.4.1</id>
     <title>Mend Renovate CC-EE: mend-renovate-enterprise-edition-9.4.1</title>
-    <updated>2026-06-02T17:51:45.257944+00:00</updated>
+    <updated>2026-06-08T16:56:07.791297+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -23,20 +23,20 @@
     <published>2026-06-02T08:24:07+00:00</published>
   </entry>
   <entry>
-    <id>https://github.com/renovatebot/renovate/releases/tag/43.209.1</id>
-    <title>Mend Renovate CLI: 43.209.1</title>
-    <updated>2026-06-02T17:51:45.257934+00:00</updated>
+    <id>https://github.com/renovatebot/renovate/releases/tag/43.216.1</id>
+    <title>Mend Renovate CLI: 43.216.1</title>
+    <updated>2026-06-08T16:56:07.791287+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
     <content type="html">&lt;p&gt;&lt;/p&gt;</content>
-    <link href="https://github.com/renovatebot/renovate/releases/tag/43.209.1"/>
-    <published>2026-06-02T17:22:19+00:00</published>
+    <link href="https://github.com/renovatebot/renovate/releases/tag/43.216.1"/>
+    <published>2026-06-08T13:55:24+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-bitbucket-data-center-release-notes</id>
     <title>Mend for Bitbucket DC: Version 26.5.1.2 (01-June-2026)</title>
-    <updated>2026-06-02T17:51:45.257922+00:00</updated>
+    <updated>2026-06-08T16:56:07.791275+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -46,6 +46,9 @@
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Added logic to prevent AI scans from running on feature branches during repository integration scans. AI scans will now only run on base branches, ensuring feature branches are excluded from automated AI analysis.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;(Renovate)&lt;/strong&gt; Introduced enhanced customization in Renovate Enterprise Cloud, enabling organizations to run custom scripts and configure environment variables and headers. These new capabilities, powered by secure MicroVM technology, provide greater flexibility and control for enterprise users. For more details, refer to the Renovate documentation.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;
@@ -64,7 +67,7 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-gitlab-release-notes</id>
     <title>Mend for GitLab: Version 26.5.1.2 (01-June-2026)</title>
-    <updated>2026-06-02T17:51:45.257913+00:00</updated>
+    <updated>2026-06-08T16:56:07.791263+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -74,6 +77,9 @@
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Added logic to prevent AI scans from running on feature branches during repository integration scans. AI scans will now only run on base branches, ensuring feature branches are excluded from automated AI analysis.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;(Renovate)&lt;/strong&gt; Introduced enhanced customization in Renovate Enterprise Cloud, enabling organizations to run custom scripts and configure environment variables and headers. These new capabilities, powered by secure MicroVM technology, provide greater flexibility and control for enterprise users. For more details, refer to the Renovate documentation.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;
@@ -92,7 +98,7 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-github-enterprise-release-notes</id>
     <title>Mend for GitHub Enterprise: Version 26.5.1.2 (01-June-2026)</title>
-    <updated>2026-06-02T17:51:45.257903+00:00</updated>
+    <updated>2026-06-08T16:56:07.791246+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -113,6 +119,9 @@
 &lt;p&gt;When that option is enabled, developers and security reviewers can communicate directly on security findings without leaving their tools. Developers can add comments on findings from their GitHub Enterprise repository, and comments added by security reviewers in the Mend Platform are automatically synced to the repository. Likewise, comments added in the repository (via a special command) are synced back to the Mend Platform, ensuring conversations stay mirrored and visible in both locations. This eliminates the need for back-and-forth communication through external channels, making it faster and easier to clarify remediation steps and resolve security issues.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
+&lt;p&gt;Introduced the ability for organizations to configure which SAST suppression reasons are available to developers in GitHub by specifying an array in the .whitesource file, enabling enforcement of custom suppression policies.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
 &lt;p&gt;When suppression requests are approved or rejected, the corresponding GitHub issue gets updated.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
@@ -122,6 +131,9 @@
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Added logic to prevent AI scans from running on feature branches during repository integration scans. AI scans will now only run on base branches, ensuring feature branches are excluded from automated AI analysis.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;(Renovate)&lt;/strong&gt; Introduced enhanced customization in Renovate Enterprise Cloud, enabling organizations to run custom scripts and configure environment variables and headers. These new capabilities, powered by secure MicroVM technology, provide greater flexibility and control for enterprise users. For more details, refer to the Renovate documentation.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;
@@ -143,7 +155,7 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-github-com-release-notes</id>
     <title>Mend for GitHub.com: Version 26.5.1.1 (31-May-2026)</title>
-    <updated>2026-06-02T17:51:45.257892+00:00</updated>
+    <updated>2026-06-08T16:56:07.791232+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -161,6 +173,9 @@
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;When that option is enabled, developers and security reviewers can communicate directly on security findings without leaving their tools. Developers can add comments on findings from their GitHub repository, and comments added by security reviewers in the Mend Platform are automatically synced to the repository. Likewise, comments added in the repository (via a special command) are synced back to the Mend Platform, ensuring conversations stay mirrored and visible in both locations. This eliminates the need for back-and-forth communication through external channels, making it faster and easier to clarify remediation steps and resolve security issues.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Introduced the ability for organizations to configure which SAST suppression reasons are available to developers in GitHub by specifying an array in the .whitesource file, enabling enforcement of custom suppression policies.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;When suppression requests are approved or rejected, the corresponding GitHub issue gets updated.&lt;/p&gt;
@@ -181,7 +196,7 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-developer-platform-release-notes</id>
     <title>Mend Developer Platform: Version 26.5.1 (31-May-2026)</title>
-    <updated>2026-06-02T17:51:45.257882+00:00</updated>
+    <updated>2026-06-08T16:56:07.791217+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -208,7 +223,7 @@
   <entry>
     <id>https://docs.mend.io/legacy-sca/latest/mend-unified-agent-release-notes</id>
     <title>Mend Unified Agent: Version 26.5.1 (01-June-2026)</title>
-    <updated>2026-06-02T17:51:45.257871+00:00</updated>
+    <updated>2026-06-08T16:56:07.791202+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -226,7 +241,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-cli-release-notes</id>
     <title>Mend CLI: Version 26.4.3 (18-May-2026)</title>
-    <updated>2026-06-02T17:51:45.257861+00:00</updated>
+    <updated>2026-06-08T16:56:07.791187+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -253,7 +268,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-ai-release-notes</id>
     <title>Mend AI: Version 25.12.1 (05-January-2026)</title>
-    <updated>2026-06-02T17:51:45.257849+00:00</updated>
+    <updated>2026-06-08T16:56:07.791168+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -288,7 +303,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-container-release-notes</id>
     <title>Mend Container: Version 26.4.2 (03-May-2026)</title>
-    <updated>2026-06-02T17:51:45.257837+00:00</updated>
+    <updated>2026-06-08T16:56:07.791151+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -306,7 +321,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-sast-release-notes</id>
     <title>Mend SAST: Version 26.5.1 (01-June-2026)</title>
-    <updated>2026-06-02T17:51:45.257823+00:00</updated>
+    <updated>2026-06-08T16:56:07.791130+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -315,6 +330,12 @@
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;(Closed Beta)&lt;/strong&gt; Mend SAST now supports a new programming language! First as a closed beta program, customers can now analyze &lt;a data-scope="internal" href="https://docs.mend.io/platform/latest/scala"&gt;Scala&lt;/a&gt; projects to even further reduce security risk.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a data-scope="internal" href="https://docs.mend.io/platform/latest/code-secret-scanning"&gt;Secret scanning&lt;/a&gt; now detects hardcoded private keys (&lt;code&gt;*.pem&lt;/code&gt;, &lt;code&gt;*.key&lt;/code&gt;) and committed certificate files (&lt;code&gt;*.pfx&lt;/code&gt;, &lt;code&gt;*.p12&lt;/code&gt;). PowerShell scripts (.ps1) are also included in the set of file types scanned by default. Additionally, the engine now detects a broad set of new credential patterns related to Azure Dev Ops products.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Added a new "Information Requested" state to suppression requests, enabling reviewers to request additional context from developers and filter these requests from their pending review queue. This update streamlines the review process and improves workflow efficiency.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;
@@ -330,7 +351,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-sca-release-notes</id>
     <title>Mend SCA: Version 26.5.1 (31-May-2026)</title>
-    <updated>2026-06-02T17:51:45.257799+00:00</updated>
+    <updated>2026-06-08T16:56:07.791100+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -357,7 +378,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-platform-release-notes</id>
     <title>Mend AppSec Platform: Version 26.5.1 (31-May-2026)</title>
-    <updated>2026-06-02T17:51:45.257767+00:00</updated>
+    <updated>2026-06-08T16:56:07.791061+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -366,6 +387,9 @@
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;a data-scope="internal" href="https://docs.mend.io/integrations/latest/mend-agentic-integration"&gt;Mend's MCP server&lt;/a&gt; now exposes security findings across SAST and SCA scanning engines so developers can query vulnerability data directly from their AI-powered tools and workflows. The findings come enriched with remediation suggestions, making it easier to understand and fix issues without leaving the tools they already use, or by instructing an agent to fix them. Developers can ask questions like "What are the top 5 security issues in this repo?" or "Explain this SQL injection finding" and their preferred agent will be able to answer these questions by communicating with the MCP server.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Added a new setting in Administration that allows organizations to control whether newly created applications are automatically assigned to the Admin group. This update improves administrative flexibility and ensures consistent access management for new applications, without affecting existing ones.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;

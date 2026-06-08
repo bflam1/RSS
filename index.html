@@ -15,6 +15,9 @@
 <li>
 <p><a href="https://docs.mend.io/integrations/latest/mend-agentic-integration">Mend's MCP server</a> now exposes security findings across SAST and SCA scanning engines so developers can query vulnerability data directly from their AI-powered tools and workflows. The findings come enriched with remediation suggestions, making it easier to understand and fix issues without leaving the tools they already use, or by instructing an agent to fix them. Developers can ask questions like "What are the top 5 security issues in this repo?" or "Explain this SQL injection finding" and their preferred agent will be able to answer these questions by communicating with the MCP server.</p>
 </li>
+<li>
+<p>Added a new setting in Administration that allows organizations to control whether newly created applications are automatically assigned to the Admin group. This update improves administrative flexibility and ensures consistent access management for new applications, without affecting existing ones.</p>
+</li>
 </ul>
 <p><strong>Resolved Issues</strong></p>
 <ul>
@@ -61,6 +64,12 @@
 <ul>
 <li>
 <p><strong>(Closed Beta)</strong> Mend SAST now supports a new programming language! First as a closed beta program, customers can now analyze <a href="https://docs.mend.io/platform/latest/scala">Scala</a> projects to even further reduce security risk.</p>
+</li>
+<li>
+<p><a href="https://docs.mend.io/platform/latest/code-secret-scanning">Secret scanning</a> now detects hardcoded private keys (<code>*.pem</code>, <code>*.key</code>) and committed certificate files (<code>*.pfx</code>, <code>*.p12</code>). PowerShell scripts (.ps1) are also included in the set of file types scanned by default. Additionally, the engine now detects a broad set of new credential patterns related to Azure Dev Ops products.</p>
+</li>
+<li>
+<p>Added a new "Information Requested" state to suppression requests, enabling reviewers to request additional context from developers and filter these requests from their pending review queue. This update streamlines the review process and improves workflow efficiency.</p>
 </li>
 </ul>
 <p><strong>Resolved Issues</strong></p>
@@ -191,6 +200,9 @@
 <p>When that option is enabled, developers and security reviewers can communicate directly on security findings without leaving their tools. Developers can add comments on findings from their GitHub repository, and comments added by security reviewers in the Mend Platform are automatically synced to the repository. Likewise, comments added in the repository (via a special command) are synced back to the Mend Platform, ensuring conversations stay mirrored and visible in both locations. This eliminates the need for back-and-forth communication through external channels, making it faster and easier to clarify remediation steps and resolve security issues.</p>
 </li>
 <li>
+<p>Introduced the ability for organizations to configure which SAST suppression reasons are available to developers in GitHub by specifying an array in the .whitesource file, enabling enforcement of custom suppression policies.</p>
+</li>
+<li>
 <p>When suppression requests are approved or rejected, the corresponding GitHub issue gets updated.</p>
 </li>
 <li>
@@ -225,6 +237,9 @@
 <p>When that option is enabled, developers and security reviewers can communicate directly on security findings without leaving their tools. Developers can add comments on findings from their GitHub Enterprise repository, and comments added by security reviewers in the Mend Platform are automatically synced to the repository. Likewise, comments added in the repository (via a special command) are synced back to the Mend Platform, ensuring conversations stay mirrored and visible in both locations. This eliminates the need for back-and-forth communication through external channels, making it faster and easier to clarify remediation steps and resolve security issues.</p>
 </li>
 <li>
+<p>Introduced the ability for organizations to configure which SAST suppression reasons are available to developers in GitHub by specifying an array in the .whitesource file, enabling enforcement of custom suppression policies.</p>
+</li>
+<li>
 <p>When suppression requests are approved or rejected, the corresponding GitHub issue gets updated.</p>
 </li>
 <li>
@@ -234,6 +249,9 @@
 </li>
 <li>
 <p>Added logic to prevent AI scans from running on feature branches during repository integration scans. AI scans will now only run on base branches, ensuring feature branches are excluded from automated AI analysis.</p>
+</li>
+<li>
+<p><strong>(Renovate)</strong> Introduced enhanced customization in Renovate Enterprise Cloud, enabling organizations to run custom scripts and configure environment variables and headers. These new capabilities, powered by secure MicroVM technology, provide greater flexibility and control for enterprise users. For more details, refer to the Renovate documentation.</p>
 </li>
 </ul>
 <p><strong>Resolved Issues</strong></p>
@@ -261,6 +279,9 @@
 <li>
 <p>Added logic to prevent AI scans from running on feature branches during repository integration scans. AI scans will now only run on base branches, ensuring feature branches are excluded from automated AI analysis.</p>
 </li>
+<li>
+<p><strong>(Renovate)</strong> Introduced enhanced customization in Renovate Enterprise Cloud, enabling organizations to run custom scripts and configure environment variables and headers. These new capabilities, powered by secure MicroVM technology, provide greater flexibility and control for enterprise users. For more details, refer to the Renovate documentation.</p>
+</li>
 </ul>
 <p><strong>Resolved Issues</strong></p>
 <ul>
@@ -284,6 +305,9 @@
 <li>
 <p>Added logic to prevent AI scans from running on feature branches during repository integration scans. AI scans will now only run on base branches, ensuring feature branches are excluded from automated AI analysis.</p>
 </li>
+<li>
+<p><strong>(Renovate)</strong> Introduced enhanced customization in Renovate Enterprise Cloud, enabling organizations to run custom scripts and configure environment variables and headers. These new capabilities, powered by secure MicroVM technology, provide greater flexibility and control for enterprise users. For more details, refer to the Renovate documentation.</p>
+</li>
 </ul>
 <p><strong>Resolved Issues</strong></p>
 <ul>
@@ -298,8 +322,8 @@
   </section>
   <hr/>
   <section>
-    <h2><a href="https://github.com/renovatebot/renovate/releases/tag/43.209.1">Mend Renovate CLI: 43.209.1</a></h2>
-    <time datetime="2026-06-02T17:22:19+00:00">2026-06-02T17:22:19+00:00</time>
+    <h2><a href="https://github.com/renovatebot/renovate/releases/tag/43.216.1">Mend Renovate CLI: 43.216.1</a></h2>
+    <time datetime="2026-06-08T13:55:24+00:00">2026-06-08T13:55:24+00:00</time>
     <p></p>
   </section>
   <hr/>
