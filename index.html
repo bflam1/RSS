@@ -7,50 +7,47 @@
 <body>
   <h1>Mend.io Unified Release Notes</h1>
   <section>
-    <h2><a href="https://docs.mend.io/platform/latest/mend-platform-release-notes">Mend AppSec Platform: Version 26.5.1 (31-May-2026)</a></h2>
-    <time datetime="2026-05-31T00:00:00+00:00">2026-05-31T00:00:00+00:00</time>
+    <h2><a href="https://docs.mend.io/platform/latest/mend-platform-release-notes">Mend AppSec Platform: Version 26.5.2 (14-June-2026)</a></h2>
+    <time datetime="2026-06-14T00:00:00+00:00">2026-06-14T00:00:00+00:00</time>
     
 <p><strong>New Features and Updates</strong></p>
 <ul>
 <li>
-<p><a href="https://docs.mend.io/integrations/latest/mend-agentic-integration">Mend's MCP server</a> now exposes security findings across SAST and SCA scanning engines so developers can query vulnerability data directly from their AI-powered tools and workflows. The findings come enriched with remediation suggestions, making it easier to understand and fix issues without leaving the tools they already use, or by instructing an agent to fix them. Developers can ask questions like "What are the top 5 security issues in this repo?" or "Explain this SQL injection finding" and their preferred agent will be able to answer these questions by communicating with the MCP server.</p>
+<p><strong>(SCA)</strong> <a href="https://docs.mend.io/platform/latest/the-dependencies-findings-report">The Dependencies Findings Report</a> — Org-level report generation is now backed by a new scalable reporting pipeline, resolving timeouts and failures experienced by large organizations.</p>
 </li>
 <li>
-<p>Added a new setting in Administration that allows organizations to control whether newly created applications are automatically assigned to the Admin group. This update improves administrative flexibility and ensures consistent access management for new applications, without affecting existing ones.</p>
+<p><strong>(SCA)</strong> The <a href="https://docs.mend.io/platform/latest/the-dependencies-risk-report">Dependencies Risk</a> report is now available at the organization level in the Mend Platform UI.</p>
 </li>
 </ul>
 <p><strong>Resolved Issues</strong></p>
 <ul>
 <li>
-<p>Fixed an issue where the "Show only vulnerable libraries" toggle in the Tree View did not filter out non-vulnerable libraries, causing all libraries to be displayed regardless of their vulnerability status. Now, enabling the toggle correctly shows only libraries with associated findings.</p>
+<p>Fixed an issue where active users accessing the Mend Platform via SSO were incorrectly displayed with an "Invited" status instead of "Active" in the Users section. This status now correctly reflects the user's activity.</p>
 </li>
 <li>
-<p><strong>(SCA)</strong> Fixed an issue where the APIv3 endpoint for exporting project SBOM reports asynchronously did not generate reports as expected.</p>
+<p>Fixed an issue where Mend CLI scans failed with a timeout error during policy compliance checks. This occurred when backend processing for specific large datasets exceeded the client-side deadline. The fix optimizes server-side policy evaluation to ensure scans complete successfully within the expected timeframe.</p>
 </li>
 <li>
-<p><strong>(SCA)</strong> Fixed an issue where users with the Product Administrator role received a failed scan status when using the SBOM Import API. The fix ensures that scans now finish with the correct status for authorized users.</p>
+<p><strong>(Container) </strong>Fixed an issue where workflow violations were incorrectly triggered for suppressed findings during CLI image scans. Suppressed vulnerabilities are now properly excluded from workflow evaluation, ensuring that automated policies and CLI exit codes accurately reflect the project's security status.</p>
+</li>
+<li>
+<p><strong>(Container)</strong> Fixed an issue where the total number of container findings in the Project Summary did not match the totals shown in the Security &gt; Containers &gt; Findings page, ensuring consistent and accurate reporting across views.</p>
 </li>
 </ul>
 
   </section>
   <hr/>
   <section>
-    <h2><a href="https://docs.mend.io/platform/latest/mend-sca-release-notes">Mend SCA: Version 26.5.1 (31-May-2026)</a></h2>
-    <time datetime="2026-05-31T00:00:00+00:00">2026-05-31T00:00:00+00:00</time>
+    <h2><a href="https://docs.mend.io/platform/latest/mend-sca-release-notes">Mend SCA: Version 26.5.2 (14-June-2026)</a></h2>
+    <time datetime="2026-06-14T00:00:00+00:00">2026-06-14T00:00:00+00:00</time>
     
-<p><strong>Resolved Issues</strong></p>
+<p><strong>New Features and Updates</strong></p>
 <ul>
 <li>
-<p>Fixed an issue where inconsistent license information was identified for popular Python packages. The license reporting logic has been updated to ensure the primary license is consistently and accurately reflected across all versions and distributions.</p>
+<p><a href="https://docs.mend.io/platform/latest/the-dependencies-findings-report">The Dependencies Findings Report</a> — Org-level report generation is now backed by a new scalable reporting pipeline, resolving timeouts and failures experienced by large organizations.</p>
 </li>
 <li>
-<p>Fixed an issue where the "Show only vulnerable libraries" toggle in the Tree View did not filter out non-vulnerable libraries, causing all libraries to be displayed regardless of their vulnerability status. Now, enabling the toggle correctly shows only libraries with associated findings.</p>
-</li>
-<li>
-<p>Fixed an issue where the APIv3 endpoint for exporting project SBOM reports asynchronously did not generate reports as expected.</p>
-</li>
-<li>
-<p>Fixed an issue where users with the Product Administrator role received a failed scan status when using the SBOM Import API. The fix ensures that scans now finish with the correct status for authorized users.</p>
+<p>The <a href="https://docs.mend.io/platform/latest/the-dependencies-risk-report">Dependencies Risk</a> report is now available at the organization level in the Mend Platform UI.</p>
 </li>
 </ul>
 
@@ -82,13 +79,16 @@
   </section>
   <hr/>
   <section>
-    <h2><a href="https://docs.mend.io/platform/latest/mend-container-release-notes">Mend Container: Version 26.4.2 (03-May-2026)</a></h2>
-    <time datetime="2026-05-03T00:00:00+00:00">2026-05-03T00:00:00+00:00</time>
+    <h2><a href="https://docs.mend.io/platform/latest/mend-container-release-notes">Mend Container: Version 26.5.2 (14-June-2026)</a></h2>
+    <time datetime="2026-06-14T00:00:00+00:00">2026-06-14T00:00:00+00:00</time>
     
 <p><strong>Resolved Issues</strong></p>
 <ul>
 <li>
-<p>Fixed an issue where the <code>bson</code> package version was incorrectly detected as UNKNOWN, resulting in a false positive for CVE-2020-7610. The scanner now accurately identifies bson@1.1.4 and avoids reporting this vulnerability when the correct version is present.</p>
+<p>Fixed an issue where workflow violations were incorrectly triggered for suppressed findings during CLI image scans. Suppressed vulnerabilities are now properly excluded from workflow evaluation, ensuring that automated policies and CLI exit codes accurately reflect the project's security status.</p>
+</li>
+<li>
+<p>Fixed an issue where the total number of container findings in the Project Summary did not match the totals shown in the Security &gt; Containers &gt; Findings page, ensuring consistent and accurate reporting across views.</p>
 </li>
 </ul>
 
@@ -125,22 +125,13 @@
   </section>
   <hr/>
   <section>
-    <h2><a href="https://docs.mend.io/platform/latest/mend-cli-release-notes">Mend CLI: Version 26.4.3 (18-May-2026)</a></h2>
-    <time datetime="2026-05-18T00:00:00+00:00">2026-05-18T00:00:00+00:00</time>
+    <h2><a href="https://docs.mend.io/platform/latest/mend-cli-release-notes">Mend CLI: Version 26.5.1 (01-June-2026)</a></h2>
+    <time datetime="2026-06-01T00:00:00+00:00">2026-06-01T00:00:00+00:00</time>
     
-<p><strong>New Features and Updates</strong></p>
-<ul>
-<li>
-<p><strong>(Limited Availability)</strong> <strong>(SCA)</strong> Introducing an improved .NET resolver which relies on <code>.deps.json</code> in the build folder for increased dependency detection accuracy.</p>
-</li>
-</ul>
 <p><strong>Resolved Issues</strong></p>
 <ul>
 <li>
-<p><strong>(SCA)</strong> Fixed an issue where dependency scans would intermittently fail during policy compliance checks, resulting in an "asyncCheckPolicyCompliace failed" message. Scans now complete successfully without unexpected interruptions.</p>
-</li>
-<li>
-<p><strong>(SCA)</strong> Fixed an issue where environment variable-based configurations were not loaded correctly in the CLI, resulting in empty values. The CLI now properly reads MEND_-prefixed environment variables and applies them as expected.</p>
+<p><strong>(SCA)</strong> Fixed an issue where only CVSSv3 vulnerability scores were reported in the Mend CLI output regardless of the organization's CVSS settings in the Mend Platform, ensuring accurate and uniform vulnerability profile data based on the configured CVSS version.</p>
 </li>
 </ul>
 
@@ -160,58 +151,41 @@
   </section>
   <hr/>
   <section>
-    <h2><a href="https://docs.mend.io/integrations/latest/mend-developer-platform-release-notes">Mend Developer Platform: Version 26.5.1 (31-May-2026)</a></h2>
-    <time datetime="2026-05-31T00:00:00+00:00">2026-05-31T00:00:00+00:00</time>
+    <h2><a href="https://docs.mend.io/integrations/latest/mend-developer-platform-release-notes">Mend Developer Platform: Version 26.5.2 (14-June-2026)</a></h2>
+    <time datetime="2026-06-14T00:00:00+00:00">2026-06-14T00:00:00+00:00</time>
     
 <p><strong>New Features and Updates</strong></p>
 <ul>
 <li>
-<p>Enhanced the onboarding and sidebar experience for GitLab users by enabling efficient loading and navigation of large numbers of groups and subgroups. This update introduces incremental loading, improved selection indicators, and removes the search bar and group counters for a smoother, more scalable user experience.</p>
+<p>When adding or removing repos from the Renovate app installation in GitHub, users no longer go through the Developer Platform onboarding flow. Instead, they are redirected to the Developer Platform UI and the repositories are onboarded according to the existing organization settings.</p>
 </li>
 </ul>
 <p><strong>Resolved Issues</strong></p>
 <ul>
 <li>
-<p>(GitHub) Fixed an issue where non-admin members of GitHub organizations enforcing SAML SSO were denied access to their organization in the Developer Platform. This occurred when the user's OAuth token was not SAML-authorized, causing a permission error. The authentication process has been updated to verify organization membership using GitHub App credentials, ensuring consistent access for all legitimate members regardless of their individual token's SAML status.</p>
-</li>
-<li>
-<p>(AZDO) Fixed an issue where an organization secret could not be added in <a href="http://developer-eu.mend.io/" rel="external noreferrer">developer-eu.mend.io</a> for Azure DevOps.</p>
+<p>(Bitbucket) Fixed an issue where Bitbucket installation events for non-reinstalls could incorrectly trigger the de-onboarding of organizations. The system now properly verifies the uninstallation status before removing onboarding data, ensuring that app updates or other standard events do not disrupt the customer's environment.</p>
 </li>
 </ul>
 
   </section>
   <hr/>
   <section>
-    <h2><a href="https://docs.mend.io/integrations/latest/mend-for-github-com-release-notes">Mend for GitHub.com: Version 26.5.1.1 (31-May-2026)</a></h2>
-    <time datetime="2026-05-31T00:00:00+00:00">2026-05-31T00:00:00+00:00</time>
+    <h2><a href="https://docs.mend.io/integrations/latest/mend-for-github-com-release-notes">Mend for GitHub.com: Version 26.5.2 (14-June-2026)</a></h2>
+    <time datetime="2026-06-14T00:00:00+00:00">2026-06-14T00:00:00+00:00</time>
     
 <p><strong>New Features and Updates</strong></p>
 <ul>
 <li>
-<p><strong>(SAST)</strong> Introducing seamless two-way communication between developers and security reviewers on security findings. Developers can now comment on findings directly from their repository, while reviewer comments from the Mend Platform are instantly visible to developers, streamlining collaboration and accelerating issue resolution.</p>
-<ul>
-<li>
-<p>For GitHub.com (using the .whitesource file), security actions such as suppressing findings can now be triggered by posting a comment on the PR or issue instead of checking a checkbox. This makes it easier to add context when suppressing a finding and provides clearer feedback confirming that an action was performed.</p>
-</li>
-<li>
-<p>Introduced a new issueType configuration option - <code>findingsIncludingPullRequests</code> - which creates a separate issue for all findings on both base branches and on feature branches with pull requests to base branches.</p>
-</li>
-<li>
-<p>When that option is enabled, developers and security reviewers can communicate directly on security findings without leaving their tools. Developers can add comments on findings from their GitHub repository, and comments added by security reviewers in the Mend Platform are automatically synced to the repository. Likewise, comments added in the repository (via a special command) are synced back to the Mend Platform, ensuring conversations stay mirrored and visible in both locations. This eliminates the need for back-and-forth communication through external channels, making it faster and easier to clarify remediation steps and resolve security issues.</p>
-</li>
-<li>
-<p>Introduced the ability for organizations to configure which SAST suppression reasons are available to developers in GitHub by specifying an array in the .whitesource file, enabling enforcement of custom suppression policies.</p>
-</li>
-<li>
-<p>When suppression requests are approved or rejected, the corresponding GitHub issue gets updated.</p>
-</li>
-<li>
-<p>The feature will be rolled out gradually in the next two weeks.</p>
+<p>Introduced a comprehensive Dependency Dashboard in the Renovate Self-hosted Web UI, allowing users to view notes, warnings, detected dependencies, and suggested updates. Users can now take direct actions such as creating or opening pull requests, retrying or rebasing updates, and triggering new Renovate jobs.</p>
 </li>
 </ul>
+<p><strong>Resolved Issues</strong></p>
+<ul>
+<li>
+<p>Fixed an issue where repository scans failed when a Git LFS object was missing or inaccessible on the server.</p>
 </li>
 <li>
-<p>Added logic to prevent AI scans from running on feature branches during repository integration scans. AI scans will now only run on base branches, ensuring feature branches are excluded from automated AI analysis.</p>
+<p>Fixed an issue where manual SAST scans could be triggered via the API even if SAST was not enabled for the target repository. The system now correctly verifies repository settings before initiating a scan, ensuring that no check-runs or security reports are generated for repositories without SAST enablement.</p>
 </li>
 </ul>
 
@@ -322,8 +296,8 @@
   </section>
   <hr/>
   <section>
-    <h2><a href="https://github.com/renovatebot/renovate/releases/tag/43.216.4">Mend Renovate CLI: 43.216.4</a></h2>
-    <time datetime="2026-06-09T09:46:53+00:00">2026-06-09T09:46:53+00:00</time>
+    <h2><a href="https://github.com/renovatebot/renovate/releases/tag/43.224.1">Mend Renovate CLI: 43.224.1</a></h2>
+    <time datetime="2026-06-15T16:17:03+00:00">2026-06-15T16:17:03+00:00</time>
     <p></p>
   </section>
   <hr/>
