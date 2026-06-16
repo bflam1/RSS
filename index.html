@@ -13,6 +13,9 @@
 <p><strong>New Features and Updates</strong></p>
 <ul>
 <li>
+<p>Finding details in <a href="https://docs.mend.io/integrations/latest/mend-code-security-tool-for-jetbrains">Mend for JetBrains</a> now display correctly on narrow panels. Labels now stack vertically, keeping the information clear and legible regardless of how wide the panel is.</p>
+</li>
+<li>
 <p><strong>(SCA)</strong> <a href="https://docs.mend.io/platform/latest/the-dependencies-findings-report">The Dependencies Findings Report</a> — Org-level report generation is now backed by a new scalable reporting pipeline, resolving timeouts and failures experienced by large organizations.</p>
 </li>
 <li>
@@ -54,25 +57,31 @@
   </section>
   <hr/>
   <section>
-    <h2><a href="https://docs.mend.io/platform/latest/mend-sast-release-notes">Mend SAST: Version 26.5.1 (01-June-2026)</a></h2>
-    <time datetime="2026-06-01T00:00:00+00:00">2026-06-01T00:00:00+00:00</time>
+    <h2><a href="https://docs.mend.io/platform/latest/mend-sast-release-notes">Mend SAST: Version 26.5.2 (15-June-2026)</a></h2>
+    <time datetime="2026-06-15T00:00:00+00:00">2026-06-15T00:00:00+00:00</time>
     
 <p><strong>New Features and Updates</strong></p>
 <ul>
 <li>
-<p><strong>(Closed Beta)</strong> Mend SAST now supports a new programming language! First as a closed beta program, customers can now analyze <a href="https://docs.mend.io/platform/latest/scala">Scala</a> projects to even further reduce security risk.</p>
+<p>Extended the support for JWT callbacks and anonymous classes in Java.</p>
 </li>
 <li>
-<p><a href="https://docs.mend.io/platform/latest/code-secret-scanning">Secret scanning</a> now detects hardcoded private keys (<code>*.pem</code>, <code>*.key</code>) and committed certificate files (<code>*.pfx</code>, <code>*.p12</code>). PowerShell scripts (.ps1) are also included in the set of file types scanned by default. Additionally, the engine now detects a broad set of new credential patterns related to Azure Dev Ops products.</p>
+<p>Improved detection of CWE-79: Cross-site Scripting (XSS) in JavaScript/TypeScript.</p>
 </li>
 <li>
-<p>Added a new "Information Requested" state to suppression requests, enabling reviewers to request additional context from developers and filter these requests from their pending review queue. This update streamlines the review process and improves workflow efficiency.</p>
+<p>Improved detection of hard-coded credentials for JavaScript/TypeScript, PL/SQL, and VB.Net.</p>
+</li>
+<li>
+<p>The SAST findings API now includes natural language descriptions for each step in a vulnerability's data flow trace. When retrieving a finding, each step in the data flow — from the tainted input to the vulnerable sink — now comes with a plain-English explanation of what's happening at that point in the code.</p>
 </li>
 </ul>
 <p><strong>Resolved Issues</strong></p>
 <ul>
 <li>
-<p>Improved accuracy of Dangerous Method detection in Swift.</p>
+<p>Fixed an issue where Chinese characters wouldn't be displayed correctly in the PDF version of the <a href="https://docs.mend.io/platform/latest/the-code-compliance-report">Code Compliance Report</a>.</p>
+</li>
+<li>
+<p>Finding details in <a href="https://docs.mend.io/integrations/latest/mend-code-security-tool-for-jetbrains">Mend for JetBrains</a> now display correctly on narrow panels. Labels now stack vertically, keeping the information clear and legible regardless of how wide the panel is.</p>
 </li>
 </ul>
 
@@ -125,26 +134,29 @@
   </section>
   <hr/>
   <section>
-    <h2><a href="https://docs.mend.io/platform/latest/mend-cli-release-notes">Mend CLI: Version 26.5.1 (01-June-2026)</a></h2>
-    <time datetime="2026-06-01T00:00:00+00:00">2026-06-01T00:00:00+00:00</time>
+    <h2><a href="https://docs.mend.io/platform/latest/mend-cli-release-notes">Mend CLI: Version 26.5.2 (15-June-2026)</a></h2>
+    <time datetime="2026-06-15T00:00:00+00:00">2026-06-15T00:00:00+00:00</time>
     
 <p><strong>Resolved Issues</strong></p>
 <ul>
 <li>
-<p><strong>(SCA)</strong> Fixed an issue where only CVSSv3 vulnerability scores were reported in the Mend CLI output regardless of the organization's CVSS settings in the Mend Platform, ensuring accurate and uniform vulnerability profile data based on the configured CVSS version.</p>
+<p>Fixed an issue where the Mend CLI incorrectly reported skipped AI scans as successful.</p>
 </li>
 </ul>
 
   </section>
   <hr/>
   <section>
-    <h2><a href="https://docs.mend.io/legacy-sca/latest/mend-unified-agent-release-notes">Mend Unified Agent: Version 26.5.1 (01-June-2026)</a></h2>
-    <time datetime="2026-06-01T00:00:00+00:00">2026-06-01T00:00:00+00:00</time>
+    <h2><a href="https://docs.mend.io/legacy-sca/latest/mend-unified-agent-release-notes">Mend Unified Agent: Version 26.5.2 (15-June-2026)</a></h2>
+    <time datetime="2026-06-15T00:00:00+00:00">2026-06-15T00:00:00+00:00</time>
     
 <p><strong>Resolved Issues</strong></p>
 <ul>
 <li>
-<p>Fixed an issue where the Unified Agent would hang indefinitely when processing compressed offline request files on newer JDK versions, such as Java 21. This was caused by a threading deadlock during decompression. The process has been updated to use a more efficient, non-threaded decompression method, ensuring compatibility across all supported JDK versions and significantly improving processing speed.</p>
+<p>Fixed an issue where the Unified Agent failed to resolve npm dependencies in pnpm/Lerna monorepos that lacked a `package-lock.json` file. The resolution logic has been updated to correctly identify pnpm in Lerna configurations and utilize the `pnpm-lock.yaml` file, ensuring all dependencies are accurately detected and reported.</p>
+</li>
+<li>
+<p>Fixed an issue where the npm resolver produced duplicate dependency entries when the same package was reachable via multiple ancestor chains. The resolver now correctly identifies and deduplicates identical packages regardless of their position in the dependency tree, ensuring accurate scan results and preventing duplicate vulnerability findings in the platform.</p>
 </li>
 </ul>
 
@@ -158,6 +170,9 @@
 <ul>
 <li>
 <p>When adding or removing repos from the Renovate app installation in GitHub, users no longer go through the Developer Platform onboarding flow. Instead, they are redirected to the Developer Platform UI and the repositories are onboarded according to the existing organization settings.</p>
+</li>
+<li>
+<p><strong>(Renovate)</strong> Introduced enhanced customization in Renovate Enterprise Cloud, enabling organizations to run custom scripts and configure environment variables and headers. These new capabilities provide greater flexibility and control for enterprise users.</p>
 </li>
 </ul>
 <p><strong>Resolved Issues</strong></p>
@@ -173,12 +188,6 @@
     <h2><a href="https://docs.mend.io/integrations/latest/mend-for-github-com-release-notes">Mend for GitHub.com: Version 26.5.2 (14-June-2026)</a></h2>
     <time datetime="2026-06-14T00:00:00+00:00">2026-06-14T00:00:00+00:00</time>
     
-<p><strong>New Features and Updates</strong></p>
-<ul>
-<li>
-<p>Introduced a comprehensive Dependency Dashboard in the Renovate Self-hosted Web UI, allowing users to view notes, warnings, detected dependencies, and suggested updates. Users can now take direct actions such as creating or opening pull requests, retrying or rebasing updates, and triggering new Renovate jobs.</p>
-</li>
-</ul>
 <p><strong>Resolved Issues</strong></p>
 <ul>
 <li>
@@ -223,6 +232,9 @@
 </li>
 <li>
 <p>Added logic to prevent AI scans from running on feature branches during repository integration scans. AI scans will now only run on base branches, ensuring feature branches are excluded from automated AI analysis.</p>
+</li>
+<li>
+<p><strong>(SAST)</strong> Security managers can now configure which suppression reasons are available to developers when requesting a SAST suppression. By adding a suppressionReasons array to scanSettingsSAST in the .whitesource file, organizations can restrict the available options to any combination of false-positive, acceptable-risk, temporarily-ignore, etc. — ensuring developers can only submit justifications aligned with the organizational policy.</p>
 </li>
 <li>
 <p><strong>(Renovate)</strong> Introduced enhanced customization in Renovate Enterprise Cloud, enabling organizations to run custom scripts and configure environment variables and headers. These new capabilities, powered by secure MicroVM technology, provide greater flexibility and control for enterprise users. For more details, refer to the Renovate documentation.</p>
@@ -296,8 +308,8 @@
   </section>
   <hr/>
   <section>
-    <h2><a href="https://github.com/renovatebot/renovate/releases/tag/43.224.1">Mend Renovate CLI: 43.224.1</a></h2>
-    <time datetime="2026-06-15T16:17:03+00:00">2026-06-15T16:17:03+00:00</time>
+    <h2><a href="https://github.com/renovatebot/renovate/releases/tag/43.227.0">Mend Renovate CLI: 43.227.0</a></h2>
+    <time datetime="2026-06-16T14:46:25+00:00">2026-06-16T14:46:25+00:00</time>
     <p></p>
   </section>
   <hr/>
