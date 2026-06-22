@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://bflam1.github.io/RSS/atom.xml</id>
   <title>Mend.io Unified Release Notes</title>
-  <updated>2026-06-16T14:46:25+00:00</updated>
+  <updated>2026-06-22T15:21:01+00:00</updated>
   <author>
     <name>Mend Release Bot</name>
     <email>noreply@bflam1.github.io</email>
@@ -12,153 +12,82 @@
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>Aggregated RSS, Atom, and HTML of all Mend release notes.</subtitle>
   <entry>
-    <id>https://github.com/mend/renovate-ce-ee/releases/tag/mend-renovate-enterprise-edition-9.4.1</id>
-    <title>Mend Renovate CC-EE: mend-renovate-enterprise-edition-9.4.1</title>
-    <updated>2026-06-16T18:14:36.138891+00:00</updated>
+    <id>https://github.com/mend/renovate-ce-ee/releases/tag/14.7.0</id>
+    <title>Mend Renovate CC-EE: 14.7.0</title>
+    <updated>2026-06-22T18:04:01.147234+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
     <content type="html">&lt;p&gt;&lt;/p&gt;</content>
-    <link href="https://github.com/mend/renovate-ce-ee/releases/tag/mend-renovate-enterprise-edition-9.4.1"/>
-    <published>2026-06-02T08:24:07+00:00</published>
+    <link href="https://github.com/mend/renovate-ce-ee/releases/tag/14.7.0"/>
+    <published>2026-06-17T16:43:51+00:00</published>
   </entry>
   <entry>
-    <id>https://github.com/renovatebot/renovate/releases/tag/43.227.0</id>
-    <title>Mend Renovate CLI: 43.227.0</title>
-    <updated>2026-06-16T18:14:36.138881+00:00</updated>
+    <id>https://github.com/renovatebot/renovate/releases/tag/43.235.1</id>
+    <title>Mend Renovate CLI: 43.235.1</title>
+    <updated>2026-06-22T18:04:01.147214+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
     <content type="html">&lt;p&gt;&lt;/p&gt;</content>
-    <link href="https://github.com/renovatebot/renovate/releases/tag/43.227.0"/>
-    <published>2026-06-16T14:46:25+00:00</published>
+    <link href="https://github.com/renovatebot/renovate/releases/tag/43.235.1"/>
+    <published>2026-06-22T15:21:01+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-bitbucket-data-center-release-notes</id>
-    <title>Mend for Bitbucket DC: Version 26.5.1.2 (01-June-2026)</title>
-    <updated>2026-06-16T18:14:36.138868+00:00</updated>
+    <title>Mend for Bitbucket DC: Version 26.5.1.4 (19-June-2026)</title>
+    <updated>2026-06-22T18:04:01.147190+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
     <content type="html">
-&lt;p&gt;Unified Agent 26.4.3.1 | &lt;a data-scope="external" href="https://github.com/renovatebot/renovate/releases/tag/43.141.3" rel="external noreferrer"&gt;&lt;u&gt;Renovate 43.141.3&lt;/u&gt;&lt;/a&gt; | Remediate 26.5.1 | Pre-Scan Builder (PSB) 25.8.1&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Added logic to prevent AI scans from running on feature branches during repository integration scans. AI scans will now only run on base branches, ensuring feature branches are excluded from automated AI analysis.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(Renovate)&lt;/strong&gt; Introduced enhanced customization in Renovate Enterprise Cloud, enabling organizations to run custom scripts and configure environment variables and headers. These new capabilities, powered by secure MicroVM technology, provide greater flexibility and control for enterprise users. For more details, refer to the Renovate documentation.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Fixed an issue where projects specifying .NET 10 in the .csproj file did not resolve dependencies as expected. The system now detects SDK version mismatches, automatically installs the required .NET SDK, and retries dependency resolution to ensure all dependencies are properly detected.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Fixed an issue where preserved user agent properties were not enforced during SCM scans, allowing unintended overrides. Now, all relevant properties are correctly handled to ensure consistent enforcement.&lt;/p&gt;
+&lt;p&gt;Several CVE fixes.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 </content>
     <link href="https://docs.mend.io/integrations/latest/mend-for-bitbucket-data-center-release-notes"/>
-    <published>2026-06-01T00:00:00+00:00</published>
+    <published>2026-06-19T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-gitlab-release-notes</id>
-    <title>Mend for GitLab: Version 26.5.1.2 (01-June-2026)</title>
-    <updated>2026-06-16T18:14:36.138857+00:00</updated>
+    <title>Mend for GitLab: Version 26.5.1.4 (19-June-2026)</title>
+    <updated>2026-06-22T18:04:01.147163+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
     <content type="html">
-&lt;p&gt;Unified Agent 26.4.3.1 | &lt;a data-scope="external" href="https://github.com/renovatebot/renovate/releases/tag/43.141.3" rel="external noreferrer"&gt;&lt;u&gt;Renovate 43.141.3&lt;/u&gt;&lt;/a&gt; | Remediate 26.5.1 | Pre-Scan Builder (PSB) 25.8.1&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Added logic to prevent AI scans from running on feature branches during repository integration scans. AI scans will now only run on base branches, ensuring feature branches are excluded from automated AI analysis.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(Renovate)&lt;/strong&gt; Introduced enhanced customization in Renovate Enterprise Cloud, enabling organizations to run custom scripts and configure environment variables and headers. These new capabilities, powered by secure MicroVM technology, provide greater flexibility and control for enterprise users. For more details, refer to the Renovate documentation.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Fixed an issue where projects specifying .NET 10 in the .csproj file did not resolve dependencies as expected. The system now detects SDK version mismatches, automatically installs the required .NET SDK, and retries dependency resolution to ensure all dependencies are properly detected.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Fixed an issue where preserved user agent properties were not enforced during SCM scans, allowing unintended overrides. Now, all relevant properties are correctly handled to ensure consistent enforcement.&lt;/p&gt;
+&lt;p&gt;Several CVE fixes.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 </content>
     <link href="https://docs.mend.io/integrations/latest/mend-for-gitlab-release-notes"/>
-    <published>2026-06-01T00:00:00+00:00</published>
+    <published>2026-06-19T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-github-enterprise-release-notes</id>
-    <title>Mend for GitHub Enterprise: Version 26.5.1.2 (01-June-2026)</title>
-    <updated>2026-06-16T18:14:36.138845+00:00</updated>
+    <title>Mend for GitHub Enterprise: Version 26.5.1.4 (19-June-2026)</title>
+    <updated>2026-06-22T18:04:01.147143+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
     <content type="html">
-&lt;p&gt;Unified Agent 26.4.3.1 | &lt;a data-scope="external" href="https://github.com/renovatebot/renovate/releases/tag/43.141.3" rel="external noreferrer"&gt;&lt;u&gt;Renovate 43.141.3&lt;/u&gt;&lt;/a&gt; | Remediate 26.5.1 | Pre-Scan Builder (PSB) 25.8.1&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SAST)&lt;/strong&gt; Introducing seamless two-way communication between developers and security reviewers on security findings. Developers can now comment on findings directly from their repository, while reviewer comments from the Mend Platform are instantly visible to developers, streamlining collaboration and accelerating issue resolution.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;For GitHub Enterprise (using the .whitesource file), security actions such as suppressing findings can now be triggered by posting a comment on the PR or issue instead of checking a checkbox. This makes it easier to add context when suppressing a finding and provides clearer feedback confirming that an action was performed.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Introduced a new issueType configuration option - &lt;code&gt;findingsIncludingPullRequests&lt;/code&gt; - which creates a separate issue for all findings on both base branches and on feature branches with pull requests to base branches.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;When that option is enabled, developers and security reviewers can communicate directly on security findings without leaving their tools. Developers can add comments on findings from their GitHub Enterprise repository, and comments added by security reviewers in the Mend Platform are automatically synced to the repository. Likewise, comments added in the repository (via a special command) are synced back to the Mend Platform, ensuring conversations stay mirrored and visible in both locations. This eliminates the need for back-and-forth communication through external channels, making it faster and easier to clarify remediation steps and resolve security issues.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Introduced the ability for organizations to configure which SAST suppression reasons are available to developers in GitHub by specifying an array in the .whitesource file, enabling enforcement of custom suppression policies.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;When suppression requests are approved or rejected, the corresponding GitHub issue gets updated.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;The feature will be rolled out gradually in the next two weeks.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Added logic to prevent AI scans from running on feature branches during repository integration scans. AI scans will now only run on base branches, ensuring feature branches are excluded from automated AI analysis.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SAST)&lt;/strong&gt; Security managers can now configure which suppression reasons are available to developers when requesting a SAST suppression. By adding a suppressionReasons array to scanSettingsSAST in the .whitesource file, organizations can restrict the available options to any combination of false-positive, acceptable-risk, temporarily-ignore, etc. — ensuring developers can only submit justifications aligned with the organizational policy.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(Renovate)&lt;/strong&gt; Introduced enhanced customization in Renovate Enterprise Cloud, enabling organizations to run custom scripts and configure environment variables and headers. These new capabilities, powered by secure MicroVM technology, provide greater flexibility and control for enterprise users. For more details, refer to the Renovate documentation.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Fixed an issue where deleting a GitHub Enterprise organization did not remove the corresponding Mend product/application, resulting in orphaned entries. Now, Mend correctly deletes the product/application when the organization is deleted.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Fixed an issue where projects specifying .NET 10 in the .csproj file did not resolve dependencies as expected. The system now detects SDK version mismatches, automatically installs the required .NET SDK, and retries dependency resolution to ensure all dependencies are properly detected.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Fixed an issue where preserved user agent properties were not enforced during SCM scans, allowing unintended overrides. Now, all relevant properties are correctly handled to ensure consistent enforcement.&lt;/p&gt;
+&lt;p&gt;Several CVE fixes.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 </content>
     <link href="https://docs.mend.io/integrations/latest/mend-for-github-enterprise-release-notes"/>
-    <published>2026-06-01T00:00:00+00:00</published>
+    <published>2026-06-19T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-github-com-release-notes</id>
     <title>Mend for GitHub.com: Version 26.5.2 (14-June-2026)</title>
-    <updated>2026-06-16T18:14:36.138829+00:00</updated>
+    <updated>2026-06-22T18:04:01.147122+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -179,7 +108,7 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-developer-platform-release-notes</id>
     <title>Mend Developer Platform: Version 26.5.2 (14-June-2026)</title>
-    <updated>2026-06-16T18:14:36.138818+00:00</updated>
+    <updated>2026-06-22T18:04:01.147103+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -206,7 +135,7 @@
   <entry>
     <id>https://docs.mend.io/legacy-sca/latest/mend-unified-agent-release-notes</id>
     <title>Mend Unified Agent: Version 26.5.2 (15-June-2026)</title>
-    <updated>2026-06-16T18:14:36.138805+00:00</updated>
+    <updated>2026-06-22T18:04:01.147084+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -227,7 +156,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-cli-release-notes</id>
     <title>Mend CLI: Version 26.5.2 (15-June-2026)</title>
-    <updated>2026-06-16T18:14:36.138786+00:00</updated>
+    <updated>2026-06-22T18:04:01.147064+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -245,7 +174,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-ai-release-notes</id>
     <title>Mend AI: Version 25.12.1 (05-January-2026)</title>
-    <updated>2026-06-16T18:14:36.138766+00:00</updated>
+    <updated>2026-06-22T18:04:01.147042+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -280,7 +209,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-container-release-notes</id>
     <title>Mend Container: Version 26.5.2 (14-June-2026)</title>
-    <updated>2026-06-16T18:14:36.138748+00:00</updated>
+    <updated>2026-06-22T18:04:01.147020+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -301,7 +230,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-sast-release-notes</id>
     <title>Mend SAST: Version 26.5.2 (15-June-2026)</title>
-    <updated>2026-06-16T18:14:36.138728+00:00</updated>
+    <updated>2026-06-22T18:04:01.146999+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -337,7 +266,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-sca-release-notes</id>
     <title>Mend SCA: Version 26.5.2 (14-June-2026)</title>
-    <updated>2026-06-16T18:14:36.138696+00:00</updated>
+    <updated>2026-06-22T18:04:01.146968+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -358,7 +287,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-platform-release-notes</id>
     <title>Mend AppSec Platform: Version 26.5.2 (14-June-2026)</title>
-    <updated>2026-06-16T18:14:36.138657+00:00</updated>
+    <updated>2026-06-22T18:04:01.146925+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
