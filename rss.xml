@@ -7,7 +7,7 @@
     <atom:link href="https://bflam1.github.io/RSS/atom.xml" rel="self"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 22 Jun 2026 15:21:01 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 23 Jun 2026 15:08:52 +0000</lastBuildDate>
     <item>
       <title>Mend Renovate CC-EE: 14.7.0</title>
       <link>https://github.com/mend/renovate-ce-ee/releases/tag/14.7.0</link>
@@ -16,11 +16,11 @@
       <pubDate>Wed, 17 Jun 2026 16:43:51 +0000</pubDate>
     </item>
     <item>
-      <title>Mend Renovate CLI: 43.235.1</title>
-      <link>https://github.com/renovatebot/renovate/releases/tag/43.235.1</link>
+      <title>Mend Renovate CLI: 43.239.0</title>
+      <link>https://github.com/renovatebot/renovate/releases/tag/43.239.0</link>
       <description>&lt;p&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://github.com/renovatebot/renovate/releases/tag/43.235.1</guid>
-      <pubDate>Mon, 22 Jun 2026 15:21:01 +0000</pubDate>
+      <guid isPermaLink="false">https://github.com/renovatebot/renovate/releases/tag/43.239.0</guid>
+      <pubDate>Tue, 23 Jun 2026 15:08:52 +0000</pubDate>
     </item>
     <item>
       <title>Mend for Bitbucket DC: Version 26.5.1.4 (19-June-2026)</title>
@@ -54,7 +54,7 @@
       <description>
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Several CVE fixes.&lt;/p&gt;
+&lt;p&gt;Security hotfix: Upgraded a few packages in the scanner to resolve CVEs.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 </description>
