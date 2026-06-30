@@ -13,13 +13,16 @@
 <p><strong>New Features and Updates</strong></p>
 <ul>
 <li>
-<p>Introducing a new <a href="https://docs.mend.io/platform/latest/the-scans-view#Scan-Comparison"><strong>scan comparison</strong></a> feature that allows users to compare two scans from the same engine to visualize added, removed, or modified findings. This engine-agnostic tool supports SCA, SAST, Containers and AI, providing a unified view of security, legal, and library changes. Users can initiate comparisons via an intuitive UI or public API, with options to export results in PDF, CSV, and JSON formats for seamless reporting and analysis.</p>
+<p>Introducing a new <a href="https://docs.mend.io/platform/latest/the-scans-view"><strong>scan comparison</strong></a> feature that allows users to compare two scans from the same engine to visualize added, removed, or modified findings. This engine-agnostic tool supports SCA, SAST, Containers and AI, providing a unified view of security, legal, and library changes. Users can initiate comparisons via an intuitive UI or public API.</p>
 </li>
 <li>
 <p>The <strong>Risk Factors</strong> column on the <strong>Applications</strong> and <strong>Projects</strong> views has been consolidated into a single, unified view. This update replaces separate engine-specific columns for Dependencies, Code, and AI with a centralized display that now also includes Container risk factors. Users can view aggregated risk icons across all four engines in one cell, access a detailed breakdown via an enhanced tooltip, and utilize engine-sectioned filters for more efficient risk management and navigation.</p>
 </li>
 <li>
 <p>Updated the Containers Findings Search tab to align with the Dependencies findings search design, providing a consistent and streamlined user interface across the platform.</p>
+</li>
+<li>
+<p>The <a href="https://docs.mend.io/integrations/latest/mend-agentic-integration">MCP server</a> can now fetch optimized rules for any supported AI coding assistant (such as Cursor, Claude Code, VS Code Copilot, and Windsurf). To trigger it, prompt your agent with "Download the newest rules for Mend MCP". You can also periodically trigger it to check if the rules have been updated.</p>
 </li>
 </ul>
 <p><strong>Resolved Issues</strong></p>
@@ -77,31 +80,54 @@
   </section>
   <hr/>
   <section>
-    <h2><a href="https://docs.mend.io/platform/latest/mend-sast-release-notes">Mend SAST: Version 26.5.2 (15-June-2026)</a></h2>
-    <time datetime="2026-06-15T00:00:00+00:00">2026-06-15T00:00:00+00:00</time>
+    <h2><a href="https://docs.mend.io/platform/latest/mend-sast-release-notes">Mend SAST: Version 26.6.1 (29-June-2026)</a></h2>
+    <time datetime="2026-06-29T00:00:00+00:00">2026-06-29T00:00:00+00:00</time>
     
 <p><strong>New Features and Updates</strong></p>
 <ul>
 <li>
-<p>Extended the support for JWT callbacks and anonymous classes in Java.</p>
+<p>Increased the detection accuracy for Python, especially for the following CWEs:</p>
+<ul>
+<li>
+<p>CWE-22: Path Traversal</p>
 </li>
 <li>
-<p>Improved detection of CWE-79: Cross-site Scripting (XSS) in JavaScript/TypeScript.</p>
+<p>CWE-78: Command Injection</p>
 </li>
 <li>
-<p>Improved detection of hard-coded credentials for JavaScript/TypeScript, PL/SQL, and VB.Net.</p>
+<p>CWE-79: Cross-site Scripting</p>
 </li>
 <li>
-<p>The SAST findings API now includes natural language descriptions for each step in a vulnerability's data flow trace. When retrieving a finding, each step in the data flow — from the tainted input to the vulnerable sink — now comes with a plain-English explanation of what's happening at that point in the code.</p>
+<p>CWE-117: Log Forging</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Enhanced JavaScript analysis by adding the local storage as a low-probability source. This update improves the detection of potential client-side vulnerabilities, such as stored DOM XSS, by identifying data retrieved from local storage as a possible point of origin for tainted input.</p>
+</li>
+<li>
+<p>Increased the detection accuracy for Java, especially for CWE-117: Log Forging.</p>
 </li>
 </ul>
 <p><strong>Resolved Issues</strong></p>
 <ul>
 <li>
-<p>Fixed an issue where Chinese characters wouldn't be displayed correctly in the PDF version of the <a href="https://docs.mend.io/platform/latest/the-code-compliance-report">Code Compliance Report</a>.</p>
+<p>Fixed an issue where the "fromDate" and "toDate" fields were incorrectly included in standard JSON reports with zeroed values. These fields, intended only for resolved findings reports, have been removed from standard reports to ensure data clarity and accuracy.</p>
 </li>
 <li>
-<p>Finding details in <a href="https://docs.mend.io/integrations/latest/mend-code-security-tool-for-jetbrains">Mend for JetBrains</a> now display correctly on narrow panels. Labels now stack vertically, keeping the information clear and legible regardless of how wide the panel is.</p>
+<p>Fixed an issue where code snippets were missing from SAST reports if a previous scan in the same project had the snippet size set to zero. Subsequent scans with code upload enabled now correctly include the expected code snippets in the generated reports.</p>
+</li>
+<li>
+<p>Fixed an issue where "Weak Hash Strength" findings were incorrectly grouped by vulnerability name alone, leading to inconsistent CWE mapping in reports. The grouping logic now utilizes both the vulnerability name and the specific CWE ID (such as CWE-328 or CWE-916) to ensure accurate reporting across different programming languages.</p>
+</li>
+<li>
+<p>Fixed an issue where multiline suppression justification comments submitted from GitHub were truncated to the first line in the Mend Platform. The full multi-line text is now correctly preserved and displayed.</p>
+</li>
+<li>
+<p>Fixed an issue where a single line of code snippet remained visible in the Mend Platform UI and reports even when the snippet size was set to zero in the latest scan.</p>
+</li>
+<li>
+<p>Fixed an issue where the VB.NET engine failed to scan files when the Windows system locale was set to Traditional Chinese (cp950).</p>
 </li>
 </ul>
 
@@ -219,6 +245,10 @@
 <li>
 <p><strong>(SCA)</strong> Fixed an issue where the `gradle.additionalArguments` parameter was not correctly applied when defined within the `whitesource.config` file during repository integrations.</p>
 </li>
+<li>
+<p><strong>(Renovate) (Open Beta)</strong> Mend Remediate can be replaced with Renovate EE with all its features, APIs, Web-UI and all additional features to come. This allows existing Mend Repository Integration users to deploy Renovate EE instead of the existing Remediate containers.</p>
+<p>More documentation on this can be found at <a href="https://github.com/mend/renovate-ce-ee/blob/14.8.0/docs/remediate.md" rel="external noreferrer"><u>Remediate docs</u></a>.</p>
+</li>
 </ul>
 
   </section>
@@ -237,7 +267,14 @@
 <p><strong>(SCA)</strong> Java 25 projects are now supported in SCA scans.</p>
 </li>
 <li>
+<p><strong>(SAST)</strong> It's now possible to control which GitHub repositories are included in or excluded from SAST scanning directly from global-config.json, using the new <code>sast</code> sub-key unde <code>ignoredRepos</code> and <code>includedRepos</code>. This allows a gradual SAST rollout across an organization without modifying per-repository .whitesource files and without affecting other scanners. Applies to GitHub repositories configured via .whitesource.</p>
+</li>
+<li>
 <p><strong>(Renovate Enterprise Self-hosted)</strong> Introduced a comprehensive <a href="https://docs.renovatebot.com/key-concepts/dashboard/" rel="external noreferrer">Dependency Dashboard</a> in the Renovate Self-hosted Web UI, providing users with centralized visibility and actionable control over dependency management. The dashboard features dedicated sections for repository notes and warnings, detected dependencies, and suggested updates. Users can now directly trigger Renovate jobs, create or open pull requests, and retry or rebase updates. This enhancement streamlines workflows and ensures parity for environments where in-repository dashboards are unavailable.</p>
+</li>
+<li>
+<p><strong>(Renovate) (Open Beta)</strong> Mend Remediate can be replaced with Renovate EE with all its features, APIs, Web-UI and all additional features to come. This allows existing Mend Repository Integration users to deploy Renovate EE instead of the existing Remediate containers.</p>
+<p>More documentation on this can be found at <a href="https://github.com/mend/renovate-ce-ee/blob/14.8.0/docs/remediate.md" rel="external noreferrer"><u>Remediate docs</u></a>.</p>
 </li>
 </ul>
 <p><strong>Resolved Issues</strong></p>
@@ -320,14 +357,14 @@
   </section>
   <hr/>
   <section>
-    <h2><a href="https://github.com/renovatebot/renovate/releases/tag/43.248.0">Mend Renovate CLI: 43.248.0</a></h2>
-    <time datetime="2026-06-29T16:02:05+00:00">2026-06-29T16:02:05+00:00</time>
+    <h2><a href="https://github.com/renovatebot/renovate/releases/tag/43.249.2">Mend Renovate CLI: 43.249.2</a></h2>
+    <time datetime="2026-06-30T15:14:51+00:00">2026-06-30T15:14:51+00:00</time>
     <p></p>
   </section>
   <hr/>
   <section>
     <h2><a href="https://github.com/mend/renovate-ce-ee/releases/tag/14.8.0">Mend Renovate CC-EE: 14.8.0</a></h2>
-    <time datetime="2026-06-29T16:41:04+00:00">2026-06-29T16:41:04+00:00</time>
+    <time datetime="2026-06-30T08:55:58+00:00">2026-06-30T08:55:58+00:00</time>
     <p></p>
   </section>
   <hr/>
