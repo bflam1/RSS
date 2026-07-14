@@ -157,71 +157,101 @@
   </section>
   <hr/>
   <section>
-    <h2><a href="https://docs.mend.io/platform/latest/mend-cli-release-notes">Mend CLI: Version 26.6.1 (29-June-2026)</a></h2>
-    <time datetime="2026-06-29T00:00:00+00:00">2026-06-29T00:00:00+00:00</time>
-    
-<p><strong>Resolved Issues</strong></p>
-<ul>
-<li>
-<p><strong>(SCA)</strong> Fixed an issue where Mend CLI failed to detect dependencies in Python projects using the PEP 621 standard in `pyproject.toml` files. This occurred because the scanner incorrectly identified these files as Poetry-related, leading to zero reported dependencies. The detection logic has been updated to correctly identify and scan PEP 621-compliant projects, ensuring all direct dependencies and associated vulnerabilities are accurately surfaced.</p>
-</li>
-<li>
-<p><strong>(SCA)</strong> Fixed an issue where Poetry scans failed when the system Python version was outside the project's required range. Although Mend SCA correctly installed a compatible Python version, the Poetry CLI continued to execute using the original system interpreter, leading to dependency resolution errors. The scan process has been updated to ensure the Poetry CLI uses the newly installed, compatible Python environment, allowing for successful dependency resolution and accurate scanning of Poetry-managed projects.</p>
-</li>
-<li>
-<p><strong>(SCA)</strong> Fixed an issue where the npm resolver produced duplicate dependency entries when the same package was reachable through multiple ancestor chains. The resolution logic now correctly deduplicates packages based on name and version, ensuring each unique dependency appears only once in the dependency tree for more accurate scan results.</p>
-</li>
-</ul>
-
-  </section>
-  <hr/>
-  <section>
-    <h2><a href="https://docs.mend.io/legacy-sca/latest/mend-unified-agent-release-notes">Mend Unified Agent: Version 26.6.1 (29-June-2026)</a></h2>
-    <time datetime="2026-06-29T00:00:00+00:00">2026-06-29T00:00:00+00:00</time>
-    
-<p><strong>Resolved Issues</strong></p>
-<ul>
-<li>
-<p>Fixed an issue where the Unified Agent would execute a full pip resolution on stub setup.py files lacking name and version metadata. This resulted in false-positive "Failed to get hierarchy tree" errors. The resolver now correctly handles these metadata-less files to ensure accurate dependency analysis.</p>
-</li>
-</ul>
-
-  </section>
-  <hr/>
-  <section>
-    <h2><a href="https://docs.mend.io/integrations/latest/mend-developer-platform-release-notes">Mend Developer Platform: Version 26.6.1 (28-June-2026)</a></h2>
-    <time datetime="2026-06-28T00:00:00+00:00">2026-06-28T00:00:00+00:00</time>
+    <h2><a href="https://docs.mend.io/platform/latest/mend-cli-release-notes">Mend CLI: Version 26.6.2 (13-July-2026)</a></h2>
+    <time datetime="2026-07-13T00:00:00+00:00">2026-07-13T00:00:00+00:00</time>
     
 <p><strong>New Features and Updates</strong></p>
 <ul>
 <li>
-<p>(GitHub) Enhanced the onboarding process to support organizations with up to 10,000 GitHub repositories, ensuring a smoother experience for large-scale enterprise customers using the developer platform.</p>
+<p>The Mend SAST CLI console summary has been enhanced to provide better clarity when using multiple scanning engines. The updated printout now includes a dedicated "Detector" field to distinguish between different scan types. Additionally, the "Language" field now correctly reflects the scanned programming language rather than the engine, and results are sorted alphabetically by language, ensuring a more intuitive and organized view of scan results across different detectors.</p>
 </li>
 </ul>
 <p><strong>Resolved Issues</strong></p>
 <ul>
 <li>
-<p>(AZDO) Fixed an issue where Azure DevOps tasks failed to complete following an SCA scan. This occurred due to a race condition where a pull request created immediately after a commit push caused the scan to lose its pull request ID during deduplication, leaving the status check in a pending state. The logic has been updated to ensure the pull request ID is correctly preserved and the status check is finalized.</p>
+<p>Fixed an issue where workflow violation email notifications were not sent to administrators following a Mend CLI scan. This was caused by a failure in the violations lookup process during email generation. The fix ensures that administrators correctly receive email alerts for workflow violations as expected.</p>
 </li>
 </ul>
 
   </section>
   <hr/>
   <section>
-    <h2><a href="https://docs.mend.io/integrations/latest/mend-for-github-com-release-notes">Mend for GitHub.com: Version 26.6.1 (28-June-2026)</a></h2>
-    <time datetime="2026-06-28T00:00:00+00:00">2026-06-28T00:00:00+00:00</time>
+    <h2><a href="https://docs.mend.io/legacy-sca/latest/mend-unified-agent-release-notes">Mend Unified Agent: Version 26.6.2 (13-July-2026)</a></h2>
+    <time datetime="2026-07-13T00:00:00+00:00">2026-07-13T00:00:00+00:00</time>
     
 <p><strong>Resolved Issues</strong></p>
 <ul>
 <li>
-<p><strong>(SCA)</strong> Fixed an issue where Mend SCA check runs were not created for pull requests originating from forks within the same GitHub organization. The system now correctly identifies same-organization forks by comparing the full repository name, ensuring that security scans are triggered for all fork-based pull requests.</p>
+<p>Fixed an issue where the Unified Agent intermittently timed out during the initial update request due to the reuse of stale keep-alive connections. The agent now utilizes a fresh connection for each request, ensuring reliable communication and preventing unnecessary delays caused by half-open sockets.</p>
 </li>
 <li>
-<p><strong>(SCA)</strong> Fixed an issue where the `gradle.additionalArguments` parameter was not correctly applied when defined within the `whitesource.config` file during repository integrations.</p>
+<p>Upgraded several transitive dependencies in the Unified Agent to fix CVEs.</p>
+</li>
+</ul>
+
+  </section>
+  <hr/>
+  <section>
+    <h2><a href="https://docs.mend.io/integrations/latest/mend-developer-platform-release-notes">Mend Developer Platform: Version 26.6.2 (12-July-2026)</a></h2>
+    <time datetime="2026-07-12T00:00:00+00:00">2026-07-12T00:00:00+00:00</time>
+    
+<p><strong>New Features and Updates</strong></p>
+<ul>
+<li>
+<p>Enhanced the Developer Platform's Repository and Jobs tables to support sorting and filtering across the entire dataset rather than just the current page. This update ensures that users can accurately organize and locate specific repositories or jobs within the full scope of their data, providing a more comprehensive and efficient management experience.</p>
 </li>
 <li>
-<p><strong>(Renovate) (Open Beta)</strong> Mend Remediate can be replaced with Renovate EE with all its features, APIs, Web-UI and all additional features to come. This allows existing Mend Repository Integration users to deploy Renovate EE instead of the existing Remediate containers.</p>
-<p>More documentation on this can be found at <a href="https://github.com/mend/renovate-ce-ee/blob/14.8.0/docs/remediate.md" rel="external noreferrer"><u>Remediate docs</u></a>.</p>
+<p><strong>(SAST)</strong> Introduced a production-grade AI-based triage capability for SAST findings, enabling developers and security managers to quickly identify and prioritize real vulnerabilities in their SCM. This feature automates false positive detection, provides AI-generated explanations and exploitation paths, and significantly reduces manual review time.
+   <br>
+   For more information, refer to the AI Triage section of the relevant SCM:</p>
+<ul>
+<li>
+<p><a href="https://docs.mend.io/integrations/latest/view-results-mend-sast-scan-azure-devops">Azure DevOps</a></p>
+</li>
+<li>
+<p><a href="https://docs.mend.io/integrations/latest/view-results-mend-dev-platform-sast-scan-bitbucket">Bitbucket Cloud</a></p>
+</li>
+<li>
+<p><a href="https://docs.mend.io/integrations/latest/view-results-dev-platform-sast-scan-github">GitHub.com</a></p>
+</li>
+<li>
+<p><a href="https://docs.mend.io/integrations/latest/view-results-dev-platform-sast-scan-gitlab-cloud">GitLab.com</a></p>
+</li>
+</ul>
+</li>
+</ul>
+<p><strong>Resolved Issues</strong></p>
+<ul>
+<li>
+<p><strong>(SCA)</strong> Fixed an issue where scan results were sorted alphabetically, potentially causing high-severity findings to be omitted due to table size limitations. Results are now prioritized by severity level, ensuring that the most critical vulnerabilities are always reported and accurately reflected in scan success or failure statuses.</p>
+</li>
+</ul>
+
+  </section>
+  <hr/>
+  <section>
+    <h2><a href="https://docs.mend.io/integrations/latest/mend-for-github-com-release-notes">Mend for GitHub.com: Version 26.6.2 (12-July-2026)</a></h2>
+    <time datetime="2026-07-12T00:00:00+00:00">2026-07-12T00:00:00+00:00</time>
+    
+<p><strong>New Features and Updates</strong></p>
+<ul>
+<li>
+<p><strong>(SAST)</strong> GitHub issues created for SAST findings now include the full data flow trace, showing each step of how tainted data moves through the code. The check run summary has been simplified to a brief overview with a direct link to the corresponding issue, so developers get the right level of detail in the right place without leaving GitHub.</p>
+</li>
+<li>
+<p><strong>(SAST)</strong> Users can now trigger <code>/mend code</code> actions by replying directly to Mend's finding comment in PR conversations, instead of posting a separate comment at the bottom of the PR.</p>
+</li>
+</ul>
+<p><strong>Resolved Issues</strong></p>
+<ul>
+<li>
+<p><strong>(SCA)</strong> Fixed an issue where scan results were sorted alphabetically, potentially causing high-severity findings to be omitted due to table size limitations. Results are now prioritized by severity level, ensuring that the most critical vulnerabilities are always reported and accurately reflected in scan success or failure statuses.</p>
+</li>
+<li>
+<p><strong>(Renovate)</strong> Fixed an issue where Renovate for <a href="http://github.com/" rel="external noreferrer">GitHub.com</a> would intermittently stop processing repositories due to an "Error getting installation token." This required users to manually disable and re-enable Renovate to resume operations. The underlying authentication mechanism has been stabilized to ensure continuous repository scanning and pull request creation without manual intervention.</p>
+</li>
+<li>
+<p><strong>(Renovate)</strong> Fixed an issue where Renovate workers individually requested GitHub installation tokens, increasing API overhead. The system now centralizes token generation on the server, improving efficiency and reducing the number of requests to GitHub.</p>
 </li>
 </ul>
 
@@ -293,8 +323,8 @@
   </section>
   <hr/>
   <section>
-    <h2><a href="https://github.com/renovatebot/renovate/releases/tag/43.261.0">Mend Renovate CLI: 43.261.0</a></h2>
-    <time datetime="2026-07-13T16:04:38+00:00">2026-07-13T16:04:38+00:00</time>
+    <h2><a href="https://github.com/renovatebot/renovate/releases/tag/43.263.3">Mend Renovate CLI: 43.263.3</a></h2>
+    <time datetime="2026-07-14T14:40:41+00:00">2026-07-14T14:40:41+00:00</time>
     <p></p>
   </section>
   <hr/>
