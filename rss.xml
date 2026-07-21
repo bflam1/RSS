@@ -7,7 +7,7 @@
     <atom:link href="https://bflam1.github.io/RSS/atom.xml" rel="self"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 20 Jul 2026 12:04:16 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 21 Jul 2026 13:48:17 +0000</lastBuildDate>
     <item>
       <title>Mend Renovate CC-EE: 15.0.0</title>
       <link>https://github.com/mend/renovate-ce-ee/releases/tag/15.0.0</link>
@@ -16,11 +16,11 @@
       <pubDate>Mon, 13 Jul 2026 15:16:51 +0000</pubDate>
     </item>
     <item>
-      <title>Mend Renovate CLI: 43.272.4</title>
-      <link>https://github.com/renovatebot/renovate/releases/tag/43.272.4</link>
+      <title>Mend Renovate CLI: 43.273.0</title>
+      <link>https://github.com/renovatebot/renovate/releases/tag/43.273.0</link>
       <description>&lt;p&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://github.com/renovatebot/renovate/releases/tag/43.272.4</guid>
-      <pubDate>Mon, 20 Jul 2026 12:04:16 +0000</pubDate>
+      <guid isPermaLink="false">https://github.com/renovatebot/renovate/releases/tag/43.273.0</guid>
+      <pubDate>Tue, 21 Jul 2026 13:48:17 +0000</pubDate>
     </item>
     <item>
       <title>Mend for Bitbucket DC: Version 26.6.1.2 (28-June-2026)</title>
@@ -156,21 +156,23 @@
       <pubDate>Sun, 12 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Mend Unified Agent: Version 26.6.2 (13-July-2026)</title>
+      <title>Mend Unified Agent: Version 26.6.2.1 (20-July-2026)</title>
       <link>https://docs.mend.io/legacy-sca/latest/mend-unified-agent-release-notes</link>
       <description>
 &lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Fixed an issue where the Unified Agent intermittently timed out during the initial update request due to the reuse of stale keep-alive connections. The agent now utilizes a fresh connection for each request, ensuring reliable communication and preventing unnecessary delays caused by half-open sockets.&lt;/p&gt;
-&lt;/li&gt;
+&lt;p&gt;&lt;strong&gt;Hotfix:&lt;/strong&gt; Fixed an issue where &lt;em&gt;pip&lt;/em&gt; scans on Windows using &lt;em&gt;virtualenv&lt;/em&gt; would fail due to a malformed command error, leading to partial or failed scans. The fix restores successful pip dependency scanning on Windows systems.&lt;/p&gt;
+&lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Upgraded several transitive dependencies in the Unified Agent to fix CVEs.&lt;/p&gt;
+&lt;p&gt;Impacted Unified Agent versions: v26.6.1, v26.6.2.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 </description>
       <guid isPermaLink="false">https://docs.mend.io/legacy-sca/latest/mend-unified-agent-release-notes</guid>
-      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Mend CLI: Version 26.6.2 (13-July-2026)</title>
