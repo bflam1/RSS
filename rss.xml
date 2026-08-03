@@ -7,29 +7,30 @@
     <atom:link href="https://bflam1.github.io/RSS/atom.xml" rel="self"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 28 Jul 2026 12:58:27 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 03 Aug 2026 10:39:10 +0000</lastBuildDate>
     <item>
-      <title>Mend Renovate CC-EE: 15.0.0</title>
-      <link>https://github.com/mend/renovate-ce-ee/releases/tag/15.0.0</link>
+      <title>Mend Renovate CC-EE: 15.1.0</title>
+      <link>https://github.com/mend/renovate-ce-ee/releases/tag/15.1.0</link>
       <description>&lt;p&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://github.com/mend/renovate-ce-ee/releases/tag/15.0.0</guid>
-      <pubDate>Mon, 13 Jul 2026 15:16:51 +0000</pubDate>
+      <guid isPermaLink="false">https://github.com/mend/renovate-ce-ee/releases/tag/15.1.0</guid>
+      <pubDate>Wed, 29 Jul 2026 14:13:44 +0000</pubDate>
     </item>
     <item>
-      <title>Mend Renovate CLI: 43.285.6</title>
-      <link>https://github.com/renovatebot/renovate/releases/tag/43.285.6</link>
+      <title>Mend Renovate CLI: 44.8.0</title>
+      <link>https://github.com/renovatebot/renovate/releases/tag/44.8.0</link>
       <description>&lt;p&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://github.com/renovatebot/renovate/releases/tag/43.285.6</guid>
-      <pubDate>Tue, 28 Jul 2026 12:58:27 +0000</pubDate>
+      <guid isPermaLink="false">https://github.com/renovatebot/renovate/releases/tag/44.8.0</guid>
+      <pubDate>Mon, 03 Aug 2026 10:39:10 +0000</pubDate>
     </item>
     <item>
       <title>Mend for Bitbucket DC: Version 26.7.1.2 (27-July-2026)</title>
       <link>https://docs.mend.io/integrations/latest/mend-for-bitbucket-data-center-release-notes</link>
       <description>
 &lt;p&gt;Unified Agent 26.6.2 | &lt;a data-scope="external" href="https://github.com/renovatebot/renovate/releases/tag/43.272.4" rel="external noreferrer"&gt;&lt;u&gt;Renovate 43.272.4&lt;/u&gt;&lt;/a&gt; | Remediate 26.7.1 | Pre-Scan Builder (PSB) 25.8.1&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;No notable updates.&lt;/p&gt;
+&lt;p&gt;Upgraded the Java runtime to Eclipse Temurin 17.0.19 to enhance security and performance.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 </description>
@@ -41,7 +42,6 @@
       <link>https://docs.mend.io/integrations/latest/mend-for-gitlab-release-notes</link>
       <description>
 &lt;p&gt;Unified Agent 26.6.2 | &lt;a data-scope="external" href="https://github.com/renovatebot/renovate/releases/tag/43.272.4" rel="external noreferrer"&gt;&lt;u&gt;Renovate 43.272.4&lt;/u&gt;&lt;/a&gt; | Remediate 26.7.1 | Pre-Scan Builder (PSB) 25.8.1&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -76,6 +76,9 @@
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Fixed an issue where the "Retrieve pending webhooks" API incorrectly returned zero for pending and running counts, even when webhooks were queued. The response mapping has been corrected to accurately reflect the actual number of pending and in-progress webhooks. Note that the running count represents a snapshot and serves as an approximation of currently processed webhooks.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Upgraded the Java runtime to Eclipse Temurin 17.0.19 to enhance security and performance.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Fixed an issue where the Poetry engine failed to resolve dependencies for projects using the legacy dev-dependencies section on Poetry 2.x environments. The engine now correctly identifies the Poetry version and applies the appropriate exclusion flags, ensuring accurate dependency detection and preventing false-negative scan results.&lt;/p&gt;
