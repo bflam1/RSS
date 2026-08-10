@@ -7,117 +7,100 @@
 <body>
   <h1>Mend.io Unified Release Notes</h1>
   <section>
-    <h2><a href="https://docs.mend.io/platform/latest/mend-platform-release-notes">Mend AppSec Platform: Version 26.7.1 (26-July-2026)</a></h2>
-    <time datetime="2026-07-26T00:00:00+00:00">2026-07-26T00:00:00+00:00</time>
+    <h2><a href="https://docs.mend.io/platform/latest/mend-platform-release-notes">Mend AppSec Platform: Version 26.7.2 (09-August-2026)</a></h2>
+    <time datetime="2026-08-09T00:00:00+00:00">2026-08-09T00:00:00+00:00</time>
     
 <p><strong>New Features and Updates</strong></p>
 <ul>
 <li>
-<p>Mend Platform now includes a centralized <a href="https://docs.mend.io/platform/latest/the-activity-log-report"><strong>Activity Log</strong></a>, giving administrators visibility into user and system activity.</p>
-<ul>
-<li>
-<p><strong>Complete event trail</strong> - platform activities, configuration changes, and security &amp; legal findings actions across all engines (Platform, Dependencies, Code, Containers, AI), with 18 months of retention.</p>
-</li>
-<li>
-<p><strong>Audit-grade detail</strong> - every event captures the actor, timestamp, and scope; audit events include full Before/After change records.</p>
-</li>
-<li>
-<p><strong>Filter, sort, investigate</strong> - slice by date, event, category, event type, engine, user, application, or project, and drill into any event via the details side panel.</p>
-</li>
-<li>
-<p><strong>Reporting &amp; automation</strong> - generate an Excel Activity Log report from the Reports area or directly from the Activity Log page, or retrieve events programmatically via API.</p>
-</li>
-<li>
-<p><strong>Account-level coverage</strong> — account-scoped actions (custom roles, global workflows, account-level reports, SAML integrations) are logged across all organizations within the account and visible only to Account Admins.</p>
-</li>
-</ul>
-</li>
-<li>
-<p>Enhanced the SCA tool in the <a href="https://docs.mend.io/integrations/latest/mend-agentic-integration">Agentic Integrations</a> to display vulnerabilities from transitive dependencies, helping developers make more informed decisions during project analysis.</p>
+<p><a href="https://docs.mend.io/platform/latest/mend-dast">Mend DAST</a> now supports the new Invicti Platform, enabling seamless ingestion of assets, vulnerabilities, and scans via its latest API. This update introduces a dedicated integration card for the Invicti Platform while maintaining the existing integration, now renamed Invicti Enterprise. Users benefit from enhanced data mapping, including structured vulnerability classifications and CVSS v4 scoring, ensuring comprehensive security coverage across both legacy and modern Invicti environments.</p>
 </li>
 </ul>
 <p><strong>Resolved Issues</strong></p>
 <ul>
 <li>
-<p>Fixed an issue where long running scans caused projects metrics to be zeroed out in the Mend Platform.</p>
+<p>Fixed an issue where the Libraries tab under Security &gt; Dependencies failed to load for certain applications, resulting in indefinite loading states or 403 errors. The system now correctly retrieves and displays the application's library list as expected.</p>
 </li>
 <li>
-<p>Fixed an issue where Jira tickets were intermittently not created during SCA scans due to unauthorized request errors and incorrect issue type mappings. The integration now correctly validates project and issue type associations to ensure reliable ticket generation.</p>
+<p>Fixed an issue where filtering the OS Inventory table by project caused an infinite loading spinner. The system now correctly handles project search parameters, ensuring the table updates accurately and displays the relevant results without requiring a page refresh.</p>
 </li>
-</ul>
-
-  </section>
-  <hr/>
-  <section>
-    <h2><a href="https://docs.mend.io/platform/latest/mend-sca-release-notes">Mend SCA: Version 26.7.1 (26-July-2026)</a></h2>
-    <time datetime="2026-07-26T00:00:00+00:00">2026-07-26T00:00:00+00:00</time>
-    
-<p><strong>New Features and Updates</strong></p>
-<ul>
 <li>
-<p>Ruby compliance data updates in the <a href="http://mend.io/" rel="external noreferrer"><u>Mend.io</u></a> knowledge base are now more frequent, resulting in quicker license and copyright updates in your inventory.</p>
+<p><strong>(SCA)</strong> Fixed an issue where the reachability count for libraries was reported inconsistently across different views. The reachable count now displays correctly in the Summary view, ensuring alignment with the Security Dependencies data.</p>
 </li>
 </ul>
 
   </section>
   <hr/>
   <section>
-    <h2><a href="https://docs.mend.io/platform/latest/mend-sast-release-notes">Mend SAST: Version 26.7.1 (27-July-2026)</a></h2>
-    <time datetime="2026-07-27T00:00:00+00:00">2026-07-27T00:00:00+00:00</time>
+    <h2><a href="https://docs.mend.io/platform/latest/mend-sca-release-notes">Mend SCA: Version 26.7.2 (09-August-2026)</a></h2>
+    <time datetime="2026-08-09T00:00:00+00:00">2026-08-09T00:00:00+00:00</time>
+    
+<p><strong>Resolved Issues</strong></p>
+<ul>
+<li>
+<p>Fixed an issue where direct libraries with security findings were missing from the Direct Libraries tab in source-matched C/C++ projects. This occurred even when libraries were correctly identified as direct dependencies, preventing them from appearing in filtered results. The Direct Libraries tab now accurately displays all direct libraries with findings on themselves or within their dependency tree, ensuring consistent visibility across all project types.</p>
+</li>
+<li>
+<p>Fixed an issue where the reachability count for libraries was reported inconsistently across different views. The reachable count now displays correctly in the Summary view, ensuring alignment with the Security Dependencies data.</p>
+</li>
+</ul>
+
+  </section>
+  <hr/>
+  <section>
+    <h2><a href="https://docs.mend.io/platform/latest/mend-sast-release-notes">Mend SAST: Version 26.7.2 (10-August-2026)</a></h2>
+    <time datetime="2026-08-10T00:00:00+00:00">2026-08-10T00:00:00+00:00</time>
     
 <p><strong>New Features and Updates</strong></p>
 <ul>
 <li>
-<p>The Project Risk Factors section in the Mend Platform now includes an <a href="https://docs.mend.io/platform/latest/prioritize-results-based-on-context#Evidence-Page">evidence page</a>. When you click on a risk factor classification — such as Payments, Healthcare, or PII — you can see the specific code signals that led to that classification, including function names, class names, imports, and file paths. This makes it easier to understand and verify why a project was classified the way it was, giving you full transparency into the AI-based risk assessment.</p>
+<p>Introducing the <a href="https://docs.mend.io/platform/latest/ruby-gen-2">Gen 2</a> Ruby detection engine, with improved CWE and framework coverage for accurate, scalable scans.</p>
 </li>
 <li>
-<p>Mend SAST now supports Python for CWE-614 (Sensitive Cookie Without 'Secure' Attribute).</p>
+<p>The <a href="https://docs.mend.io/platform/latest/scala">Scala</a> detection engine is now generally available, delivering increased coverage and accuracy for Scala code analysis.</p>
 </li>
 <li>
-<p>Mend SAST now includes detection for CWE-642 (External Control of Critical State Data) in Java.</p>
-</li>
-<li>
-<p>Mend SAST now includes detection for CWE-284 (Improper Access Control / Unsafe Permission Check) in Java.</p>
-</li>
-<li>
-<p>Improved the detection accuracy in Java and JavaScript (Gen2) engines across several CWE categories, including SQL Injection (CWE-89), Path Traversal (CWE-22), and Cross-Site Scripting (CWE-79).</p>
-</li>
-<li>
-<p>Updated the Mend SAST detection engine for Scala to include support for CWE-94: Improper Control of Generation of Code ('Code Injection').</p>
-</li>
-<li>
-<p>Improved the accuracy of Scala security scans by refining the sanitization logic for Server-Side Request Forgery (SSRF) detection.</p>
-</li>
-<li>
-<p>Mend SAST now supports CWE-319 (Cleartext Transmission of Sensitive Information) for the Go programming language.</p>
+<p>The compliance standards section in the Mend Platform now shows, for each standard, how many findings violate it. That count is clickable, and selecting it takes you directly to the list of findings that violate that specific standard, so you can move from a compliance overview straight to the exact findings you need to review.</p>
 </li>
 </ul>
 <p><strong>Resolved Issues</strong></p>
 <ul>
 <li>
-<p>Fixed an issue where Mend SAST incorrectly flagged FIPS-approved cryptographic algorithms, such as Elliptic Curve (EC) and PBKDF2WithHmacSHA256, as insecure under CWE-327.</p>
+<p>Fixed an issue where Mend SAST incorrectly flagged `getIntent()` calls in non-exported Android Activities as potential vulnerabilities.</p>
 </li>
 <li>
-<p>Fixed an issue where false-positive XSS vulnerabilities were incorrectly flagged in Python environments.</p>
+<p>Fixed an issue where Mend SAST incorrectly flagged log messages in Android Java applications when the message consisted solely of fixed string literals or compile-time constants.</p>
 </li>
 <li>
-<p>Fixed an issue where the secrets detection engine incorrectly flagged Mend SAST cache files as false positives when the cache directory was located within the scanned target directory. The engine now automatically excludes Mend's internal cache, binary, and log directories from secrets detection.</p>
+<p>Fixed an issue where the iOS Objective-C engine incorrectly identified `NSMutableDictionary` as a vulnerability, resulting in false-positive Insecure Data Storage findings.</p>
+</li>
+<li>
+<p>Fixed an issue where the iOS Objective-C engine could experience memory inefficiency and stalls when processing dense C preprocessor macro blocks.</p>
+</li>
+<li>
+<p>Fixed an issue where the JavaScript engine incorrectly flagged false-positive Open Redirect (CWE-601) findings when processing server-rendered attributes.</p>
+</li>
+<li>
+<p>Fixed an issue where JavaScript / TypeScript detection engine reported false-positive findings for DOM-based XSS.</p>
 </li>
 </ul>
 
   </section>
   <hr/>
   <section>
-    <h2><a href="https://docs.mend.io/platform/latest/mend-container-release-notes">Mend Container: Version 26.6.2 (12-July-2026)</a></h2>
-    <time datetime="2026-07-12T00:00:00+00:00">2026-07-12T00:00:00+00:00</time>
+    <h2><a href="https://docs.mend.io/platform/latest/mend-container-release-notes">Mend Container: Version 26.7.2 (09-August-2026)</a></h2>
+    <time datetime="2026-08-09T00:00:00+00:00">2026-08-09T00:00:00+00:00</time>
     
 <p><strong>New Features and Updates</strong></p>
 <ul>
 <li>
-<p>Introducing an Echo integration for managing <a href="https://docs.mend.io/platform/latest/docker-hardened-images">hardened images</a> in the Mend Platform. The integration allows users to connect their Echo environments to the Mend Platform, facilitating automated security scanning and centralized management of container image vulnerabilities, including VEX data and dedicated risk factor chips in the UI.</p>
+<p>Mend Container now supports SBOM import, allowing you to ingest container inventory and risk data from CycloneDX and SPDX files to <a href="https://docs.mend.io/platform/latest/create-a-project-using-a-dependencies-sbom-import">create a new project</a>. This new capability, available via the Platform UI and platform API, enables teams to manage security for air-gapped builds or third-party images by identifying OS-level packages and language ecosystems. Imported projects are automatically matched against the Mend vulnerability database to ensure accurate risk assessment without requiring a live image scan.</p>
 </li>
+</ul>
+<p><strong>Resolved Issues</strong></p>
+<ul>
 <li>
-<p>Minor improvements to the <a href="https://docs.mend.io/platform/latest/malicious-packages-in-mend-container">Malicious Package</a> management user experience.</p>
+<p>Fixed an issue where large image scans would occasionally fail to complete within a reasonable timeframe. This update optimizes the scanning process for high-capacity images, ensuring consistent performance and reliable completion of security assessments.</p>
 </li>
 </ul>
 
@@ -154,30 +137,21 @@
   </section>
   <hr/>
   <section>
-    <h2><a href="https://docs.mend.io/platform/latest/mend-cli-release-notes">Mend CLI: Version 26.7.1 (27-July-2026)</a></h2>
-    <time datetime="2026-07-27T00:00:00+00:00">2026-07-27T00:00:00+00:00</time>
+    <h2><a href="https://docs.mend.io/platform/latest/mend-cli-release-notes">Mend CLI: Version 26.7.2 (10-August-2026)</a></h2>
+    <time datetime="2026-08-10T00:00:00+00:00">2026-08-10T00:00:00+00:00</time>
     
 <p><strong>New Features and Updates</strong></p>
 <ul>
 <li>
-<p>The Mend CLI now supports browser-based OAuth authentication, providing a more seamless login experience. Users can choose to authenticate via their default browser, eliminating the need to manually manage and paste credentials. This update supports SSO-based organizations and aligns with industry-standard authentication patterns while maintaining the option for manual credential entry when needed.</p>
-</li>
-</ul>
-<p><strong>Resolved Issues</strong></p>
-<ul>
-<li>
-<p>Updated Mend CLI code scan dependencies for improved security.</p>
-</li>
-<li>
-<p><strong>(SCA)</strong> Fixed an issue where dependency scans would fail without identifying the specific manifests or errors responsible for the failure. The scan logs now correctly report which manifests failed and provide detailed error descriptions, ensuring that successful results from other projects in the repository are still uploaded even when specific manifests encounter resolution issues.</p>
+<p>Java 25.x is now <a href="https://docs.mend.io/platform/latest/mend-sca-cli-support-matrix"><u>officially tested and supported</u></a>.</p>
 </li>
 </ul>
 
   </section>
   <hr/>
   <section>
-    <h2><a href="https://docs.mend.io/legacy-sca/latest/mend-unified-agent-release-notes">Mend Unified Agent: Version 26.7.1 (27-July-2026)</a></h2>
-    <time datetime="2026-07-27T00:00:00+00:00">2026-07-27T00:00:00+00:00</time>
+    <h2><a href="https://docs.mend.io/legacy-sca/latest/mend-unified-agent-release-notes">Mend Unified Agent: Version 26.7.2 (10-August-2026)</a></h2>
+    <time datetime="2026-08-10T00:00:00+00:00">2026-08-10T00:00:00+00:00</time>
     
 <ul>
 <li>
@@ -188,27 +162,37 @@
   </section>
   <hr/>
   <section>
-    <h2><a href="https://docs.mend.io/integrations/latest/mend-developer-platform-release-notes">Mend Developer Platform: Version 26.7.1 (26-July-2026)</a></h2>
-    <time datetime="2026-07-26T00:00:00+00:00">2026-07-26T00:00:00+00:00</time>
+    <h2><a href="https://docs.mend.io/integrations/latest/mend-developer-platform-release-notes">Mend Developer Platform: Version 26.7.2 (09-August-2026)</a></h2>
+    <time datetime="2026-08-09T00:00:00+00:00">2026-08-09T00:00:00+00:00</time>
     
 <p><strong>New Features and Updates</strong></p>
 <ul>
 <li>
-<p><a href="https://docs.mend.io/integrations/latest/mend-developer-platform-for-gitlab-com">Mend Developer Platform for GitLab.com</a>, which has been in closed beta for several weeks. is now generally available.
-   <br>
-   Mend Developer Platform for GitLab Cloud integrates seamlessly into your native GitLab environment, scanning your repositories as part of your Mend account. Built directly into GitLab Cloud, it detects all open-source components and custom code, and provides clear, consolidated visibility into all findings.</p>
+<p>The Mend Developer Platform now includes dedicated sections for Deprecations and Abandoned packages in the frontend. This update provides users with clearer visibility into the status of their dependencies, allowing for better-informed decisions regarding package maintenance and security.</p>
 </li>
 <li>
-<p>The scan token is now visible within the job details block on the job page, located directly beneath the scan status row. This update includes a convenient copy button for the scan token, simplifying the debugging process by providing quick access to essential job information.</p>
+<p>Improved the user experience in the Mend Developer Platform by refining the job status logic. The job status column now remains in a "Running" or "Processing" state until scan results are fully published. This ensures that a "Done" status is displayed only when the scan conclusion and findings are available, providing a more accurate representation of scan progress across all engines and SCMs.</p>
 </li>
 <li>
-<p>Improved the webhook processing efficiency by transitioning the controller's autoscaling logic from queue depth to oldest-message age. This update ensures that scaling is triggered based on actual wait times, aligning more closely with service level objectives. Additionally, new metrics and structured logging have been implemented to provide better visibility into the full webhook lifecycle, including queue wait times and processing durations, allowing for more proactive capacity management and improved overall system throughput.</p>
+<p>To improve the onboarding experience, a "first sync in progress" status for organization cards was introduced on the homepage. When the onboarding flow is completed, any organization still undergoing its initial backend synchronization will now appear as a visible, pending card with clear status indicators. This ensures a user can immediately verify that an organization was added successfully, even while the background setup process is finishing.</p>
+</li>
+<li>
+<p><strong>(SAST)</strong> SAST scans on the Developer Platform now start faster due to improved caching mechanism.</p>
+</li>
+<li>
+<p><strong>(Renovate)</strong> Introduced the ability to view worker logs directly within the Renovate CE/EE web interface. Users can now access comprehensive job details, including worker-level logs that are prepended and appended to the standard Renovate logs, providing deeper visibility into job execution and errors.</p>
 </li>
 </ul>
 <p><strong>Resolved Issues</strong></p>
 <ul>
 <li>
-<p>(AZDO) Fixed an issue where Azure DevOps custom work item states, such as "In Progress" or "Resolved," were ignored and reset to "New" during scans. The integration now correctly respects these states, ensuring that manual updates to work item status are preserved and not overwritten.</p>
+<p>(AZDO) Fixed an issue where Azure DevOps projects with incomplete onboarding appeared as active cards on the Developer Platform home page, leading to a 404 error when clicked. These projects now correctly display an "Onboarding incomplete" status, providing clear visibility into their state and guiding users to complete the installation process.</p>
+</li>
+<li>
+<p>(<a href="http://gitlab.com/" rel="external noreferrer">GitLab.com</a>) Fixed an issue where the repository dropdowns remained empty during the custom selection step of the <a href="http://gitlab.com/" rel="external noreferrer">GitLab.com</a> onboarding process. The dropdowns now correctly list all available repositories within each selected group, ensuring a seamless and accurate selection of specific projects.</p>
+</li>
+<li>
+<p><strong>(SCA)</strong> (AZDO) Fixed an issue where a change in a <code>package-lock.json</code> file wouldn't trigger a dependencies scan. This fix ensures that any changes to dependencies within the lock file correctly trigger a scan, providing more comprehensive coverage for repository updates.</p>
 </li>
 </ul>
 
@@ -228,56 +212,16 @@
   </section>
   <hr/>
   <section>
-    <h2><a href="https://docs.mend.io/integrations/latest/mend-for-github-enterprise-release-notes">Mend for GitHub Enterprise: Version 26.7.1.2 (27-July-2026)</a></h2>
-    <time datetime="2026-07-27T00:00:00+00:00">2026-07-27T00:00:00+00:00</time>
+    <h2><a href="https://docs.mend.io/integrations/latest/mend-for-github-enterprise-release-notes">Mend for GitHub Enterprise: Version 26.7.1.8 (10-August-2026)</a></h2>
+    <time datetime="2026-08-10T00:00:00+00:00">2026-08-10T00:00:00+00:00</time>
     
-<p>Unified Agent 26.6.2 | <a href="https://github.com/renovatebot/renovate/releases/tag/43.272.4" rel="external noreferrer"><u>Renovate 43.272.4</u></a> | Remediate 26.7.1 | Pre-Scan Builder (PSB) 25.8.1</p>
-<p><strong>New Features and Updates</strong></p>
-<ul>
-<li>
-<p><strong>(SAST)</strong> GitHub issues created for SAST findings now include the full data flow trace, showing each step of how tainted data moves through the code. The check run summary has been simplified to a brief overview with a direct link to the corresponding issue, so developers get the right level of detail in the right place without leaving GitHub.</p>
-</li>
-<li>
-<p><strong>(SAST)</strong> Users can now trigger <code>/mend code</code> actions by replying directly to Mend's finding comment in PR conversations, instead of posting a separate comment at the bottom of the PR.</p>
-</li>
-</ul>
 <p><strong>Resolved Issues</strong></p>
 <ul>
 <li>
-<p>Fixed an issue where transient failures during the retrieval of inherited configuration files caused scans to silently fall back to default settings. This resulted in inconsistent scan results being cached and applied to subsequent processes. The system now correctly identifies these retrieval errors, ensuring that configuration is not downgraded to defaults and that failed attempts are not cached, providing more reliable and consistent scan outcomes.</p>
+<p>Updated the reachability scan flow to ensure the `isBaseBranch` parameter is correctly passed during scan requests. This alignment across all scan paths ensures consistent scan parameter handling for repository integrations, improving the accuracy of branch-specific scan data.</p>
 </li>
 <li>
-<p>Fixed an issue where scan results were not displayed on pull request check runs due to the summary exceeding the maximum byte size limit. The truncation logic now correctly measures UTF-8 byte length instead of character count, ensuring that summaries containing multi-byte characters or icons are properly processed and accepted by GitHub.</p>
-</li>
-<li>
-<p>Fixed an issue where the "Retrieve pending webhooks" API incorrectly returned zero for pending and running counts, even when webhooks were queued. The response mapping has been corrected to accurately reflect the actual number of pending and in-progress webhooks. Note that the running count represents a snapshot and serves as an approximation of currently processed webhooks.</p>
-</li>
-<li>
-<p>Upgraded the Java runtime to Eclipse Temurin 17.0.19 to enhance security and performance.</p>
-</li>
-<li>
-<p><strong>(SCA)</strong> Fixed an issue where the Poetry engine failed to resolve dependencies for projects using the legacy dev-dependencies section on Poetry 2.x environments. The engine now correctly identifies the Poetry version and applies the appropriate exclusion flags, ensuring accurate dependency detection and preventing false-negative scan results.</p>
-</li>
-<li>
-<p><strong>(SCA)</strong> Fixed an issue where the scanner would enter an infinite loop when parsing Maven POM files containing circular property references. The parser now identifies and skips properties that reference themselves, preventing scan failures and ensuring the process continues smoothly.</p>
-</li>
-<li>
-<p><strong>(SCA)</strong> Fixed an issue where Gradle scans injected Maven Central ahead of a project's private repository. This caused dependency resolution to prioritize public repositories, leading to excessive network requests and build failures in environments restricted to private registries. The resolution order has been corrected to ensure private repositories are prioritized, preventing unnecessary external calls.</p>
-</li>
-<li>
-<p><strong>(SCA)</strong> Fixed an issue where Gradle scans failed with out-of-memory errors when an unresolvable Java home was specified in the `gradle.properties` file. The scan process now correctly preserves critical memory configurations and JVM arguments when falling back to the system's Java installation, ensuring successful dependency resolution for large projects.</p>
-</li>
-<li>
-<p><strong>(SCA)</strong> Fixed an issue where Gradle dependencies could not be resolved in React Native pnpm workspace projects. This occurred because the Gradle build failed to locate the `@react-native/gradle-plugin` in the root directory after a pnpm installation, preventing successful dependency resolution. The fix ensures that the plugin is correctly referenced, allowing Gradle builds to complete successfully in monorepo environments which rely on the SCA Orchestrator.</p>
-</li>
-<li>
-<p><strong>(SCA)</strong> Fixed an issue where the SCA check run's "Issue" column incorrectly displayed "None" for scoped npm packages. This occurred because a title sanitization process prevented proper matching between GitHub issues and their corresponding dependencies, leading to duplicate issue creation. The fix ensures that issue titles for scoped packages are correctly preserved, restoring accurate linking and preventing redundant notifications.</p>
-</li>
-<li>
-<p><strong>(SCA)</strong> Fixed an issue where the Unified Agent would execute a full pip resolution on stub setup.py files lacking name and version metadata. This resulted in false-positive "Failed to get hierarchy tree" errors. The resolver now correctly handles these metadata-less files to ensure accurate dependency analysis.</p>
-</li>
-<li>
-<p><strong>(SCA)</strong> Fixed an issue where the SCA Reachability S3 cache client failed to authenticate using IAM instance roles when static access keys were not provided. The S3 client now supports a credential provider chain for IAM roles and environment variables. Additionally, client validation was updated to require only bucket-scoped permissions, ensuring compatibility with least-privilege security policies and preventing silent cache failures.</p>
+<p>Security update: Upgraded a few packages in the scanner and the controller to resolve CVEs.</p>
 </li>
 </ul>
 
@@ -298,22 +242,21 @@
   </section>
   <hr/>
   <section>
-    <h2><a href="https://docs.mend.io/integrations/latest/mend-for-bitbucket-data-center-release-notes">Mend for Bitbucket DC: Version 26.7.1.2 (27-July-2026)</a></h2>
-    <time datetime="2026-07-27T00:00:00+00:00">2026-07-27T00:00:00+00:00</time>
+    <h2><a href="https://docs.mend.io/integrations/latest/mend-for-bitbucket-data-center-release-notes">Mend for Bitbucket DC: Version 26.7.1.8 (10-August-2026)</a></h2>
+    <time datetime="2026-08-10T00:00:00+00:00">2026-08-10T00:00:00+00:00</time>
     
-<p>Unified Agent 26.6.2 | <a href="https://github.com/renovatebot/renovate/releases/tag/43.272.4" rel="external noreferrer"><u>Renovate 43.272.4</u></a> | Remediate 26.7.1 | Pre-Scan Builder (PSB) 25.8.1</p>
 <p><strong>Resolved Issues</strong></p>
 <ul>
 <li>
-<p>Upgraded the Java runtime to Eclipse Temurin 17.0.19 to enhance security and performance.</p>
+<p>Security hotfix: Upgraded a few packages in the scanner and the controller to resolve CVEs.</p>
 </li>
 </ul>
 
   </section>
   <hr/>
   <section>
-    <h2><a href="https://github.com/renovatebot/renovate/releases/tag/44.11.4">Mend Renovate CLI: 44.11.4</a></h2>
-    <time datetime="2026-08-04T11:06:33+00:00">2026-08-04T11:06:33+00:00</time>
+    <h2><a href="https://github.com/renovatebot/renovate/releases/tag/44.20.0">Mend Renovate CLI: 44.20.0</a></h2>
+    <time datetime="2026-08-10T14:26:01+00:00">2026-08-10T14:26:01+00:00</time>
     <p></p>
   </section>
   <hr/>
