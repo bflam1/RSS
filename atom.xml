@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://bflam1.github.io/RSS/atom.xml</id>
   <title>Mend.io Unified Release Notes</title>
-  <updated>2026-08-10T14:26:01+00:00</updated>
+  <updated>2026-08-11T14:07:53+00:00</updated>
   <author>
     <name>Mend Release Bot</name>
     <email>noreply@bflam1.github.io</email>
@@ -12,31 +12,31 @@
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>Aggregated RSS, Atom, and HTML of all Mend release notes.</subtitle>
   <entry>
-    <id>https://github.com/mend/renovate-ce-ee/releases/tag/15.1.0</id>
-    <title>Mend Renovate CC-EE: 15.1.0</title>
-    <updated>2026-08-10T14:37:29.805946+00:00</updated>
+    <id>https://github.com/mend/renovate-ce-ee/releases/tag/15.2.0</id>
+    <title>Mend Renovate CC-EE: 15.2.0</title>
+    <updated>2026-08-11T14:34:41.498149+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
     <content type="html">&lt;p&gt;&lt;/p&gt;</content>
-    <link href="https://github.com/mend/renovate-ce-ee/releases/tag/15.1.0"/>
-    <published>2026-07-29T14:13:44+00:00</published>
+    <link href="https://github.com/mend/renovate-ce-ee/releases/tag/15.2.0"/>
+    <published>2026-08-10T17:15:19+00:00</published>
   </entry>
   <entry>
-    <id>https://github.com/renovatebot/renovate/releases/tag/44.20.0</id>
-    <title>Mend Renovate CLI: 44.20.0</title>
-    <updated>2026-08-10T14:37:29.805936+00:00</updated>
+    <id>https://github.com/renovatebot/renovate/releases/tag/44.24.1</id>
+    <title>Mend Renovate CLI: 44.24.1</title>
+    <updated>2026-08-11T14:34:41.498140+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
     <content type="html">&lt;p&gt;&lt;/p&gt;</content>
-    <link href="https://github.com/renovatebot/renovate/releases/tag/44.20.0"/>
-    <published>2026-08-10T14:26:01+00:00</published>
+    <link href="https://github.com/renovatebot/renovate/releases/tag/44.24.1"/>
+    <published>2026-08-11T14:07:53+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-bitbucket-data-center-release-notes</id>
     <title>Mend for Bitbucket DC: Version 26.7.1.8 (10-August-2026)</title>
-    <updated>2026-08-10T14:37:29.805922+00:00</updated>
+    <updated>2026-08-11T14:34:41.498129+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -53,27 +53,29 @@
   </entry>
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-gitlab-release-notes</id>
-    <title>Mend for GitLab: Version 26.7.1.2 (27-July-2026)</title>
-    <updated>2026-08-10T14:37:29.805912+00:00</updated>
+    <title>Mend for GitLab: Version 26.7.1.8 (10-August-2026)</title>
+    <updated>2026-08-11T14:34:41.498120+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
     <content type="html">
-&lt;p&gt;Unified Agent 26.6.2 | &lt;a data-scope="external" href="https://github.com/renovatebot/renovate/releases/tag/43.272.4" rel="external noreferrer"&gt;&lt;u&gt;Renovate 43.272.4&lt;/u&gt;&lt;/a&gt; | Remediate 26.7.1 | Pre-Scan Builder (PSB) 25.8.1&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Fixed an issue where the SCA Reachability S3 cache client failed to authenticate using IAM instance roles when static access keys were not provided. The S3 client now supports a credential provider chain for IAM roles and environment variables. Additionally, client validation was updated to require only bucket-scoped permissions, ensuring compatibility with least-privilege security policies and preventing silent cache failures.&lt;/p&gt;
+&lt;p&gt;Updated the reachability scan flow to ensure the `isBaseBranch` parameter is correctly passed during scan requests. This alignment across all scan paths ensures consistent scan parameter handling for repository integrations, improving the accuracy of branch-specific scan data.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Security update: Upgraded a few packages in the scanner and the controller to resolve CVEs.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 </content>
     <link href="https://docs.mend.io/integrations/latest/mend-for-gitlab-release-notes"/>
-    <published>2026-07-27T00:00:00+00:00</published>
+    <published>2026-08-10T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-github-enterprise-release-notes</id>
     <title>Mend for GitHub Enterprise: Version 26.7.1.8 (10-August-2026)</title>
-    <updated>2026-08-10T14:37:29.805902+00:00</updated>
+    <updated>2026-08-11T14:34:41.498110+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -93,26 +95,35 @@
   </entry>
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-github-com-release-notes</id>
-    <title>Mend for GitHub.com: Version 26.7.1 (26-July-2026)</title>
-    <updated>2026-08-10T14:37:29.805892+00:00</updated>
+    <title>Mend for GitHub.com: Version 26.7.2 (09-August-2026)</title>
+    <updated>2026-08-11T14:34:41.498100+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
     <content type="html">
+&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Enhanced diagnostic logging for the webhook consumer to provide better visibility into queue-claim attempts and idle periods. This update allows for more effective troubleshooting of webhook processing delays by capturing detailed logs of claim outcomes and sleep durations when the queue is empty. These logs are disabled by default and can be activated via environment variables for targeted investigations, ensuring no impact on standard system performance while improving overall observability.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;(SAST)&lt;/strong&gt; Remediations are now triggered by commenting &lt;code&gt;/mend remediate&lt;/code&gt;, instead of by a checkbox. Mend replies with a confirmation comment once the command is processed, including a clear message if something goes wrong. Existing pull requests and issues continue to work as before.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Fixed an issue where the SCA check run's "Issue" column incorrectly displayed "None" for scoped npm packages. This occurred because a title sanitization process prevented proper matching between GitHub issues and their corresponding dependencies, leading to duplicate issue creation. The fix ensures that issue titles for scoped packages are correctly preserved, restoring accurate linking and preventing redundant notifications.&lt;/p&gt;
+&lt;p&gt;Updated the reachability scan flow to ensure the `isBaseBranch` parameter is correctly passed during scan requests. This alignment across all scan paths ensures consistent scan parameter handling for repository integrations, improving the accuracy of branch-specific scan data.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 </content>
     <link href="https://docs.mend.io/integrations/latest/mend-for-github-com-release-notes"/>
-    <published>2026-07-26T00:00:00+00:00</published>
+    <published>2026-08-09T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-developer-platform-release-notes</id>
     <title>Mend Developer Platform: Version 26.7.2 (09-August-2026)</title>
-    <updated>2026-08-10T14:37:29.805882+00:00</updated>
+    <updated>2026-08-11T14:34:41.498084+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -154,7 +165,7 @@
   <entry>
     <id>https://docs.mend.io/legacy-sca/latest/mend-unified-agent-release-notes</id>
     <title>Mend Unified Agent: Version 26.7.2 (10-August-2026)</title>
-    <updated>2026-08-10T14:37:29.805871+00:00</updated>
+    <updated>2026-08-11T14:34:41.498075+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -171,7 +182,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-cli-release-notes</id>
     <title>Mend CLI: Version 26.7.2 (10-August-2026)</title>
-    <updated>2026-08-10T14:37:29.805856+00:00</updated>
+    <updated>2026-08-11T14:34:41.498064+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -189,7 +200,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-ai-release-notes</id>
     <title>Mend AI: Version 25.12.1 (05-January-2026)</title>
-    <updated>2026-08-10T14:37:29.805844+00:00</updated>
+    <updated>2026-08-11T14:34:41.498051+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -224,7 +235,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-container-release-notes</id>
     <title>Mend Container: Version 26.7.2 (09-August-2026)</title>
-    <updated>2026-08-10T14:37:29.805831+00:00</updated>
+    <updated>2026-08-11T14:34:41.498038+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -248,7 +259,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-sast-release-notes</id>
     <title>Mend SAST: Version 26.7.2 (10-August-2026)</title>
-    <updated>2026-08-10T14:37:29.805816+00:00</updated>
+    <updated>2026-08-11T14:34:41.498018+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -293,7 +304,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-sca-release-notes</id>
     <title>Mend SCA: Version 26.7.2 (09-August-2026)</title>
-    <updated>2026-08-10T14:37:29.805788+00:00</updated>
+    <updated>2026-08-11T14:34:41.497988+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -314,7 +325,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-platform-release-notes</id>
     <title>Mend AppSec Platform: Version 26.7.2 (09-August-2026)</title>
-    <updated>2026-08-10T14:37:29.805749+00:00</updated>
+    <updated>2026-08-11T14:34:41.497950+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>

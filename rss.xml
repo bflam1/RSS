@@ -7,20 +7,20 @@
     <atom:link href="https://bflam1.github.io/RSS/atom.xml" rel="self"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 10 Aug 2026 14:26:01 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 11 Aug 2026 14:07:53 +0000</lastBuildDate>
     <item>
-      <title>Mend Renovate CC-EE: 15.1.0</title>
-      <link>https://github.com/mend/renovate-ce-ee/releases/tag/15.1.0</link>
+      <title>Mend Renovate CC-EE: 15.2.0</title>
+      <link>https://github.com/mend/renovate-ce-ee/releases/tag/15.2.0</link>
       <description>&lt;p&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://github.com/mend/renovate-ce-ee/releases/tag/15.1.0</guid>
-      <pubDate>Wed, 29 Jul 2026 14:13:44 +0000</pubDate>
+      <guid isPermaLink="false">https://github.com/mend/renovate-ce-ee/releases/tag/15.2.0</guid>
+      <pubDate>Mon, 10 Aug 2026 17:15:19 +0000</pubDate>
     </item>
     <item>
-      <title>Mend Renovate CLI: 44.20.0</title>
-      <link>https://github.com/renovatebot/renovate/releases/tag/44.20.0</link>
+      <title>Mend Renovate CLI: 44.24.1</title>
+      <link>https://github.com/renovatebot/renovate/releases/tag/44.24.1</link>
       <description>&lt;p&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://github.com/renovatebot/renovate/releases/tag/44.20.0</guid>
-      <pubDate>Mon, 10 Aug 2026 14:26:01 +0000</pubDate>
+      <guid isPermaLink="false">https://github.com/renovatebot/renovate/releases/tag/44.24.1</guid>
+      <pubDate>Tue, 11 Aug 2026 14:07:53 +0000</pubDate>
     </item>
     <item>
       <title>Mend for Bitbucket DC: Version 26.7.1.8 (10-August-2026)</title>
@@ -37,19 +37,21 @@
       <pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Mend for GitLab: Version 26.7.1.2 (27-July-2026)</title>
+      <title>Mend for GitLab: Version 26.7.1.8 (10-August-2026)</title>
       <link>https://docs.mend.io/integrations/latest/mend-for-gitlab-release-notes</link>
       <description>
-&lt;p&gt;Unified Agent 26.6.2 | &lt;a data-scope="external" href="https://github.com/renovatebot/renovate/releases/tag/43.272.4" rel="external noreferrer"&gt;&lt;u&gt;Renovate 43.272.4&lt;/u&gt;&lt;/a&gt; | Remediate 26.7.1 | Pre-Scan Builder (PSB) 25.8.1&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Fixed an issue where the SCA Reachability S3 cache client failed to authenticate using IAM instance roles when static access keys were not provided. The S3 client now supports a credential provider chain for IAM roles and environment variables. Additionally, client validation was updated to require only bucket-scoped permissions, ensuring compatibility with least-privilege security policies and preventing silent cache failures.&lt;/p&gt;
+&lt;p&gt;Updated the reachability scan flow to ensure the `isBaseBranch` parameter is correctly passed during scan requests. This alignment across all scan paths ensures consistent scan parameter handling for repository integrations, improving the accuracy of branch-specific scan data.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Security update: Upgraded a few packages in the scanner and the controller to resolve CVEs.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 </description>
       <guid isPermaLink="false">https://docs.mend.io/integrations/latest/mend-for-gitlab-release-notes</guid>
-      <pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Mend for GitHub Enterprise: Version 26.7.1.8 (10-August-2026)</title>
@@ -69,18 +71,27 @@
       <pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Mend for GitHub.com: Version 26.7.1 (26-July-2026)</title>
+      <title>Mend for GitHub.com: Version 26.7.2 (09-August-2026)</title>
       <link>https://docs.mend.io/integrations/latest/mend-for-github-com-release-notes</link>
       <description>
+&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Enhanced diagnostic logging for the webhook consumer to provide better visibility into queue-claim attempts and idle periods. This update allows for more effective troubleshooting of webhook processing delays by capturing detailed logs of claim outcomes and sleep durations when the queue is empty. These logs are disabled by default and can be activated via environment variables for targeted investigations, ensuring no impact on standard system performance while improving overall observability.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;(SAST)&lt;/strong&gt; Remediations are now triggered by commenting &lt;code&gt;/mend remediate&lt;/code&gt;, instead of by a checkbox. Mend replies with a confirmation comment once the command is processed, including a clear message if something goes wrong. Existing pull requests and issues continue to work as before.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Fixed an issue where the SCA check run's "Issue" column incorrectly displayed "None" for scoped npm packages. This occurred because a title sanitization process prevented proper matching between GitHub issues and their corresponding dependencies, leading to duplicate issue creation. The fix ensures that issue titles for scoped packages are correctly preserved, restoring accurate linking and preventing redundant notifications.&lt;/p&gt;
+&lt;p&gt;Updated the reachability scan flow to ensure the `isBaseBranch` parameter is correctly passed during scan requests. This alignment across all scan paths ensures consistent scan parameter handling for repository integrations, improving the accuracy of branch-specific scan data.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 </description>
       <guid isPermaLink="false">https://docs.mend.io/integrations/latest/mend-for-github-com-release-notes</guid>
-      <pubDate>Sun, 26 Jul 2026 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Mend Developer Platform: Version 26.7.2 (09-August-2026)</title>
