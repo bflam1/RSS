@@ -45,40 +45,37 @@
   </section>
   <hr/>
   <section>
-    <h2><a href="https://docs.mend.io/platform/latest/mend-sast-release-notes">Mend SAST: Version 26.7.2 (10-August-2026)</a></h2>
-    <time datetime="2026-08-10T00:00:00+00:00">2026-08-10T00:00:00+00:00</time>
+    <h2><a href="https://docs.mend.io/platform/latest/mend-sast-release-notes">Mend SAST: Version 26.8.1 (24-August-2026)</a></h2>
+    <time datetime="2026-08-24T00:00:00+00:00">2026-08-24T00:00:00+00:00</time>
     
 <p><strong>New Features and Updates</strong></p>
 <ul>
 <li>
-<p>Introducing the <a href="https://docs.mend.io/platform/latest/ruby-gen-2">Gen 2</a> Ruby detection engine, with improved CWE and framework coverage for accurate, scalable scans.</p>
+<p>When viewing finding details in the Mend Platform, you can now see the probability risk factor next to each data flow, providing more granular information.</p>
 </li>
 <li>
-<p>The <a href="https://docs.mend.io/platform/latest/scala">Scala</a> detection engine is now generally available, delivering increased coverage and accuracy for Scala code analysis.</p>
+<p>Mend SAST now includes detection for CWE-99: Improper Control of Resource Identifiers / Client Resource Injection in JavaScript/TypeScript. This update expands security coverage by identifying vulnerabilities where untrusted input can influence the selection of resources, such as files or network connections, helping to prevent client-side resource injection attacks.</p>
 </li>
 <li>
-<p>The compliance standards section in the Mend Platform now shows, for each standard, how many findings violate it. That count is clickable, and selecting it takes you directly to the list of findings that violate that specific standard, so you can move from a compliance overview straight to the exact findings you need to review.</p>
+<p>Mend SAST now supports CWE-319: Cleartext Transmission of Sensitive Information and CWE-321: Use of Hard-coded Cryptographic Key for Rust.</p>
 </li>
 </ul>
 <p><strong>Resolved Issues</strong></p>
 <ul>
 <li>
-<p>Fixed an issue where Mend SAST incorrectly flagged `getIntent()` calls in non-exported Android Activities as potential vulnerabilities.</p>
+<p>Fixed an issue where Java SAST scans performed on a non-system drive, such as a D: drive, failed to report findings. The engine now correctly handles cross-drive paths, ensuring consistent detection results regardless of the scan's location.</p>
 </li>
 <li>
-<p>Fixed an issue where Mend SAST incorrectly flagged log messages in Android Java applications when the message consisted solely of fixed string literals or compile-time constants.</p>
+<p>Fixed an issue where the iOS Objective-C engine incorrectly flagged standard Apple APIs—including `removeItemAtPath` and `NSUserDefaults`—as security vulnerabilities based on their presence alone. The engine now requires evidence of external control or sensitive data usage before reporting File Manipulation (CWE-73) or Insecure Data Storage findings. These improvements significantly reduce false positives in mobile application scans by ensuring that standard in-memory and lifecycle operations are not misidentified as risks.</p>
 </li>
 <li>
-<p>Fixed an issue where the iOS Objective-C engine incorrectly identified `NSMutableDictionary` as a vulnerability, resulting in false-positive Insecure Data Storage findings.</p>
+<p>Fixed an issue where VB.net scans would experience severe performance degradation or fail to complete when processing large files during the deep analysis phase. The engine has been optimized to significantly improve scan speeds, ensuring that complex files complete analysis instead of being skipped or timing out.</p>
 </li>
 <li>
-<p>Fixed an issue where the iOS Objective-C engine could experience memory inefficiency and stalls when processing dense C preprocessor macro blocks.</p>
+<p>Fixed an issue where the Mend Agentic MCP Integration's SAST tool failed to provide remediation suggestions due to an internal server error. The LLM remediation service has been stabilized to ensure consistent performance and successful tool calls within the integration.</p>
 </li>
 <li>
-<p>Fixed an issue where the JavaScript engine incorrectly flagged false-positive Open Redirect (CWE-601) findings when processing server-rendered attributes.</p>
-</li>
-<li>
-<p>Fixed an issue where JavaScript / TypeScript detection engine reported false-positive findings for DOM-based XSS.</p>
+<p>Fixed an issue where Mend CLI SAST scans failed to upload results after long-running engine analysis. This occurred when network firewalls closed idle TCP connections during extended analysis phases, leading to EOF errors. The system now gracefully handles these network conditions to ensure scan results are successfully submitted even after periods of inactivity.</p>
 </li>
 </ul>
 
@@ -128,25 +125,26 @@
   </section>
   <hr/>
   <section>
-    <h2><a href="https://docs.mend.io/platform/latest/mend-cli-release-notes">Mend CLI: Version 26.7.2.1 (19-August-2026)</a></h2>
-    <time datetime="2026-08-19T00:00:00+00:00">2026-08-19T00:00:00+00:00</time>
+    <h2><a href="https://docs.mend.io/platform/latest/mend-cli-release-notes">Mend CLI: Version 26.8.1 (24-August-2026)</a></h2>
+    <time datetime="2026-08-24T00:00:00+00:00">2026-08-24T00:00:00+00:00</time>
     
 <p><strong>Resolved Issues</strong></p>
 <ul>
 <li>
-<p><strong>Hotfix:</strong> Upgraded packages to fix CVEs.</p>
+<p><strong>(SAST)</strong> Fixed an issue where SAST scans failed to upload results after long-running engine analysis. This occurred when network firewalls closed idle TCP connections during extended analysis phases, leading to EOF errors. The system now gracefully handles these network conditions to ensure scan results are successfully submitted even after periods of inactivity.</p>
 </li>
 </ul>
 
   </section>
   <hr/>
   <section>
-    <h2><a href="https://docs.mend.io/legacy-sca/latest/mend-unified-agent-release-notes">Mend Unified Agent: Version 26.7.2.1 (19-August-2026)</a></h2>
-    <time datetime="2026-08-19T00:00:00+00:00">2026-08-19T00:00:00+00:00</time>
+    <h2><a href="https://docs.mend.io/legacy-sca/latest/mend-unified-agent-release-notes">Mend Unified Agent: Version 26.8.1 (24-August-2026)</a></h2>
+    <time datetime="2026-08-24T00:00:00+00:00">2026-08-24T00:00:00+00:00</time>
     
+<p><strong>Resolved Issues</strong></p>
 <ul>
 <li>
-<p>Fixed an issue where pip dependencies in certain setups were incorrectly reported as unresolved, causing successful scans to be marked as partial.</p>
+<p>Fixed an issue where the Unified Agent logged a misleading warning and incorrectly inflated the "total libraries affected by policy" count in scan reports. This occurred because libraries with no matching policies were incorrectly treated as having an unsupported action type. The reporting logic has been updated to correctly identify and exclude these libraries from policy-affected statistics, ensuring more accurate scan report data and cleaner logs.</p>
 </li>
 </ul>
 
@@ -179,6 +177,11 @@
 </li>
 <li>
 <p><strong>(SAST)</strong> Mend for GitHub.com can now automatically send SAST findings to GitHub Advanced Security using the <strong>exportToGHAS</strong> <a href="https://docs.mend.io/integrations/latest/configure-mend-for-github-com-for-sast#GHC-Scan-Settings-SAST">scan parameter</a>.</p>
+<ul>
+<li>
+<p>This feature requires repository <strong>Read and write</strong> access to <strong>Code scanning alerts</strong>.</p>
+</li>
+</ul>
 </li>
 <li>
 <p><strong>(SAST)</strong> Added the option to receive a single comment summarizing all findings, instead of a separate comment for each one. Furthermore, it is now possible to set a severity threshold so that only findings at or above the severity level you care about are reported. The severity threshold also applies if you keep the classic per-finding comments, giving you a simple way to reduce the number of PR comments either way.</p>
@@ -220,6 +223,9 @@
 </li>
 <li>
 <p>Fixed an issue where pip dependencies in certain setups were incorrectly reported as unresolved, causing successful scans to be marked as partial.</p>
+</li>
+<li>
+<p>Fixed an issue where global scan settings were ignored in favor of default values, in certain setups. The inheritance logic now correctly processes multi-level configurations to ensure all parent settings are applied as expected.</p>
 </li>
 </ul>
 
@@ -266,8 +272,8 @@
   </section>
   <hr/>
   <section>
-    <h2><a href="https://github.com/renovatebot/renovate/releases/tag/44.41.0">Mend Renovate CLI: 44.41.0</a></h2>
-    <time datetime="2026-08-24T11:42:24+00:00">2026-08-24T11:42:24+00:00</time>
+    <h2><a href="https://github.com/renovatebot/renovate/releases/tag/44.43.1">Mend Renovate CLI: 44.43.1</a></h2>
+    <time datetime="2026-08-25T13:01:04+00:00">2026-08-25T13:01:04+00:00</time>
     <p></p>
   </section>
   <hr/>
