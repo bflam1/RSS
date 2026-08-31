@@ -7,20 +7,20 @@
     <atom:link href="https://bflam1.github.io/RSS/atom.xml" rel="self"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 25 Aug 2026 13:01:04 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2026 01:57:45 +0000</lastBuildDate>
     <item>
-      <title>Mend Renovate CC-EE: 15.3.0</title>
-      <link>https://github.com/mend/renovate-ce-ee/releases/tag/15.3.0</link>
+      <title>Mend Renovate CC-EE: 15.4.0</title>
+      <link>https://github.com/mend/renovate-ce-ee/releases/tag/15.4.0</link>
       <description>&lt;p&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://github.com/mend/renovate-ce-ee/releases/tag/15.3.0</guid>
-      <pubDate>Tue, 18 Aug 2026 15:22:33 +0000</pubDate>
+      <guid isPermaLink="false">https://github.com/mend/renovate-ce-ee/releases/tag/15.4.0</guid>
+      <pubDate>Thu, 27 Aug 2026 07:09:42 +0000</pubDate>
     </item>
     <item>
-      <title>Mend Renovate CLI: 44.43.1</title>
-      <link>https://github.com/renovatebot/renovate/releases/tag/44.43.1</link>
+      <title>Mend Renovate CLI: 44.52.1</title>
+      <link>https://github.com/renovatebot/renovate/releases/tag/44.52.1</link>
       <description>&lt;p&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://github.com/renovatebot/renovate/releases/tag/44.43.1</guid>
-      <pubDate>Tue, 25 Aug 2026 13:01:04 +0000</pubDate>
+      <guid isPermaLink="false">https://github.com/renovatebot/renovate/releases/tag/44.52.1</guid>
+      <pubDate>Mon, 31 Aug 2026 01:57:45 +0000</pubDate>
     </item>
     <item>
       <title>Mend for Bitbucket DC: Version 26.8.1.1 (23-August-2026)</title>
@@ -124,6 +124,9 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
+&lt;p&gt;&lt;strong&gt;(SAST)&lt;/strong&gt; Remediations are now triggered by commenting &lt;code&gt;/mend remediate&lt;/code&gt;, instead of by a checkbox. Mend replies with a confirmation comment once the command is processed, including a clear message if something goes wrong. Existing pull requests and issues continue to work as before.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
 &lt;p&gt;&lt;strong&gt;(SAST)&lt;/strong&gt; Added the option to receive a single comment summarizing all findings, instead of a separate comment for each one. Furthermore, it is now possible to set a severity threshold so that only findings at or above the severity level you care about are reported. The severity threshold also applies if you keep the classic per-finding comments, giving you a simple way to reduce the number of PR comments either way.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -163,18 +166,18 @@
       <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Mend CLI: Version 26.8.1 (24-August-2026)</title>
+      <title>Mend CLI: Version 26.8.1.1 (25-August-2026)</title>
       <link>https://docs.mend.io/platform/latest/mend-cli-release-notes</link>
       <description>
 &lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SAST)&lt;/strong&gt; Fixed an issue where SAST scans failed to upload results after long-running engine analysis. This occurred when network firewalls closed idle TCP connections during extended analysis phases, leading to EOF errors. The system now gracefully handles these network conditions to ensure scan results are successfully submitted even after periods of inactivity.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;(SCA) Hotfix:&lt;/strong&gt; Fixed an issue where a &lt;code&gt;mend ua&lt;/code&gt; scan would fail with an "apiKey/licenseKey not set" error, even when authentication was properly configured.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 </description>
       <guid isPermaLink="false">https://docs.mend.io/platform/latest/mend-cli-release-notes</guid>
-      <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Mend AI: Version 25.12.1 (05-January-2026)</title>

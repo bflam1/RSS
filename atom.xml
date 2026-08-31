@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://bflam1.github.io/RSS/atom.xml</id>
   <title>Mend.io Unified Release Notes</title>
-  <updated>2026-08-25T13:01:04+00:00</updated>
+  <updated>2026-08-31T01:57:45+00:00</updated>
   <author>
     <name>Mend Release Bot</name>
     <email>noreply@bflam1.github.io</email>
@@ -12,31 +12,31 @@
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>Aggregated RSS, Atom, and HTML of all Mend release notes.</subtitle>
   <entry>
-    <id>https://github.com/mend/renovate-ce-ee/releases/tag/15.3.0</id>
-    <title>Mend Renovate CC-EE: 15.3.0</title>
-    <updated>2026-08-25T14:12:29.517761+00:00</updated>
+    <id>https://github.com/mend/renovate-ce-ee/releases/tag/15.4.0</id>
+    <title>Mend Renovate CC-EE: 15.4.0</title>
+    <updated>2026-08-31T19:34:29.818889+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
     <content type="html">&lt;p&gt;&lt;/p&gt;</content>
-    <link href="https://github.com/mend/renovate-ce-ee/releases/tag/15.3.0"/>
-    <published>2026-08-18T15:22:33+00:00</published>
+    <link href="https://github.com/mend/renovate-ce-ee/releases/tag/15.4.0"/>
+    <published>2026-08-27T07:09:42+00:00</published>
   </entry>
   <entry>
-    <id>https://github.com/renovatebot/renovate/releases/tag/44.43.1</id>
-    <title>Mend Renovate CLI: 44.43.1</title>
-    <updated>2026-08-25T14:12:29.517751+00:00</updated>
+    <id>https://github.com/renovatebot/renovate/releases/tag/44.52.1</id>
+    <title>Mend Renovate CLI: 44.52.1</title>
+    <updated>2026-08-31T19:34:29.818878+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
     <content type="html">&lt;p&gt;&lt;/p&gt;</content>
-    <link href="https://github.com/renovatebot/renovate/releases/tag/44.43.1"/>
-    <published>2026-08-25T13:01:04+00:00</published>
+    <link href="https://github.com/renovatebot/renovate/releases/tag/44.52.1"/>
+    <published>2026-08-31T01:57:45+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-bitbucket-data-center-release-notes</id>
     <title>Mend for Bitbucket DC: Version 26.8.1.1 (23-August-2026)</title>
-    <updated>2026-08-25T14:12:29.517727+00:00</updated>
+    <updated>2026-08-31T19:34:29.818869+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -58,7 +58,7 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-gitlab-release-notes</id>
     <title>Mend for GitLab: Version 26.8.1.1 (23-August-2026)</title>
-    <updated>2026-08-25T14:12:29.517713+00:00</updated>
+    <updated>2026-08-31T19:34:29.818861+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -86,7 +86,7 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-github-enterprise-release-notes</id>
     <title>Mend for GitHub Enterprise: Version 26.8.1.1 (23-August-2026)</title>
-    <updated>2026-08-25T14:12:29.517699+00:00</updated>
+    <updated>2026-08-31T19:34:29.818854+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -132,7 +132,7 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-github-com-release-notes</id>
     <title>Mend for GitHub.com: Version 26.8.1 (23-August-2026)</title>
-    <updated>2026-08-25T14:12:29.517684+00:00</updated>
+    <updated>2026-08-31T19:34:29.818846+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -151,6 +151,9 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
+&lt;p&gt;&lt;strong&gt;(SAST)&lt;/strong&gt; Remediations are now triggered by commenting &lt;code&gt;/mend remediate&lt;/code&gt;, instead of by a checkbox. Mend replies with a confirmation comment once the command is processed, including a clear message if something goes wrong. Existing pull requests and issues continue to work as before.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
 &lt;p&gt;&lt;strong&gt;(SAST)&lt;/strong&gt; Added the option to receive a single comment summarizing all findings, instead of a separate comment for each one. Furthermore, it is now possible to set a severity threshold so that only findings at or above the severity level you care about are reported. The severity threshold also applies if you keep the classic per-finding comments, giving you a simple way to reduce the number of PR comments either way.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -161,7 +164,7 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-developer-platform-release-notes</id>
     <title>Mend Developer Platform: Version 26.8.1 (23-August-2026)</title>
-    <updated>2026-08-25T14:12:29.517669+00:00</updated>
+    <updated>2026-08-31T19:34:29.818838+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -182,7 +185,7 @@
   <entry>
     <id>https://docs.mend.io/legacy-sca/latest/mend-unified-agent-release-notes</id>
     <title>Mend Unified Agent: Version 26.8.1 (24-August-2026)</title>
-    <updated>2026-08-25T14:12:29.517655+00:00</updated>
+    <updated>2026-08-31T19:34:29.818830+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -199,8 +202,8 @@
   </entry>
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-cli-release-notes</id>
-    <title>Mend CLI: Version 26.8.1 (24-August-2026)</title>
-    <updated>2026-08-25T14:12:29.517640+00:00</updated>
+    <title>Mend CLI: Version 26.8.1.1 (25-August-2026)</title>
+    <updated>2026-08-31T19:34:29.818822+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -208,17 +211,17 @@
 &lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SAST)&lt;/strong&gt; Fixed an issue where SAST scans failed to upload results after long-running engine analysis. This occurred when network firewalls closed idle TCP connections during extended analysis phases, leading to EOF errors. The system now gracefully handles these network conditions to ensure scan results are successfully submitted even after periods of inactivity.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;(SCA) Hotfix:&lt;/strong&gt; Fixed an issue where a &lt;code&gt;mend ua&lt;/code&gt; scan would fail with an "apiKey/licenseKey not set" error, even when authentication was properly configured.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 </content>
     <link href="https://docs.mend.io/platform/latest/mend-cli-release-notes"/>
-    <published>2026-08-24T00:00:00+00:00</published>
+    <published>2026-08-25T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-ai-release-notes</id>
     <title>Mend AI: Version 25.12.1 (05-January-2026)</title>
-    <updated>2026-08-25T14:12:29.517622+00:00</updated>
+    <updated>2026-08-31T19:34:29.818812+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -253,7 +256,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-container-release-notes</id>
     <title>Mend Container: Version 26.8.1 (23-August-2026)</title>
-    <updated>2026-08-25T14:12:29.517605+00:00</updated>
+    <updated>2026-08-31T19:34:29.818802+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -271,7 +274,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-sast-release-notes</id>
     <title>Mend SAST: Version 26.8.1 (24-August-2026)</title>
-    <updated>2026-08-25T14:12:29.517586+00:00</updated>
+    <updated>2026-08-31T19:34:29.818791+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -313,7 +316,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-sca-release-notes</id>
     <title>Mend SCA: Version 26.8.1 (23-August-2026)</title>
-    <updated>2026-08-25T14:12:29.517557+00:00</updated>
+    <updated>2026-08-31T19:34:29.818771+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -334,7 +337,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-platform-release-notes</id>
     <title>Mend AppSec Platform: Version 26.8.1 (23-August-2026)</title>
-    <updated>2026-08-25T14:12:29.517517+00:00</updated>
+    <updated>2026-08-31T19:34:29.818727+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>

@@ -125,13 +125,13 @@
   </section>
   <hr/>
   <section>
-    <h2><a href="https://docs.mend.io/platform/latest/mend-cli-release-notes">Mend CLI: Version 26.8.1 (24-August-2026)</a></h2>
-    <time datetime="2026-08-24T00:00:00+00:00">2026-08-24T00:00:00+00:00</time>
+    <h2><a href="https://docs.mend.io/platform/latest/mend-cli-release-notes">Mend CLI: Version 26.8.1.1 (25-August-2026)</a></h2>
+    <time datetime="2026-08-25T00:00:00+00:00">2026-08-25T00:00:00+00:00</time>
     
 <p><strong>Resolved Issues</strong></p>
 <ul>
 <li>
-<p><strong>(SAST)</strong> Fixed an issue where SAST scans failed to upload results after long-running engine analysis. This occurred when network firewalls closed idle TCP connections during extended analysis phases, leading to EOF errors. The system now gracefully handles these network conditions to ensure scan results are successfully submitted even after periods of inactivity.</p>
+<p><strong>(SCA) Hotfix:</strong> Fixed an issue where a <code>mend ua</code> scan would fail with an "apiKey/licenseKey not set" error, even when authentication was properly configured.</p>
 </li>
 </ul>
 
@@ -182,6 +182,9 @@
 <p>This feature requires repository <strong>Read and write</strong> access to <strong>Code scanning alerts</strong>.</p>
 </li>
 </ul>
+</li>
+<li>
+<p><strong>(SAST)</strong> Remediations are now triggered by commenting <code>/mend remediate</code>, instead of by a checkbox. Mend replies with a confirmation comment once the command is processed, including a clear message if something goes wrong. Existing pull requests and issues continue to work as before.</p>
 </li>
 <li>
 <p><strong>(SAST)</strong> Added the option to receive a single comment summarizing all findings, instead of a separate comment for each one. Furthermore, it is now possible to set a severity threshold so that only findings at or above the severity level you care about are reported. The severity threshold also applies if you keep the classic per-finding comments, giving you a simple way to reduce the number of PR comments either way.</p>
@@ -272,14 +275,14 @@
   </section>
   <hr/>
   <section>
-    <h2><a href="https://github.com/renovatebot/renovate/releases/tag/44.43.1">Mend Renovate CLI: 44.43.1</a></h2>
-    <time datetime="2026-08-25T13:01:04+00:00">2026-08-25T13:01:04+00:00</time>
+    <h2><a href="https://github.com/renovatebot/renovate/releases/tag/44.52.1">Mend Renovate CLI: 44.52.1</a></h2>
+    <time datetime="2026-08-31T01:57:45+00:00">2026-08-31T01:57:45+00:00</time>
     <p></p>
   </section>
   <hr/>
   <section>
-    <h2><a href="https://github.com/mend/renovate-ce-ee/releases/tag/15.3.0">Mend Renovate CC-EE: 15.3.0</a></h2>
-    <time datetime="2026-08-18T15:22:33+00:00">2026-08-18T15:22:33+00:00</time>
+    <h2><a href="https://github.com/mend/renovate-ce-ee/releases/tag/15.4.0">Mend Renovate CC-EE: 15.4.0</a></h2>
+    <time datetime="2026-08-27T07:09:42+00:00">2026-08-27T07:09:42+00:00</time>
     <p></p>
   </section>
   <hr/>
