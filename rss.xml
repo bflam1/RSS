@@ -7,20 +7,20 @@
     <atom:link href="https://bflam1.github.io/RSS/atom.xml" rel="self"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 01 Sep 2026 15:59:52 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 07 Sep 2026 17:06:31 +0000</lastBuildDate>
     <item>
-      <title>Mend Renovate CC-EE: 15.4.0</title>
-      <link>https://github.com/mend/renovate-ce-ee/releases/tag/15.4.0</link>
+      <title>Mend Renovate CC-EE: 15.5.0</title>
+      <link>https://github.com/mend/renovate-ce-ee/releases/tag/15.5.0</link>
       <description>&lt;p&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://github.com/mend/renovate-ce-ee/releases/tag/15.4.0</guid>
-      <pubDate>Thu, 27 Aug 2026 07:09:42 +0000</pubDate>
+      <guid isPermaLink="false">https://github.com/mend/renovate-ce-ee/releases/tag/15.5.0</guid>
+      <pubDate>Mon, 07 Sep 2026 17:06:31 +0000</pubDate>
     </item>
     <item>
-      <title>Mend Renovate CLI: 44.56.0</title>
-      <link>https://github.com/renovatebot/renovate/releases/tag/44.56.0</link>
+      <title>Mend Renovate CLI: 44.69.3</title>
+      <link>https://github.com/renovatebot/renovate/releases/tag/44.69.3</link>
       <description>&lt;p&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://github.com/renovatebot/renovate/releases/tag/44.56.0</guid>
-      <pubDate>Tue, 01 Sep 2026 15:59:52 +0000</pubDate>
+      <guid isPermaLink="false">https://github.com/renovatebot/renovate/releases/tag/44.69.3</guid>
+      <pubDate>Mon, 07 Sep 2026 16:43:00 +0000</pubDate>
     </item>
     <item>
       <title>Mend for Bitbucket DC: Version 26.8.1.1 (23-August-2026)</title>
@@ -107,63 +107,64 @@
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Mend for GitHub.com: Version 26.8.1 (23-August-2026)</title>
+      <title>Mend for GitHub.com: Version 26.8.2 (06-September-2026)</title>
       <link>https://docs.mend.io/integrations/latest/mend-for-github-com-release-notes</link>
       <description>
 &lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;In GitHub issues only a single dependency file path is displayed when a vulnerability affects multiple manifests. To clarify that the displayed path is one of potentially several affected locations, the label has been updated to "Sample Path to Dependency File".&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SAST)&lt;/strong&gt; Mend for GitHub.com can now automatically send SAST findings to GitHub Advanced Security using the &lt;strong&gt;exportToGHAS&lt;/strong&gt; &lt;a data-scope="internal" href="https://docs.mend.io/integrations/latest/configure-mend-for-github-com-for-sast#GHC-Scan-Settings-SAST"&gt;scan parameter&lt;/a&gt;.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;This feature requires repository &lt;strong&gt;Read and write&lt;/strong&gt; access to &lt;strong&gt;Code scanning alerts&lt;/strong&gt;.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SAST)&lt;/strong&gt; Remediations are now triggered by commenting &lt;code&gt;/mend remediate&lt;/code&gt;, instead of by a checkbox. Mend replies with a confirmation comment once the command is processed, including a clear message if something goes wrong. Existing pull requests and issues continue to work as before.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SAST)&lt;/strong&gt; Added the option to receive a single comment summarizing all findings, instead of a separate comment for each one. Furthermore, it is now possible to set a severity threshold so that only findings at or above the severity level you care about are reported. The severity threshold also applies if you keep the classic per-finding comments, giving you a simple way to reduce the number of PR comments either way.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Python &lt;code&gt;constraints.txt&lt;/code&gt; files are now supported. This update allows the scanner to identify and apply dependency constraints, including those for transitive dependencies, without requiring manual references in &lt;code&gt;requirements.txt&lt;/code&gt;. By honoring these constraints during resolution, the system reduces false-positive vulnerability reports and ensures scan results accurately reflect the specific package versions permitted in your environment.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 </description>
       <guid isPermaLink="false">https://docs.mend.io/integrations/latest/mend-for-github-com-release-notes</guid>
-      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 06 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Mend Developer Platform: Version 26.8.1 (23-August-2026)</title>
+      <title>Mend Developer Platform: Version 26.8.2 (06-September-2026)</title>
       <link>https://docs.mend.io/integrations/latest/mend-developer-platform-release-notes</link>
       <description>
 &lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;The "Last Updated At" timestamp has been removed from the individual job detail page to streamline the interface and reduce visual noise. This information remains available on the jobs table and list pages, where it continues to provide valuable context for comparing multiple jobs at a glance. This update ensures that the most relevant job details, such as completion time and duration, are prioritized for a cleaner user experience.&lt;/p&gt;
+&lt;p&gt;(GitLab.com) Introduced a hierarchical tree view for the Installed Groups list, replacing the previous flat list to clearly display group relationships. This update includes bulk selection and deletion capabilities, allowing users to manage multiple groups simultaneously while providing a detailed confirmation dialog that specifies which groups and repositories will be removed or retained.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;(GitLab.com) A new visual indicator in the group tree was introduced to show when a first sync is in progress. Newly onboarded groups now appear with a "Setting up..." badge, ensuring clear visibility into the setup status. The group node remains in a pending state until the initial sync completes, at which point it automatically transitions to an active, interactive state.&lt;/p&gt;
+&lt;p&gt;(Bitbucket) Following the &lt;a data-scope="external" href="https://community.atlassian.com/forums/Bitbucket-articles/Announcing-sunset-of-Bitbucket-Issues-and-Wikis/ba-p/3193882" rel="external noreferrer"&gt;deprecation of Bitbucket Cloud's native issue tracker&lt;/a&gt;, the Developer Platform was updated to ensure a seamless user experience and prevent integration errors. The "Issues" toggle is now disabled for Bitbucket Cloud across all scan engines, including Dependencies, Code Security, and Infrastructure as Code. An explanatory tooltip has been added to the interface, and backend processes have been updated to stop calling the deprecated Bitbucket endpoints. These changes prevent failing API calls and ensure that scan engine settings remain accurate and functional.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Python &lt;code&gt;constraints.txt&lt;/code&gt; files are now supported. This update allows the scanner to identify and apply dependency constraints, including those for transitive dependencies, without requiring manual references in &lt;code&gt;requirements.txt&lt;/code&gt;. By honoring these constraints during resolution, the system reduces false-positive vulnerability reports and ensures scan results accurately reflect the specific package versions permitted in your environment.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; (Bitbucket) Fixed an issue where SCA scans could remain stuck in a "RUNNING" state indefinitely. The fix ensures that all scan processes are correctly finalized or closed, providing accurate status updates and visibility within the user interface.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 </description>
       <guid isPermaLink="false">https://docs.mend.io/integrations/latest/mend-developer-platform-release-notes</guid>
-      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 06 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Mend Unified Agent: Version 26.8.1 (24-August-2026)</title>
+      <title>Mend Unified Agent: Version 26.8.2 (07-September-2026)</title>
       <link>https://docs.mend.io/legacy-sca/latest/mend-unified-agent-release-notes</link>
       <description>
 &lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Fixed an issue where the Unified Agent logged a misleading warning and incorrectly inflated the "total libraries affected by policy" count in scan reports. This occurred because libraries with no matching policies were incorrectly treated as having an unsupported action type. The reporting logic has been updated to correctly identify and exclude these libraries from policy-affected statistics, ensuring more accurate scan report data and cleaner logs.&lt;/p&gt;
+&lt;p&gt;Fixed an issue where &lt;em&gt;pip&lt;/em&gt; requirements.txt scans on Windows could report zero dependencies when using an absolute path for the pip executable (python.pipPath). This occurred because the scan bypassed the activated virtual environment, causing dependency mismatches that invalidated the entire manifest. The resolution process now correctly honors the virtual environment activation, ensuring accurate dependency inventory and reporting.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Fixed an issue where the Ant dependency resolver in the Unified Agent used inconsistent log prefixes, such as "Ant-Resolver" and "Ant Resolver," across different debug statements. The log prefix has been standardized to a single consistent format to improve log readability and simplify troubleshooting.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Fixed an issue where NuGet transitive dependencies were incorrectly reported with the version identity declared in a package's nuspec file rather than the version actually restored on disk. This occurred when the restored version was missing from the global NuGet cache, causing the scanner to default to the nuspec-declared version. The resolver now correctly prioritizes the project's local restore directory to ensure accurate version identification and inventory reporting.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 </description>
       <guid isPermaLink="false">https://docs.mend.io/legacy-sca/latest/mend-unified-agent-release-notes</guid>
-      <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Mend CLI: Version 26.8.1.1 (25-August-2026)</title>
@@ -211,18 +212,24 @@
       <pubDate>Mon, 05 Jan 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Mend Container: Version 26.8.1 (23-August-2026)</title>
+      <title>Mend Container: Version 26.8.2 (06-September-2026)</title>
       <link>https://docs.mend.io/platform/latest/mend-container-release-notes</link>
       <description>
-&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Chainguard is now supported as part of Mend Container's &lt;a data-scope="internal" href="https://docs.mend.io/platform/latest/docker-hardened-images"&gt;hardened image detection&lt;/a&gt;, enhancing container security by incorporating Chainguard-specific vulnerability data and VEX information. This update includes the detection of Chainguard image layers and base images. Users can now view Chainguard VEX status and branding directly within the risk factors columns across the UI, providing clearer insights into the security posture of Chainguard-based images and findings.&lt;/p&gt;
+&lt;p&gt;Fixed an issue where the Container Attribution Report export endpoint returned an empty report regardless of the number of scanned container images. The export now correctly includes attribution data for the organization's container scans.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Fixed an issue where container scans incorrectly matched CVEs to package versions outside their affected range and reported inconsistent vulnerability counts for unchanged images. The fix ensures that vulnerability matching strictly adheres to documented version ranges and provides stable, reliable results across consecutive scans.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Fixed an issue where Docker Hardened Image (DHI) VEX statements were not correctly attached to Go-language application package findings. While VEX data was successfully applied to OS-level packages, it was missing for language-specific dependencies. This fix ensures that version-matched VEX statements are accurately reflected as risk factors for Go packages, providing a more precise security posture for container scans.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 </description>
       <guid isPermaLink="false">https://docs.mend.io/platform/latest/mend-container-release-notes</guid>
-      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 06 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Mend SAST: Version 26.8.1 (24-August-2026)</title>
@@ -263,44 +270,84 @@
       <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Mend SCA: Version 26.8.1 (23-August-2026)</title>
+      <title>Mend SCA: Version 26.8.2 (06-September-2026)</title>
       <link>https://docs.mend.io/platform/latest/mend-sca-release-notes</link>
       <description>
+&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Introduced a unified vulnerability remediation experience across the Mend Platform by standardizing fix logic and recommendations, adding a Top Fix column in the &lt;a data-scope="internal" href="https://docs.mend.io/platform/latest/the-findings-table#Findings-Table"&gt;Findings&lt;/a&gt; table, updating the Remediation tab, and ensuring consistent metadata for reliable and clear vulnerability fixes.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;This update may result in fewer remediation suggestions per vulnerability and overall reduced noise-level, due to the increased accuracy of the fix logic.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;This feature will be rolled out gradually in the next couple of weeks.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Fixed an issue where, under certain conditions, generating the Dependencies Findings Report in Excel format at the application scope failed to produce a report, incorrectly stating that no projects matched the requested scope. The report now correctly includes all relevant project data when generated at the application level.&lt;/p&gt;
+&lt;p&gt;Fixed an issue where the Libraries grid experienced significant loading delays for organizations with large inventories. The underlying query logic has been optimized to ensure faster page responses and improved performance when viewing dependency details.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Fixed an issue where several common Microsoft libraries were incorrectly classified as high-risk. The license risk ratings for these libraries have been updated to reflect their correct status, ensuring accurate compliance reporting and reducing unnecessary policy violations in your inventory.&lt;/p&gt;
+&lt;p&gt;Fixed an issue where the Alerts view and Library view displayed inconsistent vulnerability data for specific Java libraries. This synchronization fix ensures that security alerts accurately reflect the library's status across all platform views, providing a reliable and unified source of truth for vulnerability management.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Fixed an issue where the jsPDF `polyfills.umd.js` file (v4.2.0) was incorrectly identified as version 3.0.2. The mapping has been corrected to ensure accurate identification and security reporting for jsPDF v4.2.0.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Fixed an issue where larastan packages were incorrectly flagged with CVE-2021-41248.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Fixed an issue where newly published CVEs were not automatically appearing on the Alerts &gt; Vulnerability page within the expected synchronization cycle.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 </description>
       <guid isPermaLink="false">https://docs.mend.io/platform/latest/mend-sca-release-notes</guid>
-      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 06 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Mend AppSec Platform: Version 26.8.1 (23-August-2026)</title>
+      <title>Mend AppSec Platform: Version 26.8.2 (06-September-2026)</title>
       <link>https://docs.mend.io/platform/latest/mend-platform-release-notes</link>
       <description>
 &lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Introduced &lt;a data-scope="internal" href="https://docs.mend.io/platform/latest/create-an-automation-workflow-in-the-mend-platform#Global-Workflows"&gt;&lt;strong&gt;Account-Level (Global) Workflows&lt;/strong&gt;&lt;/a&gt;, enabling administrators to define and manage workflows centrally across multiple organizations. This feature eliminates manual duplication and ensures consistent governance by allowing workflows to be configured at the account level and propagated to selected organizations. Account-level workflows are clearly identified within organization views, and administrators can control whether organization-level admins have the authority to enable or disable them locally. This update also includes comprehensive API support for managing global workflows.&lt;/p&gt;
+&lt;p&gt;Introduced a new suppression tool in &lt;a data-scope="internal" href="https://docs.mend.io/integrations/latest/mend-agentic-integration"&gt;Agentic Integrations&lt;/a&gt;, enabling developers to effectively manage security findings directly within their IDE or AI agent workflow. This update supports both single and bulk suppression or unsuppression actions across all scanning engines, including SAST and SCA. By integrating triage capabilities into the development environment and ensuring UI updates reflect within seconds, the enhancement reduces context-switching and streamlines the remediation process.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;The Administration page sidebar has been updated to include a categorized, collapsible navigation structure, improving discoverability and aligning with the Application and Project pages. As part of this update, AI Usage settings have been moved from the General tab to a dedicated AI Usage tab within the new AI category. Additionally, the Engine Settings section now features specific sub-headers for AI, Code, and Dependencies for a more organized administrative experience.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Introduced a unified vulnerability remediation experience across the Mend Platform by standardizing fix logic and recommendations, adding a Top Fix column in the &lt;a data-scope="internal" href="https://docs.mend.io/platform/latest/the-findings-table#Findings-Table"&gt;Findings&lt;/a&gt; table, updating the Remediation tab, and ensuring consistent metadata for reliable and clear vulnerability fixes.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;This update may result in fewer remediation suggestions per vulnerability and overall reduced noise-level, due to the increased accuracy of the fix logic.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;This feature will be rolled out gradually in the next couple of weeks.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Fixed an issue where, under certain conditions, generating the Dependencies Findings Report in Excel format at the application scope failed to produce a report, incorrectly stating that no projects matched the requested scope. The report now correctly includes all relevant project data when generated at the application level.&lt;/p&gt;
+&lt;p&gt;Fixed an issue where SBOM report generation jobs could remain in a pending state indefinitely during periods of high volume.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Fixed an issue where filtering the Application Violations table by project failed and displayed an error row.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Fixed an issue where license status toggles in the library drawer were incorrectly enabled for users without update permissions. The interface now correctly disables these controls and provides a descriptive tooltip when a user lacks the required access, ensuring the user experience aligns with backend authorization levels and preventing non-persistent UI changes.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;(IaC)&lt;/strong&gt; Fixed an issue where the Project Summary page incorrectly displayed "IaC Scan Not Executed" even when Infrastructure as Code (IaC) findings were present. The statistics synchronization has been corrected to ensure the summary widget accurately reflects scan results and finding counts.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 </description>
       <guid isPermaLink="false">https://docs.mend.io/platform/latest/mend-platform-release-notes</guid>
-      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 06 Sep 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
