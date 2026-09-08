@@ -62,6 +62,9 @@
 </li>
 </ul>
 </li>
+<li>
+<p>Introduced support for the European Union Vulnerability Database (EUVD) as a primary security data source. This integration provides enriched vulnerability data, including dedicated CVSS scores and exploitability information sourced directly from <a href="https://www.enisa.europa.eu/" rel="external noreferrer">ENISA</a>. By incorporating this comprehensive European feed alongside existing sources, the platform delivers broader visibility into global vulnerability trends and ensures more robust protection through enhanced security data coverage.</p>
+</li>
 </ul>
 <p><strong>Resolved Issues</strong></p>
 <ul>
@@ -85,37 +88,64 @@
   </section>
   <hr/>
   <section>
-    <h2><a href="https://docs.mend.io/platform/latest/mend-sast-release-notes">Mend SAST: Version 26.8.1 (24-August-2026)</a></h2>
-    <time datetime="2026-08-24T00:00:00+00:00">2026-08-24T00:00:00+00:00</time>
+    <h2><a href="https://docs.mend.io/platform/latest/mend-sast-release-notes">Mend SAST: Version 26.8.2 (07-September-2026)</a></h2>
+    <time datetime="2026-09-07T00:00:00+00:00">2026-09-07T00:00:00+00:00</time>
     
 <p><strong>New Features and Updates</strong></p>
 <ul>
 <li>
-<p>When viewing finding details in the Mend Platform, you can now see the probability risk factor next to each data flow, providing more granular information.</p>
+<p>Improved detection accuracy of JavaScript /TypeScript analysis engine across 11 CWEs. Key refinements include tuning detection for React controlled components to prevent false positives where query parameters flowing into escaped JSX attributes were incorrectly flagged as DOM-based XSS. In detail, the following CWEs were updated:</p>
+</li>
+</ul>
+<ul>
+<li>
+<ul>
+<li>
+<p><strong>CWE-22</strong> — Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')</p>
 </li>
 <li>
-<p>Mend SAST now includes detection for CWE-99: Improper Control of Resource Identifiers / Client Resource Injection in JavaScript/TypeScript. This update expands security coverage by identifying vulnerabilities where untrusted input can influence the selection of resources, such as files or network connections, helping to prevent client-side resource injection attacks.</p>
+<p><strong>CWE-78</strong> — Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')</p>
 </li>
 <li>
-<p>Mend SAST now supports CWE-319: Cleartext Transmission of Sensitive Information and CWE-321: Use of Hard-coded Cryptographic Key for Rust.</p>
+<p><strong>CWE-79</strong> — Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')</p>
+</li>
+<li>
+<p><strong>CWE-89</strong> — Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')</p>
+</li>
+<li>
+<p><strong>CWE-90</strong> — Improper Neutralization of Special Elements used in an LDAP Query ('LDAP Injection')</p>
+</li>
+<li>
+<p><strong>CWE-94</strong> — Improper Control of Generation of Code ('Code Injection')</p>
+</li>
+<li>
+<p><strong>CWE-117</strong> — Improper Output Neutralization for Logs</p>
+</li>
+<li>
+<p><strong>CWE-295</strong> — Improper Certificate Validation</p>
+</li>
+<li>
+<p><strong>CWE-601</strong> — URL Redirection to Untrusted Site ('Open Redirect')</p>
+</li>
+<li>
+<p><strong>CWE-918</strong> — Server-Side Request Forgery (SSRF)</p>
+</li>
+<li>
+<p><strong>CWE-943</strong> — Improper Neutralization of Special Elements in Data Query Logic (NoSQL / query-language injection)</p>
+</li>
+</ul>
 </li>
 </ul>
 <p><strong>Resolved Issues</strong></p>
 <ul>
 <li>
-<p>Fixed an issue where Java SAST scans performed on a non-system drive, such as a D: drive, failed to report findings. The engine now correctly handles cross-drive paths, ensuring consistent detection results regardless of the scan's location.</p>
+<p>Fixed an issue where false-positive XSS and SQL injection findings were reported in ColdFusion projects. Mend SAST now accurately handles local variables assigned to hardcoded integer literals and correctly identifies parameterized queries using `` or numeric validation guards. Additionally, scan performance and reliability were significantly improved.</p>
 </li>
 <li>
-<p>Fixed an issue where the iOS Objective-C engine incorrectly flagged standard Apple APIs—including `removeItemAtPath` and `NSUserDefaults`—as security vulnerabilities based on their presence alone. The engine now requires evidence of external control or sensitive data usage before reporting File Manipulation (CWE-73) or Insecure Data Storage findings. These improvements significantly reduce false positives in mobile application scans by ensuring that standard in-memory and lifecycle operations are not misidentified as risks.</p>
+<p>Fixed an issue that caused the <a href="https://docs.mend.io/integrations/latest/ide-integrations">IDE plugins</a> to crash in certain scenarios when fetching the existing results.</p>
 </li>
 <li>
-<p>Fixed an issue where VB.net scans would experience severe performance degradation or fail to complete when processing large files during the deep analysis phase. The engine has been optimized to significantly improve scan speeds, ensuring that complex files complete analysis instead of being skipped or timing out.</p>
-</li>
-<li>
-<p>Fixed an issue where the Mend Agentic MCP Integration's SAST tool failed to provide remediation suggestions due to an internal server error. The LLM remediation service has been stabilized to ensure consistent performance and successful tool calls within the integration.</p>
-</li>
-<li>
-<p>Fixed an issue where Mend CLI SAST scans failed to upload results after long-running engine analysis. This occurred when network firewalls closed idle TCP connections during extended analysis phases, leading to EOF errors. The system now gracefully handles these network conditions to ensure scan results are successfully submitted even after periods of inactivity.</p>
+<p>Fixed an issue in the <a href="https://docs.mend.io/integrations/latest/ide-integrations">IDE plugins</a> causing some of the Bitbucket Data Center repositories to be matched incorrectly with the Mend Platform projects.</p>
 </li>
 </ul>
 
@@ -171,13 +201,13 @@
   </section>
   <hr/>
   <section>
-    <h2><a href="https://docs.mend.io/platform/latest/mend-cli-release-notes">Mend CLI: Version 26.8.1.1 (25-August-2026)</a></h2>
-    <time datetime="2026-08-25T00:00:00+00:00">2026-08-25T00:00:00+00:00</time>
+    <h2><a href="https://docs.mend.io/platform/latest/mend-cli-release-notes">Mend CLI: Version 26.8.2 (07-September-2026)</a></h2>
+    <time datetime="2026-09-07T00:00:00+00:00">2026-09-07T00:00:00+00:00</time>
     
 <p><strong>Resolved Issues</strong></p>
 <ul>
 <li>
-<p><strong>(SCA) Hotfix:</strong> Fixed an issue where a <code>mend ua</code> scan would fail with an "apiKey/licenseKey not set" error, even when authentication was properly configured.</p>
+<p><strong>(IaC)</strong> Fixed an issue where the <code>-s</code> short flag in <code>mend iac</code> incorrectly mapped to <code>--soft-fail</code> instead of <code>--scope</code>. This alignment ensures consistent behavior across all Mend CLI scan modes, allowing the definition of scan scopes using the <code>-s</code> flag as expected.</p>
 </li>
 </ul>
 
@@ -322,8 +352,8 @@
   </section>
   <hr/>
   <section>
-    <h2><a href="https://github.com/renovatebot/renovate/releases/tag/44.69.3">Mend Renovate CLI: 44.69.3</a></h2>
-    <time datetime="2026-09-07T16:43:00+00:00">2026-09-07T16:43:00+00:00</time>
+    <h2><a href="https://github.com/renovatebot/renovate/releases/tag/44.69.10">Mend Renovate CLI: 44.69.10</a></h2>
+    <time datetime="2026-09-08T15:45:32+00:00">2026-09-08T15:45:32+00:00</time>
     <p></p>
   </section>
   <hr/>

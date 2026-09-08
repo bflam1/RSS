@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://bflam1.github.io/RSS/atom.xml</id>
   <title>Mend.io Unified Release Notes</title>
-  <updated>2026-09-07T17:06:31+00:00</updated>
+  <updated>2026-09-08T15:45:32+00:00</updated>
   <author>
     <name>Mend Release Bot</name>
     <email>noreply@bflam1.github.io</email>
@@ -14,7 +14,7 @@
   <entry>
     <id>https://github.com/mend/renovate-ce-ee/releases/tag/15.5.0</id>
     <title>Mend Renovate CC-EE: 15.5.0</title>
-    <updated>2026-09-07T18:20:29.954995+00:00</updated>
+    <updated>2026-09-08T17:20:09.609060+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -23,20 +23,20 @@
     <published>2026-09-07T17:06:31+00:00</published>
   </entry>
   <entry>
-    <id>https://github.com/renovatebot/renovate/releases/tag/44.69.3</id>
-    <title>Mend Renovate CLI: 44.69.3</title>
-    <updated>2026-09-07T18:20:29.954985+00:00</updated>
+    <id>https://github.com/renovatebot/renovate/releases/tag/44.69.10</id>
+    <title>Mend Renovate CLI: 44.69.10</title>
+    <updated>2026-09-08T17:20:09.609050+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
     <content type="html">&lt;p&gt;&lt;/p&gt;</content>
-    <link href="https://github.com/renovatebot/renovate/releases/tag/44.69.3"/>
-    <published>2026-09-07T16:43:00+00:00</published>
+    <link href="https://github.com/renovatebot/renovate/releases/tag/44.69.10"/>
+    <published>2026-09-08T15:45:32+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-bitbucket-data-center-release-notes</id>
     <title>Mend for Bitbucket DC: Version 26.8.1.1 (23-August-2026)</title>
-    <updated>2026-09-07T18:20:29.954973+00:00</updated>
+    <updated>2026-09-08T17:20:09.609039+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -58,7 +58,7 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-gitlab-release-notes</id>
     <title>Mend for GitLab: Version 26.8.1.1 (23-August-2026)</title>
-    <updated>2026-09-07T18:20:29.954963+00:00</updated>
+    <updated>2026-09-08T17:20:09.609029+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -86,7 +86,7 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-github-enterprise-release-notes</id>
     <title>Mend for GitHub Enterprise: Version 26.8.1.1 (23-August-2026)</title>
-    <updated>2026-09-07T18:20:29.954952+00:00</updated>
+    <updated>2026-09-08T17:20:09.609019+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -132,7 +132,7 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-github-com-release-notes</id>
     <title>Mend for GitHub.com: Version 26.8.2 (06-September-2026)</title>
-    <updated>2026-09-07T18:20:29.954942+00:00</updated>
+    <updated>2026-09-08T17:20:09.609004+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -150,7 +150,7 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-developer-platform-release-notes</id>
     <title>Mend Developer Platform: Version 26.8.2 (06-September-2026)</title>
-    <updated>2026-09-07T18:20:29.954931+00:00</updated>
+    <updated>2026-09-08T17:20:09.608994+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -180,7 +180,7 @@
   <entry>
     <id>https://docs.mend.io/legacy-sca/latest/mend-unified-agent-release-notes</id>
     <title>Mend Unified Agent: Version 26.8.2 (07-September-2026)</title>
-    <updated>2026-09-07T18:20:29.954921+00:00</updated>
+    <updated>2026-09-08T17:20:09.608984+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -203,8 +203,8 @@
   </entry>
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-cli-release-notes</id>
-    <title>Mend CLI: Version 26.8.1.1 (25-August-2026)</title>
-    <updated>2026-09-07T18:20:29.954911+00:00</updated>
+    <title>Mend CLI: Version 26.8.2 (07-September-2026)</title>
+    <updated>2026-09-08T17:20:09.608973+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -212,17 +212,17 @@
 &lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SCA) Hotfix:&lt;/strong&gt; Fixed an issue where a &lt;code&gt;mend ua&lt;/code&gt; scan would fail with an "apiKey/licenseKey not set" error, even when authentication was properly configured.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;(IaC)&lt;/strong&gt; Fixed an issue where the &lt;code&gt;-s&lt;/code&gt; short flag in &lt;code&gt;mend iac&lt;/code&gt; incorrectly mapped to &lt;code&gt;--soft-fail&lt;/code&gt; instead of &lt;code&gt;--scope&lt;/code&gt;. This alignment ensures consistent behavior across all Mend CLI scan modes, allowing the definition of scan scopes using the &lt;code&gt;-s&lt;/code&gt; flag as expected.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 </content>
     <link href="https://docs.mend.io/platform/latest/mend-cli-release-notes"/>
-    <published>2026-08-25T00:00:00+00:00</published>
+    <published>2026-09-07T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-ai-release-notes</id>
     <title>Mend AI: Version 25.12.1 (05-January-2026)</title>
-    <updated>2026-09-07T18:20:29.954898+00:00</updated>
+    <updated>2026-09-08T17:20:09.608961+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -257,7 +257,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-container-release-notes</id>
     <title>Mend Container: Version 26.8.2 (06-September-2026)</title>
-    <updated>2026-09-07T18:20:29.954882+00:00</updated>
+    <updated>2026-09-08T17:20:09.608943+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -280,8 +280,8 @@
   </entry>
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-sast-release-notes</id>
-    <title>Mend SAST: Version 26.8.1 (24-August-2026)</title>
-    <updated>2026-09-07T18:20:29.954863+00:00</updated>
+    <title>Mend SAST: Version 26.8.2 (07-September-2026)</title>
+    <updated>2026-09-08T17:20:09.608925+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -289,41 +289,68 @@
 &lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;When viewing finding details in the Mend Platform, you can now see the probability risk factor next to each data flow, providing more granular information.&lt;/p&gt;
+&lt;p&gt;Improved detection accuracy of JavaScript /TypeScript analysis engine across 11 CWEs. Key refinements include tuning detection for React controlled components to prevent false positives where query parameters flowing into escaped JSX attributes were incorrectly flagged as DOM-based XSS. In detail, the following CWEs were updated:&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;CWE-22&lt;/strong&gt; — Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Mend SAST now includes detection for CWE-99: Improper Control of Resource Identifiers / Client Resource Injection in JavaScript/TypeScript. This update expands security coverage by identifying vulnerabilities where untrusted input can influence the selection of resources, such as files or network connections, helping to prevent client-side resource injection attacks.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;CWE-78&lt;/strong&gt; — Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Mend SAST now supports CWE-319: Cleartext Transmission of Sensitive Information and CWE-321: Use of Hard-coded Cryptographic Key for Rust.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;CWE-79&lt;/strong&gt; — Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;CWE-89&lt;/strong&gt; — Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;CWE-90&lt;/strong&gt; — Improper Neutralization of Special Elements used in an LDAP Query ('LDAP Injection')&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;CWE-94&lt;/strong&gt; — Improper Control of Generation of Code ('Code Injection')&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;CWE-117&lt;/strong&gt; — Improper Output Neutralization for Logs&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;CWE-295&lt;/strong&gt; — Improper Certificate Validation&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;CWE-601&lt;/strong&gt; — URL Redirection to Untrusted Site ('Open Redirect')&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;CWE-918&lt;/strong&gt; — Server-Side Request Forgery (SSRF)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;CWE-943&lt;/strong&gt; — Improper Neutralization of Special Elements in Data Query Logic (NoSQL / query-language injection)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Fixed an issue where Java SAST scans performed on a non-system drive, such as a D: drive, failed to report findings. The engine now correctly handles cross-drive paths, ensuring consistent detection results regardless of the scan's location.&lt;/p&gt;
+&lt;p&gt;Fixed an issue where false-positive XSS and SQL injection findings were reported in ColdFusion projects. Mend SAST now accurately handles local variables assigned to hardcoded integer literals and correctly identifies parameterized queries using `&lt;cfqueryparam&gt;` or numeric validation guards. Additionally, scan performance and reliability were significantly improved.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Fixed an issue where the iOS Objective-C engine incorrectly flagged standard Apple APIs—including `removeItemAtPath` and `NSUserDefaults`—as security vulnerabilities based on their presence alone. The engine now requires evidence of external control or sensitive data usage before reporting File Manipulation (CWE-73) or Insecure Data Storage findings. These improvements significantly reduce false positives in mobile application scans by ensuring that standard in-memory and lifecycle operations are not misidentified as risks.&lt;/p&gt;
+&lt;p&gt;Fixed an issue that caused the &lt;a data-scope="internal" href="https://docs.mend.io/integrations/latest/ide-integrations"&gt;IDE plugins&lt;/a&gt; to crash in certain scenarios when fetching the existing results.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Fixed an issue where VB.net scans would experience severe performance degradation or fail to complete when processing large files during the deep analysis phase. The engine has been optimized to significantly improve scan speeds, ensuring that complex files complete analysis instead of being skipped or timing out.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Fixed an issue where the Mend Agentic MCP Integration's SAST tool failed to provide remediation suggestions due to an internal server error. The LLM remediation service has been stabilized to ensure consistent performance and successful tool calls within the integration.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Fixed an issue where Mend CLI SAST scans failed to upload results after long-running engine analysis. This occurred when network firewalls closed idle TCP connections during extended analysis phases, leading to EOF errors. The system now gracefully handles these network conditions to ensure scan results are successfully submitted even after periods of inactivity.&lt;/p&gt;
+&lt;p&gt;Fixed an issue in the &lt;a data-scope="internal" href="https://docs.mend.io/integrations/latest/ide-integrations"&gt;IDE plugins&lt;/a&gt; causing some of the Bitbucket Data Center repositories to be matched incorrectly with the Mend Platform projects.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 </content>
     <link href="https://docs.mend.io/platform/latest/mend-sast-release-notes"/>
-    <published>2026-08-24T00:00:00+00:00</published>
+    <published>2026-09-07T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-sca-release-notes</id>
     <title>Mend SCA: Version 26.8.2 (06-September-2026)</title>
-    <updated>2026-09-07T18:20:29.954833+00:00</updated>
+    <updated>2026-09-08T17:20:09.608895+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -340,6 +367,9 @@
 &lt;p&gt;This feature will be rolled out gradually in the next couple of weeks.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Introduced support for the European Union Vulnerability Database (EUVD) as a primary security data source. This integration provides enriched vulnerability data, including dedicated CVSS scores and exploitability information sourced directly from &lt;a data-scope="external" href="https://www.enisa.europa.eu/" rel="external noreferrer"&gt;ENISA&lt;/a&gt;. By incorporating this comprehensive European feed alongside existing sources, the platform delivers broader visibility into global vulnerability trends and ensures more robust protection through enhanced security data coverage.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;
@@ -367,7 +397,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-platform-release-notes</id>
     <title>Mend AppSec Platform: Version 26.8.2 (06-September-2026)</title>
-    <updated>2026-09-07T18:20:29.954792+00:00</updated>
+    <updated>2026-09-08T17:20:09.608854+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
