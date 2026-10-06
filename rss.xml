@@ -7,7 +7,7 @@
     <atom:link href="https://bflam1.github.io/RSS/atom.xml" rel="self"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 05 Oct 2026 17:46:02 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 06 Oct 2026 17:51:30 +0000</lastBuildDate>
     <item>
       <title>Mend Renovate CC-EE: 15.6.0</title>
       <link>https://github.com/mend/renovate-ce-ee/releases/tag/15.6.0</link>
@@ -16,11 +16,11 @@
       <pubDate>Fri, 25 Sep 2026 08:49:26 +0000</pubDate>
     </item>
     <item>
-      <title>Mend Renovate CLI: 44.138.0</title>
-      <link>https://github.com/renovatebot/renovate/releases/tag/44.138.0</link>
+      <title>Mend Renovate CLI: 44.141.0</title>
+      <link>https://github.com/renovatebot/renovate/releases/tag/44.141.0</link>
       <description>&lt;p&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://github.com/renovatebot/renovate/releases/tag/44.138.0</guid>
-      <pubDate>Mon, 05 Oct 2026 17:46:02 +0000</pubDate>
+      <guid isPermaLink="false">https://github.com/renovatebot/renovate/releases/tag/44.141.0</guid>
+      <pubDate>Tue, 06 Oct 2026 17:51:30 +0000</pubDate>
     </item>
     <item>
       <title>Mend for Bitbucket DC: Version 26.9.1.4 (01-October-2026)</title>
@@ -106,6 +106,9 @@
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;(SAST)&lt;/strong&gt; Fixed an issue where manual SAST scans on non-default branches incorrectly tagged the project with the repository's default branch name. This fix ensures that the project tag accurately reflects the specific branch being scanned, maintaining consistency between the project metadata and the scanned commit.&lt;/p&gt;
 &lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;(SAST)&lt;/strong&gt; Fixed an issue where SAST results publishing jobs would fail with a 401 error if the session JWT expired during long-running processes. The system now automatically refreshes the session token and retries the request, ensuring that publishing jobs complete successfully regardless of duration.&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 </description>
       <guid isPermaLink="false">https://docs.mend.io/integrations/latest/mend-for-github-com-release-notes</guid>
@@ -147,6 +150,9 @@
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Fixed an issue where transient network faults originating from packages other than `java.net`, such as `org.apache.http`, were incorrectly classified as permanent failures. This caused the Unified Agent to ignore the configured connection retry policy and abort the scan on the first attempt. The classification logic has been updated to ensure all recoverable I/O faults are properly retried, improving scan stability during intermittent network instability.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Fixed an issue where NuGet scans incorrectly reported phantom library versions in the inventory. This occurred when a package's declared dependency version differed from the version actually restored, and the restored version was missing from the global NuGet cache. The resolver now correctly validates dependency versions against the local restore directory, ensuring accurate inventory reporting.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 </description>
@@ -246,33 +252,62 @@
       <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Mend SAST: Version 26.9.1 (28-September-2026)</title>
+      <title>Mend SAST: Version 26.9.2 (05-October-2026)</title>
       <link>https://docs.mend.io/platform/latest/mend-sast-release-notes</link>
       <description>
 &lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;The Mend CLI SAST scan (mend code) now supports a --print-to-console flag that prints the CLI logs directly to the console (stdout) as the scan runs, in addition to writing them to the log file.&lt;/p&gt;
+&lt;p&gt;Mend SAST now supports additional configuration files, such as YAML and JSON, to improve entry point detection. The engine automatically identifies API endpoints and maps them to their corresponding implementation classes. This enhancement ensures comprehensive security coverage for contract-first applications by automatically marking all generated entry point parameters as tainted, eliminating the need for manual configuration of custom frameworks.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Improved the AI-generated remediation suggestions for CWE-117 (Log Forging) in Python code. The remediation now correctly neutralizes carriage return (CR) and line feed (LF) characters instead of applying HTML escaping. Additionally, the suggestion ensures all client-controlled values within the log statement are sanitized, providing a more comprehensive and effective fix for log forging vulnerabilities.&lt;/p&gt;
+&lt;p&gt;Improved the accuracy of the Python engine across the following CWEs:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;CWE-022 Path Traversal&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Default exclusions in &lt;code&gt;mend code&lt;/code&gt; CLI scans now ignore &lt;code&gt;/_MACOSX/..*&lt;/code&gt; metadata files across all SAST scan engines. This update prevents macOS-specific system files from interfering with the TreeSitter parser during scans on Windows environments, ensuring more stable and accurate analysis. These exclusions are applied automatically via centralized settings, even when default exclusions are otherwise disabled.&lt;/p&gt;
+&lt;p&gt;CWE-078 OS Command Injection&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;CWE-079 XSS&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;CWE-089 SQL Injection&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;CWE-094 Code Injection&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;CWE-209 Error Message Info Exposure&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;CWE-295 Improper Cert Validation&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;CWE-532 Sensitive Info in Log&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;CWE-601 Open Redirect&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;CWE-918 SSRF&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;CWE-943 NoSQL Injection&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Fixed an issue where Mend CLI SAST scans failed to return exit code 9 and did not break the pipeline, even when workflow violations were detected and the "Fail Pipeline on Violation" setting was enabled. The CLI now correctly enforces workflow policies by returning the appropriate exit code to ensure pipeline failures occur as expected when security violations are identified.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Fixed an issue in the Mend CLI where users with non-English characters in their profile names were denied access due to incorrect JWT decoding. The authentication process now correctly handles special characters to ensure seamless access for all users.&lt;/p&gt;
+&lt;p&gt;Fixed an issue where the entry resolver failed when scanning certain AWS Lambda handler files in TypeScript.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 </description>
       <guid isPermaLink="false">https://docs.mend.io/platform/latest/mend-sast-release-notes</guid>
-      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Mend SCA: Version 26.9.2 (04-October-2026)</title>
@@ -309,7 +344,7 @@
 &lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Email notification capabilities in &lt;a data-scope="internal" href="https://docs.mend.io/platform/latest/workflow-configuration-parameters"&gt;Automation Workflows&lt;/a&gt; have been enhanced, allowing workflow creators to directly control recipients by selecting specific users or groups for scan summary emails. Additionally, a new "Send Email" action has been introduced to notify you of new findings—such as newly published CVEs—independent of scans, with configurable delivery frequencies.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Dedicated &lt;a data-scope="internal" href="https://docs.mend.io/platform/latest/zero-day-management-in-the-mend-appsec-platform"&gt;zero-day&lt;/a&gt; alerts have been added, to ensure immediate awareness when your organization is vulnerable to emerging threats.&lt;/p&gt;
+&lt;p&gt;Dedicated &lt;a data-scope="internal" href="https://docs.mend.io/platform/latest/zero-day-management-in-the-mend-appsec-platform"&gt;zero-day&lt;/a&gt; alerts have been added, to ensure immediate awareness when your organization is vulnerable to emerging threats. These alerts can be switched off for individual organizations you're a member of or all of them (&lt;strong&gt;My Profile → Email Notifications&lt;/strong&gt;).&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
