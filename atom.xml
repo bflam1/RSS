@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://bflam1.github.io/RSS/atom.xml</id>
   <title>Mend.io Unified Release Notes</title>
-  <updated>2026-10-06T17:51:30+00:00</updated>
+  <updated>2026-10-12T18:56:38+00:00</updated>
   <author>
     <name>Mend Release Bot</name>
     <email>noreply@bflam1.github.io</email>
@@ -12,31 +12,31 @@
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>Aggregated RSS, Atom, and HTML of all Mend release notes.</subtitle>
   <entry>
-    <id>https://github.com/mend/renovate-ce-ee/releases/tag/15.6.0</id>
-    <title>Mend Renovate CC-EE: 15.6.0</title>
-    <updated>2026-10-06T18:58:49.510068+00:00</updated>
+    <id>https://github.com/mend/renovate-ce-ee/releases/tag/15.7.0</id>
+    <title>Mend Renovate CC-EE: 15.7.0</title>
+    <updated>2026-10-12T21:49:23.034428+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
     <content type="html">&lt;p&gt;&lt;/p&gt;</content>
-    <link href="https://github.com/mend/renovate-ce-ee/releases/tag/15.6.0"/>
-    <published>2026-09-25T08:49:26+00:00</published>
+    <link href="https://github.com/mend/renovate-ce-ee/releases/tag/15.7.0"/>
+    <published>2026-10-06T19:22:17+00:00</published>
   </entry>
   <entry>
-    <id>https://github.com/renovatebot/renovate/releases/tag/44.141.0</id>
-    <title>Mend Renovate CLI: 44.141.0</title>
-    <updated>2026-10-06T18:58:49.510060+00:00</updated>
+    <id>https://github.com/renovatebot/renovate/releases/tag/44.155.1</id>
+    <title>Mend Renovate CLI: 44.155.1</title>
+    <updated>2026-10-12T21:49:23.034422+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
     <content type="html">&lt;p&gt;&lt;/p&gt;</content>
-    <link href="https://github.com/renovatebot/renovate/releases/tag/44.141.0"/>
-    <published>2026-10-06T17:51:30+00:00</published>
+    <link href="https://github.com/renovatebot/renovate/releases/tag/44.155.1"/>
+    <published>2026-10-12T18:56:38+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-bitbucket-data-center-release-notes</id>
     <title>Mend for Bitbucket DC: Version 26.9.1.4 (01-October-2026)</title>
-    <updated>2026-10-06T18:58:49.510050+00:00</updated>
+    <updated>2026-10-12T21:49:23.034415+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -57,7 +57,7 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-gitlab-release-notes</id>
     <title>Mend for GitLab: Version 26.9.1.4 (01-October-2026)</title>
-    <updated>2026-10-06T18:58:49.510042+00:00</updated>
+    <updated>2026-10-12T21:49:23.034409+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -78,7 +78,7 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-github-enterprise-release-notes</id>
     <title>Mend for GitHub Enterprise: Version 26.9.1.4 (01-October-2026)</title>
-    <updated>2026-10-06T18:58:49.510033+00:00</updated>
+    <updated>2026-10-12T21:49:23.034403+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -104,73 +104,44 @@
   </entry>
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-github-com-release-notes</id>
-    <title>Mend for GitHub.com: Version 26.9.1 (27-September-2026)</title>
-    <updated>2026-10-06T18:58:49.510024+00:00</updated>
+    <title>Mend for GitHub.com: Version 26.9.2 (06-October-2026)</title>
+    <updated>2026-10-12T21:49:23.034396+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
     <content type="html">
-&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; &lt;strong&gt;(Open Beta)&lt;/strong&gt; Mend for GitHub.com now supports the Bun package manager for JavaScript projects. This update allows for the automatic detection and reporting of both direct and transitive dependencies in projects using `package.json` alongside `bun.lock` or `bun.lockb` files, ensuring secure and reliable dependency management for the Bun ecosystem.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Python &lt;code&gt;constraints.txt&lt;/code&gt; files are now supported. This update allows the scanner to identify and apply dependency constraints, including those for transitive dependencies, without requiring manual references in &lt;code&gt;requirements.txt&lt;/code&gt;. By honoring these constraints during resolution, the system reduces false-positive vulnerability reports and ensures scan results accurately reflect the specific package versions permitted in your environment.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SAST)&lt;/strong&gt; Increased the maximum comment length for the `/mend code suppress` and `/mend code comment` commands in GitHub to 65,536 characters. This update ensures that full technical justifications and detailed audit records are preserved without truncation, matching the character limits of the Mend Platform and GitHub.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SAST)&lt;/strong&gt; The integration now supports selecting which languages to scan, using the new algoLangs field in .mendsastcli-config.json. Until now, narrowing what a scan covered meant listing numeric engine IDs in the engines field. You can now specify languages by name instead, which is quicker to write and far easier to understand when someone reviews the configuration later.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Fixed an issue where GitHub check-run updates were rejected with a "summary exceeds a maximum bytesize of 65535" error. The truncation logic was updated to ensure accuracy for multi-byte characters. Additionally, a maximum count was implemented for the resolved vulnerabilities section to prevent it from exceeding size constraints. These changes ensure that scan results are correctly surfaced on pull requests even with large result sets.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SAST)&lt;/strong&gt; Fixed an issue where manual SAST scans on non-default branches incorrectly tagged the project with the repository's default branch name. This fix ensures that the project tag accurately reflects the specific branch being scanned, maintaining consistency between the project metadata and the scanned commit.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SAST)&lt;/strong&gt; Fixed an issue where SAST results publishing jobs would fail with a 401 error if the session JWT expired during long-running processes. The system now automatically refreshes the session token and retries the request, ensuring that publishing jobs complete successfully regardless of duration.&lt;/p&gt;
+&lt;p&gt;Fixed an issue where Maven check runs experienced significant performance delays due to rate limiting from Maven Central. By routing requests through an internal mirror, scan durations have been restored to expected baselines, ensuring faster and more reliable dependency resolution.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 </content>
     <link href="https://docs.mend.io/integrations/latest/mend-for-github-com-release-notes"/>
-    <published>2026-09-27T00:00:00+00:00</published>
+    <published>2026-10-06T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-developer-platform-release-notes</id>
-    <title>Mend Developer Platform: Version 26.9.1 (27-September-2026)</title>
-    <updated>2026-10-06T18:58:49.510016+00:00</updated>
+    <title>Mend Developer Platform: Version 26.9.2 (06-October-2026)</title>
+    <updated>2026-10-12T21:49:23.034390+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
     <content type="html">
-&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; &lt;strong&gt;(Open Beta)&lt;/strong&gt; The Developer Platform now supports the Bun package manager for JavaScript projects. This update allows for the automatic detection and reporting of both direct and transitive dependencies in projects using `package.json` alongside `bun.lock` or `bun.lockb` files, ensuring secure and reliable dependency management for the Bun ecosystem.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;(AZDO) The Developer Platform allows existing Azure DevOps integrations to migrate from OAuth 1.0 to OAuth 2.0 (Entra) to ensure continued connectivity and alignment with updated industry standards. This update provides a more robust authentication flow and enhanced security. Users may be prompted to re-authenticate their integrations to maintain seamless service.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Visit &lt;a data-scope="internal" href="https://docs.mend.io/integrations/latest/azure-devops-entra-migration"&gt;Azure Entra Migration&lt;/a&gt; for more information about the migration.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;Fixed an issue where Maven check runs experienced significant performance delays due to rate limiting from Maven Central. By routing requests through an internal mirror, scan durations have been restored to expected baselines, ensuring faster and more reliable dependency resolution.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 </content>
     <link href="https://docs.mend.io/integrations/latest/mend-developer-platform-release-notes"/>
-    <published>2026-09-27T00:00:00+00:00</published>
+    <published>2026-10-06T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/legacy-sca/latest/mend-unified-agent-release-notes</id>
-    <title>Mend Unified Agent: Version 26.9.1 (28-September-2026)</title>
-    <updated>2026-10-06T18:58:49.510007+00:00</updated>
+    <title>Mend Unified Agent: Version 26.9.2 (06-October-2026)</title>
+    <updated>2026-10-12T21:49:23.034383+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -178,71 +149,50 @@
 &lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Fixed an issue where Python scans incorrectly reported zero dependencies when `python.localPackagePathsToInstall` was configured alongside a hierarchy tree. This occurred due to a parsing error in the dependency tree resolution that caused the entire manifest to be discarded if specific local packages or tooling artifacts could not be matched. The resolution logic has been corrected to ensure all identified dependencies are accurately reported.&lt;/p&gt;
+&lt;p&gt;Fixed an issue where the Swift Package Manager (SPM) resolver incorrectly reported local package targets as top-level direct dependencies. The resolver now accurately resolves the dependency tree, ensuring local targets are correctly nested and transitive dependencies are properly identified without duplication.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Fixed an issue where using the &lt;code&gt;-f&lt;/code&gt; or &lt;code&gt;-file&lt;/code&gt; flag in `maven.additionalArguments` caused standard `pom.xml` files to be ignored and prevented the detection of nested manifests. The Maven resolver now correctly identifies both custom-named manifests and standard project files, supports all valid Maven flag formats, and ensures that quiet mode flags do not interfere with dependency resolution results.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Fixed an issue where transient network faults originating from packages other than `java.net`, such as `org.apache.http`, were incorrectly classified as permanent failures. This caused the Unified Agent to ignore the configured connection retry policy and abort the scan on the first attempt. The classification logic has been updated to ensure all recoverable I/O faults are properly retried, improving scan stability during intermittent network instability.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Fixed an issue where NuGet scans incorrectly reported phantom library versions in the inventory. This occurred when a package's declared dependency version differed from the version actually restored, and the restored version was missing from the global NuGet cache. The resolver now correctly validates dependency versions against the local restore directory, ensuring accurate inventory reporting.&lt;/p&gt;
+&lt;p&gt;Fixed an issue where Docker image scans incorrectly reported Python packages that had been removed or upgraded in later image layers. The Unified Agent now correctly identifies and ignores Docker whiteout markers, ensuring that only the package versions present in the final image are reported, which prevents inaccurate security and license alerts.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 </content>
     <link href="https://docs.mend.io/legacy-sca/latest/mend-unified-agent-release-notes"/>
-    <published>2026-09-28T00:00:00+00:00</published>
+    <published>2026-10-06T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-cli-release-notes</id>
-    <title>Mend CLI: Version 26.9.1 (28-September-2026)</title>
-    <updated>2026-10-06T18:58:49.509998+00:00</updated>
+    <title>Mend CLI: Version 26.9.2 (06-October-2026)</title>
+    <updated>2026-10-12T21:49:23.034377+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
     <content type="html">
-&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; &lt;strong&gt;(Open Beta)&lt;/strong&gt; The Mend CLI now supports the Bun package manager for JavaScript projects. This update allows for the automatic detection and reporting of both direct and transitive dependencies in projects using `package.json` alongside `bun.lock` or `bun.lockb` files, ensuring secure and reliable dependency management for the Bun ecosystem.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SAST)&lt;/strong&gt; The Mend CLI SAST scan (mend code) now supports a --print-to-console flag that prints the CLI logs directly to the console (stdout) as the scan runs, in addition to writing them to the log file. Previously this was only available for SCA scans (mend dep).&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SAST)&lt;/strong&gt; Default exclusions in &lt;code&gt;mend code&lt;/code&gt; CLI scans now ignore &lt;code&gt;/_MACOSX/..*&lt;/code&gt; metadata files across all SAST scan engines. This update prevents macOS-specific system files from interfering with the TreeSitter parser during scans on Windows environments, ensuring more stable and accurate analysis. These exclusions are applied automatically via centralized settings, even when default exclusions are otherwise disabled.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Updated the third-party Go components bundled inside the CLI binaries.&lt;/p&gt;
+&lt;p&gt;Fixed an issue where top-level exclusions were not correctly matched in the CLI when the exclusion pattern started with a slash. This ensures that global file exclusions, such as default modules and symlinks, are properly recognized and respected during scans regardless of path formatting.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Fixed an issue where the CLI incorrectly reported a successful scan with exit code 0 when required lockfiles, such as composer.lock or package-lock.json, were missing. The detection logic now ensures that a warning is correctly logged and preserved when a manifest file is identified without its corresponding lockfile, providing better visibility into scan integrity.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Fixed an issue where Ruby scans run with the `--files-resolving` flag failed to report the installed Ruby version. The scanner now correctly identifies and records the Ruby version from the scanning environment while ensuring that unexpected version formats no longer cause the scan to crash.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(Container)&lt;/strong&gt; Fixed an issue where the CLI local JSON export displayed a severity label that contradicted the CVSS score band within the same finding record. The export now ensures that the severity label and CVSS score are derived from the same source, providing consistent and accurate vulnerability data.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Conan projects now report the C/C++ compiler name and version alongside the Conan version during CLI scans. This enhancement provides better visibility into the toolchain used for C/C++ projects by extracting compiler details from the active Conan profile. The detection process is designed to be non-intrusive, ensuring that scans continue successfully even if the compiler information cannot be determined.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(Container)&lt;/strong&gt; Fixed an issue where `mend image --tar` failed to scan container image tarballs exported in pure OCI format. The scanner previously required a Docker-specific `manifest.json` file, which is not present in spec-compliant OCI image layouts. The CLI now correctly handles OCI-layout archives, including `index.json` and OCI-compliant blob structures, ensuring successful SBOM generation and vulnerability scanning for OCI-format exports.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Rust scans now report the installed Rust version even when Cargo is not present. Additionally, version lookups are now silent, removing unnecessary warnings from the logs when a version cannot be determined. This ensures more accurate toolchain reporting without impacting scan performance or log clarity.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SAST)&lt;/strong&gt; Fixed an issue where SAST scans failed to return exit code 9 and did not break the pipeline, even when workflow violations were detected and the "Fail Pipeline on Violation" setting was enabled. The CLI now correctly enforces workflow policies by returning the appropriate exit code to ensure pipeline failures occur as expected when security violations are identified.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SAST)&lt;/strong&gt; Fixed an issue in the Mend CLI where users with non-English characters in their profile names were denied access due to incorrect JWT decoding. The authentication process now correctly handles special characters to ensure seamless access for all users.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;(Container)&lt;/strong&gt; Fixed an issue where the severity distribution in the `mend image` JSON report did not match the Platform UI for the same scan. This discrepancy, which caused some findings to be reported at a higher severity level in the JSON output, has been resolved to ensure consistency across all reporting interfaces.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 </content>
     <link href="https://docs.mend.io/platform/latest/mend-cli-release-notes"/>
-    <published>2026-09-28T00:00:00+00:00</published>
+    <published>2026-10-06T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-ai-release-notes</id>
     <title>Mend AI: Version 25.12.1 (05-January-2026)</title>
-    <updated>2026-10-06T18:58:49.509988+00:00</updated>
+    <updated>2026-10-12T21:49:23.034369+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -277,7 +227,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-container-release-notes</id>
     <title>Mend Container: Version 26.9.2 (04-October-2026)</title>
-    <updated>2026-10-06T18:58:49.509978+00:00</updated>
+    <updated>2026-10-12T21:49:23.034362+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -301,7 +251,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-sast-release-notes</id>
     <title>Mend SAST: Version 26.9.2 (05-October-2026)</title>
-    <updated>2026-10-06T18:58:49.509967+00:00</updated>
+    <updated>2026-10-12T21:49:23.034353+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -363,7 +313,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-sca-release-notes</id>
     <title>Mend SCA: Version 26.9.2 (04-October-2026)</title>
-    <updated>2026-10-06T18:58:49.509949+00:00</updated>
+    <updated>2026-10-12T21:49:23.034336+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -392,7 +342,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-platform-release-notes</id>
     <title>Mend AppSec Platform: Version 26.9.2 (04-October-2026)</title>
-    <updated>2026-10-06T18:58:49.509920+00:00</updated>
+    <updated>2026-10-12T21:49:23.034309+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
