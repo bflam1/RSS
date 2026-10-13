@@ -2,10 +2,11 @@ name: Generate & Deploy Mend Release Notes
 
 on:
   schedule:
-    # Run every Monday at 08:30 AM US Central (13:30 UTC)
-    - cron: '30 13 * * 1'
-    # Run every Tuesday at 08:30 AM US Central (13:30 UTC)
-    - cron: '30 13 * * 2'
+    # Backup only. The on-time 08:30 AM Central run is a workflow_dispatch from
+    # a local scheduled task, because GitHub starts scheduled runs hours late.
+    # This fires Mon/Tue at 16:07 UTC (11:07 AM CDT / 10:07 AM CST), off the
+    # :00/:30 peak, so the feed still publishes when that machine is off.
+    - cron: '7 16 * * 1,2'
   workflow_dispatch:
 
 # Prevent overlapping runs — cancel any in-progress run for the same trigger
