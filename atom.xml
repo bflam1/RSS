@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://bflam1.github.io/RSS/atom.xml</id>
   <title>Mend.io Unified Release Notes</title>
-  <updated>2026-10-19T17:55:02+00:00</updated>
+  <updated>2026-10-20T12:58:16+00:00</updated>
   <author>
     <name>Mend Release Bot</name>
     <email>noreply@bflam1.github.io</email>
@@ -14,7 +14,7 @@
   <entry>
     <id>https://github.com/mend/renovate-ce-ee/releases/tag/15.7.0</id>
     <title>Mend Renovate CC-EE: 15.7.0</title>
-    <updated>2026-10-19T21:00:55.667773+00:00</updated>
+    <updated>2026-10-20T13:30:24.221397+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -23,20 +23,20 @@
     <published>2026-10-06T19:22:17+00:00</published>
   </entry>
   <entry>
-    <id>https://github.com/renovatebot/renovate/releases/tag/44.171.1</id>
-    <title>Mend Renovate CLI: 44.171.1</title>
-    <updated>2026-10-19T21:00:55.667762+00:00</updated>
+    <id>https://github.com/renovatebot/renovate/releases/tag/44.171.8</id>
+    <title>Mend Renovate CLI: 44.171.8</title>
+    <updated>2026-10-20T13:30:24.221385+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
     <content type="html">&lt;p&gt;&lt;/p&gt;</content>
-    <link href="https://github.com/renovatebot/renovate/releases/tag/44.171.1"/>
-    <published>2026-10-19T17:55:02+00:00</published>
+    <link href="https://github.com/renovatebot/renovate/releases/tag/44.171.8"/>
+    <published>2026-10-20T12:58:16+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-bitbucket-data-center-release-notes</id>
     <title>Mend for Bitbucket DC: Version 26.9.1.4 (01-October-2026)</title>
-    <updated>2026-10-19T21:00:55.667743+00:00</updated>
+    <updated>2026-10-20T13:30:24.221374+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -57,7 +57,7 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-gitlab-release-notes</id>
     <title>Mend for GitLab: Version 26.9.1.4 (01-October-2026)</title>
-    <updated>2026-10-19T21:00:55.667728+00:00</updated>
+    <updated>2026-10-20T13:30:24.221363+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -78,7 +78,7 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-github-enterprise-release-notes</id>
     <title>Mend for GitHub Enterprise: Version 26.9.1.4 (01-October-2026)</title>
-    <updated>2026-10-19T21:00:55.667713+00:00</updated>
+    <updated>2026-10-20T13:30:24.221350+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -105,7 +105,7 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-github-com-release-notes</id>
     <title>Mend for GitHub.com: Version 26.9.3 (18-October-2026)</title>
-    <updated>2026-10-19T21:00:55.667698+00:00</updated>
+    <updated>2026-10-20T13:30:24.221338+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -123,7 +123,7 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-developer-platform-release-notes</id>
     <title>Mend Developer Platform: Version 26.9.3 (19-October-2026)</title>
-    <updated>2026-10-19T21:00:55.667683+00:00</updated>
+    <updated>2026-10-20T13:30:24.221325+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -152,7 +152,7 @@
   <entry>
     <id>https://docs.mend.io/legacy-sca/latest/mend-unified-agent-release-notes</id>
     <title>Mend Unified Agent: Version 26.9.2 (06-October-2026)</title>
-    <updated>2026-10-19T21:00:55.667668+00:00</updated>
+    <updated>2026-10-20T13:30:24.221313+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -172,41 +172,32 @@
   </entry>
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-cli-release-notes</id>
-    <title>Mend CLI: Version 26.9.2 (06-October-2026)</title>
-    <updated>2026-10-19T21:00:55.667653+00:00</updated>
+    <title>Mend CLI: Version 26.9.3 (19-October-2026)</title>
+    <updated>2026-10-20T13:30:24.221301+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
     <content type="html">
+&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;(SCA) &lt;/strong&gt;The Bun package manager, previously in open beta, is now generally available in the Mend CLI and repository integrations. This allows for the automatic detection and reporting of both direct and transitive dependencies in projects using `package.json` alongside `bun.lock` or `bun.lockb` files, ensuring secure and reliable dependency management for the Bun ecosystem.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Fixed an issue where top-level exclusions were not correctly matched in the CLI when the exclusion pattern started with a slash. This ensures that global file exclusions, such as default modules and symlinks, are properly recognized and respected during scans regardless of path formatting.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Fixed an issue where Ruby scans run with the `--files-resolving` flag failed to report the installed Ruby version. The scanner now correctly identifies and records the Ruby version from the scanning environment while ensuring that unexpected version formats no longer cause the scan to crash.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Conan projects now report the C/C++ compiler name and version alongside the Conan version during CLI scans. This enhancement provides better visibility into the toolchain used for C/C++ projects by extracting compiler details from the active Conan profile. The detection process is designed to be non-intrusive, ensuring that scans continue successfully even if the compiler information cannot be determined.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Rust scans now report the installed Rust version even when Cargo is not present. Additionally, version lookups are now silent, removing unnecessary warnings from the logs when a version cannot be determined. This ensures more accurate toolchain reporting without impacting scan performance or log clarity.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Fixed an issue where CLI scans of Gradle projects reported the Gradle version with unnecessary text and JVM information. The CLI now reports only the bare Gradle version, ensuring consistent data formatting and accurate grouping within the SCA Toolchain Versions dashboard.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(Container)&lt;/strong&gt; Fixed an issue where the severity distribution in the `mend image` JSON report did not match the Platform UI for the same scan. This discrepancy, which caused some findings to be reported at a higher severity level in the JSON output, has been resolved to ensure consistency across all reporting interfaces.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Fixed an issue where Mend CLI dependency scans failed on Apple Silicon machines when a local Java installation was missing. The system now correctly identifies the architecture and downloads the compatible ARM-based JRE for the Unified Agent and reachability analysis, ensuring seamless scanning on macOS devices with Apple Silicon.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 </content>
     <link href="https://docs.mend.io/platform/latest/mend-cli-release-notes"/>
-    <published>2026-10-06T00:00:00+00:00</published>
+    <published>2026-10-19T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-ai-release-notes</id>
     <title>Mend AI: Version 25.12.1 (05-January-2026)</title>
-    <updated>2026-10-19T21:00:55.667633+00:00</updated>
+    <updated>2026-10-20T13:30:24.221289+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -241,7 +232,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-container-release-notes</id>
     <title>Mend Container: Version 26.9.3 (18-October-2026)</title>
-    <updated>2026-10-19T21:00:55.667616+00:00</updated>
+    <updated>2026-10-20T13:30:24.221277+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -258,8 +249,8 @@
   </entry>
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-sast-release-notes</id>
-    <title>Mend SAST: Version 26.9.2 (05-October-2026)</title>
-    <updated>2026-10-19T21:00:55.667597+00:00</updated>
+    <title>Mend SAST: Version 26.9.3 (19-October-2026)</title>
+    <updated>2026-10-20T13:30:24.221262+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -267,43 +258,10 @@
 &lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Mend SAST now supports additional configuration files, such as YAML and JSON, to improve entry point detection. The engine automatically identifies API endpoints and maps them to their corresponding implementation classes. This enhancement ensures comprehensive security coverage for contract-first applications by automatically marking all generated entry point parameters as tainted, eliminating the need for manual configuration of custom frameworks.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Improved the accuracy of the Python engine across the following CWEs:&lt;/p&gt;
+&lt;p&gt;Introducing the Gen 2 detection engine for &lt;a data-scope="internal" href="https://docs.mend.io/platform/latest/swift-gen-2"&gt;Swift&lt;/a&gt; and &lt;a data-scope="internal" href="https://docs.mend.io/platform/latest/php-gen-2"&gt;PHP&lt;/a&gt;, with improved CWE and framework coverage for accurate, scalable scans.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;CWE-022 Path Traversal&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;CWE-078 OS Command Injection&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;CWE-079 XSS&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;CWE-089 SQL Injection&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;CWE-094 Code Injection&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;CWE-209 Error Message Info Exposure&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;CWE-295 Improper Cert Validation&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;CWE-532 Sensitive Info in Log&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;CWE-601 Open Redirect&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;CWE-918 SSRF&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;CWE-943 NoSQL Injection&lt;/p&gt;
+&lt;p&gt;The Gen 2 engine is the default for new organizations.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
@@ -311,17 +269,23 @@
 &lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Fixed an issue where the entry resolver failed when scanning certain AWS Lambda handler files in TypeScript.&lt;/p&gt;
+&lt;p&gt;Fixed an issue where `HttpServletResponse` and `ServletResponse` parameters were incorrectly treated as taint sources in Java, leading to false-positive Cross-Site Scripting (XSS) findings. The analysis engine now correctly identifies that these objects are container-managed and do not inherently contain attacker-controlled data upon entry.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Fixed an issue where false-positive findings were reported for JavaScript and TypeScript applications. The engine incorrectly flagged Server-Side Request Forgery (SSRF) on relative in-app paths using React Router's navigate function and NoSQL Injection on Sequelize models even when configured with a PostgreSQL dialect. These detection gaps have been resolved to improve scan accuracy.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Fixed an issue where some Swagger YAML entry points were not correctly detected during scans, ensuring more comprehensive coverage and accurate vulnerability reporting for API definitions.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 </content>
     <link href="https://docs.mend.io/platform/latest/mend-sast-release-notes"/>
-    <published>2026-10-05T00:00:00+00:00</published>
+    <published>2026-10-19T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-sca-release-notes</id>
     <title>Mend SCA: Version 26.9.3 (18-October-2026)</title>
-    <updated>2026-10-19T21:00:55.667569+00:00</updated>
+    <updated>2026-10-20T13:30:24.221239+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -379,7 +343,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-platform-release-notes</id>
     <title>Mend AppSec Platform: Version 26.9.3 (18-October-2026)</title>
-    <updated>2026-10-19T21:00:55.667527+00:00</updated>
+    <updated>2026-10-20T13:30:24.221192+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
