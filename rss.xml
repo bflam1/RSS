@@ -7,20 +7,20 @@
     <atom:link href="https://bflam1.github.io/RSS/atom.xml" rel="self"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 20 Oct 2026 12:58:16 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2026 18:46:04 +0000</lastBuildDate>
     <item>
-      <title>Mend Renovate CC-EE: 15.7.0</title>
-      <link>https://github.com/mend/renovate-ce-ee/releases/tag/15.7.0</link>
+      <title>Mend Renovate CC-EE: 15.8.0</title>
+      <link>https://github.com/mend/renovate-ce-ee/releases/tag/15.8.0</link>
       <description>&lt;p&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://github.com/mend/renovate-ce-ee/releases/tag/15.7.0</guid>
-      <pubDate>Tue, 06 Oct 2026 19:22:17 +0000</pubDate>
+      <guid isPermaLink="false">https://github.com/mend/renovate-ce-ee/releases/tag/15.8.0</guid>
+      <pubDate>Tue, 20 Oct 2026 18:40:21 +0000</pubDate>
     </item>
     <item>
-      <title>Mend Renovate CLI: 44.171.8</title>
-      <link>https://github.com/renovatebot/renovate/releases/tag/44.171.8</link>
+      <title>Mend Renovate CLI: 44.172.1</title>
+      <link>https://github.com/renovatebot/renovate/releases/tag/44.172.1</link>
       <description>&lt;p&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://github.com/renovatebot/renovate/releases/tag/44.171.8</guid>
-      <pubDate>Tue, 20 Oct 2026 12:58:16 +0000</pubDate>
+      <guid isPermaLink="false">https://github.com/renovatebot/renovate/releases/tag/44.172.1</guid>
+      <pubDate>Tue, 20 Oct 2026 18:46:04 +0000</pubDate>
     </item>
     <item>
       <title>Mend for Bitbucket DC: Version 26.9.1.4 (01-October-2026)</title>
