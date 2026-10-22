@@ -2,5 +2,5 @@
 requests==2.33.1
 beautifulsoup4==4.14.3
 feedgen==1.0.0
-python-dateutil==2.9.0.post0
+python-dateutil==3.0.0
 bleach==6.3.0
