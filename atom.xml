@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://bflam1.github.io/RSS/atom.xml</id>
   <title>Mend.io Unified Release Notes</title>
-  <updated>2026-10-20T18:46:04+00:00</updated>
+  <updated>2026-10-26T13:28:16+00:00</updated>
   <author>
     <name>Mend Release Bot</name>
     <email>noreply@bflam1.github.io</email>
@@ -12,31 +12,31 @@
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>Aggregated RSS, Atom, and HTML of all Mend release notes.</subtitle>
   <entry>
-    <id>https://github.com/mend/renovate-ce-ee/releases/tag/15.8.0</id>
-    <title>Mend Renovate CC-EE: 15.8.0</title>
-    <updated>2026-10-20T19:58:37.844183+00:00</updated>
+    <id>https://github.com/mend/renovate-ce-ee/releases/tag/15.10.0</id>
+    <title>Mend Renovate CC-EE: 15.10.0: Out-of-band security release</title>
+    <updated>2026-10-26T13:30:16.406106+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
     <content type="html">&lt;p&gt;&lt;/p&gt;</content>
-    <link href="https://github.com/mend/renovate-ce-ee/releases/tag/15.8.0"/>
-    <published>2026-10-20T18:40:21+00:00</published>
+    <link href="https://github.com/mend/renovate-ce-ee/releases/tag/15.10.0"/>
+    <published>2026-10-25T09:37:57+00:00</published>
   </entry>
   <entry>
-    <id>https://github.com/renovatebot/renovate/releases/tag/44.172.1</id>
-    <title>Mend Renovate CLI: 44.172.1</title>
-    <updated>2026-10-20T19:58:37.844177+00:00</updated>
+    <id>https://github.com/renovatebot/renovate/releases/tag/44.183.0</id>
+    <title>Mend Renovate CLI: 44.183.0</title>
+    <updated>2026-10-26T13:30:16.406097+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
     <content type="html">&lt;p&gt;&lt;/p&gt;</content>
-    <link href="https://github.com/renovatebot/renovate/releases/tag/44.172.1"/>
-    <published>2026-10-20T18:46:04+00:00</published>
+    <link href="https://github.com/renovatebot/renovate/releases/tag/44.183.0"/>
+    <published>2026-10-26T13:28:16+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-bitbucket-data-center-release-notes</id>
     <title>Mend for Bitbucket DC: Version 26.9.1.4 (01-October-2026)</title>
-    <updated>2026-10-20T19:58:37.844171+00:00</updated>
+    <updated>2026-10-26T13:30:16.406084+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -57,7 +57,7 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-gitlab-release-notes</id>
     <title>Mend for GitLab: Version 26.9.1.4 (01-October-2026)</title>
-    <updated>2026-10-20T19:58:37.844165+00:00</updated>
+    <updated>2026-10-26T13:30:16.406072+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -78,7 +78,7 @@
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-github-enterprise-release-notes</id>
     <title>Mend for GitHub Enterprise: Version 26.9.1.4 (01-October-2026)</title>
-    <updated>2026-10-20T19:58:37.844159+00:00</updated>
+    <updated>2026-10-26T13:30:16.406025+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -104,55 +104,44 @@
   </entry>
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-github-com-release-notes</id>
-    <title>Mend for GitHub.com: Version 26.9.3 (18-October-2026)</title>
-    <updated>2026-10-20T19:58:37.844152+00:00</updated>
+    <title>Mend for GitHub.com: Version 26.9.3.3 (23-October-2026)</title>
+    <updated>2026-10-26T13:30:16.406006+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
     <content type="html">
-&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SCA) &lt;/strong&gt;The Bun package manager, previously in open beta, is now generally available in the Mend CLI and repository integrations. This allows for the automatic detection and reporting of both direct and transitive dependencies in projects using `package.json` alongside `bun.lock` or `bun.lockb` files, ensuring secure and reliable dependency management for the Bun ecosystem.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Hotfix:&lt;/strong&gt; Updated components, including Node.js, Java, and Go versions to resolve CVE-2026-105482, CVE-2026-111497, CVE-2026-91403, and CVE-2026-111943.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 </content>
     <link href="https://docs.mend.io/integrations/latest/mend-for-github-com-release-notes"/>
-    <published>2026-10-18T00:00:00+00:00</published>
+    <published>2026-10-23T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-developer-platform-release-notes</id>
-    <title>Mend Developer Platform: Version 26.9.3 (19-October-2026)</title>
-    <updated>2026-10-20T19:58:37.844145+00:00</updated>
+    <title>Mend Developer Platform: Version 26.9.3-hf1 (22-October-2026)</title>
+    <updated>2026-10-26T13:30:16.405989+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
     <content type="html">
-&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SCA) &lt;/strong&gt;The Bun package manager, previously in open beta, is now generally available in the Mend CLI and repository integrations. This allows for the automatic detection and reporting of both direct and transitive dependencies in projects using `package.json` alongside `bun.lock` or `bun.lockb` files, ensuring secure and reliable dependency management for the Bun ecosystem.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SAST)&lt;/strong&gt; Introduced a new guided onboarding wizard that enables users to easily activate SAST scanning for their repositories directly from the Mend Platform. This streamlined flow allows for quick repository selection and the execution of a pilot scan without manual configuration, providing immediate visibility into scan results and security findings. Additionally, users can now delegate the onboarding process to colleagues via email invitations to facilitate team-wide adoption.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(Renovate)&lt;/strong&gt; Renovate jobs that encounter specific error states, such as configuration validation or external host errors, are now surfaced as "FAILED" in the Developer Platform UI. This update ensures that unhealthy or transient repository states are accurately reported, providing better visibility into job status and repository health.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(Renovate)&lt;/strong&gt; (&lt;a data-scope="external" href="http://gitlab.com/" rel="external noreferrer"&gt;GitLab.com&lt;/a&gt;) Introduced scheduled job processing for &lt;a data-scope="external" href="http://gitlab.com/" rel="external noreferrer"&gt;GitLab.com&lt;/a&gt; repositories. This ensures that repositories are processed consistently outside of push events, providing more reliable and timely updates for users on the GitLab platform.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Hotfix:&lt;/strong&gt; Updated components, including Node.js, Java, and Go versions to resolve CVE-2026-105482, CVE-2026-111497, CVE-2026-91403, and CVE-2026-111943.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 </content>
     <link href="https://docs.mend.io/integrations/latest/mend-developer-platform-release-notes"/>
-    <published>2026-10-19T00:00:00+00:00</published>
+    <published>2026-10-22T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/legacy-sca/latest/mend-unified-agent-release-notes</id>
-    <title>Mend Unified Agent: Version 26.9.2 (06-October-2026)</title>
-    <updated>2026-10-20T19:58:37.844138+00:00</updated>
+    <title>Mend Unified Agent: Version 26.9.3.1 (22-October-2026)</title>
+    <updated>2026-10-26T13:30:16.405973+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -160,44 +149,35 @@
 &lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Fixed an issue where the Swift Package Manager (SPM) resolver incorrectly reported local package targets as top-level direct dependencies. The resolver now accurately resolves the dependency tree, ensuring local targets are correctly nested and transitive dependencies are properly identified without duplication.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Fixed an issue where Docker image scans incorrectly reported Python packages that had been removed or upgraded in later image layers. The Unified Agent now correctly identifies and ignores Docker whiteout markers, ensuring that only the package versions present in the final image are reported, which prevents inaccurate security and license alerts.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Hotfix:&lt;/strong&gt; Updated components, including Node.js, Java, and Go versions to resolve CVE-2026-105482, CVE-2026-111497, CVE-2026-91403, and CVE-2026-111943.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 </content>
     <link href="https://docs.mend.io/legacy-sca/latest/mend-unified-agent-release-notes"/>
-    <published>2026-10-06T00:00:00+00:00</published>
+    <published>2026-10-22T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-cli-release-notes</id>
-    <title>Mend CLI: Version 26.9.3 (19-October-2026)</title>
-    <updated>2026-10-20T19:58:37.844131+00:00</updated>
+    <title>Mend CLI: Version 26.9.3.14 (22-October-2026)</title>
+    <updated>2026-10-26T13:30:16.405956+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
     <content type="html">
-&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SCA) &lt;/strong&gt;The Bun package manager, previously in open beta, is now generally available in the Mend CLI and repository integrations. This allows for the automatic detection and reporting of both direct and transitive dependencies in projects using `package.json` alongside `bun.lock` or `bun.lockb` files, ensuring secure and reliable dependency management for the Bun ecosystem.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Fixed an issue where Mend CLI dependency scans failed on Apple Silicon machines when a local Java installation was missing. The system now correctly identifies the architecture and downloads the compatible ARM-based JRE for the Unified Agent and reachability analysis, ensuring seamless scanning on macOS devices with Apple Silicon.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Hotfix:&lt;/strong&gt; Updated components, including Node.js, Java, and Go versions to resolve CVE-2026-105482, CVE-2026-111497, CVE-2026-91403, and CVE-2026-111943.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 </content>
     <link href="https://docs.mend.io/platform/latest/mend-cli-release-notes"/>
-    <published>2026-10-19T00:00:00+00:00</published>
+    <published>2026-10-22T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-ai-release-notes</id>
     <title>Mend AI: Version 25.12.1 (05-January-2026)</title>
-    <updated>2026-10-20T19:58:37.844122+00:00</updated>
+    <updated>2026-10-26T13:30:16.405936+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -232,7 +212,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-container-release-notes</id>
     <title>Mend Container: Version 26.9.3 (18-October-2026)</title>
-    <updated>2026-10-20T19:58:37.844114+00:00</updated>
+    <updated>2026-10-26T13:30:16.405917+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -250,7 +230,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-sast-release-notes</id>
     <title>Mend SAST: Version 26.9.3 (19-October-2026)</title>
-    <updated>2026-10-20T19:58:37.844101+00:00</updated>
+    <updated>2026-10-26T13:30:16.405897+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -264,6 +244,11 @@
 &lt;p&gt;The Gen 2 engine is the default for new organizations.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Project Risk Factors is now available in all environments. It helps you decide which security issues to fix first by showing which of your applications and projects handle sensitive or critical functionality.&lt;/p&gt;
+&lt;p&gt;You can see a project's risk factors in a new column in the Applications and Projects lists, where you can filter by group or by individual risk factor. They also appear in a widget on the project summary page. To see why a project was classified a certain way, open the evidence page, which lists the code signals behind each classification, grouped by risk factor and file.&lt;/p&gt;
+&lt;p&gt;Classification runs automatically on your existing scans once an organization administrator enables AI-based project risk factors in organization administration. The setting requires AI consent and is off by default. When it's on, snippets of your source code and project details are shared with Mend's AI model to produce the classifications.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;
@@ -285,7 +270,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-sca-release-notes</id>
     <title>Mend SCA: Version 26.9.3 (18-October-2026)</title>
-    <updated>2026-10-20T19:58:37.844080+00:00</updated>
+    <updated>2026-10-26T13:30:16.405866+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -343,7 +328,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-platform-release-notes</id>
     <title>Mend AppSec Platform: Version 26.9.3 (18-October-2026)</title>
-    <updated>2026-10-20T19:58:37.844049+00:00</updated>
+    <updated>2026-10-26T13:30:16.405826+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
