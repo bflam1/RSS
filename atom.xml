@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://bflam1.github.io/RSS/atom.xml</id>
   <title>Mend.io Unified Release Notes</title>
-  <updated>2026-10-27T17:45:21+00:00</updated>
+  <updated>2026-11-02T14:09:40+00:00</updated>
   <author>
     <name>Mend Release Bot</name>
     <email>noreply@bflam1.github.io</email>
@@ -12,100 +12,148 @@
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>Aggregated RSS, Atom, and HTML of all Mend release notes.</subtitle>
   <entry>
-    <id>https://github.com/mend/renovate-ce-ee/releases/tag/15.10.0</id>
-    <title>Mend Renovate CC-EE: 15.10.0: Out-of-band security release</title>
-    <updated>2026-10-27T20:39:20.417064+00:00</updated>
+    <id>https://github.com/mend/renovate-ce-ee/releases/tag/15.11.0</id>
+    <title>Mend Renovate CC-EE: 15.11.0</title>
+    <updated>2026-11-02T14:30:26.851604+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
     <content type="html">&lt;p&gt;&lt;/p&gt;</content>
-    <link href="https://github.com/mend/renovate-ce-ee/releases/tag/15.10.0"/>
-    <published>2026-10-27T09:38:13+00:00</published>
+    <link href="https://github.com/mend/renovate-ce-ee/releases/tag/15.11.0"/>
+    <published>2026-11-02T09:35:33+00:00</published>
   </entry>
   <entry>
-    <id>https://github.com/renovatebot/renovate/releases/tag/44.190.0</id>
-    <title>Mend Renovate CLI: 44.190.0</title>
-    <updated>2026-10-27T20:39:20.417054+00:00</updated>
+    <id>https://github.com/renovatebot/renovate/releases/tag/44.202.1</id>
+    <title>Mend Renovate CLI: 44.202.1</title>
+    <updated>2026-11-02T14:30:26.851597+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
     <content type="html">&lt;p&gt;&lt;/p&gt;</content>
-    <link href="https://github.com/renovatebot/renovate/releases/tag/44.190.0"/>
-    <published>2026-10-27T17:45:21+00:00</published>
+    <link href="https://github.com/renovatebot/renovate/releases/tag/44.202.1"/>
+    <published>2026-11-02T14:09:40+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-bitbucket-data-center-release-notes</id>
-    <title>Mend for Bitbucket DC: Version 26.9.1.4 (01-October-2026)</title>
-    <updated>2026-10-27T20:39:20.417042+00:00</updated>
+    <title>Mend for Bitbucket DC: Version 26.10.1.1 (01-November-2026)</title>
+    <updated>2026-11-02T14:30:26.851590+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
     <content type="html">
+&lt;p&gt;Unified Agent 26.9.2.1 | &lt;a data-scope="external" href="https://github.com/renovatebot/renovate/releases/tag/44.176.3" rel="external noreferrer"&gt;&lt;u&gt;Renovate 44.176.3&lt;/u&gt;&lt;/a&gt; | Remediate 26.9.3.3 | Pre-Scan Builder (PSB) 25.8.1&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Updated &lt;a data-scope="external" href="https://docs.mend.io/wsk/scanner-sizing-guidance-for-mend-reachability" rel="external noreferrer"&gt;&lt;u&gt;Mend documentation&lt;/u&gt;&lt;/a&gt; to provide validated recommendations for scanner memory sizing while maintaining scan stability and performance when running Reachability scans.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Security hotfix: Upgraded a few packages in the controller to resolve CVEs.&lt;/p&gt;
+&lt;p&gt;Fixed an issue where reachability analysis would hang or time out on large multi-module Maven repositories. This occurred because excessively large debug log lines exceeded the scanner's processing limit, causing the scan to stall. The logging mechanism has been optimized to prevent these large outputs, ensuring stable and timely completion of reachability scans for complex projects.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Fixed an issue where attempting to rebuild the integration's scanner image would fail due to a missing Scala package. The issue only affected setups with Scala enabled.&lt;/p&gt;
+&lt;p&gt;Fixed an issue where JavaScript Reachability enrichment failed for projects with `devEngines` requirements that did not match the scanner's Node.js version. The enrichment process now uses the `--force` flag for metadata retrieval to ensure compatibility regardless of local engine constraints. Additionally, error reporting was improved to include specific npm error codes, and sensitive credential information was removed from command logs to enhance security.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Fixed an issue where scanSummaryInfo values, including per-step statistics and failure reasons, were missing from enriched update requests during Reachability scans. The enriched request now correctly retains all original metadata while including the vulnerability analysis results.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 </content>
     <link href="https://docs.mend.io/integrations/latest/mend-for-bitbucket-data-center-release-notes"/>
-    <published>2026-10-01T00:00:00+00:00</published>
+    <published>2026-11-01T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-gitlab-release-notes</id>
-    <title>Mend for GitLab: Version 26.9.1.4 (01-October-2026)</title>
-    <updated>2026-10-27T20:39:20.417031+00:00</updated>
+    <title>Mend for GitLab: Version 26.10.1.1 (01-November-2026)</title>
+    <updated>2026-11-02T14:30:26.851582+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
     <content type="html">
+&lt;p&gt;Unified Agent 26.9.2.1 | &lt;a data-scope="external" href="https://github.com/renovatebot/renovate/releases/tag/44.176.3" rel="external noreferrer"&gt;&lt;u&gt;Renovate 44.176.3&lt;/u&gt;&lt;/a&gt; | Remediate 26.9.3.3 | Pre-Scan Builder (PSB) 25.8.1&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;(SAST) &lt;/strong&gt;Improved check-run error messages for cloning failures to provide specific details when a scan fails due to a missing branch, unavailable commit, inaccessible repository, or cloning timeout.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Updated &lt;a data-scope="external" href="https://docs.mend.io/wsk/scanner-sizing-guidance-for-mend-reachability" rel="external noreferrer"&gt;&lt;u&gt;Mend documentation&lt;/u&gt;&lt;/a&gt; to provide validated recommendations for scanner memory sizing while maintaining scan stability and performance when running Reachability scans.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Security hotfix: Upgraded a few packages in the controller to resolve CVEs.&lt;/p&gt;
+&lt;p&gt;Fixed an issue where reachability analysis would hang or time out on large multi-module Maven repositories. This occurred because excessively large debug log lines exceeded the scanner's processing limit, causing the scan to stall. The logging mechanism has been optimized to prevent these large outputs, ensuring stable and timely completion of reachability scans for complex projects.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Fixed an issue where attempting to rebuild the integration's scanner image would fail due to a missing Scala package. The issue only affected setups with Scala enabled.&lt;/p&gt;
+&lt;p&gt;Fixed an issue where JavaScript Reachability enrichment failed for projects with `devEngines` requirements that did not match the scanner's Node.js version. The enrichment process now uses the `--force` flag for metadata retrieval to ensure compatibility regardless of local engine constraints. Additionally, error reporting was improved to include specific npm error codes, and sensitive credential information was removed from command logs to enhance security.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Fixed an issue where scanSummaryInfo values, including per-step statistics and failure reasons, were missing from enriched update requests during Reachability scans. The enriched request now correctly retains all original metadata while including the vulnerability analysis results.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 </content>
     <link href="https://docs.mend.io/integrations/latest/mend-for-gitlab-release-notes"/>
-    <published>2026-10-01T00:00:00+00:00</published>
+    <published>2026-11-01T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-github-enterprise-release-notes</id>
-    <title>Mend for GitHub Enterprise: Version 26.9.1.4 (01-October-2026)</title>
-    <updated>2026-10-27T20:39:20.417019+00:00</updated>
+    <title>Mend for GitHub Enterprise: Version 26.10.1.1 (01-November-2026)</title>
+    <updated>2026-11-02T14:30:26.851575+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
     <content type="html">
+&lt;p&gt;Unified Agent 26.9.2.1 | &lt;a data-scope="external" href="https://github.com/renovatebot/renovate/releases/tag/44.176.3" rel="external noreferrer"&gt;&lt;u&gt;Renovate 44.176.3&lt;/u&gt;&lt;/a&gt; | Remediate 26.9.3.3 | Pre-Scan Builder (PSB) 25.8.1&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;(SAST)&lt;/strong&gt; Introduced a new configurable parameter controlled by &lt;code&gt;skipSupersededResults&lt;/code&gt; that allows skipping SAST scans when a newer commit to the same branch supersedes them. This optimization prevents unnecessary processing time for outdated scans, particularly in large repositories, and updates the check run status to inform users that the stale scan was bypassed in favor of the most recent version.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;(SAST)&lt;/strong&gt; Improved check-run error messages for cloning failures to provide specific details when a scan fails due to a missing branch, unavailable commit, inaccessible repository, or cloning timeout.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;(SAST)&lt;/strong&gt; Optimized the repository scanning process by removing redundant configuration flags for multi-base branch support. The system now automatically sets the required repository identification parameters.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Updated Mend &lt;a data-scope="internal" href="https://docs.mend.io/wsk/scanner-sizing-guidance-for-mend-reachability"&gt;documentation&lt;/a&gt; to provide validated recommendations for scanner memory sizing while maintaining scan stability and performance when running Reachability scans.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Fixed an issue where long-running issue publishing processes failed due to GitHub installation access token expiration. The system now proactively refreshes tokens before they expire, ensuring uninterrupted synchronization for large repositories.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;(SAST)&lt;/strong&gt; Fixed an issue where the license check run failed for projects containing more than 100 libraries.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Introduced a new configuration parameter, `issue.update.pause`, to independently control the delay after issue updates and closures, to solve an issue of tied throttling pauses. This allows for more granular performance tuning by separating update pauses from creation pauses, optimizing SCM API interactions and reducing the risk of rate limiting without affecting existing creation workflows.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;(SAST)&lt;/strong&gt; Fixed suppression requests that could get stuck in Pending and couldn't be approved or rejected. This happened mainly when the finding had already been resolved on the base branch before the reviewer acted.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Fixed an issue where the controller incorrectly ignored errors returned with an HTTP 200 status. The controller now correctly identifies and logs these error responses, improving diagnostic capabilities for startup failures.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;(SAST)&lt;/strong&gt; Fixed suppression requests failing for findings on feature branches that were detected in stale base branch scans.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Fixed an issue where attempting to rebuild the integration's scanner image would fail due to a missing Scala package. The issue only affected setups with Scala enabled.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;(SAST)&lt;/strong&gt; Fixed an issue where the scanner image bundled end-of-life Node.js versions. The image now includes Node.js 26.x, an LTS version supported until April 2029, ensuring compliance with software lifecycle policies.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Fixed an issue where scanSummaryInfo values, including per-step statistics and failure reasons, were missing from enriched update requests during Reachability scans. The enriched request now correctly retains all original metadata while including the vulnerability analysis results.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Fixed an issue where JavaScript Reachability enrichment failed for projects with `devEngines` requirements that did not match the scanner's Node.js version. The enrichment process now uses the `--force` flag for metadata retrieval to ensure compatibility regardless of local engine constraints. Additionally, error reporting was improved to include specific npm error codes, and sensitive credential information was removed from command logs to enhance security.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Fixed an issue where the Conda resolver incorrectly identified any file named `environment.yaml` or `environment.yml` as a Conda manifest based solely on the filename. This caused non-Conda files to be processed, potentially leading to spurious dependency findings. The resolver now validates the file schema to ensure it contains valid Conda keys before proceeding with resolution.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 </content>
     <link href="https://docs.mend.io/integrations/latest/mend-for-github-enterprise-release-notes"/>
-    <published>2026-10-01T00:00:00+00:00</published>
+    <published>2026-11-01T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-github-com-release-notes</id>
     <title>Mend for GitHub.com: Version 26.9.3.3 (23-October-2026)</title>
-    <updated>2026-10-27T20:39:20.417009+00:00</updated>
+    <updated>2026-11-02T14:30:26.851567+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -122,8 +170,8 @@
   </entry>
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-developer-platform-release-notes</id>
-    <title>Mend Developer Platform: Version 26.9.3-hf1 (22-October-2026)</title>
-    <updated>2026-10-27T20:39:20.416998+00:00</updated>
+    <title>Mend Developer Platform: Version 26.10.1 (01-November-2026)</title>
+    <updated>2026-11-02T14:30:26.851558+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -131,17 +179,17 @@
 &lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Hotfix:&lt;/strong&gt; Updated components, including Node.js, Java, and Go versions to resolve CVE-2026-105482, CVE-2026-111497, CVE-2026-91403, and CVE-2026-111943.&lt;/p&gt;
+&lt;p&gt;(AZDO) Fixed an issue where clicking &lt;strong&gt;Reconnect&lt;/strong&gt; in the Azure DevOps authentication banner returned a 400 error when using the Entra ID application.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 </content>
     <link href="https://docs.mend.io/integrations/latest/mend-developer-platform-release-notes"/>
-    <published>2026-10-22T00:00:00+00:00</published>
+    <published>2026-11-01T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/legacy-sca/latest/mend-unified-agent-release-notes</id>
     <title>Mend Unified Agent: Version 26.9.3.1 (22-October-2026)</title>
-    <updated>2026-10-27T20:39:20.416988+00:00</updated>
+    <updated>2026-11-02T14:30:26.851550+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -159,7 +207,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-cli-release-notes</id>
     <title>Mend CLI: Version 26.9.3.14 (22-October-2026)</title>
-    <updated>2026-10-27T20:39:20.416976+00:00</updated>
+    <updated>2026-11-02T14:30:26.851542+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -177,7 +225,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-ai-release-notes</id>
     <title>Mend AI: Version 25.12.1 (05-January-2026)</title>
-    <updated>2026-10-27T20:39:20.416963+00:00</updated>
+    <updated>2026-11-02T14:30:26.851534+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -212,7 +260,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-container-release-notes</id>
     <title>Mend Container: Version 26.9.3 (18-October-2026)</title>
-    <updated>2026-10-27T20:39:20.416951+00:00</updated>
+    <updated>2026-11-02T14:30:26.851525+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -230,7 +278,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-sast-release-notes</id>
     <title>Mend SAST: Version 26.9.3 (19-October-2026)</title>
-    <updated>2026-10-27T20:39:20.416936+00:00</updated>
+    <updated>2026-11-02T14:30:26.851510+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -269,8 +317,8 @@
   </entry>
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-sca-release-notes</id>
-    <title>Mend SCA: Version 26.9.3 (18-October-2026)</title>
-    <updated>2026-10-27T20:39:20.416912+00:00</updated>
+    <title>Mend SCA: Version 26.10.1 (01-November-2026)</title>
+    <updated>2026-11-02T14:30:26.851488+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -278,57 +326,40 @@
 &lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;The Bun package manager, previously in open beta, is now generally available in the Mend CLI and repository integrations. This allows for the automatic detection and reporting of both direct and transitive dependencies in projects using `package.json` alongside `bun.lock` or `bun.lockb` files, ensuring secure and reliable dependency management for the Bun ecosystem.&lt;/p&gt;
-&lt;/li&gt;
+&lt;p&gt;Introducing &lt;a data-scope="internal" href="https://docs.mend.io/platform/latest/mend-intelligent-agent"&gt;Mend Intelligent Agent&lt;/a&gt;, an AI-powered assistant embedded within the Mend Platform. Users can now interact using natural language to explore platform capabilities, receive guidance to relevant views, and obtain executive-level risk summaries. This feature provides a centralized organizational perspective, enabling security teams to identify and prioritize critical findings across all applications and projects efficiently. Mend Assist streamlines security oversight by delivering instant, actionable insights and automated navigation, all within the existing platform workflow.&lt;/p&gt;
+&lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Added support for GitHub repository-level security advisories as an import source. This enhancement enables the detection of vulnerabilities that are published within specific repositories by project maintainers, but are not yet available in the global GitHub Advisory Database, ensuring more comprehensive security coverage for widely used projects such as Keycloak, Next.js, n8n, Envoy, Argo CD, Traefik, vLLM, LangChain and Open WebUI.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The feature is enabled by default for organizations with signed AI consent via an addendum in your &lt;/strong&gt;&lt;a data-scope="external" href="http://mend.io/" rel="external noreferrer"&gt;&lt;u&gt;&lt;strong&gt;Mend.io&lt;/strong&gt;&lt;/u&gt;&lt;/a&gt;&lt;strong&gt; contract. For organizations without consent, the feature remains disabled. Please contact your Customer Success Manager for more details.&lt;/strong&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Introduced an option to generate a single aggregated &lt;a data-scope="internal" href="https://docs.mend.io/platform/latest/the-dependencies-sbom-report"&gt;SBOM file&lt;/a&gt; for application and multi-project scopes. This feature consolidates multiple project-level files into one document, deduplicating components and merging occurrence data across the selected scope. The aggregated export supports CycloneDX and SPDX standards, ensuring compliance and simplifying ingestion into downstream tooling. When multi-project scope is selected, projects must belong to the same application to maintain data integrity. Per-project generation remains the default structure for all report exports.&lt;/p&gt;
+&lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Fixed an issue where proprietary (in-house) components were incorrectly included in automation workflows for "Empty License" conditions, leading to false-positive violations. &lt;strong&gt;A new organizational setting&lt;/strong&gt;, "Include Proprietary Libraries in Workflows," has been introduced to allow for the exclusion of these components by default. This ensures that only genuine third-party components with missing license data are flagged during scans.&lt;/p&gt;
+&lt;p&gt;Fixed an issue where certain vulnerability findings remained open in the Mend Platform even after the underlying CVE association was removed from the database.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;OS Inventory page fixes:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Fixed an issue where the OS Inventory page failed to load dependencies for certain projects, resulting in an error message and an HTTP 403 response. This was caused by a timeout during the source-file remapping process for projects with a high volume of files. The underlying logic has been optimized to handle large-scale dependency structures efficiently, ensuring the inventory grid loads correctly across all applications.&lt;/p&gt;
+&lt;p&gt;Fixed an issue where vulnerability trace data was duplicated during the write process, leading to excessive database growth and potential memory exhaustion during scans.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Fixed an issue where filtering the OS Inventory table by label caused the grid to display an error and fail to load data. This occurred due to an incorrect syntax format in the underlying API request. The filtering mechanism has been updated to ensure compatibility with the backend requirements, allowing users to successfully view and manage their inventory when label filters are applied.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;Fixed an issue where `.pom` files were incorrectly reported as independent libraries in scan results. These metadata descriptors are now excluded from the inventory, preventing false positives and ensuring that CI/CD pipelines are not blocked by unknown license alerts for non-library artifacts.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Fixed an issue where alert calculation processing for widely-used SHA-1 hashes exceeded the maximum poll interval, causing consumer evictions and processing delays. The system now utilizes optimized data fetching and partitions resource processing to handle large volumes of artifact keys efficiently, ensuring stable performance and preventing duplicate alert calculations during heavy database loads.&lt;/p&gt;
+&lt;p&gt;Fixed an issue where the PHP version was not reported during CLI scans of PHP projects. The scanner now correctly captures and reports both Composer and PHP versions by reading the combined output from the package manager.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;SBOM fixes:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Fixed an issue where SPDX SBOM imports containing circular dependencies or duplicate relationships caused the project hierarchy building process to hang, leading to scan timeouts. The import logic now correctly handles these complex dependency structures, ensuring scans complete efficiently and provide a full dependency tree.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Fixed an issue where CycloneDX SBOM imports failed when encountering valid SPDX license identifiers, such as FSL-1.1-MIT, in the license ID field. The import process now correctly validates these identifiers, preventing unhandled exceptions and ensuring successful SBOM processing.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Fixed an issue where CycloneDX SBOM imports failed due to an outdated SPDX license list. The validator now correctly handles newer SPDX license identifiers in both JSON and XML formats, preventing the rejection of valid SBOMs. Additionally, a bug was resolved that caused a generic error message instead of a specific validation failure notification.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;Fixed an issue where CLI scans of Gradle projects reported the Gradle version with unnecessary text and JVM information. The CLI now reports only the bare Gradle version, ensuring consistent data formatting and accurate grouping within the SCA Toolchain Versions dashboard.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 </content>
     <link href="https://docs.mend.io/platform/latest/mend-sca-release-notes"/>
-    <published>2026-10-18T00:00:00+00:00</published>
+    <published>2026-11-01T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-platform-release-notes</id>
-    <title>Mend AppSec Platform: Version 26.9.3 (18-October-2026)</title>
-    <updated>2026-10-27T20:39:20.416873+00:00</updated>
+    <title>Mend AppSec Platform: Version 26.10.1 (01-November-2026)</title>
+    <updated>2026-11-02T14:30:26.851457+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -336,51 +367,34 @@
 &lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a data-scope="internal" href="https://docs.mend.io/platform/latest/manage-custom-roles"&gt;Custom Roles&lt;/a&gt;, previously in closed beta, are now &lt;strong&gt;generally available&lt;/strong&gt;. In this release, the role breakdown and the Create Role wizard are enhanced to provide a more intuitive custom role management experience.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;(Open Beta)&lt;/strong&gt; Introducing &lt;a data-scope="internal" href="https://docs.mend.io/platform/latest/mend-intelligent-agent"&gt;Mend Intelligent Agent&lt;/a&gt;, an AI-powered assistant embedded within the Mend Platform. Users can now interact using natural language to explore platform capabilities, receive guidance to relevant views, and obtain executive-level risk summaries. This feature provides a centralized organizational perspective, enabling security teams to identify and prioritize critical findings across all applications and projects efficiently. Mend Assist streamlines security oversight by delivering instant, actionable insights and automated navigation, all within the existing platform workflow.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;The feature is enabled by default for organizations with signed AI consent via an addendum in your &lt;/strong&gt;&lt;a data-scope="external" href="http://mend.io/" rel="external noreferrer"&gt;&lt;u&gt;&lt;strong&gt;Mend.io&lt;/strong&gt;&lt;/u&gt;&lt;/a&gt;&lt;strong&gt; contract. For organizations without consent, the feature remains disabled. Please contact your Customer Success Manager for more details.&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Introduced an option to generate a single aggregated &lt;a data-scope="internal" href="https://docs.mend.io/platform/latest/the-dependencies-sbom-report"&gt;SBOM file&lt;/a&gt; for application and multi-project scopes. This feature consolidates multiple project-level files into one document, deduplicating components and merging occurrence data across the selected scope. The aggregated export supports CycloneDX and SPDX standards, ensuring compliance and simplifying ingestion into downstream tooling. When multi-project scope is selected, projects must belong to the same application to maintain data integrity. Per-project generation remains the default structure for all report exports.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;(SAST)&lt;/strong&gt; Introduced granular control for low-probability scan categories within the Scan Profile. Users can now selectively include or exclude specific categories, such as File Read or Database Read, to refine detection and reduce noise. This update replaces the previous binary toggle with a configurable selection tree, allowing for self-service tuning tailored to specific codebase requirements. Changes are applied to the next scan and include a count indicator for selected categories.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Fixed an issue where the last scan date returned by the Project Summaries API did not match the date displayed in the Mend UI. This discrepancy was caused by the API incorrectly recording the batch run time instead of the actual scan completion time. The system now ensures the API consistently reports the correct scan end time, maintaining data alignment across all interfaces.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Fixed an issue where certain vulnerability findings remained open in the Mend Platform even after the underlying CVE association was removed from the database.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Fixed an issue where the Mend Jira Data Center plugin created duplicate Jira tickets for the same security finding. By transitioning the deduplication and persistence logic to use a stable unique identifier instead of a transient one, the plugin now ensures only one ticket is generated per finding. This update prevents excessive ticket creation and stabilizes database growth, improving overall system performance and reliability.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Fixed an issue where vulnerability trace data was duplicated during the write process, leading to excessive database growth and potential memory exhaustion during scans.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Fixed an issue where proprietary (in-house) components were incorrectly included in automation workflows for "Empty License" conditions, leading to false-positive violations. &lt;strong&gt;A new organizational setting&lt;/strong&gt;, "Include Proprietary Libraries in Workflows," has been introduced to allow for the exclusion of these components by default. This ensures that only genuine third-party components with missing license data are flagged during scans.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Fixed an issue where `.pom` files were incorrectly reported as independent libraries in scan results. These metadata descriptors are now excluded from the inventory, preventing false positives and ensuring that CI/CD pipelines are not blocked by unknown license alerts for non-library artifacts.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; OS Inventory page fixes:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Fixed an issue where the OS Inventory page failed to load dependencies for certain projects, resulting in an error message and an HTTP 403 response. This was caused by a timeout during the source-file remapping process for projects with a high volume of files. The underlying logic has been optimized to handle large-scale dependency structures efficiently, ensuring the inventory grid loads correctly across all applications.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Fixed an issue where filtering the OS Inventory table by label caused the grid to display an error and fail to load data. This occurred due to an incorrect syntax format in the underlying API request. The filtering mechanism has been updated to ensure compatibility with the backend requirements, allowing users to successfully view and manage their inventory when label filters are applied.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; SBOM fixes:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Fixed an issue where SPDX SBOM imports containing circular dependencies or duplicate relationships caused the project hierarchy building process to hang, leading to scan timeouts. The import logic now correctly handles these complex dependency structures, ensuring scans complete efficiently and provide a full dependency tree.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Fixed an issue where CycloneDX SBOM imports failed when encountering valid SPDX license identifiers, such as FSL-1.1-MIT, in the license ID field. The import process now correctly validates these identifiers, preventing unhandled exceptions and ensuring successful SBOM processing.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Fixed an issue where CycloneDX SBOM imports failed due to an outdated SPDX license list. The validator now correctly handles newer SPDX license identifiers in both JSON and XML formats, preventing the rejection of valid SBOMs. Additionally, a bug was resolved that caused a generic error message instead of a specific validation failure notification.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;(SAST)&lt;/strong&gt; Fixed an issue where Code report downloads failed in Chromium-based browsers, such as Chrome and Edge, when the organization name contained a comma.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 </content>
     <link href="https://docs.mend.io/platform/latest/mend-platform-release-notes"/>
-    <published>2026-10-18T00:00:00+00:00</published>
+    <published>2026-11-01T00:00:00+00:00</published>
   </entry>
 </feed>
