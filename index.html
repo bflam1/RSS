@@ -49,7 +49,7 @@
 <p><strong>New Features and Updates</strong></p>
 <ul>
 <li>
-<p>Introducing <a href="https://docs.mend.io/platform/latest/mend-intelligent-agent">Mend Intelligent Agent</a>, an AI-powered assistant embedded within the Mend Platform. Users can now interact using natural language to explore platform capabilities, receive guidance to relevant views, and obtain executive-level risk summaries. This feature provides a centralized organizational perspective, enabling security teams to identify and prioritize critical findings across all applications and projects efficiently. Mend Assist streamlines security oversight by delivering instant, actionable insights and automated navigation, all within the existing platform workflow.</p>
+<p><strong>(Open Beta)</strong> Introducing <a href="https://docs.mend.io/platform/latest/mend-intelligent-agent">Mend Intelligent Agent</a>, an AI-powered assistant embedded within the Mend Platform. Users can now interact using natural language to explore platform capabilities, receive guidance to relevant views, and obtain executive-level risk summaries. This feature provides a centralized organizational perspective, enabling security teams to identify and prioritize critical findings across all applications and projects efficiently. Mend Assist streamlines security oversight by delivering instant, actionable insights and automated navigation, all within the existing platform workflow.</p>
 <ul>
 <li>
 <p><strong>The feature is enabled by default for organizations with signed AI consent via an addendum in your </strong><a href="http://mend.io/" rel="external noreferrer"><u><strong>Mend.io</strong></u></a><strong> contract. For organizations without consent, the feature remains disabled. Please contact your Customer Success Manager for more details.</strong></p>
@@ -79,35 +79,28 @@
   </section>
   <hr/>
   <section>
-    <h2><a href="https://docs.mend.io/platform/latest/mend-sast-release-notes">Mend SAST: Version 26.9.3 (19-October-2026)</a></h2>
-    <time datetime="2026-10-19T00:00:00+00:00">2026-10-19T00:00:00+00:00</time>
+    <h2><a href="https://docs.mend.io/platform/latest/mend-sast-release-notes">Mend SAST: Version 26.10.1 (02-November-2026)</a></h2>
+    <time datetime="2026-11-02T00:00:00+00:00">2026-11-02T00:00:00+00:00</time>
     
 <p><strong>New Features and Updates</strong></p>
 <ul>
 <li>
-<p>Introducing the Gen 2 detection engine for <a href="https://docs.mend.io/platform/latest/swift-gen-2">Swift</a> and <a href="https://docs.mend.io/platform/latest/php-gen-2">PHP</a>, with improved CWE and framework coverage for accurate, scalable scans.</p>
-<ul>
-<li>
-<p>The Gen 2 engine is the default for new organizations.</p>
-</li>
-</ul>
+<p>Introduced granular control for low-probability scan categories within the Scan Profile. Users can now selectively include or exclude specific categories, such as File Read or Database Read, to refine detection and reduce noise. This update replaces the previous binary toggle with a configurable selection tree, allowing for self-service tuning tailored to specific codebase requirements. Changes are applied to the next scan and include a count indicator for selected categories.</p>
 </li>
 <li>
-<p>Project Risk Factors is now available in all environments. It helps you decide which security issues to fix first by showing which of your applications and projects handle sensitive or critical functionality.</p>
-<p>You can see a project's risk factors in a new column in the Applications and Projects lists, where you can filter by group or by individual risk factor. They also appear in a widget on the project summary page. To see why a project was classified a certain way, open the evidence page, which lists the code signals behind each classification, grouped by risk factor and file.</p>
-<p>Classification runs automatically on your existing scans once an organization administrator enables AI-based project risk factors in organization administration. The setting requires AI consent and is off by default. When it's on, snippets of your source code and project details are shared with Mend's AI model to produce the classifications.</p>
+<p>Added support for custom Node.js routing frameworks where entry points are defined in `routes.json` files. This update enables the engine to parse these manifests and correctly identify handler functions as entry points for taint analysis, ensuring comprehensive vulnerability detection for non-standard routing configurations.</p>
 </li>
 </ul>
 <p><strong>Resolved Issues</strong></p>
 <ul>
 <li>
-<p>Fixed an issue where `HttpServletResponse` and `ServletResponse` parameters were incorrectly treated as taint sources in Java, leading to false-positive Cross-Site Scripting (XSS) findings. The analysis engine now correctly identifies that these objects are container-managed and do not inherently contain attacker-controlled data upon entry.</p>
+<p>Fixed an issue in the CLI where Go scans experienced significant performance degradation and timeouts when analyzing generated protobuf (.pb.go) files. The analysis process is now optimized, resulting in substantially faster scan completion times for projects containing these files.</p>
 </li>
 <li>
-<p>Fixed an issue where false-positive findings were reported for JavaScript and TypeScript applications. The engine incorrectly flagged Server-Side Request Forgery (SSRF) on relative in-app paths using React Router's navigate function and NoSQL Injection on Sequelize models even when configured with a PostgreSQL dialect. These detection gaps have been resolved to improve scan accuracy.</p>
+<p>Fixed an issue where some Swagger YAML entry points were not correctly detected during scans. The engine now correctly parses Swagger YAML files to identify all API endpoints, ensuring comprehensive vulnerability coverage and accurate reporting for applications using Swagger-generated code.</p>
 </li>
 <li>
-<p>Fixed an issue where some Swagger YAML entry points were not correctly detected during scans, ensuring more comprehensive coverage and accurate vulnerability reporting for API definitions.</p>
+<p>Fixed an issue where Code report downloads failed in Chromium-based browsers, such as Chrome and Edge, when the organization name contained a comma.</p>
 </li>
 </ul>
 
@@ -157,13 +150,19 @@
   </section>
   <hr/>
   <section>
-    <h2><a href="https://docs.mend.io/platform/latest/mend-cli-release-notes">Mend CLI: Version 26.9.3.14 (22-October-2026)</a></h2>
-    <time datetime="2026-10-22T00:00:00+00:00">2026-10-22T00:00:00+00:00</time>
+    <h2><a href="https://docs.mend.io/platform/latest/mend-cli-release-notes">Mend CLI: Version 26.10.1 (02-November-2026)</a></h2>
+    <time datetime="2026-11-02T00:00:00+00:00">2026-11-02T00:00:00+00:00</time>
     
 <p><strong>Resolved Issues</strong></p>
 <ul>
 <li>
-<p><strong>Hotfix:</strong> Updated components, including Node.js, Java, and Go versions to resolve CVE-2026-105482, CVE-2026-111497, CVE-2026-91403, and CVE-2026-111943.</p>
+<p><strong>(SCA)</strong> Fixed an issue where the PHP version was not reported during CLI scans of PHP projects. The scanner now correctly captures and reports both Composer and PHP versions by reading the combined output from the package manager.</p>
+</li>
+<li>
+<p><strong>(SCA)</strong> Fixed an issue where CLI scans of Gradle projects reported the Gradle version with unnecessary text and JVM information. The CLI now reports only the bare Gradle version, ensuring consistent data formatting and accurate grouping within the SCA Toolchain Versions dashboard.</p>
+</li>
+<li>
+<p><strong>(SAST)</strong> Fixed an issue where Go scans experienced significant performance degradation and timeouts when analyzing generated protobuf (.pb.go) files. The analysis process is now optimized, resulting in substantially faster scan completion times for projects containing these files.</p>
 </li>
 </ul>
 
@@ -311,8 +310,8 @@
   </section>
   <hr/>
   <section>
-    <h2><a href="https://github.com/renovatebot/renovate/releases/tag/44.202.1">Mend Renovate CLI: 44.202.1</a></h2>
-    <time datetime="2026-11-02T14:09:40+00:00">2026-11-02T14:09:40+00:00</time>
+    <h2><a href="https://github.com/renovatebot/renovate/releases/tag/44.206.2">Mend Renovate CLI: 44.206.2</a></h2>
+    <time datetime="2026-11-02T22:19:59+00:00">2026-11-02T22:19:59+00:00</time>
     <p></p>
   </section>
   <hr/>

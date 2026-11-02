@@ -7,7 +7,7 @@
     <atom:link href="https://bflam1.github.io/RSS/atom.xml" rel="self"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 02 Nov 2026 14:09:40 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 22:19:59 +0000</lastBuildDate>
     <item>
       <title>Mend Renovate CC-EE: 15.11.0</title>
       <link>https://github.com/mend/renovate-ce-ee/releases/tag/15.11.0</link>
@@ -16,11 +16,11 @@
       <pubDate>Mon, 02 Nov 2026 09:35:33 +0000</pubDate>
     </item>
     <item>
-      <title>Mend Renovate CLI: 44.202.1</title>
-      <link>https://github.com/renovatebot/renovate/releases/tag/44.202.1</link>
+      <title>Mend Renovate CLI: 44.206.2</title>
+      <link>https://github.com/renovatebot/renovate/releases/tag/44.206.2</link>
       <description>&lt;p&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://github.com/renovatebot/renovate/releases/tag/44.202.1</guid>
-      <pubDate>Mon, 02 Nov 2026 14:09:40 +0000</pubDate>
+      <guid isPermaLink="false">https://github.com/renovatebot/renovate/releases/tag/44.206.2</guid>
+      <pubDate>Mon, 02 Nov 2026 22:19:59 +0000</pubDate>
     </item>
     <item>
       <title>Mend for Bitbucket DC: Version 26.10.1.1 (01-November-2026)</title>
@@ -170,18 +170,24 @@
       <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Mend CLI: Version 26.9.3.14 (22-October-2026)</title>
+      <title>Mend CLI: Version 26.10.1 (02-November-2026)</title>
       <link>https://docs.mend.io/platform/latest/mend-cli-release-notes</link>
       <description>
 &lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Hotfix:&lt;/strong&gt; Updated components, including Node.js, Java, and Go versions to resolve CVE-2026-105482, CVE-2026-111497, CVE-2026-91403, and CVE-2026-111943.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Fixed an issue where the PHP version was not reported during CLI scans of PHP projects. The scanner now correctly captures and reports both Composer and PHP versions by reading the combined output from the package manager.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Fixed an issue where CLI scans of Gradle projects reported the Gradle version with unnecessary text and JVM information. The CLI now reports only the bare Gradle version, ensuring consistent data formatting and accurate grouping within the SCA Toolchain Versions dashboard.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;(SAST)&lt;/strong&gt; Fixed an issue where Go scans experienced significant performance degradation and timeouts when analyzing generated protobuf (.pb.go) files. The analysis process is now optimized, resulting in substantially faster scan completion times for projects containing these files.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 </description>
       <guid isPermaLink="false">https://docs.mend.io/platform/latest/mend-cli-release-notes</guid>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Mend AI: Version 25.12.1 (05-January-2026)</title>
@@ -229,40 +235,33 @@
       <pubDate>Sun, 18 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Mend SAST: Version 26.9.3 (19-October-2026)</title>
+      <title>Mend SAST: Version 26.10.1 (02-November-2026)</title>
       <link>https://docs.mend.io/platform/latest/mend-sast-release-notes</link>
       <description>
 &lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Introducing the Gen 2 detection engine for &lt;a data-scope="internal" href="https://docs.mend.io/platform/latest/swift-gen-2"&gt;Swift&lt;/a&gt; and &lt;a data-scope="internal" href="https://docs.mend.io/platform/latest/php-gen-2"&gt;PHP&lt;/a&gt;, with improved CWE and framework coverage for accurate, scalable scans.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;The Gen 2 engine is the default for new organizations.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;Introduced granular control for low-probability scan categories within the Scan Profile. Users can now selectively include or exclude specific categories, such as File Read or Database Read, to refine detection and reduce noise. This update replaces the previous binary toggle with a configurable selection tree, allowing for self-service tuning tailored to specific codebase requirements. Changes are applied to the next scan and include a count indicator for selected categories.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Project Risk Factors is now available in all environments. It helps you decide which security issues to fix first by showing which of your applications and projects handle sensitive or critical functionality.&lt;/p&gt;
-&lt;p&gt;You can see a project's risk factors in a new column in the Applications and Projects lists, where you can filter by group or by individual risk factor. They also appear in a widget on the project summary page. To see why a project was classified a certain way, open the evidence page, which lists the code signals behind each classification, grouped by risk factor and file.&lt;/p&gt;
-&lt;p&gt;Classification runs automatically on your existing scans once an organization administrator enables AI-based project risk factors in organization administration. The setting requires AI consent and is off by default. When it's on, snippets of your source code and project details are shared with Mend's AI model to produce the classifications.&lt;/p&gt;
+&lt;p&gt;Added support for custom Node.js routing frameworks where entry points are defined in `routes.json` files. This update enables the engine to parse these manifests and correctly identify handler functions as entry points for taint analysis, ensuring comprehensive vulnerability detection for non-standard routing configurations.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Fixed an issue where `HttpServletResponse` and `ServletResponse` parameters were incorrectly treated as taint sources in Java, leading to false-positive Cross-Site Scripting (XSS) findings. The analysis engine now correctly identifies that these objects are container-managed and do not inherently contain attacker-controlled data upon entry.&lt;/p&gt;
+&lt;p&gt;Fixed an issue in the CLI where Go scans experienced significant performance degradation and timeouts when analyzing generated protobuf (.pb.go) files. The analysis process is now optimized, resulting in substantially faster scan completion times for projects containing these files.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Fixed an issue where false-positive findings were reported for JavaScript and TypeScript applications. The engine incorrectly flagged Server-Side Request Forgery (SSRF) on relative in-app paths using React Router's navigate function and NoSQL Injection on Sequelize models even when configured with a PostgreSQL dialect. These detection gaps have been resolved to improve scan accuracy.&lt;/p&gt;
+&lt;p&gt;Fixed an issue where some Swagger YAML entry points were not correctly detected during scans. The engine now correctly parses Swagger YAML files to identify all API endpoints, ensuring comprehensive vulnerability coverage and accurate reporting for applications using Swagger-generated code.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Fixed an issue where some Swagger YAML entry points were not correctly detected during scans, ensuring more comprehensive coverage and accurate vulnerability reporting for API definitions.&lt;/p&gt;
+&lt;p&gt;Fixed an issue where Code report downloads failed in Chromium-based browsers, such as Chrome and Edge, when the organization name contained a comma.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 </description>
       <guid isPermaLink="false">https://docs.mend.io/platform/latest/mend-sast-release-notes</guid>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Mend SCA: Version 26.10.1 (01-November-2026)</title>
@@ -271,7 +270,7 @@
 &lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Introducing &lt;a data-scope="internal" href="https://docs.mend.io/platform/latest/mend-intelligent-agent"&gt;Mend Intelligent Agent&lt;/a&gt;, an AI-powered assistant embedded within the Mend Platform. Users can now interact using natural language to explore platform capabilities, receive guidance to relevant views, and obtain executive-level risk summaries. This feature provides a centralized organizational perspective, enabling security teams to identify and prioritize critical findings across all applications and projects efficiently. Mend Assist streamlines security oversight by delivering instant, actionable insights and automated navigation, all within the existing platform workflow.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;(Open Beta)&lt;/strong&gt; Introducing &lt;a data-scope="internal" href="https://docs.mend.io/platform/latest/mend-intelligent-agent"&gt;Mend Intelligent Agent&lt;/a&gt;, an AI-powered assistant embedded within the Mend Platform. Users can now interact using natural language to explore platform capabilities, receive guidance to relevant views, and obtain executive-level risk summaries. This feature provides a centralized organizational perspective, enabling security teams to identify and prioritize critical findings across all applications and projects efficiently. Mend Assist streamlines security oversight by delivering instant, actionable insights and automated navigation, all within the existing platform workflow.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;The feature is enabled by default for organizations with signed AI consent via an addendum in your &lt;/strong&gt;&lt;a data-scope="external" href="http://mend.io/" rel="external noreferrer"&gt;&lt;u&gt;&lt;strong&gt;Mend.io&lt;/strong&gt;&lt;/u&gt;&lt;/a&gt;&lt;strong&gt; contract. For organizations without consent, the feature remains disabled. Please contact your Customer Success Manager for more details.&lt;/strong&gt;&lt;/p&gt;
