@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://bflam1.github.io/RSS/atom.xml</id>
   <title>Mend.io Unified Release Notes</title>
-  <updated>2026-11-10T13:11:26+00:00</updated>
+  <updated>2026-11-16T14:17:44+00:00</updated>
   <author>
     <name>Mend Release Bot</name>
     <email>noreply@bflam1.github.io</email>
@@ -14,7 +14,7 @@
   <entry>
     <id>https://github.com/mend/renovate-ce-ee/releases/tag/15.11.0</id>
     <title>Mend Renovate CC-EE: 15.11.0</title>
-    <updated>2026-11-10T21:47:13.582944+00:00</updated>
+    <updated>2026-11-16T14:30:22.674620+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -23,20 +23,20 @@
     <published>2026-11-02T09:35:33+00:00</published>
   </entry>
   <entry>
-    <id>https://github.com/renovatebot/renovate/releases/tag/45.0.0-next.1</id>
-    <title>Mend Renovate CLI: 45.0.0-next.1</title>
-    <updated>2026-11-10T21:47:13.582932+00:00</updated>
+    <id>https://github.com/renovatebot/renovate/releases/tag/44.244.3</id>
+    <title>Mend Renovate CLI: 44.244.3</title>
+    <updated>2026-11-16T14:30:22.674613+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
     <content type="html">&lt;p&gt;&lt;/p&gt;</content>
-    <link href="https://github.com/renovatebot/renovate/releases/tag/45.0.0-next.1"/>
-    <published>2026-11-10T13:11:26+00:00</published>
+    <link href="https://github.com/renovatebot/renovate/releases/tag/44.244.3"/>
+    <published>2026-11-16T14:17:44+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-bitbucket-data-center-release-notes</id>
     <title>Mend for Bitbucket DC: Version 26.10.1.1 (01-November-2026)</title>
-    <updated>2026-11-10T21:47:13.582920+00:00</updated>
+    <updated>2026-11-16T14:30:22.674606+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -66,94 +66,70 @@
   </entry>
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-gitlab-release-notes</id>
-    <title>Mend for GitLab: Version 26.10.1.1 (01-November-2026)</title>
-    <updated>2026-11-10T21:47:13.582909+00:00</updated>
+    <title>Mend for GitLab: Version 26.10.1.2 (13-November-2026)</title>
+    <updated>2026-11-16T14:30:22.674598+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
     <content type="html">
-&lt;p&gt;Unified Agent 26.9.2.1 | &lt;a data-scope="external" href="https://github.com/renovatebot/renovate/releases/tag/44.176.3" rel="external noreferrer"&gt;&lt;u&gt;Renovate 44.176.3&lt;/u&gt;&lt;/a&gt; | Remediate 26.9.3.3 | Pre-Scan Builder (PSB) 25.8.1&lt;/p&gt;
+&lt;p&gt;Unified Agent 26.9.3.1 | &lt;a data-scope="external" href="https://github.com/renovatebot/renovate/releases/tag/44.188.2" rel="external noreferrer"&gt;&lt;u&gt;Renovate 44.188.2&lt;/u&gt;&lt;/a&gt; | Remediate 26.10.2 | Pre-Scan Builder (PSB) 25.8.1&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SAST) &lt;/strong&gt;Improved check-run error messages for cloning failures to provide specific details when a scan fails due to a missing branch, unavailable commit, inaccessible repository, or cloning timeout.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Introduced a new configuration setting, &lt;code&gt;reachabilityMaxRamPercentage&lt;/code&gt;, to provide granular control over memory allocation for the Reachability engine. This setting allows users to specify the maximum RAM percentage for the Reachability JVM, preventing memory-related failures in constrained environments. Additionally, out-of-memory errors are now surfaced as clear warning logs and SCA results, ensuring better visibility into analysis gaps without requiring manual log inspection.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Updated &lt;a data-scope="external" href="https://docs.mend.io/wsk/scanner-sizing-guidance-for-mend-reachability" rel="external noreferrer"&gt;&lt;u&gt;Mend documentation&lt;/u&gt;&lt;/a&gt; to provide validated recommendations for scanner memory sizing while maintaining scan stability and performance when running Reachability scans.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Java reachability analysis now includes the ability to automatically fetch missing dependency JAR files from configured Maven repositories when they are not available locally. This ensures comprehensive reachability results and prevents scan interruptions for Java projects, providing parity with existing functionality for other languages.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Fixed an issue where reachability analysis would hang or time out on large multi-module Maven repositories. This occurred because excessively large debug log lines exceeded the scanner's processing limit, causing the scan to stall. The logging mechanism has been optimized to prevent these large outputs, ensuring stable and timely completion of reachability scans for complex projects.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Fixed an issue where the SCA wrapper could inadvertently load and execute Composer plugins from a scanned project's directory during version checks. The system now explicitly disables plugin loading for these checks, ensuring that scanning untrusted repositories does not result in unauthorized code execution on the scan host.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Fixed an issue where JavaScript Reachability enrichment failed for projects with `devEngines` requirements that did not match the scanner's Node.js version. The enrichment process now uses the `--force` flag for metadata retrieval to ensure compatibility regardless of local engine constraints. Additionally, error reporting was improved to include specific npm error codes, and sensitive credential information was removed from command logs to enhance security.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Fixed an issue where scanSummaryInfo values, including per-step statistics and failure reasons, were missing from enriched update requests during Reachability scans. The enriched request now correctly retains all original metadata while including the vulnerability analysis results.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Fixed an issue where scan engine error messages could be truncated or missing from logs when an engine exited before finished reading the output. This ensures that complete error details are consistently captured and displayed in logs, even under high system load.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 </content>
     <link href="https://docs.mend.io/integrations/latest/mend-for-gitlab-release-notes"/>
-    <published>2026-11-01T00:00:00+00:00</published>
+    <published>2026-11-13T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-github-enterprise-release-notes</id>
-    <title>Mend for GitHub Enterprise: Version 26.10.1.1 (01-November-2026)</title>
-    <updated>2026-11-10T21:47:13.582898+00:00</updated>
+    <title>Mend for GitHub Enterprise: Version 26.10.1.2 (13-November-2026)</title>
+    <updated>2026-11-16T14:30:22.674591+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
     <content type="html">
-&lt;p&gt;Unified Agent 26.9.2.1 | &lt;a data-scope="external" href="https://github.com/renovatebot/renovate/releases/tag/44.176.3" rel="external noreferrer"&gt;&lt;u&gt;Renovate 44.176.3&lt;/u&gt;&lt;/a&gt; | Remediate 26.9.3.3 | Pre-Scan Builder (PSB) 25.8.1&lt;/p&gt;
+&lt;p&gt;Unified Agent 26.9.3.1 | &lt;a data-scope="external" href="https://github.com/renovatebot/renovate/releases/tag/44.188.2" rel="external noreferrer"&gt;&lt;u&gt;Renovate 44.188.2&lt;/u&gt;&lt;/a&gt; | Remediate 26.10.2 | Pre-Scan Builder (PSB) 25.8.1&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SAST)&lt;/strong&gt; Introduced a new configurable parameter controlled by &lt;code&gt;skipSupersededResults&lt;/code&gt; that allows skipping SAST scans when a newer commit to the same branch supersedes them. This optimization prevents unnecessary processing time for outdated scans, particularly in large repositories, and updates the check run status to inform users that the stale scan was bypassed in favor of the most recent version.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Introduced a new configuration setting, &lt;code&gt;reachabilityMaxRamPercentage&lt;/code&gt;, to provide granular control over memory allocation for the Reachability engine. This setting allows users to specify the maximum RAM percentage for the Reachability JVM, preventing memory-related failures in constrained environments. Additionally, out-of-memory errors are now surfaced as clear warning logs and SCA results, ensuring better visibility into analysis gaps without requiring manual log inspection.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SAST)&lt;/strong&gt; Improved check-run error messages for cloning failures to provide specific details when a scan fails due to a missing branch, unavailable commit, inaccessible repository, or cloning timeout.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SAST)&lt;/strong&gt; Optimized the repository scanning process by removing redundant configuration flags for multi-base branch support. The system now automatically sets the required repository identification parameters.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Updated Mend &lt;a data-scope="internal" href="https://docs.mend.io/wsk/scanner-sizing-guidance-for-mend-reachability"&gt;documentation&lt;/a&gt; to provide validated recommendations for scanner memory sizing while maintaining scan stability and performance when running Reachability scans.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Java reachability analysis now includes the ability to automatically fetch missing dependency JAR files from configured Maven repositories when they are not available locally. This ensures comprehensive reachability results and prevents scan interruptions for Java projects, providing parity with existing functionality for other languages.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SAST)&lt;/strong&gt; Fixed an issue where the license check run failed for projects containing more than 100 libraries.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Fixed an issue where the SCA wrapper could inadvertently load and execute Composer plugins from a scanned project's directory during version checks. The system now explicitly disables plugin loading for these checks, ensuring that scanning untrusted repositories does not result in unauthorized code execution on the scan host.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SAST)&lt;/strong&gt; Fixed suppression requests that could get stuck in Pending and couldn't be approved or rejected. This happened mainly when the finding had already been resolved on the base branch before the reviewer acted.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SAST)&lt;/strong&gt; Fixed suppression requests failing for findings on feature branches that were detected in stale base branch scans.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SAST)&lt;/strong&gt; Fixed an issue where the scanner image bundled end-of-life Node.js versions. The image now includes Node.js 26.x, an LTS version supported until April 2029, ensuring compliance with software lifecycle policies.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Fixed an issue where scanSummaryInfo values, including per-step statistics and failure reasons, were missing from enriched update requests during Reachability scans. The enriched request now correctly retains all original metadata while including the vulnerability analysis results.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Fixed an issue where JavaScript Reachability enrichment failed for projects with `devEngines` requirements that did not match the scanner's Node.js version. The enrichment process now uses the `--force` flag for metadata retrieval to ensure compatibility regardless of local engine constraints. Additionally, error reporting was improved to include specific npm error codes, and sensitive credential information was removed from command logs to enhance security.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Fixed an issue where the Conda resolver incorrectly identified any file named `environment.yaml` or `environment.yml` as a Conda manifest based solely on the filename. This caused non-Conda files to be processed, potentially leading to spurious dependency findings. The resolver now validates the file schema to ensure it contains valid Conda keys before proceeding with resolution.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Fixed an issue where scan engine error messages could be truncated or missing from logs when an engine exited before finished reading the output. This ensures that complete error details are consistently captured and displayed in logs, even under high system load.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 </content>
     <link href="https://docs.mend.io/integrations/latest/mend-for-github-enterprise-release-notes"/>
-    <published>2026-11-01T00:00:00+00:00</published>
+    <published>2026-11-13T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-github-com-release-notes</id>
     <title>Mend for GitHub.com: Version 26.9.3.3 (23-October-2026)</title>
-    <updated>2026-11-10T21:47:13.582886+00:00</updated>
+    <updated>2026-11-16T14:30:22.674583+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -170,26 +146,26 @@
   </entry>
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-developer-platform-release-notes</id>
-    <title>Mend Developer Platform: Version 26.10.1 (01-November-2026)</title>
-    <updated>2026-11-10T21:47:13.582863+00:00</updated>
+    <title>Mend Developer Platform: Version 26.10.2 (15-November-2026)</title>
+    <updated>2026-11-16T14:30:22.674573+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
     <content type="html">
-&lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;(AZDO) Fixed an issue where clicking &lt;strong&gt;Reconnect&lt;/strong&gt; in the Azure DevOps authentication banner returned a 400 error when using the Entra ID application.&lt;/p&gt;
+&lt;p&gt;The organization card design and layout have been improved to provide a more compact and efficient user experience. Key updates include reduced padding and spacing, a minimized image size, and a tighter grid layout to display more cards per row. Additionally, the cards now feature a repository count, improved hover effects, and a sticky header with integrated search for better navigation.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 </content>
     <link href="https://docs.mend.io/integrations/latest/mend-developer-platform-release-notes"/>
-    <published>2026-11-01T00:00:00+00:00</published>
+    <published>2026-11-15T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/legacy-sca/latest/mend-unified-agent-release-notes</id>
     <title>Mend Unified Agent: Version 26.9.3.1 (22-October-2026)</title>
-    <updated>2026-11-10T21:47:13.582845+00:00</updated>
+    <updated>2026-11-16T14:30:22.674565+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -207,7 +183,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-cli-release-notes</id>
     <title>Mend CLI: Version 26.10.1 (02-November-2026)</title>
-    <updated>2026-11-10T21:47:13.582825+00:00</updated>
+    <updated>2026-11-16T14:30:22.674558+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -231,7 +207,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-ai-release-notes</id>
     <title>Mend AI: Version 25.12.1 (05-January-2026)</title>
-    <updated>2026-11-10T21:47:13.582806+00:00</updated>
+    <updated>2026-11-16T14:30:22.674550+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -265,8 +241,8 @@
   </entry>
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-container-release-notes</id>
-    <title>Mend Container: Version 26.9.3 (18-October-2026)</title>
-    <updated>2026-11-10T21:47:13.582784+00:00</updated>
+    <title>Mend Container: Version 26.10.2 (15-November-2026)</title>
+    <updated>2026-11-16T14:30:22.674541+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -274,23 +250,31 @@
 &lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Fixed an issue where Container Image SBOM reports were downloaded with a `.txt` extension and a truncated filename, despite containing a valid ZIP archive. The reports now download with the correct `.zip` extension and a descriptive filename, ensuring they can be opened immediately without manual renaming.&lt;/p&gt;
+&lt;p&gt;Fixed an issue where Azure Container Registry (ACR) scans failed to identify and process selected images during scheduled or manual scans. The scanning logic was updated to ensure all specified tags are correctly recognized, even when sharing manifests with other tags. Additionally, the system now provides clearer logging for scans that result in no images and returns appropriate error codes when a manual scan is initiated without selecting a registry.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 </content>
     <link href="https://docs.mend.io/platform/latest/mend-container-release-notes"/>
-    <published>2026-10-18T00:00:00+00:00</published>
+    <published>2026-11-15T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-sast-release-notes</id>
     <title>Mend SAST: Version 26.10.1 (02-November-2026)</title>
-    <updated>2026-11-10T21:47:13.582759+00:00</updated>
+    <updated>2026-11-16T14:30:22.674529+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
     <content type="html">
 &lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;(Open Beta)&lt;/strong&gt; Introducing &lt;a data-scope="internal" href="https://docs.mend.io/platform/latest/mend-intelligent-agent"&gt;Mend Intelligent Agent&lt;/a&gt;, an AI-powered assistant embedded within the Mend Platform. Users can now interact using natural language to explore platform capabilities, receive guidance to relevant views, and obtain executive-level risk summaries. This feature provides a centralized organizational perspective, enabling security teams to identify and prioritize critical findings across all applications and projects efficiently. Mend Assist streamlines security oversight by delivering instant, actionable insights and automated navigation, all within the existing platform workflow.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;The feature is enabled by default for organizations with signed AI consent via an addendum in your &lt;/strong&gt;&lt;a data-scope="external" href="http://mend.io/" rel="external noreferrer"&gt;&lt;u&gt;&lt;strong&gt;Mend.io&lt;/strong&gt;&lt;/u&gt;&lt;/a&gt;&lt;strong&gt; contract. For organizations without consent, the feature remains disabled. Please contact your Customer Success Manager for more details.&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Introduced granular control for low-probability scan categories within the Scan Profile. Users can now selectively include or exclude specific categories, such as File Read or Database Read, to refine detection and reduce noise. This update replaces the previous binary toggle with a configurable selection tree, allowing for self-service tuning tailored to specific codebase requirements. Changes are applied to the next scan and include a count indicator for selected categories.&lt;/p&gt;
 &lt;/li&gt;
@@ -316,8 +300,8 @@
   </entry>
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-sca-release-notes</id>
-    <title>Mend SCA: Version 26.10.1 (01-November-2026)</title>
-    <updated>2026-11-10T21:47:13.582723+00:00</updated>
+    <title>Mend SCA: Version 26.10.2 (15-November-2026)</title>
+    <updated>2026-11-16T14:30:22.674512+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -325,40 +309,29 @@
 &lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(Open Beta)&lt;/strong&gt; Introducing &lt;a data-scope="internal" href="https://docs.mend.io/platform/latest/mend-intelligent-agent"&gt;Mend Intelligent Agent&lt;/a&gt;, an AI-powered assistant embedded within the Mend Platform. Users can now interact using natural language to explore platform capabilities, receive guidance to relevant views, and obtain executive-level risk summaries. This feature provides a centralized organizational perspective, enabling security teams to identify and prioritize critical findings across all applications and projects efficiently. Mend Assist streamlines security oversight by delivering instant, actionable insights and automated navigation, all within the existing platform workflow.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;The feature is enabled by default for organizations with signed AI consent via an addendum in your &lt;/strong&gt;&lt;a data-scope="external" href="http://mend.io/" rel="external noreferrer"&gt;&lt;u&gt;&lt;strong&gt;Mend.io&lt;/strong&gt;&lt;/u&gt;&lt;/a&gt;&lt;strong&gt; contract. For organizations without consent, the feature remains disabled. Please contact your Customer Success Manager for more details.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The &lt;a data-scope="external" href="https://claude.ai/directory/mend-appsec-mcp" rel="external noreferrer"&gt;Mend MCP Server&lt;/a&gt; is now available as a Claude Connector, enabling one-click installation and discovery within the Claude environment. This integration provides comprehensive access to both developer and platform tools, allowing for seamless repository scanning, remediation, and organization-wide security posture reporting. Authentication follows standard protocols, ensuring secure, permission-gated access to Mend findings and fixes directly within the Claude assistant, without manual configuration or infrastructure maintenance. For more configuration details, visit our &lt;a data-scope="internal" href="https://docs.mend.io/integrations/latest/mend-agentic-integration-claude-plugin"&gt;documentation&lt;/a&gt;.&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ul&gt;
+&lt;li&gt;
+&lt;p&gt;The &lt;strong&gt;Forge&lt;/strong&gt; tab has been retired to simplify your platform experience. To explore upcoming capabilities and collaborate directly on our roadmap, we invite you to join our &lt;strong&gt;Charter Partner Program&lt;/strong&gt; and attend our customer webinars. Reach out to your Customer Success Manager to learn more.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;(UI updates)&lt;/strong&gt; The Mend Platform has a refreshed look aligned with Mend's updated brand identity. This includes a new color palette across the interface, a redesigned login experience, a new Mend-branded loading animation, and a unified, more compact button design for greater consistency. These are visual changes only and do not affect existing workflows or functionality.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Fixed an issue where certain vulnerability findings remained open in the Mend Platform even after the underlying CVE association was removed from the database.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Fixed an issue where vulnerability trace data was duplicated during the write process, leading to excessive database growth and potential memory exhaustion during scans.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Fixed an issue where `.pom` files were incorrectly reported as independent libraries in scan results. These metadata descriptors are now excluded from the inventory, preventing false positives and ensuring that CI/CD pipelines are not blocked by unknown license alerts for non-library artifacts.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Fixed an issue where the PHP version was not reported during CLI scans of PHP projects. The scanner now correctly captures and reports both Composer and PHP versions by reading the combined output from the package manager.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Fixed an issue where CLI scans of Gradle projects reported the Gradle version with unnecessary text and JVM information. The CLI now reports only the bare Gradle version, ensuring consistent data formatting and accurate grouping within the SCA Toolchain Versions dashboard.&lt;/p&gt;
+&lt;p&gt;Fixed an issue where the Projects page Languages filter excluded certain projects due to case-sensitive matching of language labels. The filter now correctly identifies and includes all relevant projects regardless of whether the language label is cased as "Go", "GO", or includes a suffix like "Go*".&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 </content>
     <link href="https://docs.mend.io/platform/latest/mend-sca-release-notes"/>
-    <published>2026-11-01T00:00:00+00:00</published>
+    <published>2026-11-15T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-platform-release-notes</id>
-    <title>Mend AppSec Platform: Version 26.10.1 (01-November-2026)</title>
-    <updated>2026-11-10T21:47:13.582680+00:00</updated>
+    <title>Mend AppSec Platform: Version 26.10.2 (15-November-2026)</title>
+    <updated>2026-11-16T14:30:22.674486+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -366,34 +339,26 @@
 &lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(Open Beta)&lt;/strong&gt; Introducing &lt;a data-scope="internal" href="https://docs.mend.io/platform/latest/mend-intelligent-agent"&gt;Mend Intelligent Agent&lt;/a&gt;, an AI-powered assistant embedded within the Mend Platform. Users can now interact using natural language to explore platform capabilities, receive guidance to relevant views, and obtain executive-level risk summaries. This feature provides a centralized organizational perspective, enabling security teams to identify and prioritize critical findings across all applications and projects efficiently. Mend Assist streamlines security oversight by delivering instant, actionable insights and automated navigation, all within the existing platform workflow.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;The feature is enabled by default for organizations with signed AI consent via an addendum in your &lt;/strong&gt;&lt;a data-scope="external" href="http://mend.io/" rel="external noreferrer"&gt;&lt;u&gt;&lt;strong&gt;Mend.io&lt;/strong&gt;&lt;/u&gt;&lt;/a&gt;&lt;strong&gt; contract. For organizations without consent, the feature remains disabled. Please contact your Customer Success Manager for more details.&lt;/strong&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;The &lt;a data-scope="external" href="https://claude.ai/directory/mend-appsec-mcp" rel="external noreferrer"&gt;Mend MCP Server&lt;/a&gt; is now available as a Claude Connector, enabling one-click installation and discovery within the Claude environment. This integration provides comprehensive access to both developer and platform tools, allowing for seamless repository scanning, remediation, and organization-wide security posture reporting. Authentication follows standard protocols, ensuring secure, permission-gated access to Mend findings and fixes directly within the Claude assistant, without manual configuration or infrastructure maintenance. For more configuration details, visit our &lt;a data-scope="internal" href="https://docs.mend.io/integrations/latest/mend-agentic-integration-claude-plugin"&gt;documentation&lt;/a&gt;.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SAST)&lt;/strong&gt; Introduced granular control for low-probability scan categories within the Scan Profile. Users can now selectively include or exclude specific categories, such as File Read or Database Read, to refine detection and reduce noise. This update replaces the previous binary toggle with a configurable selection tree, allowing for self-service tuning tailored to specific codebase requirements. Changes are applied to the next scan and include a count indicator for selected categories.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;(SAST)&lt;/strong&gt; Introduced a new guided &lt;a data-scope="internal" href="https://docs.mend.io/platform/latest/sast-adoption-wizard"&gt;onboarding wizard&lt;/a&gt; that enables users to easily activate SAST scanning for their repositories directly from the Mend Platform. This streamlined flow enables quick repository selection and pilot scan execution without manual configuration, providing immediate visibility into scan results and security findings. Additionally, users can now delegate the onboarding process to colleagues via email invitations, facilitating team-wide adoption.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The &lt;strong&gt;Forge&lt;/strong&gt; tab has been retired to simplify your platform experience. To explore upcoming capabilities and collaborate directly on our roadmap, we invite you to join our &lt;strong&gt;Charter Partner Program&lt;/strong&gt; and attend our customer webinars. Reach out to your Customer Success Manager to learn more.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;(UI updates)&lt;/strong&gt; The Mend Platform has a refreshed look aligned with Mend's updated brand identity. This includes a new color palette across the interface, a redesigned login experience, a new Mend-branded loading animation, and a unified, more compact button design for greater consistency. These are visual changes only and do not affect existing workflows or functionality.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Fixed an issue where certain vulnerability findings remained open in the Mend Platform even after the underlying CVE association was removed from the database.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Fixed an issue where vulnerability trace data was duplicated during the write process, leading to excessive database growth and potential memory exhaustion during scans.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Fixed an issue where `.pom` files were incorrectly reported as independent libraries in scan results. These metadata descriptors are now excluded from the inventory, preventing false positives and ensuring that CI/CD pipelines are not blocked by unknown license alerts for non-library artifacts.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SAST)&lt;/strong&gt; Fixed an issue where Code report downloads failed in Chromium-based browsers, such as Chrome and Edge, when the organization name contained a comma.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Fixed an issue where the Projects page Languages filter excluded certain projects due to case-sensitive matching of language labels. The filter now correctly identifies and includes all relevant projects regardless of whether the language label is cased as "Go", "GO", or includes a suffix like "Go*".&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 </content>
     <link href="https://docs.mend.io/platform/latest/mend-platform-release-notes"/>
-    <published>2026-11-01T00:00:00+00:00</published>
+    <published>2026-11-15T00:00:00+00:00</published>
   </entry>
 </feed>
