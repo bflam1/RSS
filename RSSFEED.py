@@ -65,7 +65,6 @@ release_pages: dict[str, str] = {
 }
 
 github_feeds: dict[str, str] = {
-    "Mend Renovate CLI":   "https://github.com/renovatebot/renovate/releases.atom",
     "Mend Renovate CC-EE": "https://github.com/mend/renovate-ce-ee/releases.atom",
 }
 
