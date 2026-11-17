@@ -60,36 +60,28 @@
   </section>
   <hr/>
   <section>
-    <h2><a href="https://docs.mend.io/platform/latest/mend-sast-release-notes">Mend SAST: Version 26.10.1 (02-November-2026)</a></h2>
-    <time datetime="2026-11-02T00:00:00+00:00">2026-11-02T00:00:00+00:00</time>
+    <h2><a href="https://docs.mend.io/platform/latest/mend-sast-release-notes">Mend SAST: Version 26.10.2 (16-November-2026)</a></h2>
+    <time datetime="2026-11-16T00:00:00+00:00">2026-11-16T00:00:00+00:00</time>
     
 <p><strong>New Features and Updates</strong></p>
 <ul>
 <li>
-<p><strong>(Open Beta)</strong> Introducing <a href="https://docs.mend.io/platform/latest/mend-intelligent-agent">Mend Intelligent Agent</a>, an AI-powered assistant embedded within the Mend Platform. Users can now interact using natural language to explore platform capabilities, receive guidance to relevant views, and obtain executive-level risk summaries. This feature provides a centralized organizational perspective, enabling security teams to identify and prioritize critical findings across all applications and projects efficiently. Mend Assist streamlines security oversight by delivering instant, actionable insights and automated navigation, all within the existing platform workflow.</p>
-<ul>
-<li>
-<p><strong>The feature is enabled by default for organizations with signed AI consent via an addendum in your </strong><a href="http://mend.io/" rel="external noreferrer"><u><strong>Mend.io</strong></u></a><strong> contract. For organizations without consent, the feature remains disabled. Please contact your Customer Success Manager for more details.</strong></p>
-</li>
-</ul>
+<p>Introduced a new guided <a href="https://docs.mend.io/platform/latest/sast-adoption-wizard">onboarding wizard</a> that enables users to easily activate SAST scanning for their repositories directly from the Mend Platform. This streamlined flow enables quick repository selection and pilot scan execution without manual configuration, providing immediate visibility into scan results and security findings. Additionally, users can now delegate the onboarding process to colleagues via email invitations, facilitating team-wide adoption.</p>
 </li>
 <li>
-<p>Introduced granular control for low-probability scan categories within the Scan Profile. Users can now selectively include or exclude specific categories, such as File Read or Database Read, to refine detection and reduce noise. This update replaces the previous binary toggle with a configurable selection tree, allowing for self-service tuning tailored to specific codebase requirements. Changes are applied to the next scan and include a count indicator for selected categories.</p>
-</li>
-<li>
-<p>Added support for custom Node.js routing frameworks where entry points are defined in `routes.json` files. This update enables the engine to parse these manifests and correctly identify handler functions as entry points for taint analysis, ensuring comprehensive vulnerability detection for non-standard routing configurations.</p>
+<p>Enhanced the Global Scan Configuration by implementing language filtering based on engine generation. This update ensures that only languages supported by the current engine generation are displayed, streamlining the configuration process and improving selection accuracy for scan setups.</p>
 </li>
 </ul>
 <p><strong>Resolved Issues</strong></p>
 <ul>
 <li>
-<p>Fixed an issue in the CLI where Go scans experienced significant performance degradation and timeouts when analyzing generated protobuf (.pb.go) files. The analysis process is now optimized, resulting in substantially faster scan completion times for projects containing these files.</p>
+<p>Fixed an issue where it failed to detect vulnerabilities in Express route handlers wrapped in `asyncHandler` or similar wrapper functions. The JavaScript engine now correctly identifies these wrapped functions as entry points, ensuring comprehensive analysis and reporting of security findings, such as SSRF (CWE-918) and Log Forging (CWE-117), within these handlers.</p>
 </li>
 <li>
-<p>Fixed an issue where some Swagger YAML entry points were not correctly detected during scans. The engine now correctly parses Swagger YAML files to identify all API endpoints, ensuring comprehensive vulnerability coverage and accurate reporting for applications using Swagger-generated code.</p>
+<p>Enhanced the JavaScript Gen 2 engine to improve detection of DOM XSS vulnerabilities. The analysis now identifies tainted data in additional jQuery AJAX callback shapes.</p>
 </li>
 <li>
-<p>Fixed an issue where Code report downloads failed in Chromium-based browsers, such as Chrome and Edge, when the organization name contained a comma.</p>
+<p>Improved the accuracy of the Swift Gen 2 engine by reducing false positives for CWE-117 (Log Injection) and CWE-295 (Insecure TLS Configuration). Swift `print` and `debugPrint` findings are now categorized as low-probability, hiding them by default to focus on persistent logging sinks. Additionally, the engine now correctly recognizes certificate and public-key pinning in `URLSession` challenge handlers, preventing incorrect reports of insecure configurations when proper validation is present.</p>
 </li>
 </ul>
 
@@ -139,19 +131,34 @@
   </section>
   <hr/>
   <section>
-    <h2><a href="https://docs.mend.io/platform/latest/mend-cli-release-notes">Mend CLI: Version 26.10.1 (02-November-2026)</a></h2>
-    <time datetime="2026-11-02T00:00:00+00:00">2026-11-02T00:00:00+00:00</time>
+    <h2><a href="https://docs.mend.io/platform/latest/mend-cli-release-notes">Mend CLI: Version 26.10.2.4 (16-November-2026)</a></h2>
+    <time datetime="2026-11-16T00:00:00+00:00">2026-11-16T00:00:00+00:00</time>
     
+<p><strong>New Features and Updates</strong></p>
+<ul>
+<li>
+<p><strong>(SCA)</strong> Java reachability analysis now includes the ability to automatically fetch missing dependency JAR files from configured Maven repositories when they are not available locally. This ensures comprehensive reachability results and prevents scan interruptions for Java projects, providing parity with existing functionality for other languages.</p>
+</li>
+<li>
+<p><strong>(SCA)</strong> Enhanced Reachability logging to include the maximum JVM heap size and ensure memory usage is recorded even when a language analysis fails. This improvement provides better visibility into resource consumption during failed scans, facilitating more accurate troubleshooting and environment sizing.</p>
+</li>
+</ul>
 <p><strong>Resolved Issues</strong></p>
 <ul>
 <li>
-<p><strong>(SCA)</strong> Fixed an issue where the PHP version was not reported during CLI scans of PHP projects. The scanner now correctly captures and reports both Composer and PHP versions by reading the combined output from the package manager.</p>
+<p><strong>(SCA)</strong> Fixed an issue where Python reachability analysis incorrectly reported single-file modules as unreachable when a CVE lacked specific vulnerable elements. The dependency graph labeling now correctly matches the entry graph, ensuring accurate reachability results for these modules. Additionally, the analysis process no longer writes temporary files into the installation directory and ignores stale synthetic folders, improving scan reliability and environment integrity.</p>
 </li>
 <li>
-<p><strong>(SCA)</strong> Fixed an issue where CLI scans of Gradle projects reported the Gradle version with unnecessary text and JVM information. The CLI now reports only the bare Gradle version, ensuring consistent data formatting and accurate grouping within the SCA Toolchain Versions dashboard.</p>
+<p><strong>(SCA)</strong> Fixed an issue where editable pip installs of a project's own package were incorrectly reported as third-party libraries. This caused Python reachability scans to fail with an invalid dependency error when the package could not be retrieved from external indexes. The resolver now correctly identifies these as internal modules, ensuring successful reachability analysis for Python projects using editable installs.</p>
 </li>
 <li>
-<p><strong>(SAST)</strong> Fixed an issue where Go scans experienced significant performance degradation and timeouts when analyzing generated protobuf (.pb.go) files. The analysis process is now optimized, resulting in substantially faster scan completion times for projects containing these files.</p>
+<p><strong>(SCA)</strong> Fixed an issue where the Unified Agent failed to parse dependency graph output from Pipenv versions 2026.7.0 and later. This failure caused the resolver to fall back to an alternative method that incorrectly reported packages not present in the project's lock file as direct dependencies, leading to inaccurate vulnerability alerts. The parser now correctly handles the additional fields introduced in newer Pipenv versions, ensuring accurate dependency resolution and reporting.</p>
+</li>
+<li>
+<p><strong>(SCA)</strong> Introduced a new configuration setting, <code>reachabilityMaxRamPercentage</code>, to provide granular control over memory allocation for the Reachability engine. This setting allows users to specify the maximum RAM percentage for the Reachability JVM, preventing memory-related failures in constrained environments. Additionally, out-of-memory errors are now surfaced as clear warning logs and SCA results, ensuring better visibility into analysis gaps without requiring manual log inspection.</p>
+</li>
+<li>
+<p><strong>(SCA) </strong>Fixed an issue where the Python pip no-exec resolver failed to correctly handle certain package index responses. The local index now properly interprets upstream 403 errors as missing packages rather than errors, correctly applies the `uploaded-prior-to` setting for date-gated environments, and supports large index pages through gzip compression. These improvements ensure accurate dependency resolution and prevent scans from incorrectly reporting success when dependencies are missing.</p>
 </li>
 </ul>
 
@@ -179,18 +186,51 @@
 <li>
 <p>The organization card design and layout have been improved to provide a more compact and efficient user experience. Key updates include reduced padding and spacing, a minimized image size, and a tighter grid layout to display more cards per row. Additionally, the cards now feature a repository count, improved hover effects, and a sticky header with integrated search for better navigation.</p>
 </li>
+<li>
+<p><strong>(SCA)</strong> Java reachability analysis now includes the ability to automatically fetch missing dependency JAR files from configured Maven repositories when they are not available locally. This ensures comprehensive reachability results and prevents scan interruptions for Java projects, providing parity with existing functionality for other languages.</p>
+</li>
+<li>
+<p><strong>(SCA)</strong> Enhanced Reachability logging to include the maximum JVM heap size and ensure memory usage is recorded even when a language analysis fails. This improvement provides better visibility into resource consumption during failed scans, facilitating more accurate troubleshooting and environment sizing.</p>
+</li>
+</ul>
+<p><strong>Resolved Issues</strong></p>
+<ul>
+<li>
+<p><strong>(SCA)</strong> Upgraded the SCA scanner image to include logback version <code>1.5.38</code> and lz4-java version <code>1.11.1</code>, remediating multiple vulnerabilities including CVE-2026-9828, CVE-2026-10532, and CVE-2026-59949. This update includes a migration of the internal logging configuration to a Janino-free syntax to ensure stable console output. Users providing a custom logback configuration file via the `scm.scanner.logback.path` property must migrate any deprecated conditional logic to the new syntax to maintain visibility of console logs.</p>
+</li>
+<li>
+<p><strong>(SCA)</strong> Fixed an issue where Python reachability analysis incorrectly reported single-file modules as unreachable when a CVE lacked specific vulnerable elements. The dependency graph labeling now correctly matches the entry graph, ensuring accurate reachability results for these modules. Additionally, the analysis process no longer writes temporary files into the installation directory and ignores stale synthetic folders, improving scan reliability and environment integrity.</p>
+</li>
+<li>
+<p><strong>(SCA)</strong> Fixed an issue where the Python pip no-exec resolver failed to correctly handle certain package index responses. The local index now properly interprets upstream 403 errors as missing packages rather than errors, correctly applies the `uploaded-prior-to` setting for date-gated environments, and supports large index pages through gzip compression. These improvements ensure accurate dependency resolution and prevent scans from incorrectly reporting success when dependencies are missing.</p>
+</li>
 </ul>
 
   </section>
   <hr/>
   <section>
-    <h2><a href="https://docs.mend.io/integrations/latest/mend-for-github-com-release-notes">Mend for GitHub.com: Version 26.9.3.3 (23-October-2026)</a></h2>
-    <time datetime="2026-10-23T00:00:00+00:00">2026-10-23T00:00:00+00:00</time>
+    <h2><a href="https://docs.mend.io/integrations/latest/mend-for-github-com-release-notes">Mend for GitHub.com: Version 26.10.2 (15-November-2026)</a></h2>
+    <time datetime="2026-11-15T00:00:00+00:00">2026-11-15T00:00:00+00:00</time>
     
+<p><strong>New Features and Updates</strong></p>
+<ul>
+<li>
+<p><strong>(SCA)</strong> Java reachability analysis now includes the ability to automatically fetch missing dependency JAR files from configured Maven repositories when they are not available locally. This ensures comprehensive reachability results and prevents scan interruptions for Java projects, providing parity with existing functionality for other languages.</p>
+</li>
+<li>
+<p><strong>(SCA)</strong> Enhanced Reachability logging to include the maximum JVM heap size and ensure memory usage is recorded even when a language analysis fails. This improvement provides better visibility into resource consumption during failed scans, facilitating more accurate troubleshooting and environment sizing.</p>
+</li>
+</ul>
 <p><strong>Resolved Issues</strong></p>
 <ul>
 <li>
-<p><strong>Hotfix:</strong> Updated components, including Node.js, Java, and Go versions to resolve CVE-2026-105482, CVE-2026-111497, CVE-2026-91403, and CVE-2026-111943.</p>
+<p><strong>(SCA)</strong> Upgraded the SCA scanner image to include logback version <code>1.5.38</code> and lz4-java version <code>1.11.1</code>, remediating multiple vulnerabilities including CVE-2026-9828, CVE-2026-10532, and CVE-2026-59949. This update includes a migration of the internal logging configuration to a Janino-free syntax to ensure stable console output. Users providing a custom logback configuration file via the `scm.scanner.logback.path` property must migrate any deprecated conditional logic to the new syntax to maintain visibility of console logs.</p>
+</li>
+<li>
+<p><strong>(SCA)</strong> Fixed an issue where Python reachability analysis incorrectly reported single-file modules as unreachable when a CVE lacked specific vulnerable elements. The dependency graph labeling now correctly matches the entry graph, ensuring accurate reachability results for these modules. Additionally, the analysis process no longer writes temporary files into the installation directory and ignores stale synthetic folders, improving scan reliability and environment integrity.</p>
+</li>
+<li>
+<p><strong>(SCA)</strong> Fixed an issue where the Python pip no-exec resolver failed to correctly handle certain package index responses. The local index now properly interprets upstream 403 errors as missing packages rather than errors, correctly applies the `uploaded-prior-to` setting for date-gated environments, and supports large index pages through gzip compression. These improvements ensure accurate dependency resolution and prevent scans from incorrectly reporting success when dependencies are missing.</p>
 </li>
 </ul>
 
@@ -208,6 +248,9 @@
 </li>
 <li>
 <p><strong>(SCA)</strong> Java reachability analysis now includes the ability to automatically fetch missing dependency JAR files from configured Maven repositories when they are not available locally. This ensures comprehensive reachability results and prevents scan interruptions for Java projects, providing parity with existing functionality for other languages.</p>
+</li>
+<li>
+<p><strong>(SCA)</strong> Enhanced the tool-version check mechanism to support concurrent execution across multiple package managers, ensuring thread safety and accurate logging. Manual Go versioning now correctly applies to projects detected via legacy manifests, including `Godeps.json`, `.gopmfile`, `vendor.json`, and `vendor.conf`. Additionally, command output recording now captures both standard output and diagnostics streams, improving version detection for tools like Java and Scala and providing more detailed failure messages in scan results.</p>
 </li>
 </ul>
 <p><strong>Resolved Issues</strong></p>
@@ -234,6 +277,9 @@
 </li>
 <li>
 <p><strong>(SCA)</strong> Java reachability analysis now includes the ability to automatically fetch missing dependency JAR files from configured Maven repositories when they are not available locally. This ensures comprehensive reachability results and prevents scan interruptions for Java projects, providing parity with existing functionality for other languages.</p>
+</li>
+<li>
+<p><strong>(SCA)</strong> Enhanced the tool-version check mechanism to support concurrent execution across multiple package managers, ensuring thread safety and accurate logging. Manual Go versioning now correctly applies to projects detected via legacy manifests, including `Godeps.json`, `.gopmfile`, `vendor.json`, and `vendor.conf`. Additionally, command output recording now captures both standard output and diagnostics streams, improving version detection for tools like Java and Scala and providing more detailed failure messages in scan results.</p>
 </li>
 </ul>
 <p><strong>Resolved Issues</strong></p>
@@ -275,8 +321,8 @@
   </section>
   <hr/>
   <section>
-    <h2><a href="https://github.com/renovatebot/renovate/releases/tag/44.244.3">Mend Renovate CLI: 44.244.3</a></h2>
-    <time datetime="2026-11-16T14:17:44+00:00">2026-11-16T14:17:44+00:00</time>
+    <h2><a href="https://github.com/renovatebot/renovate/releases/tag/44.247.1">Mend Renovate CLI: 44.247.1</a></h2>
+    <time datetime="2026-11-16T20:46:48+00:00">2026-11-16T20:46:48+00:00</time>
     <p></p>
   </section>
   <hr/>
