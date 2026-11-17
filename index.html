@@ -160,6 +160,9 @@
 <li>
 <p><strong>(SCA) </strong>Fixed an issue where the Python pip no-exec resolver failed to correctly handle certain package index responses. The local index now properly interprets upstream 403 errors as missing packages rather than errors, correctly applies the `uploaded-prior-to` setting for date-gated environments, and supports large index pages through gzip compression. These improvements ensure accurate dependency resolution and prevent scans from incorrectly reporting success when dependencies are missing.</p>
 </li>
+<li>
+<p><strong>(SCA)</strong> Fixed an issue where the self-contained Mend CLI package failed to execute <code>mend ua</code> scans in air-gapped environments. The CLI now correctly utilizes the bundled Java runtime instead of attempting to download external dependencies and allows offline update requests to be generated without requiring a login or active credentials. Additionally, error logging was improved to provide clear visibility when authentication or configuration issues occur.</p>
+</li>
 </ul>
 
   </section>
@@ -223,6 +226,17 @@
 <li>
 <p><strong>(SCA)</strong> Enhanced Reachability logging to include the maximum JVM heap size and ensure memory usage is recorded even when a language analysis fails. This improvement provides better visibility into resource consumption during failed scans, facilitating more accurate troubleshooting and environment sizing.</p>
 </li>
+<li>
+<p><strong>(SCA)</strong> When a hook writes to both <code>stdout</code> and <code>stderr</code>, the scanner logs and the pre-scan hook Check Run output show each stream in its own section:</p>
+<ul>
+<li>
+<p><code>--- standard output ---</code></p>
+</li>
+<li>
+<p><code>--- diagnostics stream ---</code></p>
+</li>
+</ul>
+</li>
 </ul>
 <p><strong>Resolved Issues</strong></p>
 <ul>
@@ -256,7 +270,18 @@
 <p><strong>(SCA)</strong> Enhanced the tool-version check mechanism to support concurrent execution across multiple package managers, ensuring thread safety and accurate logging. Manual Go versioning now correctly applies to projects detected via legacy manifests, including `Godeps.json`, `.gopmfile`, `vendor.json`, and `vendor.conf`. Additionally, command output recording now captures both standard output and diagnostics streams, improving version detection for tools like Java and Scala and providing more detailed failure messages in scan results.</p>
 </li>
 <li>
-<p><strong>(SCA)</strong> A hook script that runs longer than 60 minutes (configurable, in minutes, with <code>MEND_SCA_HOOKS_TIMEOUT</code>) is stopped along with the processes it started, reported as a warning in the scan results, and the scan continues. A process a hook starts in the background must redirect its own output; the scan no longer waits for it.</p>
+<p><strong>(SCA)</strong> A hook script that runs longer than 60 minutes (configurable in minutes with <code>MEND_SCA_HOOKS_TIMEOUT</code>) is stopped along with the processes it started, reported as a warning in the scan results, and the scan continues. A process a hook starts in the background must redirect its own output; the scan no longer waits for it.</p>
+</li>
+<li>
+<p><strong>(SCA)</strong> When a hook writes to both <code>stdout</code> and <code>stderr</code>, the scanner logs and the pre-scan hook Check Run output show each stream in its own section:</p>
+<ul>
+<li>
+<p><code>--- standard output ---</code></p>
+</li>
+<li>
+<p><code>--- diagnostics stream ---</code></p>
+</li>
+</ul>
 </li>
 </ul>
 <p><strong>Resolved Issues</strong></p>
@@ -324,12 +349,6 @@
 </li>
 </ul>
 
-  </section>
-  <hr/>
-  <section>
-    <h2><a href="https://github.com/renovatebot/renovate/releases/tag/44.251.0">Mend Renovate CLI: 44.251.0</a></h2>
-    <time datetime="2026-11-17T13:50:54+00:00">2026-11-17T13:50:54+00:00</time>
-    <p></p>
   </section>
   <hr/>
   <section>
