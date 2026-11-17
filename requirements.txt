@@ -1,6 +1,6 @@
 # Pin dependencies for Mend Release Feed
 requests==2.33.1
-beautifulsoup4==4.14.3
+beautifulsoup4==4.15.0
 feedgen==1.0.0
 python-dateutil==2.9.0.post0
 bleach==6.3.0
