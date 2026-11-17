@@ -7,7 +7,7 @@
     <atom:link href="https://bflam1.github.io/RSS/atom.xml" rel="self"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 16 Nov 2026 20:46:48 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 13:50:54 +0000</lastBuildDate>
     <item>
       <title>Mend Renovate CC-EE: 15.11.0</title>
       <link>https://github.com/mend/renovate-ce-ee/releases/tag/15.11.0</link>
@@ -16,11 +16,11 @@
       <pubDate>Mon, 02 Nov 2026 09:35:33 +0000</pubDate>
     </item>
     <item>
-      <title>Mend Renovate CLI: 44.247.1</title>
-      <link>https://github.com/renovatebot/renovate/releases/tag/44.247.1</link>
+      <title>Mend Renovate CLI: 44.251.0</title>
+      <link>https://github.com/renovatebot/renovate/releases/tag/44.251.0</link>
       <description>&lt;p&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://github.com/renovatebot/renovate/releases/tag/44.247.1</guid>
-      <pubDate>Mon, 16 Nov 2026 20:46:48 +0000</pubDate>
+      <guid isPermaLink="false">https://github.com/renovatebot/renovate/releases/tag/44.251.0</guid>
+      <pubDate>Tue, 17 Nov 2026 13:50:54 +0000</pubDate>
     </item>
     <item>
       <title>Mend for Bitbucket DC: Version 26.10.1.1 (01-November-2026)</title>
@@ -94,6 +94,9 @@
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Enhanced the tool-version check mechanism to support concurrent execution across multiple package managers, ensuring thread safety and accurate logging. Manual Go versioning now correctly applies to projects detected via legacy manifests, including `Godeps.json`, `.gopmfile`, `vendor.json`, and `vendor.conf`. Additionally, command output recording now captures both standard output and diagnostics streams, improving version detection for tools like Java and Scala and providing more detailed failure messages in scan results.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; A hook script that runs longer than 60 minutes (configurable, in minutes, with &lt;code&gt;MEND_SCA_HOOKS_TIMEOUT&lt;/code&gt;) is stopped along with the processes it started, reported as a warning in the scan results, and the scan continues. A process a hook starts in the background must redirect its own output; the scan no longer waits for it.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;
@@ -171,18 +174,21 @@
       <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Mend Unified Agent: Version 26.9.3.1 (22-October-2026)</title>
+      <title>Mend Unified Agent: Version 26.10.2 (16-November-2026)</title>
       <link>https://docs.mend.io/legacy-sca/latest/mend-unified-agent-release-notes</link>
       <description>
 &lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Hotfix:&lt;/strong&gt; Updated components, including Node.js, Java, and Go versions to resolve CVE-2026-105482, CVE-2026-111497, CVE-2026-91403, and CVE-2026-111943.&lt;/p&gt;
+&lt;p&gt;Fixed an issue where the Unified Agent failed to parse dependency graph output from Pipenv versions 2026.7.0 and later. This failure caused the resolver to fall back to an alternative method that incorrectly reported packages not present in the project's lock file as direct dependencies, leading to inaccurate vulnerability alerts. The parser now correctly handles the additional fields introduced in newer Pipenv versions, ensuring accurate dependency resolution and reporting.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Fixed an issue where the Python pip no-exec resolver failed to correctly handle certain package index responses. The local index now properly interprets upstream 403 errors as missing packages rather than errors, correctly applies the `uploaded-prior-to` setting for date-gated environments, and supports large index pages through gzip compression. These improvements ensure accurate dependency resolution and prevent scans from incorrectly reporting success when dependencies are missing.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 </description>
       <guid isPermaLink="false">https://docs.mend.io/legacy-sca/latest/mend-unified-agent-release-notes</guid>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Mend CLI: Version 26.10.2.4 (16-November-2026)</title>

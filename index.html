@@ -165,13 +165,16 @@
   </section>
   <hr/>
   <section>
-    <h2><a href="https://docs.mend.io/legacy-sca/latest/mend-unified-agent-release-notes">Mend Unified Agent: Version 26.9.3.1 (22-October-2026)</a></h2>
-    <time datetime="2026-10-22T00:00:00+00:00">2026-10-22T00:00:00+00:00</time>
+    <h2><a href="https://docs.mend.io/legacy-sca/latest/mend-unified-agent-release-notes">Mend Unified Agent: Version 26.10.2 (16-November-2026)</a></h2>
+    <time datetime="2026-11-16T00:00:00+00:00">2026-11-16T00:00:00+00:00</time>
     
 <p><strong>Resolved Issues</strong></p>
 <ul>
 <li>
-<p><strong>Hotfix:</strong> Updated components, including Node.js, Java, and Go versions to resolve CVE-2026-105482, CVE-2026-111497, CVE-2026-91403, and CVE-2026-111943.</p>
+<p>Fixed an issue where the Unified Agent failed to parse dependency graph output from Pipenv versions 2026.7.0 and later. This failure caused the resolver to fall back to an alternative method that incorrectly reported packages not present in the project's lock file as direct dependencies, leading to inaccurate vulnerability alerts. The parser now correctly handles the additional fields introduced in newer Pipenv versions, ensuring accurate dependency resolution and reporting.</p>
+</li>
+<li>
+<p>Fixed an issue where the Python pip no-exec resolver failed to correctly handle certain package index responses. The local index now properly interprets upstream 403 errors as missing packages rather than errors, correctly applies the `uploaded-prior-to` setting for date-gated environments, and supports large index pages through gzip compression. These improvements ensure accurate dependency resolution and prevent scans from incorrectly reporting success when dependencies are missing.</p>
 </li>
 </ul>
 
@@ -252,6 +255,9 @@
 <li>
 <p><strong>(SCA)</strong> Enhanced the tool-version check mechanism to support concurrent execution across multiple package managers, ensuring thread safety and accurate logging. Manual Go versioning now correctly applies to projects detected via legacy manifests, including `Godeps.json`, `.gopmfile`, `vendor.json`, and `vendor.conf`. Additionally, command output recording now captures both standard output and diagnostics streams, improving version detection for tools like Java and Scala and providing more detailed failure messages in scan results.</p>
 </li>
+<li>
+<p><strong>(SCA)</strong> A hook script that runs longer than 60 minutes (configurable, in minutes, with <code>MEND_SCA_HOOKS_TIMEOUT</code>) is stopped along with the processes it started, reported as a warning in the scan results, and the scan continues. A process a hook starts in the background must redirect its own output; the scan no longer waits for it.</p>
+</li>
 </ul>
 <p><strong>Resolved Issues</strong></p>
 <ul>
@@ -321,8 +327,8 @@
   </section>
   <hr/>
   <section>
-    <h2><a href="https://github.com/renovatebot/renovate/releases/tag/44.247.1">Mend Renovate CLI: 44.247.1</a></h2>
-    <time datetime="2026-11-16T20:46:48+00:00">2026-11-16T20:46:48+00:00</time>
+    <h2><a href="https://github.com/renovatebot/renovate/releases/tag/44.251.0">Mend Renovate CLI: 44.251.0</a></h2>
+    <time datetime="2026-11-17T13:50:54+00:00">2026-11-17T13:50:54+00:00</time>
     <p></p>
   </section>
   <hr/>
