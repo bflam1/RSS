@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://bflam1.github.io/RSS/atom.xml</id>
   <title>Mend.io Unified Release Notes</title>
-  <updated>2026-11-16T00:00:00+00:00</updated>
+  <updated>2026-11-20T00:00:00+00:00</updated>
   <author>
     <name>Mend Release Bot</name>
     <email>noreply@bflam1.github.io</email>
@@ -12,213 +12,110 @@
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>Aggregated RSS, Atom, and HTML of all Mend release notes.</subtitle>
   <entry>
-    <id>https://github.com/mend/renovate-ce-ee/releases/tag/15.11.0</id>
-    <title>Mend Renovate CC-EE: 15.11.0</title>
-    <updated>2026-11-17T23:28:59.492725+00:00</updated>
+    <id>https://github.com/mend/renovate-ce-ee/releases/tag/15.12.0</id>
+    <title>Mend Renovate CC-EE: 15.12.0</title>
+    <updated>2026-11-23T14:30:17.993733+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
     <content type="html">&lt;p&gt;&lt;/p&gt;</content>
-    <link href="https://github.com/mend/renovate-ce-ee/releases/tag/15.11.0"/>
-    <published>2026-11-02T09:35:33+00:00</published>
+    <link href="https://github.com/mend/renovate-ce-ee/releases/tag/15.12.0"/>
+    <published>2026-11-19T12:26:22+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-bitbucket-data-center-release-notes</id>
-    <title>Mend for Bitbucket DC: Version 26.10.1.1 (01-November-2026)</title>
-    <updated>2026-11-17T23:28:59.492715+00:00</updated>
+    <title>Mend for Bitbucket DC: Version 26.10.1.4 (20-November-2026)</title>
+    <updated>2026-11-23T14:30:17.993721+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
     <content type="html">
-&lt;p&gt;Unified Agent 26.9.2.1 | &lt;a data-scope="external" href="https://github.com/renovatebot/renovate/releases/tag/44.176.3" rel="external noreferrer"&gt;&lt;u&gt;Renovate 44.176.3&lt;/u&gt;&lt;/a&gt; | Remediate 26.9.3.3 | Pre-Scan Builder (PSB) 25.8.1&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Updated &lt;a data-scope="external" href="https://docs.mend.io/wsk/scanner-sizing-guidance-for-mend-reachability" rel="external noreferrer"&gt;&lt;u&gt;Mend documentation&lt;/u&gt;&lt;/a&gt; to provide validated recommendations for scanner memory sizing while maintaining scan stability and performance when running Reachability scans.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Fixed an issue where reachability analysis would hang or time out on large multi-module Maven repositories. This occurred because excessively large debug log lines exceeded the scanner's processing limit, causing the scan to stall. The logging mechanism has been optimized to prevent these large outputs, ensuring stable and timely completion of reachability scans for complex projects.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Fixed an issue where JavaScript Reachability enrichment failed for projects with `devEngines` requirements that did not match the scanner's Node.js version. The enrichment process now uses the `--force` flag for metadata retrieval to ensure compatibility regardless of local engine constraints. Additionally, error reporting was improved to include specific npm error codes, and sensitive credential information was removed from command logs to enhance security.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Fixed an issue where scanSummaryInfo values, including per-step statistics and failure reasons, were missing from enriched update requests during Reachability scans. The enriched request now correctly retains all original metadata while including the vulnerability analysis results.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Hotfix: &lt;/strong&gt;Security fix to resolve CVE-2026-114938 (Java4Shell).&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 </content>
     <link href="https://docs.mend.io/integrations/latest/mend-for-bitbucket-data-center-release-notes"/>
-    <published>2026-11-01T00:00:00+00:00</published>
+    <published>2026-11-20T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-gitlab-release-notes</id>
-    <title>Mend for GitLab: Version 26.10.1.2 (13-November-2026)</title>
-    <updated>2026-11-17T23:28:59.492705+00:00</updated>
+    <title>Mend for GitLab: Version 26.10.1.4 (20-November-2026)</title>
+    <updated>2026-11-23T14:30:17.993710+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
     <content type="html">
-&lt;p&gt;Unified Agent 26.9.3.1 | &lt;a data-scope="external" href="https://github.com/renovatebot/renovate/releases/tag/44.188.2" rel="external noreferrer"&gt;&lt;u&gt;Renovate 44.188.2&lt;/u&gt;&lt;/a&gt; | Remediate 26.10.2 | Pre-Scan Builder (PSB) 25.8.1&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Introduced a new configuration setting, &lt;code&gt;reachabilityMaxRamPercentage&lt;/code&gt;, to provide granular control over memory allocation for the Reachability engine. This setting allows users to specify the maximum RAM percentage for the Reachability JVM, preventing memory-related failures in constrained environments. Additionally, out-of-memory errors are now surfaced as clear warning logs and SCA results, ensuring better visibility into analysis gaps without requiring manual log inspection.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Java reachability analysis now includes the ability to automatically fetch missing dependency JAR files from configured Maven repositories when they are not available locally. This ensures comprehensive reachability results and prevents scan interruptions for Java projects, providing parity with existing functionality for other languages.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Enhanced the tool-version check mechanism to support concurrent execution across multiple package managers, ensuring thread safety and accurate logging. Manual Go versioning now correctly applies to projects detected via legacy manifests, including `Godeps.json`, `.gopmfile`, `vendor.json`, and `vendor.conf`. Additionally, command output recording now captures both standard output and diagnostics streams, improving version detection for tools like Java and Scala and providing more detailed failure messages in scan results.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Fixed an issue where the SCA wrapper could inadvertently load and execute Composer plugins from a scanned project's directory during version checks. The system now explicitly disables plugin loading for these checks, ensuring that scanning untrusted repositories does not result in unauthorized code execution on the scan host.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Fixed an issue where scan engine error messages could be truncated or missing from logs when an engine exited before finished reading the output. This ensures that complete error details are consistently captured and displayed in logs, even under high system load.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Hotfix: &lt;/strong&gt;Security fix to resolve CVE-2026-114938 (Java4Shell).&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 </content>
     <link href="https://docs.mend.io/integrations/latest/mend-for-gitlab-release-notes"/>
-    <published>2026-11-13T00:00:00+00:00</published>
+    <published>2026-11-20T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-github-enterprise-release-notes</id>
-    <title>Mend for GitHub Enterprise: Version 26.10.1.2 (13-November-2026)</title>
-    <updated>2026-11-17T23:28:59.492688+00:00</updated>
+    <title>Mend for GitHub Enterprise: Version 26.10.1.4 (20-November-2026)</title>
+    <updated>2026-11-23T14:30:17.993699+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
     <content type="html">
-&lt;p&gt;Unified Agent 26.9.3.1 | &lt;a data-scope="external" href="https://github.com/renovatebot/renovate/releases/tag/44.188.2" rel="external noreferrer"&gt;&lt;u&gt;Renovate 44.188.2&lt;/u&gt;&lt;/a&gt; | Remediate 26.10.2 | Pre-Scan Builder (PSB) 25.8.1&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Introduced a new configuration setting, &lt;code&gt;reachabilityMaxRamPercentage&lt;/code&gt;, to provide granular control over memory allocation for the Reachability engine. This setting allows users to specify the maximum RAM percentage for the Reachability JVM, preventing memory-related failures in constrained environments. Additionally, out-of-memory errors are now surfaced as clear warning logs and SCA results, ensuring better visibility into analysis gaps without requiring manual log inspection.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Java reachability analysis now includes the ability to automatically fetch missing dependency JAR files from configured Maven repositories when they are not available locally. This ensures comprehensive reachability results and prevents scan interruptions for Java projects, providing parity with existing functionality for other languages.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Enhanced the tool-version check mechanism to support concurrent execution across multiple package managers, ensuring thread safety and accurate logging. Manual Go versioning now correctly applies to projects detected via legacy manifests, including `Godeps.json`, `.gopmfile`, `vendor.json`, and `vendor.conf`. Additionally, command output recording now captures both standard output and diagnostics streams, improving version detection for tools like Java and Scala and providing more detailed failure messages in scan results.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; A hook script that runs longer than 60 minutes (configurable in minutes with &lt;code&gt;MEND_SCA_HOOKS_TIMEOUT&lt;/code&gt;) is stopped along with the processes it started, reported as a warning in the scan results, and the scan continues. A process a hook starts in the background must redirect its own output; the scan no longer waits for it.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; When a hook writes to both &lt;code&gt;stdout&lt;/code&gt; and &lt;code&gt;stderr&lt;/code&gt;, the scanner logs and the pre-scan hook Check Run output show each stream in its own section:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;code&gt;--- standard output ---&lt;/code&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;code&gt;--- diagnostics stream ---&lt;/code&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Fixed an issue where the SCA wrapper could inadvertently load and execute Composer plugins from a scanned project's directory during version checks. The system now explicitly disables plugin loading for these checks, ensuring that scanning untrusted repositories does not result in unauthorized code execution on the scan host.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Fixed an issue where scan engine error messages could be truncated or missing from logs when an engine exited before finished reading the output. This ensures that complete error details are consistently captured and displayed in logs, even under high system load.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Hotfix: &lt;/strong&gt;Security fix to resolve CVE-2026-114938 (Java4Shell).&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 </content>
     <link href="https://docs.mend.io/integrations/latest/mend-for-github-enterprise-release-notes"/>
-    <published>2026-11-13T00:00:00+00:00</published>
+    <published>2026-11-20T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-for-github-com-release-notes</id>
-    <title>Mend for GitHub.com: Version 26.10.2 (15-November-2026)</title>
-    <updated>2026-11-17T23:28:59.492678+00:00</updated>
+    <title>Mend for GitHub.com: Version 26.10.2.1 (20-November-2026)</title>
+    <updated>2026-11-23T14:30:17.993686+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
     <content type="html">
-&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Java reachability analysis now includes the ability to automatically fetch missing dependency JAR files from configured Maven repositories when they are not available locally. This ensures comprehensive reachability results and prevents scan interruptions for Java projects, providing parity with existing functionality for other languages.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Enhanced Reachability logging to include the maximum JVM heap size and ensure memory usage is recorded even when a language analysis fails. This improvement provides better visibility into resource consumption during failed scans, facilitating more accurate troubleshooting and environment sizing.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; When a hook writes to both &lt;code&gt;stdout&lt;/code&gt; and &lt;code&gt;stderr&lt;/code&gt;, the scanner logs and the pre-scan hook Check Run output show each stream in its own section:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;code&gt;--- standard output ---&lt;/code&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;code&gt;--- diagnostics stream ---&lt;/code&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Upgraded the SCA scanner image to include logback version &lt;code&gt;1.5.38&lt;/code&gt; and lz4-java version &lt;code&gt;1.11.1&lt;/code&gt;, remediating multiple vulnerabilities including CVE-2026-9828, CVE-2026-10532, and CVE-2026-59949. This update includes a migration of the internal logging configuration to a Janino-free syntax to ensure stable console output. Users providing a custom logback configuration file via the `scm.scanner.logback.path` property must migrate any deprecated conditional logic to the new syntax to maintain visibility of console logs.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Fixed an issue where Python reachability analysis incorrectly reported single-file modules as unreachable when a CVE lacked specific vulnerable elements. The dependency graph labeling now correctly matches the entry graph, ensuring accurate reachability results for these modules. Additionally, the analysis process no longer writes temporary files into the installation directory and ignores stale synthetic folders, improving scan reliability and environment integrity.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Fixed an issue where the Python pip no-exec resolver failed to correctly handle certain package index responses. The local index now properly interprets upstream 403 errors as missing packages rather than errors, correctly applies the `uploaded-prior-to` setting for date-gated environments, and supports large index pages through gzip compression. These improvements ensure accurate dependency resolution and prevent scans from incorrectly reporting success when dependencies are missing.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Hotfix: &lt;/strong&gt;Security fix to resolve CVE-2026-114938 (Java4Shell).&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 </content>
     <link href="https://docs.mend.io/integrations/latest/mend-for-github-com-release-notes"/>
-    <published>2026-11-15T00:00:00+00:00</published>
+    <published>2026-11-20T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/integrations/latest/mend-developer-platform-release-notes</id>
-    <title>Mend Developer Platform: Version 26.10.2 (15-November-2026)</title>
-    <updated>2026-11-17T23:28:59.492666+00:00</updated>
+    <title>Mend Developer Platform: Version 26.10.2.1 (20-November-2026)</title>
+    <updated>2026-11-23T14:30:17.993673+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
     <content type="html">
-&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;The organization card design and layout have been improved to provide a more compact and efficient user experience. Key updates include reduced padding and spacing, a minimized image size, and a tighter grid layout to display more cards per row. Additionally, the cards now feature a repository count, improved hover effects, and a sticky header with integrated search for better navigation.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Java reachability analysis now includes the ability to automatically fetch missing dependency JAR files from configured Maven repositories when they are not available locally. This ensures comprehensive reachability results and prevents scan interruptions for Java projects, providing parity with existing functionality for other languages.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Enhanced Reachability logging to include the maximum JVM heap size and ensure memory usage is recorded even when a language analysis fails. This improvement provides better visibility into resource consumption during failed scans, facilitating more accurate troubleshooting and environment sizing.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Upgraded the SCA scanner image to include logback version &lt;code&gt;1.5.38&lt;/code&gt; and lz4-java version &lt;code&gt;1.11.1&lt;/code&gt;, remediating multiple vulnerabilities including CVE-2026-9828, CVE-2026-10532, and CVE-2026-59949. This update includes a migration of the internal logging configuration to a Janino-free syntax to ensure stable console output. Users providing a custom logback configuration file via the `scm.scanner.logback.path` property must migrate any deprecated conditional logic to the new syntax to maintain visibility of console logs.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Fixed an issue where Python reachability analysis incorrectly reported single-file modules as unreachable when a CVE lacked specific vulnerable elements. The dependency graph labeling now correctly matches the entry graph, ensuring accurate reachability results for these modules. Additionally, the analysis process no longer writes temporary files into the installation directory and ignores stale synthetic folders, improving scan reliability and environment integrity.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Fixed an issue where the Python pip no-exec resolver failed to correctly handle certain package index responses. The local index now properly interprets upstream 403 errors as missing packages rather than errors, correctly applies the `uploaded-prior-to` setting for date-gated environments, and supports large index pages through gzip compression. These improvements ensure accurate dependency resolution and prevent scans from incorrectly reporting success when dependencies are missing.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Hotfix: &lt;/strong&gt;Security fix to resolve CVE-2026-114938 (Java4Shell).&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 </content>
     <link href="https://docs.mend.io/integrations/latest/mend-developer-platform-release-notes"/>
-    <published>2026-11-15T00:00:00+00:00</published>
+    <published>2026-11-20T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/legacy-sca/latest/mend-unified-agent-release-notes</id>
     <title>Mend Unified Agent: Version 26.10.2 (16-November-2026)</title>
-    <updated>2026-11-17T23:28:59.492656+00:00</updated>
+    <updated>2026-11-23T14:30:17.993663+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -238,50 +135,26 @@
   </entry>
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-cli-release-notes</id>
-    <title>Mend CLI: Version 26.10.2.4 (16-November-2026)</title>
-    <updated>2026-11-17T23:28:59.492645+00:00</updated>
+    <title>Mend CLI: Version 26.10.2.5 (19-November-2026)</title>
+    <updated>2026-11-23T14:30:17.993651+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
     <content type="html">
-&lt;p&gt;&lt;strong&gt;New Features and Updates&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Java reachability analysis now includes the ability to automatically fetch missing dependency JAR files from configured Maven repositories when they are not available locally. This ensures comprehensive reachability results and prevents scan interruptions for Java projects, providing parity with existing functionality for other languages.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Enhanced Reachability logging to include the maximum JVM heap size and ensure memory usage is recorded even when a language analysis fails. This improvement provides better visibility into resource consumption during failed scans, facilitating more accurate troubleshooting and environment sizing.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Fixed an issue where Python reachability analysis incorrectly reported single-file modules as unreachable when a CVE lacked specific vulnerable elements. The dependency graph labeling now correctly matches the entry graph, ensuring accurate reachability results for these modules. Additionally, the analysis process no longer writes temporary files into the installation directory and ignores stale synthetic folders, improving scan reliability and environment integrity.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Fixed an issue where editable pip installs of a project's own package were incorrectly reported as third-party libraries. This caused Python reachability scans to fail with an invalid dependency error when the package could not be retrieved from external indexes. The resolver now correctly identifies these as internal modules, ensuring successful reachability analysis for Python projects using editable installs.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Fixed an issue where the Unified Agent failed to parse dependency graph output from Pipenv versions 2026.7.0 and later. This failure caused the resolver to fall back to an alternative method that incorrectly reported packages not present in the project's lock file as direct dependencies, leading to inaccurate vulnerability alerts. The parser now correctly handles the additional fields introduced in newer Pipenv versions, ensuring accurate dependency resolution and reporting.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Introduced a new configuration setting, &lt;code&gt;reachabilityMaxRamPercentage&lt;/code&gt;, to provide granular control over memory allocation for the Reachability engine. This setting allows users to specify the maximum RAM percentage for the Reachability JVM, preventing memory-related failures in constrained environments. Additionally, out-of-memory errors are now surfaced as clear warning logs and SCA results, ensuring better visibility into analysis gaps without requiring manual log inspection.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SCA) &lt;/strong&gt;Fixed an issue where the Python pip no-exec resolver failed to correctly handle certain package index responses. The local index now properly interprets upstream 403 errors as missing packages rather than errors, correctly applies the `uploaded-prior-to` setting for date-gated environments, and supports large index pages through gzip compression. These improvements ensure accurate dependency resolution and prevent scans from incorrectly reporting success when dependencies are missing.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;(SCA)&lt;/strong&gt; Fixed an issue where the self-contained Mend CLI package failed to execute &lt;code&gt;mend ua&lt;/code&gt; scans in air-gapped environments. The CLI now correctly utilizes the bundled Java runtime instead of attempting to download external dependencies and allows offline update requests to be generated without requiring a login or active credentials. Additionally, error logging was improved to provide clear visibility when authentication or configuration issues occur.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Hotfix: &lt;/strong&gt;Security fix to resolve CVE-2026-114938 (Java4Shell).&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 </content>
     <link href="https://docs.mend.io/platform/latest/mend-cli-release-notes"/>
-    <published>2026-11-16T00:00:00+00:00</published>
+    <published>2026-11-19T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-ai-release-notes</id>
     <title>Mend AI: Version 25.12.1 (05-January-2026)</title>
-    <updated>2026-11-17T23:28:59.492630+00:00</updated>
+    <updated>2026-11-23T14:30:17.993639+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -316,7 +189,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-container-release-notes</id>
     <title>Mend Container: Version 26.10.2 (15-November-2026)</title>
-    <updated>2026-11-17T23:28:59.492612+00:00</updated>
+    <updated>2026-11-23T14:30:17.993625+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -334,7 +207,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-sast-release-notes</id>
     <title>Mend SAST: Version 26.10.2 (16-November-2026)</title>
-    <updated>2026-11-17T23:28:59.492590+00:00</updated>
+    <updated>2026-11-23T14:30:17.993608+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -345,7 +218,7 @@
 &lt;p&gt;Introduced a new guided &lt;a data-scope="internal" href="https://docs.mend.io/platform/latest/sast-adoption-wizard"&gt;onboarding wizard&lt;/a&gt; that enables users to easily activate SAST scanning for their repositories directly from the Mend Platform. This streamlined flow enables quick repository selection and pilot scan execution without manual configuration, providing immediate visibility into scan results and security findings. Additionally, users can now delegate the onboarding process to colleagues via email invitations, facilitating team-wide adoption.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Enhanced the Global Scan Configuration by implementing language filtering based on engine generation. This update ensures that only languages supported by the current engine generation are displayed, streamlining the configuration process and improving selection accuracy for scan setups.&lt;/p&gt;
+&lt;p&gt;Enhanced the &lt;a data-scope="internal" href="https://docs.mend.io/platform/latest/create-global-code-scan-configuration"&gt;Global Scan Configuration&lt;/a&gt; by implementing language filtering based on engine generation. This update ensures that only languages supported by the current engine generation are displayed, streamlining the configuration process and improving selection accuracy for scan setups.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Resolved Issues&lt;/strong&gt;&lt;/p&gt;
@@ -367,7 +240,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-sca-release-notes</id>
     <title>Mend SCA: Version 26.10.2 (15-November-2026)</title>
-    <updated>2026-11-17T23:28:59.492558+00:00</updated>
+    <updated>2026-11-23T14:30:17.993575+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
@@ -397,7 +270,7 @@
   <entry>
     <id>https://docs.mend.io/platform/latest/mend-platform-release-notes</id>
     <title>Mend AppSec Platform: Version 26.10.2 (15-November-2026)</title>
-    <updated>2026-11-17T23:28:59.492519+00:00</updated>
+    <updated>2026-11-23T14:30:17.993528+00:00</updated>
     <author>
       <name>Mend Release Bot</name>
     </author>
